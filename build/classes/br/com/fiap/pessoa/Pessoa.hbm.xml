@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="br.com.fiap.pessoa">
+  <class name="Pessoa" table="Pessoa">
+  	<id name="idPessoa" type="integer">
+  		<generator class="sequence">
+  			<param name="sequence">seq_Pessoa</param>
+  		</generator>
+  	</id>
+  	<property name="nome" type="string"/>
+  	<property name="rg" type="string"/>
+  	<property name="cpf" type="string"/>
+  	<property name="idPessoaPerfil" />
+  	
+  </class>
+  
+  <!-- class name="PessoaCertificado" table="PessoaCertificado">
+  	<id name="idPessoaCertificado" type="integer">
+  	
+  		<generator class="sequence">
+  	<set name="certificados" table="PessoaCertificado">
+  			<param name="sequence">seq_PessoaCertificado</param>
+  		</generator>
+  	</id>
+  	<property name="dataInicio" type="date"/>
+  	<property name="dataExpiracao" type="date"/>
+  	<property name="chavePublica" type="blob"/>
+  </class>
+  
+  <class name="PessoaDigital" table="PessoaDigital">
+  	<id name="idPessoa" type="integer" />
+  	<property name="digital" type="blob"></property>
+  </class-->
+  
+</hibernate-mapping>

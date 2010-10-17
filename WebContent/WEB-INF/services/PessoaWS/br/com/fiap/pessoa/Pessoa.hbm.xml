@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="br.com.fiap.pessoa">
+  <class name="Pessoa" table='"Pessoa"'>
+  	<id name="idPessoa" column='"idPessoa"' type="integer">
+  		<generator class="sequence">
+  			<param name="sequence">"seq_Pessoa"</param>
+  		</generator>
+  	</id>
+  	<property name="nome" type="string"/>
+  	<property name="rg" type="string"/>
+  	<property name="cpf" type="string"/>
+  	<property name="idPessoaPerfil" column='"idPessoaPerfil"' />
+  	<property name="idPessoaTipo" column='"idPessoaTipo"' />
+  	
+  	<set name="digital" table='"PessoaDigital"' lazy="false">
+  		<key column='"idPessoa"'/>
+  		<one-to-many class="PessoaDigital" />
+  	</set>
+  	
+  	<map name="dado" table='"PessoaDado"'>
+  		<key column='"idPessoa"' foreign-key="FK_PessoaDado_Pessoa" />
+  		<map-key-many-to-many class="br.com.fiap.dado.Dado" column='"idDado"' foreign-key="FK_PessoaDado_Dado"></map-key-many-to-many>
+  		<one-to-many class="PessoaDado"/>
+  	</map>
+  	
+  </class>
+  
+  <class name="PessoaDigital" table='"PessoaDigital"'>
+  	<id name="idPessoaDigital" column='"idPessoaDigital"' type="integer">
+  		<generator class="sequence">
+  			<param name="sequence">"seq_PessoaDigital"</param>
+  		</generator>
+  	</id>
+  	<many-to-one name="pessoa" column='"idPessoa"' class="Pessoa"/>
+  	<property name="digital" type="byte[]" />
+  </class>
+  
+  <class name="PessoaDado" table='"PessoaDado"'>
+  	<id name="idPessoaDado" column='"idPessoaDado"' type="integer">
+  		<generator class="sequence">
+  			<param name="sequence">"seq_PessoaDado"</param>
+  		</generator>
+  	</id>
+  	<many-to-one name="pessoa" column='"idPessoa"' class="Pessoa" />
+  	<many-to-one name="dado" column='"idDado"' class="br.com.fiap.dado.Dado" />
+  	<property name="conteudo" type="string" />
+  	<property name="visivel" type="boolean" />
+  	<property name="obrigatorio" type="boolean" />
+  </class>
+  
+  <class name="br.com.fiap.dado.Dado" table='"Dado"'>
+ 	<id	name="idDado" column='"idDado"' type="integer">
+ 		<generator class="sequence">
+ 			<param name="sequence">"seq_Dado"</param>
+ 		</generator>
+ 	</id>
+ 	<property name="descricao" type="string" />
+  </class>
+  
+  <!-- class name="PessoaCertificado" table="PessoaCertificado">
+  	<id name="idPessoaCertificado" type="integer">
+  	
+  		<generator class="sequence">
+  	<set name="certificados" table="PessoaCertificado">
+  			<param name="sequence">seq_PessoaCertificado</param>
+  		</generator>
+  	</id>
+  	<property name="dataInicio" type="date"/>
+  	<property name="dataExpiracao" type="date"/>
+  	<property name="chavePublica" type="blob"/>
+  </class-->
+  
+</hibernate-mapping>
