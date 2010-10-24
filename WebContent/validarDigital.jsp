@@ -18,13 +18,12 @@
 		
 		for(PessoaDigital digital : digitais)
 			if (d.verify(b, digital.getDigital()))
-				out.println("<br />Digital bate");
-			else
+				out.println(p.getIdPessoa());
+			else{
 				out.println("<br />Digital n&atilde;o bate");
-	
-		out.println("<input type='hidden' id='dedo' value='1' />");
+				session.removeAttribute("pessoaLogada");
+			}
 		
-		session.removeAttribute("pessoaLogada");
 	}catch(Exception e){
 		out.println(e.getMessage());
 	}

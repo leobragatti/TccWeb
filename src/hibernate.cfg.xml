@@ -9,7 +9,8 @@
 		<property name="hibernate.connection.username">postgres</property>
 		<property name="hibernate.connection.password">voices</property>
 		<property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>
-		<property name="hibernate.current_session_context_class">thread</property>
+		<property name="hibernate.current_session_context_class">org.hibernate.context.ManagedSessionContext</property>
+		<property name="hibernate.transaction.auto_close_session">false</property>
 		<property name="show_sql">true</property>
 		
 		<mapping resource="br/com/fiap/pessoa/Pessoa.hbm.xml" />

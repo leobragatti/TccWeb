@@ -1,5 +1,6 @@
 <%@page import="java.util.*"%>
 <%@page import="br.com.fiap.pessoa.*"%>
+<%@page import="br.com.fiap.dao.*"%>
 <%@page import="br.com.fiap.dado.*"%>
 <%
 	PessoaDAO dao = new PessoaDAO();

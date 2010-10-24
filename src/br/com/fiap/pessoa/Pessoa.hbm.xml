@@ -3,6 +3,7 @@
 	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
 	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
 <hibernate-mapping package="br.com.fiap.pessoa">
+  
   <class name="Pessoa" table='"Pessoa"'>
   	<id name="idPessoa" column='"idPessoa"' type="integer">
   		<generator class="sequence">
@@ -22,10 +23,14 @@
   	
   	<map name="dado" table='"PessoaDado"'>
   		<key column='"idPessoa"' foreign-key="FK_PessoaDado_Pessoa" />
-  		<map-key-many-to-many class="br.com.fiap.dado.Dado" column='"idDado"' foreign-key="FK_PessoaDado_Dado"></map-key-many-to-many>
+  		<map-key-many-to-many class="br.com.fiap.dado.Dado" column='"idDado"' foreign-key="FK_PessoaDado_Dado" />
   		<one-to-many class="PessoaDado"/>
   	</map>
   	
+  	<set name="certificado" table='"PessoaCertificado"'>
+  		<key column='"idPessoa"' />
+  		<one-to-many class="PessoaCertificado"/>
+  	</set>	
   </class>
   
   <class name="PessoaDigital" table='"PessoaDigital"'>
@@ -60,17 +65,16 @@
  	<property name="descricao" type="string" />
   </class>
   
-  <!-- class name="PessoaCertificado" table="PessoaCertificado">
-  	<id name="idPessoaCertificado" type="integer">
-  	
+  <class name="PessoaCertificado" table='"PessoaCertificado"'>
+  	<id name="idPessoaCertificado" column='"idPessoaCertificado"' type="integer">
   		<generator class="sequence">
-  	<set name="certificados" table="PessoaCertificado">
-  			<param name="sequence">seq_PessoaCertificado</param>
+  			<param name="sequence">"seq_PessoaCertificado"</param>
   		</generator>
   	</id>
-  	<property name="dataInicio" type="date"/>
-  	<property name="dataExpiracao" type="date"/>
-  	<property name="chavePublica" type="blob"/>
-  </class-->
+  	<property name="dataInicio" column='"dataInicio"' type="date"/>
+  	<property name="dataExpiracao" column='"dataExpiracao"' type="date"/>
+  	<property name="chavePublica" column='"chavePublica"' type="byte[]"/>
+  	<many-to-one name="pessoa" column='"idPessoa"' class="Pessoa" />
+  </class>
   
 </hibernate-mapping>

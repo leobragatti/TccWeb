@@ -13,7 +13,7 @@ $(function(){
 		}
 		
 		$.ajax({
-			url: "login.jsp",
+			url: "/TccWeb/login.jsp",
 			cache:false,
 			type:"POST",
 			data:opcao + '=' + filtro,

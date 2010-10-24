@@ -51,6 +51,7 @@ function onClickMenu() {
     {
 		$.ajax({
 		   url: 'cadastro.jsp',
+		   cache:false,
 		   success: function(data){
 			$('#areaAjax').html(data)
 			.hide()
@@ -63,6 +64,20 @@ function onClickMenu() {
     {
 		$.ajax({
 		   url: 'autenticar.jsp',
+		   cache:false,
+		   success: function(data){
+			$('#areaAjax').html(data)
+			.hide()
+			.fadeIn(500);
+		   }
+		});
+    }
+    
+    if (this.id == 'dados')
+    {
+		$.ajax({
+		   url: 'dados.jsp',
+		   cache: false,
 		   success: function(data){
 			$('#areaAjax').html(data)
 			.hide()

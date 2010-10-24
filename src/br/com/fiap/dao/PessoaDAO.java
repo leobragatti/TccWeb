@@ -1,15 +1,16 @@
-package br.com.fiap.pessoa;
+package br.com.fiap.dao;
 
 import java.util.*;
 import org.hibernate.*;
-import br.com.fiap.hibernate.HibernateUtil;
+import br.com.fiap.hibernate.*;
+import br.com.fiap.pessoa.*;
 
 public class PessoaDAO {
 	
 	private Session sessao;
-	Transaction tx;
+
 	public PessoaDAO(){
-		sessao = HibernateUtil.getSessionFactory().openSession();
+		sessao = SessaoUtil.getSession();
 	}
 	
 	@Override
@@ -17,23 +18,11 @@ public class PessoaDAO {
 		sessao.close();
 	}
 	
-	public void beginTrans(){
-		tx = sessao.beginTransaction();
-	}
-	
-	public void commitTrans(){
-		tx.commit();
-	}
-	
-	public void rollbackTrans(){
-		tx.rollback();
-	}
-	
 	public void gravar(Pessoa p) throws Exception{
 		try {
 			sessao.saveOrUpdate(p);
+			sessao.flush();
 		} catch (Exception e) {
-			rollbackTrans();
 			throw e;
 		}
 	}
@@ -42,7 +31,22 @@ public class PessoaDAO {
 		try {
 			sessao.saveOrUpdate(d);
 		} catch (Exception e) {
-			rollbackTrans();
+			throw e;
+		}
+	}
+	
+	public void gravar(PessoaDado d) throws Exception{
+		try {
+			sessao.saveOrUpdate(d);
+		} catch (Exception e) {
+			throw e;
+		}
+	}
+	
+	public void gravar(PessoaCertificado c) throws Exception{
+		try {
+			sessao.saveOrUpdate(c);
+		} catch (Exception e) {
 			throw e;
 		}
 	}
@@ -54,7 +58,6 @@ public class PessoaDAO {
 			lista = q.list();
 		}
 		catch (Exception e) {
-			rollbackTrans();
 			e.printStackTrace();
 		}
 		return lista;
@@ -63,12 +66,9 @@ public class PessoaDAO {
 	public Pessoa selecionar(int idPessoa){
 		Pessoa p = null;
 		try{
-			beginTrans();
 			p = (Pessoa)sessao.get(Pessoa.class, idPessoa);
-			commitTrans();
 		}
 		catch (Exception e) {
-			rollbackTrans();
 			e.printStackTrace();
 		}
 		return p;
@@ -77,14 +77,11 @@ public class PessoaDAO {
 	public Pessoa selecionar(String parametro, String filtro){
 		Pessoa p = null;
 		try{
-			beginTrans();
 			Query q = sessao.createQuery("from Pessoa where " + parametro + " = ?");
 			q.setString(0, filtro);
 			p = (Pessoa)q.uniqueResult();
-			commitTrans();
 		}
 		catch (Exception e) {
-			rollbackTrans();
 			e.printStackTrace();
 		}
 		return p;
@@ -94,9 +91,14 @@ public class PessoaDAO {
 		try {
 			sessao.delete(p);
 		} catch (Exception e) {
-			rollbackTrans();
 			throw e;
 		}
+	}
+	
+	public PessoaCertificado selecionarCertificado(int idPessoa){
+		Query q = sessao.createQuery("from PessoaCertificado where idPessoa = ?  and current_date BETWEEN dataInicio and dataExpiracao");
+		PessoaCertificado c = (PessoaCertificado)q.uniqueResult();
+		return c;		
 	}
 	
 }

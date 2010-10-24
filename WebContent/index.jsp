@@ -8,6 +8,7 @@
 <html>
 	<head>
 		<script type="text/javascript" src="script/jQuery.js"></script>
+		<script type="text/javascript" src="script/jQuery-ui.js"></script>
 		
 		<script type="text/javascript" src="menu/jquery.dimensions.js"></script>
 		<script type="text/javascript" src="menu/jquery.positionBy.js"></script>
@@ -17,6 +18,7 @@
 		
 		<link rel="stylesheet" href="menu/jdMenu.css" type="text/css" />	
 		<link rel="stylesheet" href="menu/jdMenu.slate.css" type="text/css" />
+		<link type="text/css" href="css/smoothness/jquery-ui-1.8.5.custom.css" rel="stylesheet" />	
 		
 		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 		<title>BioID</title>
@@ -29,6 +31,7 @@
 				<li>Home</li>
 				<li id="cadastro">Cadastro</li>
 				<li id="autenticar">Autenticar</li>
+				<li id="dados">Dados</li>
 			</ul>
 		</div>
 		<div id="areaAjax">
