@@ -23,20 +23,20 @@
 %>
 <table>
 	<tr>
-		<td>C&oacute;digo:</td>
-		<td><%=pe.getIdPessoa() %></td>
+		<td align="right"><strong>C&oacute;digo:</strong></td>
+		<td align="left"><%=pe.getIdPessoa() %></td>
 	</tr>
 	<tr>
-		<td>Nome:</td>
-		<td><%=pe.getNome() %></td>
+		<td align="right"><strong>Nome:</strong></td>
+		<td align="left"><%=pe.getNome() %></td>
 	</tr>
 	<tr>
-		<td>Rg:</td>
-		<td><%=pe.getRg() %></td>
+		<td align="right"><strong>Rg:</strong></td>
+		<td align="left"><%=pe.getRg() %></td>
 	</tr>
 	<tr>
-		<td>Cpf:</td>
-		<td><%=pe.getCpf() %></td>
+		<td align="right"><strong>Cpf:</strong></td>
+		<td align="left"><%=pe.getCpf() %></td>
 	</tr>
 	<%
 		if(dados == null)
@@ -44,10 +44,10 @@
 	
 		for(PessoaDado dado: dados.values()){
 			out.println("<tr id='linha" + dado.getIdPessoaDado() + "'>");
-			out.println("<td>");
-			out.println(dado.getDado().getDescricao() + ":");
+			out.println("<td align='right'>");
+			out.println("<strong>" + dado.getDado().getDescricao() + ":</strong>");
 			out.println("</td>");
-			out.println("<td>");
+			out.println("<td align='left'>");
 			out.println("<input type='text' id='dado" + dado.getIdPessoaDado() + "' readonly value='" + dado.getConteudo() + "' size='30' />");
 			out.println("</td>");
 			out.println("<td>");

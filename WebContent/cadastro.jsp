@@ -12,8 +12,8 @@
 <script type="text/javascript" src="script/cadastro.js"></script>
 <table>
 	<tr>
-		<td align="right">Tipo de pessoa:</td>
-		<td align="left">
+		<td>Tipo de pessoa:</td>
+		<td>
 			<select id="tipoPessoa" onchange="retornarOpcao(this.value);" >
 				<option value="1">F&iacute;sica</option>
 				<option value="2">Jur&iacute;dica</option>
@@ -23,36 +23,36 @@
 	</tr>
 	<tr id="linhaCertificado">
 		<td align="right">Informe o local<br />do certificado:</td>
-		<td align="left">
+		<td>
 			<input type="text" name="certificado" id="certificado" />
 			<label for="nome" id="error_Certificado" class="error">Campo deve ser preenchido</label>
 		</td>
 	</tr>
 	<tr>
-		<td align="right"><p id="tituloNome">Nome:</p></td>
-		<td align="left">
+		<td align="right"><span id="tituloNome">Nome:</span></td>
+		<td>
 			<input type="text" name="nome" id="nome" />
 			<label for="nome" id="error_Nome" class="error">Campo deve ser preenchido</label>
 		</td>
 	</tr>
 	<tr>
-		<td align="right"><p id="tituloRg">RG:</p></td>
-		<td align="left">
+		<td align="right"><span id="tituloRg">RG:</span></td>
+		<td>
 			<input type="text" name="rg" id="rg" />
 			<label for="rg" id="error_Rg" class="error">Campo deve ser preenchido</label>
 		</td>
 	</tr>
 
 	<tr>
-		<td align="right"><p id="tituloCpf">CPF:</p></td>
-		<td align="left">
+		<td align="right"><span id="tituloCpf">CPF:</span></td>
+		<td>
 			<input type="text" name="cpf" id="cpf" />
 			<label for="cpf" id="error_Cpf" class="error">Campo deve ser preenchido</label>
 		</td>
 	</tr>
 	<tr>
 		<td colspan="2" align="left">
-			<input type="submit" value="Gravar" name="gravar" id="gravar" />
+			<input type="submit"  class="submit" value="Gravar" name="gravar" id="gravar" />
 		</td>
 	</tr>
 </table>

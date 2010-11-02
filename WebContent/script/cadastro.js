@@ -66,7 +66,6 @@ $(function(){
 		if(tipo == 2){
 			gravarDados('tipoPessoa=' + tipo + '&nome=' + nome + '&rg=' + rg + '&cpf=' + cpf + '&certificado=' + certificado);
 		}
-		
 	});
 	}
 );
@@ -95,6 +94,8 @@ function gravarDados(data){
 		},
 		success: function(data){
 			$('#areaAjax').html(data);
+			$('#logado').val('1');
+			tratarMenu();
 		}
 	});	
 }

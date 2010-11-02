@@ -46,6 +46,8 @@ $(function(){
 			},
 			success: function(data){
 				$('#areaAjax').html(data);
+				$('#logado').val('1');
+				tratarMenu();
 			}
 		});
 	});

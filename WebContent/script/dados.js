@@ -1,5 +1,9 @@
 $(function(){
-	$('.mensagem').hide();
+	
+	var url = 'campos.jsp?id=1';
+	$.get(url, function(data){
+		$('#campos').append(data);
+	});
 	
 	$('#adicionar').click(function(){
 		
@@ -42,6 +46,7 @@ $(function(){
 			},
 			success:function(data){
 				$('#areaAjax').html(data);
+				tratarMenu();
 			}
 		});
 		

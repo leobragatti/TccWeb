@@ -5,42 +5,48 @@
 <%@page import="br.com.fiap.digital.*"%>
 <%@page import="java.util.*"%>
 <%@page import="br.com.fiap.pessoa.*"%>
+<%@include file="verificar.jsp" %>
 <html>
 	<head>
 		<script type="text/javascript" src="script/jQuery.js"></script>
 		<script type="text/javascript" src="script/jQuery-ui.js"></script>
 		
-		<script type="text/javascript" src="menu/jquery.dimensions.js"></script>
-		<script type="text/javascript" src="menu/jquery.positionBy.js"></script>
-		<script type="text/javascript" src="menu/jquery.bgiframe.js"></script>
-		<script type="text/javascript" src="menu/jquery.jdMenu.js"></script>
 		<script type="text/javascript" src="script/menu.js"></script>
 		
-		<link rel="stylesheet" href="menu/jdMenu.css" type="text/css" />	
-		<link rel="stylesheet" href="menu/jdMenu.slate.css" type="text/css" />
 		<link type="text/css" href="css/smoothness/jquery-ui-1.8.5.custom.css" rel="stylesheet" />	
+		<link href="style/style.css" rel="stylesheet" type="text/css" media="screen" />
 		
 		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-		<title>BioID</title>
+		<title>Registro Digital</title>
 	</head>
 <body>
-	<div id="header">
-		<div>Conteudo que vai de cabeçalho</div>
-		<div id="menu">
-			<ul class="jd_menu jd_menu_slate">
-				<li>Home</li>
-				<li>Cadastro
-					<ul>
-						<li id="cadastro">B&aacute;sico</li>
-						<li id="dados">Dados</li>
-						<li id="visualizar">Visualizar</li>
-					</ul>
-				</li>
-				<li id="autenticar">Autenticar</li>
+	<div class="logo">
+		<h1><a href="#">Registro Digital</a></h1>
+		<p><em> TCC 2010</a></em></p>
+	</div>
+	<hr />
+	<div class="header">
+		<div class="menu">
+			<ul>
+				<li><a href="#" class="first" id="home">Home</a></li>
+				<li class="current_page_item"><a href="#" id="cadastro" onClick="abrirPagina(this);">Cadastro</a></li>
+				<li><a href="#" id="autenticar" onClick="abrirPagina(this);">Autenticar</a></li>
+				<li><a href="#" id="visualizar" onClick="abrirPagina(this);">Visualizar</a></li>
+				<li><a href="#" id="dados" onClick="abrirPagina(this);">Dados</a></li>
+				<li><a href="#" id="sair" onClick="abrirPagina(this);">Sair</a></li>
 			</ul>
 		</div>
-		<div id="areaAjax">
-		</div>
+		<!-- end #menu -->
 	</div>
+	<div id="areaAjax" class="page">
+		<div style="clear: both;">&nbsp;</div>
+	</div>
+	<br />
+	<!-- end #page -->
+	<div class="footer">
+		<p>Trabalho de conclus&atilde;o de curso elaborado em 2010<br /> Todos os direitos reservados</p>
+	</div>
+	<!-- end #footer -->
+	
 </body>
 </html>
