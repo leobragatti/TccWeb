@@ -13,7 +13,7 @@ public class PessoaCertificado {
 	
 	public PessoaCertificado(){}
 	
-	public PessoaCertificado(Certificado c){
+	public PessoaCertificado(Certificado c) throws Exception{
 		dataInicio = c.getCertificado().getNotBefore();
 		dataExpiracao = c.getCertificado().getNotAfter();
 		chavePublica = c.getCertificado().getPublicKey().getEncoded();

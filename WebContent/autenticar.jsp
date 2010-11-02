@@ -7,13 +7,24 @@
 	<tr>
 		<td>
 			Selecione uma op&ccedil;&atilde;o para se autenticar:
-			<select id="opcao" name="opcao">
+			<select id="opcao" name="opcao" onchange="retornarOpcao(this.value);">
 				<option value="rg">Rg</option>
 				<option value="cpf">Cpf</option>
+				<option value="cert">Certificado</option>
 			</select>
 			
 			<input type="text" name="filtro" id="filtro" />
 			<label for="filtro" class="error" id="error_Filtro">Campo de preenchimento obrigat&oacute;rio</label>
+			
+			<div id="areaCertificado">
+				Informe o caminho do certificado:<br /><input type="text" id="certificado" />
+				<label for="certificado" class="error" id="error_Certificado">Campo de preenchimento obrigat&oacute;rio</label>
+				
+				<br />
+				
+				Senha:<br />	<input type="password" id="senha" />
+				<label for="senha" class="error" id="error_Senha">Campo de preenchimento obrigat&oacute;rio</label>
+			</div>
 			<br />
 		</td>
 	</tr>

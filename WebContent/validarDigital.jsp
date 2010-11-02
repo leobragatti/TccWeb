@@ -17,8 +17,10 @@
 		b = d.lerSample(null);
 		
 		for(PessoaDigital digital : digitais)
-			if (d.verify(b, digital.getDigital()))
-				out.println(p.getIdPessoa());
+			if (d.verify(b, digital.getDigital())){
+				out.println("Autentica&ccedil;&atilde;o realizada com sucesso");
+				out.println("<input type='hidden' id='idPessoa' value='" + p.getIdPessoa() + "' />");
+			}
 			else{
 				out.println("<br />Digital n&atilde;o bate");
 				session.removeAttribute("pessoaLogada");

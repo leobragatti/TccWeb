@@ -2,6 +2,8 @@ package br.com.fiap.dao;
 
 import java.util.*;
 import org.hibernate.*;
+import org.hibernate.criterion.Criterion;
+
 import br.com.fiap.hibernate.*;
 import br.com.fiap.pessoa.*;
 
@@ -95,10 +97,41 @@ public class PessoaDAO {
 		}
 	}
 	
-	public PessoaCertificado selecionarCertificado(int idPessoa){
-		Query q = sessao.createQuery("from PessoaCertificado where idPessoa = ?  and current_date BETWEEN dataInicio and dataExpiracao");
+	public void deletar(PessoaDado d) throws Exception{
+		try {
+			sessao.delete(d);
+		} catch (Exception e) {
+			throw e;
+		}
+	}
+	
+	public PessoaCertificado selecionarCertificado(int idPessoa) throws Exception{
+		Query q = sessao.getNamedQuery("certificadoValido")
+			.setInteger("idPessoa", idPessoa);
 		PessoaCertificado c = (PessoaCertificado)q.uniqueResult();
-		return c;		
+		if(c == null)
+			throw new Exception("N&aatilde;o possue nenhum certificado");
+		return c;
+	}
+	
+	public PessoaCertificado selecionarCertificado(byte[] chavePublica) throws Exception{
+		Query q = sessao.getNamedQuery("buscarPorChavePublica")
+			.setBinary("chavePublica", chavePublica);
+		PessoaCertificado c = (PessoaCertificado)q.uniqueResult();
+		if(c == null)
+			throw new Exception("Certificado inv&aacute;lido");
+		return c;
+	}
+	
+	public PessoaDado selecionarDado(int idPessoaDado){
+		PessoaDado dado = null;
+		try{
+			dado = (PessoaDado)sessao.get(PessoaDado.class, idPessoaDado);
+		}
+		catch (Exception e) {
+			e.printStackTrace();
+		}
+		return dado;
 	}
 	
 }

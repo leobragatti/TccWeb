@@ -9,13 +9,13 @@ $(function(){
 });
 
 function onAnimate(show) {
-	//$(this).fadeIn('slow').show();
+	$(this).fadeIn('slow').show();
 	if (show) {
 		$(this)
 			.css('visibility', 'hidden').show()
 				.css('width', $(this).innerWidth())
 			.hide().css('visibility', 'visible')
-		.fadeIn('fast');
+		.fadeIn('normal');
 	} else {
 		$(this).fadeOut('fast');
 	}
@@ -47,6 +47,7 @@ function onHideCheckMenu() {
 
 // We're passed a LI
 function onClickMenu() {
+	$(this).toggleClass('LOCKED');
     if (this.id == 'cadastro')
     {
 		$.ajax({
@@ -85,4 +86,20 @@ function onClickMenu() {
 		   }
 		});
     }
+    
+    if(this.id == 'visualizar'){
+    	$.ajax({
+ 		   url: 'visualizar.jsp',
+ 		   cache: false,
+ 		   beforeSend: function(){
+    			$('#areaAjax').html('Aguarde enquanto seus dados são carregados<img src="img/load.gif" />');
+    	   },
+ 		   success: function(data){
+ 			$('#areaAjax').html(data)
+ 			.hide()
+ 			.fadeIn(500);
+ 		   }
+ 		});
+    }
+    return true;
 }

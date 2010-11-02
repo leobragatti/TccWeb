@@ -43,7 +43,7 @@
   	<property name="digital" type="byte[]" />
   </class>
   
-  <class name="PessoaDado" table='"PessoaDado"'>
+  <class name="PessoaDado" table='"PessoaDado"' dynamic-update="true">
   	<id name="idPessoaDado" column='"idPessoaDado"' type="integer">
   		<generator class="sequence">
   			<param name="sequence">"seq_PessoaDado"</param>
@@ -76,5 +76,21 @@
   	<property name="chavePublica" column='"chavePublica"' type="byte[]"/>
   	<many-to-one name="pessoa" column='"idPessoa"' class="Pessoa" />
   </class>
+ 
+  <sql-query name="certificadoValido">
+  	<return alias="certificado" class="br.com.fiap.pessoa.PessoaCertificado" />
+	SELECT *
+	  FROM "PessoaCertificado"
+	 WHERE "idPessoa" = :idPessoa
+	   AND current_date BETWEEN "dataInicio" and "dataExpiracao"
+  </sql-query>
+  
+  <sql-query name="buscarPorChavePublica">
+  	<return alias="certificado" class="br.com.fiap.pessoa.PessoaCertificado" />
+	SELECT *
+	  FROM "PessoaCertificado"
+	 WHERE "chavePublica" = :chavePublica
+	   AND current_date BETWEEN "dataInicio" and "dataExpiracao"
+  </sql-query>
   
 </hibernate-mapping>

@@ -9,18 +9,15 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
-  
   <servlet>
-  	<display-name>Autenticacao</display-name>
-  	<servlet-name>Autenticacao</servlet-name>
-  	<servlet-class>br.com.fiap.servlet.Autenticacao</servlet-class>
+    <display-name>Autenticacao</display-name>
+    <servlet-name>Autenticacao</servlet-name>
+    <servlet-class>br.com.fiap.servlet.Autenticacao</servlet-class>
   </servlet>
-  
   <servlet-mapping>
-  	<servlet-name>Autenticacao</servlet-name>
-  	<url-pattern>/autenticacao</url-pattern>
+    <servlet-name>Autenticacao</servlet-name>
+    <url-pattern>/autenticacao</url-pattern>
   </servlet-mapping>
-  
   <servlet>
     <display-name>Apache-Axis Servlet</display-name>
     <servlet-name>AxisServlet</servlet-name>

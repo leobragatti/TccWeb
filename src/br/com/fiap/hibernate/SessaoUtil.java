@@ -23,6 +23,7 @@ public class SessaoUtil {
 	}
 
 	public static void beginTransaction() {
+		sessao.clear();
 		sessao.beginTransaction();
 		transacaoAberta = true;
 	}

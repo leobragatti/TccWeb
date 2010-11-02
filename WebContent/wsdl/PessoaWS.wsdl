@@ -7,6 +7,8 @@ Built on Apr 22, 2006 (06:55:48 PDT)-->
    <element name="getInformacoes">
     <complexType>
      <sequence>
+      <element name="autenticacao" type="xsd:base64Binary"/>
+      <element name="idPessoa_Empresa" type="xsd:int"/>
       <element name="idPessoa" type="xsd:int"/>
       <element maxOccurs="unbounded" name="campos" type="xsd:string"/>
      </sequence>
@@ -19,8 +21,29 @@ Built on Apr 22, 2006 (06:55:48 PDT)-->
      </sequence>
     </complexType>
    </element>
+   <element name="validarAutenticacao">
+    <complexType>
+     <sequence>
+      <element name="chave" type="xsd:base64Binary"/>
+      <element name="idPessoa" type="xsd:int"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="validarAutenticacaoResponse">
+    <complexType>
+     <sequence>
+      <element name="validarAutenticacaoReturn" type="xsd:boolean"/>
+     </sequence>
+    </complexType>
+   </element>
   </schema>
  </wsdl:types>
+
+   <wsdl:message name="validarAutenticacaoRequest">
+
+      <wsdl:part element="impl:validarAutenticacao" name="parameters"/>
+
+   </wsdl:message>
 
    <wsdl:message name="getInformacoesResponse">
 
@@ -34,6 +57,12 @@ Built on Apr 22, 2006 (06:55:48 PDT)-->
 
    </wsdl:message>
 
+   <wsdl:message name="validarAutenticacaoResponse">
+
+      <wsdl:part element="impl:validarAutenticacaoResponse" name="parameters"/>
+
+   </wsdl:message>
+
    <wsdl:portType name="PessoaWS">
 
       <wsdl:operation name="getInformacoes">
@@ -41,6 +70,14 @@ Built on Apr 22, 2006 (06:55:48 PDT)-->
          <wsdl:input message="impl:getInformacoesRequest" name="getInformacoesRequest"/>
 
          <wsdl:output message="impl:getInformacoesResponse" name="getInformacoesResponse"/>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="validarAutenticacao">
+
+         <wsdl:input message="impl:validarAutenticacaoRequest" name="validarAutenticacaoRequest"/>
+
+         <wsdl:output message="impl:validarAutenticacaoResponse" name="validarAutenticacaoResponse"/>
 
       </wsdl:operation>
 
@@ -61,6 +98,24 @@ Built on Apr 22, 2006 (06:55:48 PDT)-->
          </wsdl:input>
 
          <wsdl:output name="getInformacoesResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="validarAutenticacao">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="validarAutenticacaoRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="validarAutenticacaoResponse">
 
             <wsdlsoap:body use="literal"/>
 

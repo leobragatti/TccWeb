@@ -128,8 +128,8 @@ public class Digital {
                 }
             }
         } catch (Exception e) {
+        	out.println("Ocorreram problemas na verifica&ccedil;ão");
         	throw new RuntimeException(e);
-            //out.println("Ocorreram problemas na verifica&ccedil;ão");
         }
         
         return false;

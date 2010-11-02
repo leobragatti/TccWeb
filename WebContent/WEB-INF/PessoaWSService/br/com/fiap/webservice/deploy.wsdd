@@ -11,10 +11,16 @@
       <parameter name="wsdlPortType" value="PessoaWS"/>
       <parameter name="typeMappingVersion" value="1.2"/>
       <operation xmlns:operNS="http://webservice.fiap.com.br" xmlns:retNS="http://webservice.fiap.com.br" xmlns:rtns="http://www.w3.org/2001/XMLSchema" name="getInformacoes" qname="operNS:getInformacoes" returnQName="retNS:getInformacoesReturn" returnType="rtns:string" soapAction="">
+        <parameter xmlns:pns="http://webservice.fiap.com.br" xmlns:tns="http://www.w3.org/2001/XMLSchema" qname="pns:autenticacao" type="tns:base64Binary"/>
+        <parameter xmlns:pns="http://webservice.fiap.com.br" xmlns:tns="http://www.w3.org/2001/XMLSchema" qname="pns:idPessoa_Empresa" type="tns:int"/>
         <parameter xmlns:pns="http://webservice.fiap.com.br" xmlns:tns="http://www.w3.org/2001/XMLSchema" qname="pns:idPessoa" type="tns:int"/>
         <parameter xmlns:pns="http://webservice.fiap.com.br" xmlns:tns="http://www.w3.org/2001/XMLSchema" qname="pns:campos" type="tns:string"/>
       </operation>
-      <parameter name="allowedMethods" value="getInformacoes"/>
+      <operation xmlns:operNS="http://webservice.fiap.com.br" xmlns:retNS="http://webservice.fiap.com.br" xmlns:rtns="http://www.w3.org/2001/XMLSchema" name="validarAutenticacao" qname="operNS:validarAutenticacao" returnQName="retNS:validarAutenticacaoReturn" returnType="rtns:boolean" soapAction="">
+        <parameter xmlns:pns="http://webservice.fiap.com.br" xmlns:tns="http://www.w3.org/2001/XMLSchema" qname="pns:chave" type="tns:base64Binary"/>
+        <parameter xmlns:pns="http://webservice.fiap.com.br" xmlns:tns="http://www.w3.org/2001/XMLSchema" qname="pns:idPessoa" type="tns:int"/>
+      </operation>
+      <parameter name="allowedMethods" value="getInformacoes validarAutenticacao"/>
 
   </service>
 </deployment>

@@ -29,9 +29,14 @@
 		<div id="menu">
 			<ul class="jd_menu jd_menu_slate">
 				<li>Home</li>
-				<li id="cadastro">Cadastro</li>
+				<li>Cadastro
+					<ul>
+						<li id="cadastro">B&aacute;sico</li>
+						<li id="dados">Dados</li>
+						<li id="visualizar">Visualizar</li>
+					</ul>
+				</li>
 				<li id="autenticar">Autenticar</li>
-				<li id="dados">Dados</li>
 			</ul>
 		</div>
 		<div id="areaAjax">

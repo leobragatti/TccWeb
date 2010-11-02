@@ -25,11 +25,11 @@
 			pd.setPessoa(p);
 			daoPessoa.gravar(pd);
 			SessaoUtil.commitTransaction();
-			out.println("Dados gravados com sucesso");
 		}catch(Exception e){
 			out.println(e.getMessage());
 			SessaoUtil.rollbackTransaction();
 			break;
 		}
 	}
+	out.println("Dados gravados com sucesso");
 %>

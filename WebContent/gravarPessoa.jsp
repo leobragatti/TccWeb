@@ -22,31 +22,33 @@
 		
 		ArrayList<PessoaDigital> digitais = new ArrayList<PessoaDigital>();
 		
-		if (pe.getidPessoaTipo() == 1){
-			digitais.add((PessoaDigital)session.getAttribute("digital"));
-		}
-		else{
-			String certificado = request.getParameter("certificado");
+		String certificado = request.getParameter("certificado");
+		if(!certificado.equals("") && certificado != null)
 			cert = new PessoaCertificado(new Certificado(certificado));
-		}
+		
+		if (pe.getidPessoaTipo() == 1)
+			digitais.add((PessoaDigital)session.getAttribute("digital"));
 				
 		if(pe.getNome() != null){
 			PessoaDAO dao = new PessoaDAO();
 			SessaoUtil.beginTransaction();
 			dao.gravar(pe);
+			
+			if(cert !=null){
+				cert.setPessoa(pe);
+				dao.gravar(cert);
+			}
+			
 			if (pe.getidPessoaTipo() == 1){
 				for(PessoaDigital digital : digitais){
 					digital.setPessoa(pe);			
 					dao.gravar(digital);
 				}
 			}
-			else{
-				cert.setPessoa(pe);
-				dao.gravar(cert);
-			}
 					
 			SessaoUtil.commitTransaction();
 			session.removeAttribute("digital");
+			session.removeAttribute("pessoaLogada");
 			session.setAttribute("pessoaLogada", pe);
 			out.println("Registro gravado com sucesso");
 		}

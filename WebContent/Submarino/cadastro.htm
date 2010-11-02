@@ -61,21 +61,27 @@
 				}
 			}	
 			
-			function ativarAutenticacao(){
+			function ativarAutenticacao(url){
 				$('#registroDigital').dialog({
 					autoOpen: true,
 					width: 600,
+					height: 300,
 					modal: true,
 					open:function(){
 						var url = 'http://localhost:8080/TccWeb/autenticacao';
 						$.get(url, function(data){
 							$('#registroDigital').html(data);
-							var idPessoa;
-							while(idPessoa != 61){
-								idPessoa = $('#areaAjax').html();
-							}
-							alert(idPessoa);
 						});
+					},
+					buttons: {
+						"OK":function(){
+							var idPessoa = $('#idPessoa').val();
+							if(idPessoa == undefined){
+								alert('Faça a autenticação primeiro');
+								return false;
+							}
+							document.location.href("/TccWeb/acessarWebService.jsp?idPessoa=" + idPessoa); 
+						} 
 					}
 				});
 			}
