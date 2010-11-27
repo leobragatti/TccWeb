@@ -1,0 +1,2007 @@
+.p1 TABLE {
+	WIDTH: 100%
+}
+.header-passos {
+	DISPLAY: none
+}
+.carrinhoResumo .skuImagem {
+	DISPLAY: none
+}
+.highlight {
+	DISPLAY: none
+}
+#header .security {
+	BACKGROUND: url(../img/bg-top-seguro.jpg) #eee repeat-x
+}
+#header .security .topHeader {
+	HEIGHT: 75px
+}
+#header .security .logo {
+	MARGIN: 11px 0px 0px 4px; WIDTH: 187px; BACKGROUND: url(../img/logo-seguro-copa.gif) no-repeat; HEIGHT: 47px
+}
+#header .security .topo {
+	POSITION: relative; MARGIN: 0px auto; WIDTH: 971px
+}
+#header .security H1 {
+	MARGIN: 7px 14px 0px; FLOAT: left
+}
+#header .security H1 {
+	TEXT-INDENT: -9999px; WIDTH: 177px; DISPLAY: block; BACKGROUND: url(../Images/pontofrio_inte.gif) no-repeat; HEIGHT: 58px; OVERFLOW: hidden
+}
+#header .security H1 A {
+	TEXT-INDENT: -9999px; WIDTH: 177px; DISPLAY: block; BACKGROUND: url(../Images/pontofrio_inte.gif) no-repeat; HEIGHT: 58px; OVERFLOW: hidden
+}
+#header .security .servicos {
+	LEFT: 400px
+}
+#header .servicos LI {
+	PADDING-BOTTOM: 0px; MARGIN: 0px 25px 0px 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+#header .security .servicos LI.atendimento {
+	PADDING-BOTTOM: 0px; MARGIN: 0px 25px 0px 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+#header .menuUsuario {
+	WIDTH: auto
+}
+#header .security .servicos LI {
+	FLOAT: left; CLEAR: both
+}
+#header .security .tpseguro {
+	MARGIN: -61px 10px 0px 0px; BACKGROUND: url(../Images/bg_seguro.gif) no-repeat center 50%; FLOAT: right; CLEAR: right
+}
+#header .security .saudacao {
+	TEXT-ALIGN: left
+}
+#header .security .tpseguro LI.blindado {
+	PADDING-BOTTOM: 2px; PADDING-LEFT: 7px; PADDING-RIGHT: 0px; PADDING-TOP: 5px
+}
+#header .security .tpseguro LI {
+	PADDING-BOTTOM: 2px; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; PADDING-TOP: 2px
+}
+#header LI {
+	FLOAT: left
+}
+#header .todasCategorias LI {
+	FLOAT: none
+}
+#header .servicos LI {
+	FLOAT: none
+}
+#header .security .menu-usuario {
+	WIDTH: 190px; FLOAT: right
+}
+.prateleira .vitrineProdutos {
+	PADDING-LEFT: 45px
+}
+.prateleira .vitrineProdutos .first {
+	MARGIN-LEFT: -45px
+}
+.prateleira .vitrineProdutos LI {
+	WIDTH: 24.9%
+}
+.prateleira .vejaMais LI {
+	WIDTH: auto; FLOAT: none
+}
+FIELDSET SMALL.ind {
+	MARGIN: 0px 0px 2px 34%
+}
+SMALL.ind {
+	COLOR: #666666; FONT-SIZE: 0.9em
+}
+SPAN.ind {
+	COLOR: #666666; FONT-SIZE: 0.9em
+}
+.ind LI {
+	COLOR: #666666; FONT-SIZE: 0.9em
+}
+I.ind {
+	COLOR: #666666; FONT-SIZE: 0.9em
+}
+DT.ind {
+	COLOR: #666666; FONT-SIZE: 0.9em
+}
+.passo .ind {
+	PADDING-BOTTOM: 6px; DISPLAY: block; MARGIN-LEFT: 39%
+}
+.titular SMALL.ind {
+	MARGIN-LEFT: 28%
+}
+.endereco .ind {
+	MARGIN: 0px 0px 20px
+}
+.identificacao .erro {
+	MARGIN: 10px
+}
+.endereco SMALL.ind A {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #c3141c; FONT-SIZE: 1.2em; TEXT-DECORATION: underline; PADDING-TOP: 0px
+}
+.endereco FIELDSET SMALL.ind A {
+	FONT-SIZE: 1em
+}
+.ind A {
+	PADDING-LEFT: 8px; BACKGROUND: url(../img/smallIco.png) no-repeat 0px -397px; COLOR: #666
+}
+.conteudo {
+	PADDING-BOTTOM: 20px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; PADDING-TOP: 20px
+}
+.carrinhoResumo {
+	BORDER-BOTTOM: #c7e2fc 1px solid; BORDER-LEFT: #c7e2fc 1px solid; WIDTH: 100%; CLEAR: both; BORDER-TOP: #c7e2fc 1px solid; BORDER-RIGHT: #c7e2fc 1px solid
+}
+.conteudo H1.tit {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; MARGIN-BOTTOM: 10px; BORDER-TOP: medium none; BORDER-RIGHT: medium none
+}
+.checkoutPassos H2.tit {
+	BORDER-BOTTOM: medium none; TEXT-ALIGN: center; BORDER-LEFT: medium none; PADDING-BOTTOM: 0px; LINE-HEIGHT: 36px; MARGIN: -1px -1px 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: url(../img/bg-tit-passo.jpg) repeat-x; COLOR: #666; FONT-SIZE: 1.6em; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0px
+}
+.checkoutPassos .active H2.tit {
+	BACKGROUND: url(../img/bg-tit-passo-ativo.jpg) repeat-x; COLOR: #fff
+}
+BODY.login .half .top {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 0px; LINE-HEIGHT: 35px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: url(../img/bg-tit-login-boxes.jpg) repeat-x; COLOR: #095ba6; FONT-SIZE: 1.6em; FONT-WEIGHT: normal !important; PADDING-TOP: 0px
+}
+.checkoutPassos H4.top {
+	MARGIN: 10px; COLOR: #095ba6; FONT-SIZE: 1.6em
+}
+.checkoutPassos H3.top {
+	MARGIN: 10px; COLOR: #095ba6; FONT-SIZE: 1.6em
+}
+.cadastro {
+	TEXT-ALIGN: center; BACKGROUND: url(../img/box-bg-top.jpg) #f9fbfe repeat-x 0px 0px; PADDING-TOP: 20px
+}
+.cadastro A {
+	TEXT-INDENT: -999em; MARGIN: 0px auto; WIDTH: 216px; DISPLAY: block; BACKGROUND-POSITION: -301px -395px; HEIGHT: 37px
+}
+.jaCadastrado A {
+	HEIGHT: auto; MARGIN-LEFT: 10px; FONT-SIZE: 1.2em
+}
+.jaCadastrado A SPAN {
+	COLOR: #c3141c; TEXT-DECORATION: underline
+}
+.entregar A {
+	TEXT-INDENT: -999em; WIDTH: 159px; DISPLAY: block; BACKGROUND: url(../img/allImages.png) no-repeat 0px -518px; HEIGHT: 24px
+}
+.entregar A {
+	MARGIN: 10px 0px
+}
+.usar A {
+	MARGIN: 10px 0px
+}
+.voltarCarrinho A {
+	TEXT-INDENT: -999em; MARGIN: 0px 10px; WIDTH: 216px; DISPLAY: block; BACKGROUND-POSITION: -301px -459px; HEIGHT: 27px
+}
+.cadastrarEndereco {
+	TEXT-ALIGN: center
+}
+.cadastrarEndereco A {
+	TEXT-INDENT: -999em; MARGIN: 0px auto; WIDTH: 159px; DISPLAY: block; BACKGROUND-POSITION: 0px -374px; HEIGHT: 24px
+}
+.voltar A {
+	WIDTH: 71px; FLOAT: left; HEIGHT: 22px; OVERFLOW: hidden
+}
+.voltar INPUT {
+	WIDTH: 71px; FLOAT: left; HEIGHT: 22px; OVERFLOW: hidden
+}
+.voltar A {
+	BACKGROUND: url(../img/allImages.png) no-repeat 0px -22px
+}
+.checkoutPassos .voltar {
+	HEIGHT: 27px
+}
+.voltar A {
+	TEXT-INDENT: -999em; WIDTH: 84px; BACKGROUND-POSITION: -301px -432px; HEIGHT: 27px
+}
+.checkoutPassos .endereco .voltar {
+	MARGIN: -42px 0px 0px 20px; FLOAT: left
+}
+DIV.pagamento P.dois-cartoes {
+	POSITION: absolute; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: none transparent scroll repeat 0% 0%; TOP: -21px; RIGHT: 10px; PADDING-TOP: 0px
+}
+DIV.pagamento P.um-cartao {
+	POSITION: absolute; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: none transparent scroll repeat 0% 0%; TOP: -21px; RIGHT: 10px; PADDING-TOP: 0px
+}
+DIV.pagamento P.dois-cartoes A {
+	TEXT-INDENT: -9999px; MARGIN: 10px 0px; WIDTH: 130px; DISPLAY: block; HEIGHT: 24px
+}
+DIV.pagamento P.um-cartao A {
+	TEXT-INDENT: -9999px; MARGIN: 10px 0px; WIDTH: 130px; DISPLAY: block; HEIGHT: 24px
+}
+DIV.pagamento P.um-cartao A {
+	BACKGROUND: url(../img/allImages.png) no-repeat 0px -764px
+}
+DIV.pagamento P.dois-cartoes A {
+	BACKGROUND: url(../img/allImages.png) no-repeat 0px -740px
+}
+DIV.pagamento P A {
+	COLOR: #f40000; FONT-WEIGHT: 900
+}
+DIV.pagamento .efetuarPagamento {
+	MARGIN: 10px; FLOAT: right; CLEAR: both
+}
+DIV.pagamento .consulta {
+	MARGIN: 10px
+}
+.efetuarPagamento INPUT {
+	TEXT-INDENT: -999em !important; WIDTH: 223px; DISPLAY: block; BACKGROUND: url(../img/allImages.png) no-repeat -300px -151px; FLOAT: right; HEIGHT: 45px
+}
+.efetuarPagamento A {
+	TEXT-INDENT: -999em !important; WIDTH: 223px; DISPLAY: block; BACKGROUND: url(../img/allImages.png) no-repeat -300px -151px; FLOAT: right; HEIGHT: 45px
+}
+.finaliza .obs UL LI {
+	FLOAT: left
+}
+.finaliza .popdebito A {
+	TEXT-INDENT: -9999px; WIDTH: 188px; BACKGROUND: url(../img/allImages.png) no-repeat; HEIGHT: 27px
+}
+.finaliza .popoperadora A {
+	TEXT-INDENT: -9999px; WIDTH: 188px; BACKGROUND: url(../img/allImages.png) no-repeat; HEIGHT: 27px
+}
+.finaliza .acompanhe A {
+	TEXT-INDENT: -9999px; WIDTH: 188px; BACKGROUND: url(../img/allImages.png) no-repeat; HEIGHT: 27px
+}
+.finaliza .acompanhe A {
+	MARGIN-TOP: 10px; DISPLAY: block; BACKGROUND-POSITION: 0px -605px
+}
+.finaliza .imprimir A {
+	TEXT-INDENT: -9999px; WIDTH: 208px; DISPLAY: block; BACKGROUND-POSITION: -302px -816px; HEIGHT: 43px
+}
+.finaliza .popdebito A {
+	BACKGROUND-POSITION: -900px -98px
+}
+.finaliza .popoperadora A {
+	BACKGROUND-POSITION: -900px -49px
+}
+.checkoutPassos .listaPassos {
+	PADDING-LEFT: 15px; MARGIN-BOTTOM: 5px; OVERFLOW: hidden
+}
+.checkoutPassos LI {
+	WIDTH: 33.2%; FLOAT: left; MARGIN-LEFT: 5px
+}
+.checkoutPassos LI UL LI {
+	WIDTH: auto; MARGIN-BOTTOM: 5px; FLOAT: none; CLEAR: left
+}
+.identificacao .iGrupo {
+	WIDTH: auto; MARGIN-BOTTOM: 5px; FLOAT: none; CLEAR: left
+}
+.checkoutPassos .login {
+	MARGIN-LEFT: -15px
+}
+.checkoutPassos .passo {
+	BORDER-BOTTOM: #e3e5e7 1px solid; BORDER-LEFT: #e3e5e7 1px solid; BACKGROUND: #f9fbfe; BORDER-TOP: #e3e5e7 1px solid; BORDER-RIGHT: #e3e5e7 1px solid
+}
+.checkoutPassos .passo .passo {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BACKGROUND: none transparent scroll repeat 0% 0%; BORDER-TOP: medium none; BORDER-RIGHT: medium none
+}
+FIELDSET.lg SMALL.ind {
+	MARGIN-LEFT: 34%
+}
+.checkoutPassos .p3 .box {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; PADDING-TOP: 0px
+}
+.checkoutPassos .passo .box .text {
+	PADDING-BOTTOM: 10px; LINE-HEIGHT: 1.4em; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; COLOR: #999; FONT-SIZE: 1.2em; PADDING-TOP: 10px
+}
+.checkoutPassos .active .box .text {
+	DISPLAY: none
+}
+.checkoutPassos .passo FIELDSET {
+	PADDING-BOTTOM: 5px; MARGIN: 10px 0px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; PADDING-TOP: 5px
+}
+.checkoutPassos .passo FIELDSET.cend {
+	MARGIN: 10px
+}
+.checkoutPassos .passo FIELDSET P {
+	MIN-HEIGHT: 26px
+}
+.checkoutPassos .passo FIELDSET DIV {
+	MIN-HEIGHT: 26px
+}
+.checkoutPassos .passo FIELDSET P {
+	CLEAR: both
+}
+.checkoutPassos .passo FIELDSET DIV {
+	CLEAR: both
+}
+.checkoutPassos .passo FIELDSET LI {
+	CLEAR: both
+}
+.checkoutPassos .passo LABEL {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; WIDTH: 38%; PADDING-RIGHT: 0.5%; DISPLAY: block; FLOAT: left; PADDING-TOP: 0px
+}
+.identificacao .iGrupo LABEL {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; WIDTH: 38%; PADDING-RIGHT: 0.5%; DISPLAY: block; FLOAT: left; PADDING-TOP: 0px
+}
+.checkoutPassos .passo LI LABEL {
+	WIDTH: 27%
+}
+.checkoutPassos .passo .cobranca LABEL {
+	WIDTH: auto
+}
+.checkoutPassos .passo .frmTipoPessoa LABEL {
+	WIDTH: 38%
+}
+.checkoutPassos .passo FIELDSET.lg LABEL {
+	TEXT-ALIGN: right
+}
+.passo .radioCartao {
+	PADDING-BOTTOM: 0px; MARGIN: 0px auto 10px; PADDING-LEFT: 0px; WIDTH: 300px; PADDING-RIGHT: 0px; OVERFLOW: hidden; PADDING-TOP: 0px
+}
+.checkoutPassos .passo .radioCartao LABEL {
+	TEXT-ALIGN: center; WIDTH: 50px
+}
+.passo .radioCartao LABEL INPUT {
+	MARGIN: 5px 0px 0px
+}
+.checkoutPassos .p2 SELECT.cobranca {
+	
+}
+.p2 SELECT.cobranca * {
+	
+}
+.checkoutPassos .p2 SELECT.cobranca {
+	MARGIN: 2px 0px; WIDTH: 100%
+}
+.checkoutPassos .p2 .end P {
+	BORDER-BOTTOM: #e8e8e8 1px solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 9px; PADDING-LEFT: 40px; PADDING-RIGHT: 9px; BACKGROUND: #fff; BORDER-TOP: #e8e8e8 1px solid; BORDER-RIGHT: medium none; PADDING-TOP: 9px
+}
+.checkoutPassos .p2 .prazo {
+	BORDER-BOTTOM: #c7e2fc 1px solid; BORDER-LEFT: #c7e2fc 1px solid; PADDING-BOTTOM: 10px; MARGIN: 5px; PADDING-LEFT: 45px; PADDING-RIGHT: 10px; BACKGROUND: #fff; BORDER-TOP: #c7e2fc 1px solid; BORDER-RIGHT: #c7e2fc 1px solid; PADDING-TOP: 10px
+}
+.checkoutPassos .p2 .prazo P.int {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 40px; PADDING-RIGHT: 40px; BACKGROUND: url(../img/sprite.png) no-repeat -408px -1281px; MARGIN-LEFT: -40px; PADDING-TOP: 2px
+}
+.checkoutPassos .p2 .cob P {
+	BORDER-BOTTOM: #e8e8e8 1px solid; BORDER-LEFT: #e8e8e8 1px solid; PADDING-BOTTOM: 4px; MARGIN: 0px 0px 10px; PADDING-LEFT: 8px; PADDING-RIGHT: 8px; BACKGROUND: #fff; BORDER-TOP: #e8e8e8 1px solid; BORDER-RIGHT: #e8e8e8 1px solid; PADDING-TOP: 4px
+}
+.checkoutPassos .p2 .box H4 {
+	
+}
+.esqueceu-vale {
+	MARGIN: 8px 12px 20px; FONT-SIZE: 1.1em
+}
+.esqueceuVale {
+	MARGIN: 8px 12px 20px; FONT-SIZE: 1.1em
+}
+.checkoutPassos .p3 .resumo TABLE {
+	BORDER-BOTTOM: #c7e2fc 1px solid; BORDER-LEFT: #c7e2fc 1px solid; WIDTH: 100%; FONT-SIZE: 1.1em; BORDER-TOP: #c7e2fc 1px solid; BORDER-RIGHT: #c7e2fc 1px solid
+}
+TABLE .valorTotal {
+	BACKGROUND: none transparent scroll repeat 0% 0%; FONT-WEIGHT: bold
+}
+.checkoutPassos .p3 .resumo .th {
+	TEXT-ALIGN: left; FONT-WEIGHT: 400
+}
+.checkoutPassos .p3 .resumo TD {
+	BACKGROUND: #fff
+}
+.checkoutPassos .p3 IMG {
+	BORDER-BOTTOM: #ccc 1px dotted; BORDER-LEFT: #ccc 1px dotted; MARGIN-BOTTOM: 5px; FLOAT: left; BORDER-TOP: #ccc 1px dotted; MARGIN-RIGHT: 5px; BORDER-RIGHT: #ccc 1px dotted
+}
+#ctl00_Conteudo_ctrlFormaPagamento_divFormaPagamentoCartoesGPA IMG {
+	MARGIN-TOP: 0px; FLOAT: none
+}
+#ctl00_Conteudo_ctrlFormaPagamento_divEscondeCartoesGPA IMG {
+	MARGIN-TOP: 0px; FLOAT: none
+}
+#ctl00_Conteudo_ctrlFormaPagamento_divFormaPagamentoCartoesExtra IMG {
+	MARGIN-TOP: 0px; FLOAT: none
+}
+#ctl00_Conteudo_ctrlFormaPagamento_DivEscondeCartoesExtra IMG {
+	MARGIN-TOP: 0px; FLOAT: none
+}
+#ctl00_Conteudo_ctrlFormaPagamento_divFormaPagamentoCartoesGPA STRONG {
+	DISPLAY: block
+}
+#ctl00_Conteudo_ctrlFormaPagamento_divEscondeCartoesGPA STRONG {
+	DISPLAY: block
+}
+#ctl00_Conteudo_ctrlFormaPagamento_divFormaPagamentoCartoesExtra STRONG {
+	DISPLAY: block
+}
+#ctl00_Conteudo_ctrlFormaPagamento_DivEscondeCartoesExtra STRONG {
+	DISPLAY: block
+}
+.cartao {
+	POSITION: relative
+}
+.cartao .cartaox {
+	PADDING-BOTTOM: 5px; MARGIN: 10px 0px 0px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; PADDING-TOP: 0px
+}
+.cartao .cartaox H4 {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 2em; MARGIN: -5px -6px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; COLOR: #f40000; CLEAR: both; PADDING-TOP: 0px
+}
+.esqueceu-vale {
+	PADDING-BOTTOM: 10px !important; PADDING-LEFT: 0px !important; PADDING-RIGHT: 0px !important; CLEAR: both; PADDING-TOP: 10px !important
+}
+.esqueceuVale {
+	PADDING-BOTTOM: 10px !important; PADDING-LEFT: 0px !important; PADDING-RIGHT: 0px !important; CLEAR: both; PADDING-TOP: 10px !important
+}
+.esqueceu-vale {
+	COLOR: #f40000
+}
+.esqueceuVale A {
+	COLOR: #f40000
+}
+.dest {
+	COLOR: #f40000 !important
+}
+.lnkExterno {
+	COLOR: #f40000 !important
+}
+.log {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; MARGIN-BOTTOM: 10px; FONT-SIZE: 1.3em; FONT-WEIGHT: bold; PADDING-TOP: 10px
+}
+.log STRONG {
+	DISPLAY: inline; FONT-SIZE: 1.3em
+}
+.log SPAN {
+	LINE-HEIGHT: 20px; FONT-SIZE: 0.9em
+}
+.log A {
+	COLOR: #e10915; TEXT-DECORATION: underline
+}
+DIV.endereco {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; PADDING-TOP: 0px
+}
+DIV.endereco .entrega .continuar .bt {
+	MARGIN-TOP: 0px; HEIGHT: 0px; PADDING-TOP: 27px
+}
+DIV.endereco .entrega LI {
+	BORDER-BOTTOM: #c7e2fc 1px solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 10px; MARGIN: 0px 0px 20px; BACKGROUND: #fff; BORDER-TOP: #c7e2fc 1px solid; BORDER-RIGHT: medium none
+}
+DIV.endereco .entrega {
+	MARGIN: 0px -10px
+}
+DIV.endereco .entrega .continuar .bt {
+	MARGIN-TOP: 0px; HEIGHT: 0px; PADDING-TOP: 27px
+}
+DIV.endereco .entrega LI H4 {
+	COLOR: #e10915
+}
+DIV.endereco .entrega LI DIV {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; PADDING-TOP: 10px
+}
+DIV.endereco .editt {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; OVERFLOW: hidden; PADDING-TOP: 5px
+}
+DIV.endereco .entrega LI.agendar {
+	MARGIN: 20px 0px
+}
+DIV.endereco .entrega LI.expressa {
+	MARGIN: 20px 0px
+}
+.agendar A {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 50px; PADDING-RIGHT: 0px; DISPLAY: block; BACKGROUND: url(../img/sprite.png) no-repeat -403px -604px; HEIGHT: 35px; PADDING-TOP: 5px
+}
+.expressa A {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 50px; PADDING-RIGHT: 0px; DISPLAY: block; BACKGROUND: url(../img/sprite.png) no-repeat -403px -604px; HEIGHT: 35px; PADDING-TOP: 5px
+}
+.expressa A {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 70px; PADDING-RIGHT: 0px; BACKGROUND: url(../img/sprite.png) no-repeat -378px -738px; PADDING-TOP: 5px
+}
+.agendar SPAN {
+	MARGIN: 0px 3px 0px 0px; COLOR: #c3141c
+}
+.expressa SPAN {
+	MARGIN: 0px 3px 0px 0px; COLOR: #c3141c
+}
+.agendar STRONG {
+	DISPLAY: block; COLOR: #c3141c; FONT-SIZE: 1.2em
+}
+.expressa STRONG {
+	DISPLAY: block; COLOR: #c3141c; FONT-SIZE: 1.2em
+}
+DIV.endereco LI LI {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; CLEAR: none; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+DIV.endereco .entrega LI LI {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; CLEAR: none; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+DIV.endereco .entrega LI UL {
+	MARGIN-LEFT: 30px
+}
+DIV.endereco .editt LI {
+	PADDING-RIGHT: 10px !important; FLOAT: left
+}
+DIV.endereco .editt LI.edit {
+	MARGIN-RIGHT: 10px; BORDER-RIGHT: #c3141c 1px solid
+}
+.lista-endereco SPAN.excluir {
+	MARGIN-RIGHT: 10px; BORDER-RIGHT: #c3141c 1px solid
+}
+.listaEndereco SPAN.excluir {
+	MARGIN-RIGHT: 10px; BORDER-RIGHT: #c3141c 1px solid
+}
+DIV.endereco .editt LI A {
+	MARGIN-BOTTOM: 20px; COLOR: #c3141c; FONT-SIZE: 1.2em; TEXT-DECORATION: underline
+}
+.lista-endereco SPAN.excluir A {
+	MARGIN-BOTTOM: 20px; COLOR: #c3141c; FONT-SIZE: 1.2em; TEXT-DECORATION: underline
+}
+.lista-endereco SPAN.editar A {
+	MARGIN-BOTTOM: 20px; COLOR: #c3141c; FONT-SIZE: 1.2em; TEXT-DECORATION: underline
+}
+.listaEndereco SPAN.excluir A {
+	MARGIN-BOTTOM: 20px; COLOR: #c3141c; FONT-SIZE: 1.2em; TEXT-DECORATION: underline
+}
+.listaEndereco SPAN.editar A {
+	MARGIN-BOTTOM: 20px; COLOR: #c3141c; FONT-SIZE: 1.2em; TEXT-DECORATION: underline
+}
+.lista-endereco SPAN.excluir A {
+	MARGIN-BOTTOM: 0px; HEIGHT: auto
+}
+.lista-endereco SPAN.editar A {
+	MARGIN-BOTTOM: 0px; HEIGHT: auto
+}
+.listaEndereco SPAN.excluir A {
+	MARGIN-BOTTOM: 0px; HEIGHT: auto
+}
+.listaEndereco SPAN.editar A {
+	MARGIN-BOTTOM: 0px; HEIGHT: auto
+}
+.cadastroEndereco {
+	WIDTH: 600px
+}
+.lista-endereco {
+	BORDER-BOTTOM: #c7e2fc 1px solid; BORDER-LEFT: #c7e2fc 1px solid; PADDING-BOTTOM: 20px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; MARGIN-BOTTOM: 20px; BACKGROUND: #f9fbfe; BORDER-TOP: #c7e2fc 1px solid; BORDER-RIGHT: #c7e2fc 1px solid; PADDING-TOP: 20px
+}
+.listaEndereco {
+	BORDER-BOTTOM: #c7e2fc 1px solid; BORDER-LEFT: #c7e2fc 1px solid; PADDING-BOTTOM: 20px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; MARGIN-BOTTOM: 20px; BACKGROUND: #f9fbfe; BORDER-TOP: #c7e2fc 1px solid; BORDER-RIGHT: #c7e2fc 1px solid; PADDING-TOP: 20px
+}
+.lista-endereco LI {
+	BORDER-BOTTOM: #c7e2fc 1px solid; BORDER-LEFT: #c7e2fc 1px solid; PADDING-BOTTOM: 10px; MARGIN: 0px 20px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; BACKGROUND: #fff; FLOAT: left; BORDER-TOP: #c7e2fc 1px solid; BORDER-RIGHT: #c7e2fc 1px solid; PADDING-TOP: 10px
+}
+.listaEndereco LI {
+	BORDER-BOTTOM: #c7e2fc 1px solid; BORDER-LEFT: #c7e2fc 1px solid; PADDING-BOTTOM: 10px; MARGIN: 0px 20px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; BACKGROUND: #fff; FLOAT: left; BORDER-TOP: #c7e2fc 1px solid; BORDER-RIGHT: #c7e2fc 1px solid; PADDING-TOP: 10px
+}
+.checkout .area-conteudo H3 {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-LEFT: 0px; MARGIN-BOTTOM: 5px; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #095ba6; FONT-SIZE: 14px; BORDER-TOP: 0px; FONT-WEIGHT: bold !important; BORDER-RIGHT: 0px
+}
+.checkout .area-conteudo H2 {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-LEFT: 0px; MARGIN-BOTTOM: 5px; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #095ba6; FONT-SIZE: 14px; BORDER-TOP: 0px; FONT-WEIGHT: bold !important; BORDER-RIGHT: 0px
+}
+.p3 DIV.pagamento {
+	BORDER-BOTTOM: #c7e2fc 1px solid; BORDER-LEFT: #c7e2fc 1px solid; MARGIN-BOTTOM: 20px; BORDER-TOP: #c7e2fc 1px solid; BORDER-RIGHT: #c7e2fc 1px solid
+}
+#ctl00_Conteudo_DivEscondeFormaPagamentoCartoesGPA H4.cc {
+	PADDING-BOTTOM: 0px !important; PADDING-LEFT: 0px !important; PADDING-RIGHT: 0px !important; BACKGROUND: url(../img/sprite.png) #fff no-repeat -400px -988px; CLEAR: both; BORDER-TOP: #c7e2fc 1px solid; PADDING-TOP: 0px !important
+}
+DIV.pagamento H4.mc {
+	PADDING-BOTTOM: 0px !important; PADDING-LEFT: 0px !important; PADDING-RIGHT: 0px !important; BACKGROUND: url(../img/sprite.png) #fff no-repeat -400px -988px; CLEAR: both; BORDER-TOP: #c7e2fc 1px solid; PADDING-TOP: 0px !important
+}
+DIV.pagamento H4.cc {
+	PADDING-BOTTOM: 0px !important; PADDING-LEFT: 0px !important; PADDING-RIGHT: 0px !important; BACKGROUND: url(../img/sprite.png) #fff no-repeat -400px -988px; CLEAR: both; BORDER-TOP: #c7e2fc 1px solid; PADDING-TOP: 0px !important
+}
+DIV.pagamento H4.db {
+	PADDING-BOTTOM: 0px !important; PADDING-LEFT: 0px !important; PADDING-RIGHT: 0px !important; BACKGROUND: url(../img/sprite.png) #fff no-repeat -400px -988px; CLEAR: both; BORDER-TOP: #c7e2fc 1px solid; PADDING-TOP: 0px !important
+}
+DIV.pagamento H4.bl {
+	PADDING-BOTTOM: 0px !important; PADDING-LEFT: 0px !important; PADDING-RIGHT: 0px !important; BACKGROUND: url(../img/sprite.png) #fff no-repeat -400px -988px; CLEAR: both; BORDER-TOP: #c7e2fc 1px solid; PADDING-TOP: 0px !important
+}
+DIV.pagamento H4.tl {
+	PADDING-BOTTOM: 0px !important; PADDING-LEFT: 0px !important; PADDING-RIGHT: 0px !important; BACKGROUND: url(../img/sprite.png) #fff no-repeat -400px -988px; CLEAR: both; BORDER-TOP: #c7e2fc 1px solid; PADDING-TOP: 0px !important
+}
+DIV.pagamento H4.fc {
+	PADDING-BOTTOM: 0px !important; PADDING-LEFT: 0px !important; PADDING-RIGHT: 0px !important; BACKGROUND: url(../img/sprite.png) #fff no-repeat -400px -988px; CLEAR: both; BORDER-TOP: #c7e2fc 1px solid; PADDING-TOP: 0px !important
+}
+DIV.pagamento H4.gpaCard {
+	PADDING-BOTTOM: 0px !important; PADDING-LEFT: 0px !important; PADDING-RIGHT: 0px !important; BACKGROUND: url(../img/sprite.png) #fff no-repeat -400px -988px; CLEAR: both; BORDER-TOP: #c7e2fc 1px solid; PADDING-TOP: 0px !important
+}
+DIV.pagamento H4.mc A {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 30px; PADDING-LEFT: 48px; PADDING-RIGHT: 0px; DISPLAY: block; COLOR: #333; FONT-SIZE: 1em; FONT-WEIGHT: 900; PADDING-TOP: 0px
+}
+DIV.pagamento H4.cc A {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 30px; PADDING-LEFT: 48px; PADDING-RIGHT: 0px; DISPLAY: block; COLOR: #333; FONT-SIZE: 1em; FONT-WEIGHT: 900; PADDING-TOP: 0px
+}
+DIV.pagamento H4.db A {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 30px; PADDING-LEFT: 48px; PADDING-RIGHT: 0px; DISPLAY: block; COLOR: #333; FONT-SIZE: 1em; FONT-WEIGHT: 900; PADDING-TOP: 0px
+}
+DIV.pagamento H4.bl A {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 30px; PADDING-LEFT: 48px; PADDING-RIGHT: 0px; DISPLAY: block; COLOR: #333; FONT-SIZE: 1em; FONT-WEIGHT: 900; PADDING-TOP: 0px
+}
+DIV.pagamento H4.tl A {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 30px; PADDING-LEFT: 48px; PADDING-RIGHT: 0px; DISPLAY: block; COLOR: #333; FONT-SIZE: 1em; FONT-WEIGHT: 900; PADDING-TOP: 0px
+}
+DIV.pagamento H4.fc A {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 30px; PADDING-LEFT: 48px; PADDING-RIGHT: 0px; DISPLAY: block; COLOR: #333; FONT-SIZE: 1em; FONT-WEIGHT: 900; PADDING-TOP: 0px
+}
+DIV.pagamento H4.gpaCard A {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 30px; PADDING-LEFT: 48px; PADDING-RIGHT: 0px; DISPLAY: block; COLOR: #333; FONT-SIZE: 1em; FONT-WEIGHT: 900; PADDING-TOP: 0px
+}
+P.info {
+	PADDING-BOTTOM: 10px !important; MARGIN: 0px; MIN-HEIGHT: 0px !important; PADDING-LEFT: 10px !important; PADDING-RIGHT: 10px !important; PADDING-TOP: 10px !important
+}
+DIV.info P {
+	PADDING-BOTTOM: 10px !important; MARGIN: 0px; MIN-HEIGHT: 0px !important; PADDING-LEFT: 10px !important; PADDING-RIGHT: 10px !important; PADDING-TOP: 10px !important
+}
+.pagamento .info {
+	PADDING-BOTTOM: 0px !important; MARGIN: 0px 0px 5px; PADDING-LEFT: 0px !important; PADDING-RIGHT: 0px !important; PADDING-TOP: 0px !important
+}
+FIELDSET.cend .info {
+	PADDING-LEFT: 0px !important
+}
+DIV.pagamento H4.bl {
+	BACKGROUND-POSITION: -400px -1049px
+}
+DIV.pagamento H4.db {
+	BACKGROUND-POSITION: -400px -1081px
+}
+DIV.pagamento H4.fc {
+	BACKGROUND-POSITION: -400px -1112px
+}
+DIV.pagamento H4.gpaCard {
+	BACKGROUND-POSITION: -400px -1019px
+}
+DIV.pagamento H4.mc {
+	BACKGROUND-POSITION: -400px -2049px
+}
+.pagamento .consulta .bt {
+	LINE-HEIGHT: 50px; MARGIN-TOP: 10px; TEXT-INDENT: -999em; WIDTH: 105px; DISPLAY: block; BACKGROUND: url(../img/allImages.png) no-repeat 0px -908px; HEIGHT: 24px
+}
+.p3 .load .wrapper {
+	LEFT: 25%
+}
+.garantiaCheckout {
+	PADDING-LEFT: 40px; BACKGROUND: url(../img/sprite.png) no-repeat -406px -1450px; HEIGHT: 35px
+}
+TD.produto .garantia {
+	PADDING-LEFT: 40px; BACKGROUND: url(../img/sprite.png) no-repeat -406px -1450px; HEIGHT: 35px
+}
+.ficha TD.produto .garantia {
+	MARGIN-LEFT: 72px
+}
+TD.produto .garantia {
+	LINE-HEIGHT: 35px
+}
+.garantiaCheckout STRONG {
+	
+}
+.garantiaCheckout SPAN {
+	COLOR: #f40000
+}
+.garantiaCheckoutLink {
+	DISPLAY: inline; FONT-WEIGHT: bold
+}
+BODY.login .half {
+	BORDER-BOTTOM: #c7e2fc 1px solid; POSITION: relative; BORDER-LEFT: #c7e2fc 1px solid; MARGIN: 0px 15px 20px 0px; WIDTH: 49%; BACKGROUND: #f9fbfe; FLOAT: left; BORDER-TOP: #c7e2fc 1px solid; BORDER-RIGHT: #c7e2fc 1px solid
+}
+BODY.login .areaCadastro {
+	MARGIN-RIGHT: 0px
+}
+BODY.login .conteudo .login {
+	MARGIN: 10px 50px 28px
+}
+BODY.login .identificacao {
+	MARGIN: 10px 50px 28px
+}
+BODY.login .conteudo .login {
+	TEXT-ALIGN: center
+}
+BODY.login .conteudo .login TABLE {
+	TEXT-ALIGN: left; MARGIN: 0px auto; WIDTH: 400px
+}
+BODY.login .areaCadastro .identificacao {
+	MARGIN: 10px 30px 28px 80px
+}
+.continuar .bt {
+	LINE-HEIGHT: 50px; MARGIN-TOP: 20px; WIDTH: 119px; DISPLAY: block; BACKGROUND: url(../img/allImages.png) no-repeat -300px -196px; HEIGHT: 27px
+}
+.efetuarLogin .bt {
+	LINE-HEIGHT: 50px; MARGIN-TOP: 20px; WIDTH: 119px; DISPLAY: block; BACKGROUND: url(../img/allImages.png) no-repeat -300px -196px; HEIGHT: 27px
+}
+.checkoutPassos .continuar .bt {
+	FLOAT: right; MARGIN-RIGHT: 10px
+}
+.checkoutPassos .p1 .continuar .bt {
+	MARGIN: 0px 0px 0px 33%; FLOAT: none
+}
+BODY.login .bts {
+	MARGIN-TOP: 20px
+}
+BODY.login .areaCadastro .bts {
+	MARGIN: 20px 20px 20px 80px
+}
+.login .conteudo LI {
+	MARGIN: 7px 0px; DISPLAY: block; FONT-SIZE: 12px
+}
+.areaLogin P {
+	MARGIN: 7px 0px; DISPLAY: block; FONT-SIZE: 12px
+}
+SPAN.fCheck {
+	MARGIN: 7px 0px; DISPLAY: block; FONT-SIZE: 12px
+}
+.identificacao P {
+	MARGIN: 7px 0px; DISPLAY: block; FONT-SIZE: 12px
+}
+.credit-card-info P {
+	MARGIN: 7px 0px; DISPLAY: block; FONT-SIZE: 12px
+}
+.areaLogin .ind {
+	MARGIN-LEFT: 10px
+}
+.areaCadastro .ind {
+	DISPLAY: block; MARGIN-LEFT: 33%
+}
+.areaLogin .emailRecuperar {
+	MARGIN-LEFT: 280px
+}
+.login LABEL {
+	WIDTH: 32%; PADDING-RIGHT: 5px; DISPLAY: block; FLOAT: left
+}
+.credit-card-info LABEL {
+	WIDTH: 32%; PADDING-RIGHT: 5px; DISPLAY: block; FLOAT: left
+}
+FIELDSET H5 {
+	WIDTH: 32%; PADDING-RIGHT: 5px; DISPLAY: block; FLOAT: left
+}
+.frmTipoPessoa {
+	BORDER-BOTTOM: #c7e2fc 1px solid; LINE-HEIGHT: 30px; MARGIN: 20px -20px 20px -80px; PADDING-LEFT: 80px; BACKGROUND: #fff; BORDER-TOP: #c7e2fc 1px solid
+}
+.frmTipoPessoa INPUT {
+	FLOAT: left; HEIGHT: 25px
+}
+LABEL.sexoM {
+	WIDTH: 90px !important
+}
+LABEL.sexoF {
+	WIDTH: 90px !important
+}
+LABEL.sexoM SPAN.erro {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+LABEL.sexoF SPAN.erro {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.fAvisos LABEL {
+	WIDTH: auto !important
+}
+.areaLogin LABEL {
+	FONT-WEIGHT: bold
+}
+.frmTipoPessoa SPAN {
+	FONT-WEIGHT: bold
+}
+.identificacao LEGEND {
+	PADDING-BOTTOM: 20px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; COLOR: #095ba6; FONT-SIZE: 14px; FONT-WEIGHT: bold; PADDING-TOP: 30px
+}
+.lista-endereco LEGEND {
+	PADDING-BOTTOM: 20px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; COLOR: #095ba6; FONT-SIZE: 14px; FONT-WEIGHT: bold; PADDING-TOP: 30px
+}
+.checkoutPassos .passo .box H4 {
+	PADDING-BOTTOM: 20px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; COLOR: #095ba6; FONT-SIZE: 14px; FONT-WEIGHT: bold; PADDING-TOP: 30px
+}
+.checkoutPassos .passo LEGEND {
+	PADDING-BOTTOM: 20px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; COLOR: #095ba6; FONT-SIZE: 14px; FONT-WEIGHT: bold; PADDING-TOP: 30px
+}
+.lista-endereco H4 {
+	PADDING-BOTTOM: 20px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; COLOR: #095ba6; FONT-SIZE: 14px; FONT-WEIGHT: bold; PADDING-TOP: 30px
+}
+.cob .titAddress {
+	PADDING-LEFT: 30px !important
+}
+.checkoutPassos .passo .box H4 {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; PADDING-TOP: 20px
+}
+.checkoutPassos .passo LEGEND {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; PADDING-TOP: 20px
+}
+.checkoutPassos .p3 .box H4 {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.checkoutPassos .passo .entrega H4 {
+	BORDER-TOP: #c7e2fc 1px solid
+}
+.checkoutPassos .passo .entrega LI H4 {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; PADDING-BOTTOM: 0px; LINE-HEIGHT: 22px; PADDING-LEFT: 30px; PADDING-RIGHT: 0px; DISPLAY: block; BACKGROUND: url(../img/allImages.png) no-repeat -1130px -647px; FONT-SIZE: 1.5em; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0px
+}
+.checkoutPassos .endereco .end P B {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; PADDING-BOTTOM: 0px; LINE-HEIGHT: 22px; PADDING-LEFT: 30px; PADDING-RIGHT: 0px; DISPLAY: block; BACKGROUND: url(../img/allImages.png) no-repeat -1130px -647px; FONT-SIZE: 1.5em; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0px
+}
+.titAddress B {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; PADDING-BOTTOM: 0px; LINE-HEIGHT: 22px; PADDING-LEFT: 30px; PADDING-RIGHT: 0px; DISPLAY: block; BACKGROUND: url(../img/allImages.png) no-repeat -1130px -647px; FONT-SIZE: 1.5em; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0px
+}
+.lista-endereco H4 {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; PADDING-BOTTOM: 0px; LINE-HEIGHT: 22px; PADDING-LEFT: 30px; PADDING-RIGHT: 0px; DISPLAY: block; BACKGROUND: url(../img/allImages.png) no-repeat -1130px -647px; FONT-SIZE: 1.5em; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0px
+}
+.listaEndereco H4 {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; PADDING-BOTTOM: 0px; LINE-HEIGHT: 22px; PADDING-LEFT: 30px; PADDING-RIGHT: 0px; DISPLAY: block; BACKGROUND: url(../img/allImages.png) no-repeat -1130px -647px; FONT-SIZE: 1.5em; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0px
+}
+.checkoutPassos .passo .entrega LI P {
+	LINE-HEIGHT: 16px; PADDING-LEFT: 30px; FONT-SIZE: 1.1em
+}
+.checkoutPassos .endereco .end P {
+	LINE-HEIGHT: 16px; PADDING-LEFT: 30px; FONT-SIZE: 1.1em
+}
+.lista-endereco P {
+	LINE-HEIGHT: 16px; PADDING-LEFT: 30px; FONT-SIZE: 1.1em
+}
+.listaEndereco P {
+	LINE-HEIGHT: 16px; PADDING-LEFT: 30px; FONT-SIZE: 1.1em
+}
+.lista-endereco P {
+	PADDING-BOTTOM: 10px
+}
+.listaEndereco P {
+	PADDING-BOTTOM: 10px
+}
+.checkoutPassos .endereco .end P SPAN {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 32px; PADDING-RIGHT: 0px; DISPLAY: block; PADDING-TOP: 10px
+}
+.frmPessoaFisica LEGEND {
+	PADDING-TOP: 0px
+}
+.identificacao .fSexo {
+	PADDING-BOTTOM: 21px
+}
+.problemas STRONG {
+	MARGIN: 5px 0px 3px; COLOR: #f40000; FONT-WEIGHT: 900
+}
+.embalar {
+	MARGIN: 5px 0px 0px; WIDTH: auto; COLOR: #666; FONT-SIZE: 0.9em
+}
+.embalar LEGEND {
+	DISPLAY: none
+}
+A.sem-embalagem {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 23px; PADDING-RIGHT: 0px; DISPLAY: block; BACKGROUND: url(../img/allImages.png) no-repeat -1580px -301px; PADDING-TOP: 0px
+}
+A.com-embalagem {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 23px; PADDING-RIGHT: 0px; DISPLAY: block; BACKGROUND: url(../img/allImages.png) no-repeat -1580px -301px; PADDING-TOP: 0px
+}
+.embalar P {
+	BACKGROUND: none transparent scroll repeat 0% 0%; MARGIN-LEFT: 25px; FONT-SIZE: 1em
+}
+.embalar SPAN.ind {
+	BACKGROUND: none transparent scroll repeat 0% 0%; MARGIN-LEFT: 25px; FONT-SIZE: 1em
+}
+.embalar .depara LABEL {
+	LINE-HEIGHT: 20px; WIDTH: 60px; MARGIN-BOTTOM: 5px; FLOAT: left
+}
+.embalar .msg LABEL {
+	LINE-HEIGHT: 20px; WIDTH: 60px; MARGIN-BOTTOM: 5px; FLOAT: left
+}
+.embalar .depara INPUT {
+	DISPLAY: block; MARGIN-BOTTOM: 5px; CLEAR: right
+}
+.embalar .msg TEXTAREA {
+	
+}
+.embalar .salvar .bt {
+	TEXT-INDENT: -999em; WIDTH: 34px; DISPLAY: block; BACKGROUND: url(../img/allImages.png) no-repeat 0px -65px; HEIGHT: 24px
+}
+.passo .radioCartao LABEL {
+	TEXT-ALIGN: center; WIDTH: 26px
+}
+.passo FIELDSET P {
+	
+}
+.passo FIELDSET DIV {
+	
+}
+.passo .titular INPUT {
+	WIDTH: 62%
+}
+.passo .cSeguranca INPUT {
+	WIDTH: 34px; FLOAT: left
+}
+.passo .radioCartao LABEL IMG {
+	MARGIN: 5px 0px 0px
+}
+.passo .radioCartao LABEL INPUT {
+	MARGIN: 5px 0px 0px
+}
+.passo .radioCartao LABEL INPUT {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; MARGIN: 2px 0px 0px 12px; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+}
+.passo .radioCartao STRONG {
+	DISPLAY: none
+}
+.passo .cSeguranca .cartaoIlegivel {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; WIDTH: 110px; PADDING-RIGHT: 0px; DISPLAY: block; FLOAT: left; PADDING-TOP: 4px
+}
+.passo .cSeguranca .cartaoIlegivel INPUT {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; MARGIN: 0px 2px 0px 8px; WIDTH: auto; BACKGROUND: none transparent scroll repeat 0% 0%; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+}
+.passo .cSeguranca INPUT {
+	WIDTH: 34px; FLOAT: left
+}
+.passo .oppagam LABEL {
+	TEXT-ALIGN: left
+}
+.passo .oppagam LABEL {
+	WIDTH: 100% !important
+}
+.passo .oppagam SELECT {
+	WIDTH: 100% !important
+}
+.passo .telefone SELECT {
+	WIDTH: 100% !important
+}
+.passo .boleto INPUT {
+	FLOAT: left
+}
+.passo .debito INPUT {
+	FLOAT: left
+}
+.passo .telefone INPUT {
+	FLOAT: left
+}
+.passo .financiamento INPUT {
+	FLOAT: left
+}
+.passo .radio-cartao LABEL {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; WIDTH: 251px; PADDING-RIGHT: 10px; COLOR: #000000; FONT-SIZE: 1em; PADDING-TOP: 0px
+}
+.passo .radioCartao LABEL {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; WIDTH: 251px; PADDING-RIGHT: 10px; COLOR: #000000; FONT-SIZE: 1em; PADDING-TOP: 0px
+}
+.passo .boleto LABEL {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; WIDTH: 251px; PADDING-RIGHT: 10px; COLOR: #000000; FONT-SIZE: 1em; PADDING-TOP: 0px
+}
+.passo .debito LABEL {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; WIDTH: 251px; PADDING-RIGHT: 10px; COLOR: #000000; FONT-SIZE: 1em; PADDING-TOP: 0px
+}
+.passo .telefone LABEL {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; WIDTH: 251px; PADDING-RIGHT: 10px; COLOR: #000000; FONT-SIZE: 1em; PADDING-TOP: 0px
+}
+.passo .financiamento LABEL {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; WIDTH: 251px; PADDING-RIGHT: 10px; COLOR: #000000; FONT-SIZE: 1em; PADDING-TOP: 0px
+}
+.passo .radio-cartao LABEL {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 0px !important; PADDING-LEFT: 0px !important; WIDTH: 100px; PADDING-RIGHT: 0px !important; MARGIN-BOTTOM: 20px; PADDING-TOP: 0px !important
+}
+.passo .debito LABEL {
+	WIDTH: 90%; FLOAT: none
+}
+.passo .boleto INPUT {
+	TEXT-INDENT: -999em; FLOAT: left
+}
+.passo .debito INPUT {
+	TEXT-INDENT: -999em; FLOAT: left
+}
+.passo .telefone INPUT {
+	TEXT-INDENT: -999em; FLOAT: left
+}
+.passo .financiamentoChkt INPUT {
+	TEXT-INDENT: -999em; FLOAT: left
+}
+DIV.pagamento .boleto P STRONG {
+	COLOR: #f40000; FONT-SIZE: 1.2em; FONT-WEIGHT: 900
+}
+DIV.pagamento .debito P STRONG {
+	COLOR: #f40000; FONT-SIZE: 1.2em; FONT-WEIGHT: 900
+}
+DIV.pagamento .telefone P STRONG {
+	COLOR: #f40000; FONT-SIZE: 1.2em; FONT-WEIGHT: 900
+}
+DIV.pagamento .financiamentoChkt P STRONG {
+	COLOR: #f40000; FONT-SIZE: 1.2em; FONT-WEIGHT: 900
+}
+.opc-debito INPUT {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; BACKGROUND: none transparent scroll repeat 0% 0%; FLOAT: left; CLEAR: left; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+}
+.opc-boleto INPUT {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; BACKGROUND: none transparent scroll repeat 0% 0%; FLOAT: left; CLEAR: left; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+}
+.financiamento INPUT {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; BACKGROUND: none transparent scroll repeat 0% 0%; FLOAT: left; CLEAR: left; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+}
+#ctl00_Conteudo_ctrlFormaPagamento_DadosFormaPagamamentoCartoesGPA .cSeguranca .cartaoIlegivel {
+	TEXT-ALIGN: left; MARGIN: 0px 0px 0px 33%; FLOAT: none; CLEAR: both
+}
+#ctl00_Conteudo_ctrlFormaPagamento_divFormaPagamentoCartoesGPA .radio-cartao LABEL {
+	WIDTH: 232px !important
+}
+#ctl00_Conteudo_divFormaPagamentoCartoesGPA .radioCartao LABEL {
+	WIDTH: 210px
+}
+#ctl00_Conteudo_ctrlFormaPagamento_divFormaPagamentoCartoesGPA .radioCartao LABEL IMG {
+	WIDTH: 210px; HEIGHT: 48px
+}
+#ctl00_Conteudo_divFormaPagamentoCartoesGPA .radioCartao LABEL IMG {
+	WIDTH: 210px; HEIGHT: 48px
+}
+.finaliza {
+	BORDER-BOTTOM: #c7e2fc 1px solid; BORDER-LEFT: #c7e2fc 1px solid; PADDING-BOTTOM: 20px; MARGIN: 15px auto; PADDING-LEFT: 60px; WIDTH: 840px; PADDING-RIGHT: 60px; BACKGROUND: #f9fbfe; BORDER-TOP: #c7e2fc 1px solid; BORDER-RIGHT: #c7e2fc 1px solid; PADDING-TOP: 20px
+}
+.finaliza .npedido {
+	BORDER-BOTTOM: #c7e2fc 1px solid; TEXT-ALIGN: center; BORDER-LEFT: #c7e2fc 1px solid; PADDING-BOTTOM: 30px; TEXT-TRANSFORM: uppercase; PADDING-LEFT: 0px; WIDTH: 398px; PADDING-RIGHT: 0px; BACKGROUND: url(../img/sprite.png) #fff no-repeat -218px -1521px; FLOAT: left; MARGIN-LEFT: 11px; FONT-SIZE: 1.1em; BORDER-TOP: #c7e2fc 1px solid; BORDER-RIGHT: #c7e2fc 1px solid; PADDING-TOP: 90px
+}
+.finaliza .npedido STRONG {
+	COLOR: #e10a16; FONT-SIZE: 2.3em
+}
+.finaliza .obs {
+	WIDTH: 406px; FLOAT: left; HEIGHT: 205px; MARGIN-LEFT: 13px; FONT-SIZE: 1.2em
+}
+.finaliza .obs H4 {
+	PADDING-BOTTOM: 0px; FONT-WEIGHT: 900
+}
+.finaliza .obs H4 {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 6px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.finaliza .obs P {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 6px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.finaliza .table {
+	CLEAR: both
+}
+.finaliza .table .wp {
+	MARGIN-BOTTOM: 38px
+}
+.finaliza .table * {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.finaliza .info TABLE {
+	BORDER-BOTTOM: #c7e2fc 1px solid; BORDER-LEFT: #c7e2fc 1px solid; BORDER-TOP: #c7e2fc 1px solid; BORDER-RIGHT: #c7e2fc 1px solid
+}
+.finaliza .voltarLoja .bt {
+	MARGIN-TOP: 38px
+}
+.finaliza .table TABLE TD.c {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-LEFT: 12px; PADDING-RIGHT: 0px; VERTICAL-ALIGN: top; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+.finaliza .info TH {
+	PADDING-BOTTOM: 6px; LINE-HEIGHT: 1.1em; PADDING-LEFT: 11px; PADDING-RIGHT: 11px; PADDING-TOP: 6px
+}
+.finaliza .info TD {
+	PADDING-BOTTOM: 6px; LINE-HEIGHT: 1.1em; PADDING-LEFT: 11px; PADDING-RIGHT: 11px; PADDING-TOP: 6px
+}
+.finaliza .produtos TH {
+	PADDING-BOTTOM: 6px; LINE-HEIGHT: 1.1em; PADDING-LEFT: 11px; PADDING-RIGHT: 11px; PADDING-TOP: 6px
+}
+.finaliza .produtos TD {
+	PADDING-BOTTOM: 6px; LINE-HEIGHT: 1.1em; PADDING-LEFT: 11px; PADDING-RIGHT: 11px; PADDING-TOP: 6px
+}
+.finaliza .table TABLE TABLE {
+	WIDTH: 398px
+}
+.finaliza .table TABLE TBODY TH {
+	COLOR: #333; FONT-WEIGHT: 900
+}
+.finaliza .table TABLE THEAD TH {
+	TEXT-ALIGN: center; LINE-HEIGHT: 30px; BACKGROUND: #e6f1fb; COLOR: #095ba6; FONT-SIZE: 1.2em; FONT-WEIGHT: 900
+}
+.finaliza .smiles H4 {
+	TEXT-ALIGN: center; LINE-HEIGHT: 30px; BACKGROUND: #e6f1fb; COLOR: #095ba6; FONT-SIZE: 1.2em; FONT-WEIGHT: 900
+}
+.finaliza .tam H4 {
+	TEXT-ALIGN: center; LINE-HEIGHT: 30px; BACKGROUND: #e6f1fb; COLOR: #095ba6; FONT-SIZE: 1.2em; FONT-WEIGHT: 900
+}
+.finaliza .info TH {
+	PADDING-BOTTOM: 6px; LINE-HEIGHT: 1.1em; PADDING-LEFT: 11px; PADDING-RIGHT: 11px; PADDING-TOP: 6px
+}
+.finaliza .info TD {
+	PADDING-BOTTOM: 6px; LINE-HEIGHT: 1.1em; PADDING-LEFT: 11px; PADDING-RIGHT: 11px; PADDING-TOP: 6px
+}
+.finaliza .produtos TH {
+	PADDING-BOTTOM: 6px; LINE-HEIGHT: 1.1em; PADDING-LEFT: 11px; PADDING-RIGHT: 11px; PADDING-TOP: 6px
+}
+.finaliza .produtos TD {
+	PADDING-BOTTOM: 6px; LINE-HEIGHT: 1.1em; PADDING-LEFT: 11px; PADDING-RIGHT: 11px; PADDING-TOP: 6px
+}
+.finaliza .table TABLE TD.c {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-LEFT: 12px; PADDING-RIGHT: 0px; VERTICAL-ALIGN: top; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+.finaliza .cpf A {
+	TEXT-INDENT: -999px; MARGIN: 0px auto; WIDTH: 820px; DISPLAY: block; BACKGROUND: url(../img/bn_cartao.jpg) no-repeat 0px 0px; HEIGHT: 46px
+}
+.finaliza .voltar-loja {
+	PADDING-LEFT: 9px
+}
+.finaliza .voltar-loja {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 45px; PADDING-RIGHT: 40px; FLOAT: left; CLEAR: both; PADDING-TOP: 28px
+}
+.finaliza .table TABLE TABLE TBODY .status TD {
+	COLOR: #007856; FONT-WEIGHT: 900
+}
+.txt_destaque_m {
+	COLOR: #e10915; FONT-SIZE: 10pt; FONT-WEIGHT: normal
+}
+.txt_destaque_p {
+	COLOR: #e10915; FONT-SIZE: 8pt; FONT-WEIGHT: normal
+}
+.carrinho .boxServ .text A {
+	MARGIN: 3px 10px 2px 0px; PADDING-LEFT: 9px; DISPLAY: inline; BACKGROUND: url(../img/smallIco.png) no-repeat 0px 3px; FLOAT: left; COLOR: #095ba6; TEXT-DECORATION: underline
+}
+.carrinho .garantiaEstendida A {
+	DISPLAY: block; CURSOR: pointer
+}
+.carrinho .garantiaEstendida STRONG {
+	DISPLAY: block; CURSOR: pointer
+}
+.carrinho .garantiaEstendida SPAN {
+	DISPLAY: block; CURSOR: pointer
+}
+.carrinho .boxServ .comprar I.bt {
+	DISPLAY: block; CURSOR: pointer
+}
+.carrinho .garantiaEstendida .ind A {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.carrinho .boxServ .tit {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.carrinho .superGarantia {
+	MARGIN-BOTTOM: 20px
+}
+.carrinho P.assista {
+	MARGIN: 0px auto
+}
+.carrinhoVazio {
+	BORDER-BOTTOM: #c7e2fc 1px solid; TEXT-ALIGN: center; BORDER-LEFT: #c7e2fc 1px solid; PADDING-BOTTOM: 45px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: #c7e2fc 1px solid; BORDER-RIGHT: #c7e2fc 1px solid; PADDING-TOP: 45px
+}
+.carrinhoVazio .wp {
+	TEXT-ALIGN: left; MARGIN: 0px auto; PADDING-LEFT: 230px; WIDTH: 720px; BACKGROUND: url(../img/carrinhoVazio.jpg) no-repeat
+}
+.voltarLoja .bt {
+	PADDING-BOTTOM: 0px; TEXT-INDENT: -999em; PADDING-LEFT: 0px; WIDTH: 168px; PADDING-RIGHT: 0px; DISPLAY: block; BACKGROUND: url(../img/allImages.png) no-repeat -300px -654px; HEIGHT: 27px; PADDING-TOP: 0px
+}
+.carrinhoVazio H3 {
+	MARGIN-BOTTOM: 10px; FONT-SIZE: 1.8em; FONT-WEIGHT: bold
+}
+.carrinhoVazio P {
+	LINE-HEIGHT: 24px; MARGIN-BOTTOM: 25px; FONT-SIZE: 1.2em
+}
+.carrinho TBODY TD {
+	BORDER-BOTTOM: #ebebeb 1px solid; PADDING-BOTTOM: 5px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: #f5f5f5; FLOAT: none !important; VERTICAL-ALIGN: middle; PADDING-TOP: 5px
+}
+.wrapperCarrinhoResumo {
+	BORDER-BOTTOM: #c7e2fc 1px solid; POSITION: relative; BORDER-LEFT: #c7e2fc 1px solid; PADDING-BOTTOM: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; MARGIN-BOTTOM: 20px; BACKGROUND: #f1f6fc; BORDER-TOP: #c7e2fc 1px solid; BORDER-RIGHT: #c7e2fc 1px solid; PADDING-TOP: 10px
+}
+.carrinhoResumo TBODY TD {
+	BORDER-BOTTOM: #c7e2fc 1px solid; BORDER-LEFT: #c7e2fc 1px solid; PADDING-BOTTOM: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; BACKGROUND: #fff; FONT-SIZE: 1.1em; BORDER-TOP: #c7e2fc 1px solid; BORDER-RIGHT: #c7e2fc 1px solid; PADDING-TOP: 10px
+}
+TD.prazo {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; WIDTH: 1%; PADDING-RIGHT: 10px; WHITE-SPACE: nowrap; PADDING-TOP: 0px
+}
+TH.prazo {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; WIDTH: 1%; PADDING-RIGHT: 10px; WHITE-SPACE: nowrap; PADDING-TOP: 0px
+}
+TH.quantidade {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; WIDTH: 1%; PADDING-RIGHT: 10px; WHITE-SPACE: nowrap; PADDING-TOP: 0px
+}
+TH.precoUnitario {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; WIDTH: 1%; PADDING-RIGHT: 10px; WHITE-SPACE: nowrap; PADDING-TOP: 0px
+}
+TH.precoTotal {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; WIDTH: 1%; PADDING-RIGHT: 10px; WHITE-SPACE: nowrap; PADDING-TOP: 0px
+}
+.thbrinde .quantidade {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; WIDTH: 1%; PADDING-RIGHT: 10px; WHITE-SPACE: nowrap; PADDING-TOP: 0px
+}
+.carrinho-vazio {
+	LINE-HEIGHT: 1.4em
+}
+.conteudo .carrinho-vazio H3 {
+	MARGIN-BOTTOM: 5px; COLOR: #f40000; FONT-SIZE: 1.1em; FONT-WEIGHT: bold
+}
+.voltar-loja A {
+	TEXT-INDENT: -999em; WIDTH: 176px; BACKGROUND: url(../img/allImages.png) no-repeat -301px -223px; FLOAT: left; HEIGHT: 27px
+}
+.continuar-comprando A {
+	TEXT-INDENT: -999em; WIDTH: 176px; BACKGROUND: url(../img/allImages.png) no-repeat -301px -223px; FLOAT: left; HEIGHT: 27px
+}
+.comprarMais A {
+	TEXT-INDENT: -999em; WIDTH: 176px; BACKGROUND: url(../img/allImages.png) no-repeat -301px -223px; FLOAT: left; HEIGHT: 27px
+}
+.concluirCompra A {
+	TEXT-INDENT: -999em; WIDTH: 176px; BACKGROUND: url(../img/allImages.png) no-repeat -301px -223px; FLOAT: left; HEIGHT: 27px
+}
+.finalizar-compra-last A {
+	TEXT-INDENT: -999em; WIDTH: 176px; BACKGROUND: url(../img/allImages.png) no-repeat -301px -223px; FLOAT: left; HEIGHT: 27px
+}
+.voltar-loja A {
+	BACKGROUND-IMAGE: url(Images/bt_voltar_para_loja.gif); MARGIN: 0px 0px 35px; WIDTH: 183px; HEIGHT: 36px
+}
+.comprarMais {
+	POSITION: relative; MARGIN-TOP: 33px; FLOAT: left
+}
+.concluirCompra {
+	MARGIN: 23px 0px; OVERFLOW: hidden
+}
+.concluirCompra A {
+	POSITION: relative
+}
+.concluirCompra A {
+	WIDTH: 223px; BACKGROUND-POSITION: -300px -151px; FLOAT: right; HEIGHT: 45px
+}
+.finalizar-compra-last A {
+	WIDTH: 223px; BACKGROUND-POSITION: -300px -151px; FLOAT: right; HEIGHT: 45px
+}
+.desconto {
+	BORDER-BOTTOM: #ef7d83 1px dashed; TEXT-ALIGN: center; BORDER-LEFT: #ef7d83 1px dashed; PADDING-BOTTOM: 10px !important; MARGIN: 5px 0px; PADDING-LEFT: 0px !important; WIDTH: 99.8%; PADDING-RIGHT: 0px !important; BACKGROUND: #ffd7d7; FLOAT: left; COLOR: #f40000; BORDER-TOP: #ef7d83 1px dashed; BORDER-RIGHT: #ef7d83 1px dashed; PADDING-TOP: 10px !important
+}
+.desconto * {
+	FONT-WEIGHT: 900
+}
+.carrinho TABLE {
+	BORDER-BOTTOM: #c7e2fc 1px solid; BORDER-LEFT: #c7e2fc 1px solid; WIDTH: 100%; CLEAR: both; FONT-SIZE: 1.1em; BORDER-TOP: #c7e2fc 1px solid; BORDER-RIGHT: #c7e2fc 1px solid; _width: 99.8%
+}
+TH {
+	PADDING-BOTTOM: 4px; LINE-HEIGHT: 18px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; BACKGROUND: #e6f1fb; COLOR: #333; FONT-WEIGHT: 900; PADDING-TOP: 4px
+}
+TH.produto {
+	TEXT-ALIGN: left
+}
+.carrinho TBODY TH {
+	BORDER-BOTTOM: #c7e2fc 1px solid; BORDER-LEFT: #c7e2fc 1px solid; PADDING-BOTTOM: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; BORDER-TOP: #c7e2fc 1px solid; BORDER-RIGHT: #c7e2fc 1px solid; PADDING-TOP: 10px
+}
+.carrinho TBODY TD {
+	BORDER-BOTTOM: #c7e2fc 1px solid; BORDER-LEFT: #c7e2fc 1px solid; PADDING-BOTTOM: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; BORDER-TOP: #c7e2fc 1px solid; BORDER-RIGHT: #c7e2fc 1px solid; PADDING-TOP: 10px
+}
+.carrinho .thbrinde TH {
+	BORDER-TOP: 0px
+}
+.carrinho .margemTlv {
+	WIDTH: 1px
+}
+.carrinho .margemTlv SPAN {
+	WHITE-SPACE: nowrap
+}
+.carrinho .thbrinde TH {
+	PADDING-BOTTOM: 4px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; PADDING-TOP: 4px
+}
+.carrinho TABLE TBODY TD IMG {
+	BORDER-BOTTOM: #c7e2fc 1px solid; BORDER-LEFT: #c7e2fc 1px solid; FLOAT: left; BORDER-TOP: #c7e2fc 1px solid; MARGIN-RIGHT: 5px; BORDER-RIGHT: #c7e2fc 1px solid
+}
+.excluir {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; WHITE-SPACE: nowrap; PADDING-TOP: 0px
+}
+.quantidade {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; WHITE-SPACE: nowrap; PADDING-TOP: 0px
+}
+.precoUnitario {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; WHITE-SPACE: nowrap; PADDING-TOP: 0px
+}
+.precoTotal {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; WHITE-SPACE: nowrap; PADDING-TOP: 0px
+}
+TD.precoUnitario {
+	FONT-SIZE: 12px
+}
+TD.precoTotal {
+	FONT-SIZE: 12px
+}
+TD.valePresente {
+	FONT-SIZE: 12px
+}
+TR.frete TD {
+	FONT-SIZE: 12px
+}
+TBODY .precoTotal {
+	COLOR: #c3141c
+}
+TR.valorParcelado TD {
+	COLOR: #c3141c
+}
+TD.precoUnitario SPAN {
+	FONT-WEIGHT: 900
+}
+.precoTotal {
+	FONT-WEIGHT: 900
+}
+TFOOT TD.precoUnitario {
+	TEXT-ALIGN: right
+}
+TFOOT TD.precoTotal {
+	TEXT-ALIGN: left; PADDING-LEFT: 10px
+}
+TD.prazo {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; WIDTH: 1%; PADDING-RIGHT: 10px; WHITE-SPACE: nowrap; PADDING-TOP: 0px
+}
+TH.prazo {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; WIDTH: 1%; PADDING-RIGHT: 10px; WHITE-SPACE: nowrap; PADDING-TOP: 0px
+}
+TH.quantidade {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; WIDTH: 1%; PADDING-RIGHT: 10px; WHITE-SPACE: nowrap; PADDING-TOP: 0px
+}
+TH.precoUnitario {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; WIDTH: 1%; PADDING-RIGHT: 10px; WHITE-SPACE: nowrap; PADDING-TOP: 0px
+}
+TH.precoTotal {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; WIDTH: 1%; PADDING-RIGHT: 10px; WHITE-SPACE: nowrap; PADDING-TOP: 0px
+}
+TH.brinde .quantidade {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; WIDTH: 1%; PADDING-RIGHT: 10px; WHITE-SPACE: nowrap; PADDING-TOP: 0px
+}
+TD.prazo FIELDSET {
+	FONT-WEIGHT: 900
+}
+.corpo-comparacao TD.prazo {
+	WIDTH: auto
+}
+.quantidade INPUT {
+	BORDER-BOTTOM: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid; FLOAT: left; BORDER-TOP: #cccccc 1px solid; BORDER-RIGHT: #cccccc 1px solid
+}
+.qtd INPUT {
+	BORDER-BOTTOM: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid; FLOAT: left; BORDER-TOP: #cccccc 1px solid; BORDER-RIGHT: #cccccc 1px solid
+}
+.controleQuantidade {
+	WIDTH: 11px; FLOAT: left; MARGIN-LEFT: 3px
+}
+.adicionarItem A {
+	MARGIN-TOP: 3px; TEXT-INDENT: -999em; WIDTH: 11px; DISPLAY: block; BACKGROUND: url(../img/smallIco.png) no-repeat 0px -3100px; HEIGHT: 6px; _margin-top: 0
+}
+.removeItem A {
+	MARGIN-TOP: 3px; TEXT-INDENT: -999em; WIDTH: 11px; DISPLAY: block; BACKGROUND: url(../img/smallIco.png) no-repeat 0px -3100px; HEIGHT: 6px; _margin-top: 0
+}
+.removeItem A {
+	BACKGROUND-POSITION: 0px -3113px
+}
+.excluir {
+	WIDTH: 30px
+}
+.excluir A {
+	TEXT-INDENT: -999em; WIDTH: 20px; DISPLAY: block; BACKGROUND: url(../img/allImages.png) no-repeat -1200px 0px; HEIGHT: 20px
+}
+.excluir INPUT {
+	TEXT-INDENT: -999em; WIDTH: 20px; DISPLAY: block; BACKGROUND: url(../img/allImages.png) no-repeat -1200px 0px; HEIGHT: 20px
+}
+.carrinho TD.excluir {
+	TEXT-ALIGN: center
+}
+.carrinho TD.excluir A {
+	MARGIN: 0px auto
+}
+.lista-endereco SPAN.excluir {
+	WIDTH: auto; MARGIN-LEFT: 20px
+}
+.listaEndereco SPAN.excluir {
+	WIDTH: auto; MARGIN-LEFT: 20px
+}
+.lista-endereco SPAN.excluir A {
+	TEXT-INDENT: 0px; WIDTH: auto; DISPLAY: inline; BACKGROUND: none transparent scroll repeat 0% 0%; HEIGHT: auto
+}
+.listaEndereco SPAN.excluir A {
+	TEXT-INDENT: 0px; WIDTH: auto; DISPLAY: inline; BACKGROUND: none transparent scroll repeat 0% 0%; HEIGHT: auto
+}
+TFOOT TD {
+	BORDER-BOTTOM: #c7e2fc 1px solid; PADDING-BOTTOM: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; VERTICAL-ALIGN: middle; FONT-WEIGHT: bold; PADDING-TOP: 10px
+}
+#ctl00_Conteudo_UpdatePagamentos TFOOT TD {
+	WIDTH: 50%
+}
+TFOOT .th {
+	TEXT-ALIGN: right
+}
+TFOOT .precoTotal {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 10px; PADDING-TOP: 10px
+}
+TFOOT .precoUnitario {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 10px; PADDING-TOP: 10px
+}
+TR.cupom TD {
+	BACKGROUND: #e6f1fb
+}
+TR.total TD {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; WHITE-SPACE: nowrap; BACKGROUND: #e6f1fb; FONT-SIZE: 16px; BORDER-TOP: medium none; BORDER-RIGHT: medium none
+}
+TR.valorParcelado TD {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; WHITE-SPACE: nowrap; BACKGROUND: #e6f1fb; FONT-SIZE: 16px; BORDER-TOP: medium none; BORDER-RIGHT: medium none
+}
+TR.total TD {
+	PADDING-BOTTOM: 5px
+}
+TR.valorParcelado TD {
+	PADDING-TOP: 5px
+}
+TR.valorParcelado TD {
+	TEXT-ALIGN: right
+}
+FIELDSET.valePresente {
+	TEXT-ALIGN: left; COLOR: #000
+}
+FIELDSET.cep {
+	TEXT-ALIGN: left; COLOR: #000
+}
+FIELDSET.valePresente LABEL {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 7px; DISPLAY: block; FLOAT: left; PADDING-TOP: 0px
+}
+FIELDSET.cep LABEL {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 7px; DISPLAY: block; FLOAT: left; PADDING-TOP: 0px
+}
+FIELDSET.cep STRONG {
+	FONT-WEIGHT: normal
+}
+FIELDSET.valePresente STRONG {
+	FONT-WEIGHT: normal
+}
+FIELDSET.cep LABEL SPAN {
+	TEXT-ALIGN: right; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; WIDTH: 13em; PADDING-RIGHT: 7px; DISPLAY: block; FLOAT: left; PADDING-TOP: 0px
+}
+FIELDSET.valePresente LABEL SPAN {
+	TEXT-ALIGN: right; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; WIDTH: 13em; PADDING-RIGHT: 7px; DISPLAY: block; FLOAT: left; PADDING-TOP: 0px
+}
+FIELDSET.cep LABEL SPAN {
+	PADDING-TOP: 4px
+}
+FIELDSET.valePresente INPUT {
+	MARGIN-TOP: 3px
+}
+.nao-sei-cep {
+	FONT-SIZE: 11px
+}
+P.cep {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+TD.cep P.cep {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 2px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+INPUT.prefixo {
+	WIDTH: 43px !important
+}
+.prefixo INPUT {
+	WIDTH: 43px !important
+}
+INPUT.sufixo {
+	WIDTH: 26px !important
+}
+.sufixo INPUT {
+	WIDTH: 26px !important
+}
+INPUT.ddd {
+	WIDTH: 26px !important
+}
+.ddd INPUT {
+	WIDTH: 26px !important
+}
+INPUT.fone {
+	WIDTH: 55px !important
+}
+.fone INPUT {
+	WIDTH: 55px !important
+}
+.carrinho #ctl00_Conteudo_pnlCarrinho {
+	POSITION: relative; MIN-WIDTH: 990px; MARGIN-BOTTOM: 20px
+}
+.carrinho .fichaGarantia#ctl00_Conteudo_pnlCarrinho {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 276px; PADDING-TOP: 0px
+}
+.carrinho .ficha {
+	BORDER-BOTTOM: #c7e2fc 1px solid; POSITION: relative; BORDER-LEFT: #c7e2fc 1px solid; PADDING-BOTTOM: 0px; PADDING-LEFT: 19px; PADDING-RIGHT: 19px; BACKGROUND: url(../img/box-bg-top.jpg) #f9fbfe repeat-x; BORDER-TOP: #c7e2fc 1px solid; BORDER-RIGHT: #c7e2fc 1px solid; PADDING-TOP: 0px
+}
+.carrinho .boxServ {
+	BORDER-BOTTOM: #c7e2fc 1px solid; POSITION: absolute; BORDER-LEFT: #c7e2fc 1px solid; PADDING-BOTTOM: 7px; BACKGROUND-COLOR: #f9fbfe; PADDING-LEFT: 7px; WIDTH: 228px; PADDING-RIGHT: 7px; BORDER-TOP: #c7e2fc 1px solid; TOP: 0px; RIGHT: 0px; BORDER-RIGHT: #c7e2fc 1px solid; PADDING-TOP: 0px
+}
+.carrinho .boxServ H3 {
+	MARGIN: -1px -8px 10px
+}
+.carrinho .boxServ H4 {
+	COLOR: #c00; FONT-WEIGHT: 900
+}
+.carrinho .boxServ H5 {
+	COLOR: #c00; FONT-WEIGHT: 900
+}
+.carrinho .boxServ H4 {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 0px; BACKGROUND: url(Images/tt_muitomais.gif) no-repeat left bottom; HEIGHT: 20px; PADDING-TOP: 6px
+}
+.carrinho .boxServ .garantia {
+	
+}
+.carrinho .boxServ .garantia .text {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 8px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.carrinho .boxServ .garantia .text P {
+	FONT-SIZE: 0.9em
+}
+.carrinho .boxServ .garantia .text P A {
+	COLOR: #c00; TEXT-DECORATION: underline
+}
+.carrinho .boxServ .garantia LI {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 10px
+}
+.carrinho .boxServ .garantia LI A SPAN {
+	LINE-HEIGHT: 20px; COLOR: #e10915 !important; FONT-WEIGHT: bold
+}
+.carrinho .boxServ .garantia LI A:hover SPAN {
+	COLOR: #e10915 !important; TEXT-DECORATION: underline
+}
+.carrinho .boxServ .garantia LI A I {
+	TEXT-INDENT: -999em; MARGIN: 4px 0px; WIDTH: 168px; DISPLAY: block; BACKGROUND: url(../img/allImages.png) no-repeat -301px -250px; HEIGHT: 27px; CURSOR: hand
+}
+.carrinho .boxServ .garantia LI A B {
+	COLOR: #333 !important; FONT-WEIGHT: normal
+}
+.carrinho .boxServ .garantia LI A I {
+	COLOR: #333 !important; FONT-WEIGHT: normal
+}
+.carrinho .boxServ .garantia LI A:hover B {
+	COLOR: #333 !important; TEXT-DECORATION: underline
+}
+.carrinho .boxServ .garantia LI A:hover I {
+	COLOR: #333 !important; TEXT-DECORATION: underline
+}
+.carrinho .boxServ .assista {
+	TEXT-INDENT: -999em; WIDTH: 199px; DISPLAY: none; BACKGROUND: url(../img/allImages.png) no-repeat 0px -557px; HEIGHT: 24px
+}
+.garantia_checkout {
+	PADDING-BOTTOM: 7px; MARGIN: 3px 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: block; BACKGROUND: url(Images/garantia_checkout_bg.gif) #f5f5f5 no-repeat 70px 0px; PADDING-TOP: 7px
+}
+.garantia_checkout STRONG {
+	MARGIN: 0px 0px 0px 37px
+}
+.garantia_checkout SPAN {
+	MARGIN: 0px 0px 0px 37px; COLOR: #f40000
+}
+.garantia_checkout_link {
+	DISPLAY: inline; FONT-WEIGHT: bold
+}
+.bt_imprimir_pagina {
+	TEXT-INDENT: -999em; WIDTH: 149px; DISPLAY: block; BACKGROUND: url(Images/bt_imprimir_pagina.gif) #f5f5f5 no-repeat 0px 0px; HEIGHT: 22px
+}
+TABLE .televendas .estoque {
+	TEXT-ALIGN: center
+}
+TABLE .televendas .margem {
+	TEXT-ALIGN: center; MARGIN-BOTTOM: 6px
+}
+TABLE .televendas STRONG {
+	LINE-HEIGHT: 14px; DISPLAY: block
+}
+TABLE .televendas EM {
+	LINE-HEIGHT: 14px; DISPLAY: block
+}
+TABLE .televendas EM {
+	FONT-STYLE: normal
+}
+#tags .identificacao {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: #c7e2fc 1px solid; PADDING-BOTTOM: 30px; BACKGROUND: #f9fbfe; BORDER-TOP: #c7e2fc 1px solid; BORDER-RIGHT: #c7e2fc 1px solid
+}
+#tags .tagcloud {
+	PADDING-BOTTOM: 40px; PADDING-LEFT: 60px; PADDING-RIGHT: 60px; MARGIN-BOTTOM: 30px; BORDER-TOP: 0px; PADDING-TOP: 40px
+}
+#tags .identificacao P.info {
+	TEXT-ALIGN: center; MARGIN: 10px 0px 20px
+}
+#tags .identificacao .procurar {
+	MARGIN: 0px auto; WIDTH: 350px
+}
+#tags .identificacao .procurar .pesquisar .bt {
+	WIDTH: 77px; BACKGROUND: url(../img/allImages.png) no-repeat 0px -350px; HEIGHT: 24px
+}
+#tags .tagcloud {
+	BACKGROUND: url(../img/box-bg-top.jpg) #f9fbfe repeat-x 0px 0px
+}
+#tags .prateleira .tit {
+	BORDER-BOTTOM: 0px; PADDING-LEFT: 35px; BACKGROUND: url(../img/allImages.png) no-repeat -1474px -332px; FONT-SIZE: 1.6em
+}
+.vitrineTags .tit {
+	BORDER-BOTTOM: 0px; PADDING-LEFT: 35px; BACKGROUND: url(../img/allImages.png) no-repeat -1474px -332px; FONT-SIZE: 1.6em
+}
+#tags .prateleira .tit B {
+	FONT-WEIGHT: normal
+}
+.vitrineTags .tit B {
+	FONT-WEIGHT: normal
+}
+#tags .prateleira .hproduct {
+	WIDTH: auto
+}
+#tags .prateleira .hproduct .productImage {
+	FLOAT: left; MARGIN-RIGHT: 15px
+}
+#tags .prateleira .vitrineProdutos .first {
+	MARGIN-LEFT: -30px; CLEAR: left
+}
+#tags .prateleira .vitrineProdutos LI {
+	WIDTH: 33%
+}
+.agend H1 {
+	MARGIN: 10px auto; PADDING-LEFT: 35px; WIDTH: 960px; BACKGROUND: url(../img/allImages.png) no-repeat -1474px -332px; COLOR: #095ba6; FONT-SIZE: 1.6em; FONT-WEIGHT: normal
+}
+.agend .wp {
+	BORDER-BOTTOM: #c7e2fc 1px solid; POSITION: relative; BORDER-LEFT: #c7e2fc 1px solid; PADDING-BOTTOM: 30px; MARGIN: 10px auto; PADDING-LEFT: 10px; WIDTH: 970px; PADDING-RIGHT: 10px; BACKGROUND: #f1f6fc; BORDER-TOP: #c7e2fc 1px solid; BORDER-RIGHT: #c7e2fc 1px solid; PADDING-TOP: 40px
+}
+.agend .wp .hd {
+	POSITION: relative; TOP: -40px
+}
+.agend .wp .hd P {
+	TEXT-ALIGN: center; COLOR: #095ba6; FONT-SIZE: 1.4em; FONT-WEIGHT: bold
+}
+.agend .ct {
+	BORDER-BOTTOM: #c7e2fc 1px solid; POSITION: relative; BORDER-LEFT: #c7e2fc 1px solid; PADDING-BOTTOM: 35px; MARGIN: 0px auto; MIN-HEIGHT: 328px; PADDING-LEFT: 10px; WIDTH: 620px; PADDING-RIGHT: 30px; BACKGROUND: #fff; BORDER-TOP: #c7e2fc 1px solid; BORDER-RIGHT: #c7e2fc 1px solid; PADDING-TOP: 10px
+}
+.agend .ct .tur {
+	FLOAT: right
+}
+.agend .ct .tur .valor {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 65px; PADDING-RIGHT: 0px; BACKGROUND: url(../img/sprite.png) no-repeat -403px -604px; COLOR: #c3141c; FONT-SIZE: 1.8em; FONT-WEIGHT: bold; PADDING-TOP: 10px
+}
+.agend .voltar {
+	POSITION: absolute; BOTTOM: 5px; LEFT: 5px
+}
+.agend .voltar .bt {
+	TEXT-INDENT: -999em; WIDTH: 84px; DISPLAY: block; BACKGROUND-POSITION: -301px -432px; HEIGHT: 27px; CLEAR: left
+}
+.agend .entr {
+	MARGIN-TOP: 20px; FONT-SIZE: 1.2em
+}
+.agend .entr STRONG {
+	COLOR: #c3141c; FONT-WEIGHT: normal
+}
+.agend FIELDSET {
+	PADDING-LEFT: 30px; FLOAT: left; OVERFLOW: hidden
+}
+.agend FIELDSET INPUT {
+	MARGIN-BOTTOM: 5px
+}
+.agend FIELDSET LABEL {
+	MARGIN-BOTTOM: 5px
+}
+.agend FIELDSET LABEL {
+	MARGIN: 0px 0px 5px 5px; FONT-SIZE: 1.1em
+}
+.agend FIELDSET * {
+	VERTICAL-ALIGN: middle
+}
+.efetuarpagamento {
+	MARGIN-TOP: 10px
+}
+.efetuarpagamento .bt {
+	TEXT-INDENT: -999em; WIDTH: 224px; BACKGROUND-POSITION: -300px -151px; HEIGHT: 45px
+}
+.recupera {
+	MARGIN: 10px 0px; WIDTH: 100%
+}
+.recupera .pagamento {
+	MARGIN: 10px 0px
+}
+#ctl00_Conteudo_divFormaPagamentoVale {
+	BORDER-TOP: #c7e2fc 1px solid
+}
+.recupera P.um-cartao {
+	TOP: -47px !important
+}
+.recupera P.dois-cartoes {
+	TOP: -47px !important
+}
+.recupera .passo {
+	MARGIN: 0px auto
+}
+.recupera .opc-1-cart {
+	BORDER-TOP: #c7e2fc 1px solid; TOP: 0px !important
+}
+.recupera .opc-2-cart {
+	BORDER-TOP: #c7e2fc 1px solid; TOP: 0px !important
+}
+.passo .cartao .radio-cartao {
+	PADDING-BOTTOM: 0px; MARGIN: 10px auto; PADDING-LEFT: 0px; WIDTH: 300px; PADDING-RIGHT: 0px; OVERFLOW: hidden; PADDING-TOP: 0px
+}
+.passo .cartao .radioCartao {
+	PADDING-BOTTOM: 0px; MARGIN: 10px auto; PADDING-LEFT: 0px; WIDTH: 300px; PADDING-RIGHT: 0px; OVERFLOW: hidden; PADDING-TOP: 0px
+}
+.passo .radioCartao LABEL {
+	TEXT-ALIGN: left; WIDTH: 120px; FLOAT: left
+}
+#ctl00_Conteudo_ctrlFormaPagamento_DivEscondeFormaPagamentoCartoesGPA .radioCartao LABEL {
+	TEXT-ALIGN: center
+}
+#ctl00_Conteudo_ctrlFormaPagamento_DivEscondeCartoesExtra .radioCartao LABEL {
+	TEXT-ALIGN: center
+}
+#ctl00_Conteudo_ctrlFormaPagamento_divFormaPagamentoCartoesExtra .radioCartao LABEL {
+	TEXT-ALIGN: center
+}
+#ctl00_Conteudo_ctrlFormaPagamento_divFormaPagamento .radioCartao LABEL {
+	TEXT-ALIGN: center
+}
+.recupera .cartao DIV {
+	MARGIN: 5px
+}
+.recupera .cartao-2 DIV {
+	MARGIN: 5px
+}
+.recupera .cartao LI {
+	MARGIN: 5px
+}
+.recupera .cartao-2 LI {
+	MARGIN: 5px
+}
+.recupera .cartao DIV DIV LABEL {
+	WIDTH: 130px; FLOAT: left
+}
+.recupera .cartao-2 DIV DIV LABEL {
+	WIDTH: 130px; FLOAT: left
+}
+.recupera .cartao UL LI LABEL {
+	WIDTH: 130px; FLOAT: left
+}
+.recupera .cartao-2 UL LI LABEL {
+	WIDTH: 130px; FLOAT: left
+}
+.recupera .cartao DIV DIV I {
+	DISPLAY: block; COLOR: #666; MARGIN-LEFT: 130px; FONT-SIZE: 0.9em
+}
+.recupera .cartao-2 DIV DIV I {
+	DISPLAY: block; COLOR: #666; MARGIN-LEFT: 130px; FONT-SIZE: 0.9em
+}
+.recupera .titular SMALL.ind {
+	DISPLAY: block; COLOR: #666; MARGIN-LEFT: 130px; FONT-SIZE: 0.9em
+}
+.recupera .cartao .codigo-seguranca {
+	WIDTH: 34px; FLOAT: left
+}
+.recupera .cartao-2 .codigo-seguranca {
+	WIDTH: 34px; FLOAT: left
+}
+.recupera .cartao .obs {
+	CLEAR: left
+}
+.recupera SMALL.ind {
+	MARGIN: 0px
+}
+.recupera .continuar {
+	MARGIN: 10px
+}
+.recupera .oppagam SELECT {
+	WIDTH: auto !important
+}
+#ctl00_Conteudo_UpdatePagamentos {
+	MARGIN: 0px auto; WIDTH: 550px
+}
+#ctl00_Conteudo_UpdatePagamentos TABLE {
+	BORDER-BOTTOM: #c7e2fc 1px solid; BORDER-LEFT: #c7e2fc 1px solid; WIDTH: 100%; FONT-SIZE: 1.1em; BORDER-TOP: #c7e2fc 1px solid; BORDER-RIGHT: #c7e2fc 1px solid
+}
+#ctl00_Conteudo_UpdatePagamentos TABLE .valorTotal {
+	BACKGROUND: #f9fbfe
+}
+.recupera .esqueceu-vale SPAN {
+	DISPLAY: block; MARGIN-BOTTOM: 5px
+}
+.recupera .esqueceuVale SPAN {
+	DISPLAY: block; MARGIN-BOTTOM: 5px
+}
+.recupera .esqueceu-vale INPUT {
+	FLOAT: left; MARGIN-RIGHT: 5px
+}
+.recupera .esqueceuVale INPUT {
+	FLOAT: left; MARGIN-RIGHT: 5px
+}
+.recupera .esqueceu-vale .ok {
+	FLOAT: left
+}
+.recupera .esqueceuVale .ok {
+	FLOAT: left
+}
+.recupera .esqueceu-vale .ok .bt {
+	TEXT-INDENT: -9999em; MARGIN: 0px
+}
+.recupera .esqueceuVale .ok .bt {
+	TEXT-INDENT: -9999em; MARGIN: 0px
+}
+.recupera .esqueceu-vale .erro {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+.recupera .esqueceuVale .erro {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+.recupera .esqueceu-vale {
+	PADDING-BOTTOM: 10px
+}
+.recupera .esqueceuVale {
+	PADDING-BOTTOM: 10px
+}
+.recupera .cartao-2 .radio-cartao {
+	WIDTH: auto; OVERFLOW: hidden
+}
+.recupera .cartao-2 .radioCartao {
+	WIDTH: auto; OVERFLOW: hidden
+}
+.recupera .cartao-2 .titular INPUT {
+	WIDTH: 380px
+}
+.recupera .cartao .radio-cartao LABEL IMG {
+	BORDER-BOTTOM: #ccc 1px dotted; BORDER-LEFT: #ccc 1px dotted; BORDER-TOP: #ccc 1px dotted; BORDER-RIGHT: #ccc 1px dotted
+}
+.recupera .cartao .radioCartao LABEL IMG {
+	BORDER-BOTTOM: #ccc 1px dotted; BORDER-LEFT: #ccc 1px dotted; BORDER-TOP: #ccc 1px dotted; BORDER-RIGHT: #ccc 1px dotted
+}
+.recupera .ctl00_Conteudo_DivEscondeCartoesExtra .radioCartao LABEL {
+	MARGIN: 0px auto; WIDTH: 210px; DISPLAY: block; FLOAT: left
+}
+.recupera .cartao-2 .radio-cartao LABEL {
+	MARGIN: 0px auto; WIDTH: 210px; DISPLAY: block; FLOAT: left
+}
+.recupera .cartao-2 .radioCartao LABEL {
+	MARGIN: 0px auto; WIDTH: 210px; DISPLAY: block; FLOAT: left
+}
+.recupera .ctl00_Conteudo_DivEscondeCartoesExtra .radioCartao LABEL {
+	
+}
+.recupera #ctl00_Conteudo_divFormaPagamentoCartoesExtra .radioCartao LABEL {
+	
+}
+.recupera .cartao-2 .radio-cartao IMG {
+	BORDER-BOTTOM: #ccc 1px dotted; BORDER-LEFT: #ccc 1px dotted; WIDTH: 41px; HEIGHT: 41px; BORDER-TOP: #ccc 1px dotted; BORDER-RIGHT: #ccc 1px dotted
+}
+.recupera .cartao-2 .radioCartao IMG {
+	BORDER-BOTTOM: #ccc 1px dotted; BORDER-LEFT: #ccc 1px dotted; WIDTH: 41px; HEIGHT: 41px; BORDER-TOP: #ccc 1px dotted; BORDER-RIGHT: #ccc 1px dotted
+}
+.recupera .radio-cartao LABEL STRONG {
+	DISPLAY: none
+}
+.recupera .radioCartao LABEL STRONG {
+	DISPLAY: none
+}
+.recupera .radio-cartao LABEL {
+	TEXT-ALIGN: center; WIDTH: 50px; FLOAT: left
+}
+.recupera .radioCartao LABEL {
+	TEXT-ALIGN: center; WIDTH: 50px; FLOAT: left
+}
+.recupera .radio-cartao LABEL IMG {
+	MARGIN-BOTTOM: 5px
+}
+.recupera .radioCartao LABEL IMG {
+	MARGIN-BOTTOM: 5px
+}
+.recupera H3#debito {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 48px; PADDING-RIGHT: 0px; DISPLAY: block; BACKGROUND: url(../img/sprite.png) no-repeat -400px -1081px; COLOR: #333; CLEAR: both; FONT-WEIGHT: 900; PADDING-TOP: 8px
+}
+.recupera H3#boleto {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 48px; PADDING-RIGHT: 0px; DISPLAY: block; BACKGROUND: url(../img/sprite.png) no-repeat -400px -1081px; COLOR: #333; CLEAR: both; FONT-WEIGHT: 900; PADDING-TOP: 8px
+}
+.recupera H3#boleto {
+	BACKGROUND-POSITION: -400px -1049px
+}
+.opc-debito BR {
+	DISPLAY: none
+}
+.opc-boleto BR {
+	DISPLAY: none
+}
+.opc-debito P {
+	MARGIN-BOTTOM: 10px; CLEAR: left; OVERFLOW: hidden
+}
+.opc-boleto P {
+	MARGIN-BOTTOM: 10px; CLEAR: left; OVERFLOW: hidden
+}
+.opc-debito STRONG {
+	DISPLAY: block; MARGIN-BOTTOM: 3px; FONT-SIZE: 1em
+}
+.opc-boleto STRONG {
+	DISPLAY: block; MARGIN-BOTTOM: 3px; FONT-SIZE: 1em
+}
+.conteudo TABLE TBODY TD IMG {
+	FLOAT: left; MARGIN-RIGHT: 5px
+}
+.problemas {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; PADDING-TOP: 10px
+}
+.problemas H4 {
+	TEXT-TRANSFORM: none; MARGIN: 5px 0px 3px; COLOR: #f40000; FONT-SIZE: 1.1em; FONT-WEIGHT: 900
+}
+.multichequeok {
+	WIDTH: 22px; DISPLAY: block; BACKGROUND: url(../img/allImages.png) no-repeat -1130px -647px; HEIGHT: 22px; MARGIN-LEFT: 290px
+}
+.cartaomulticheque {
+	FLOAT: left
+}
+.banner_checkout {
+	MARGIN: 0px auto; WIDTH: 314px; BACKGROUND: url(../img/banner-criancas-checkout.jpg); HEIGHT: 188px
+}
+.banner_checkout .popup_promocao {
+	MARGIN-TOP: 132px; FLOAT: right
+}
+.diaDasCriancas {
+	BORDER-BOTTOM: #c7e2fc 1px solid; BORDER-LEFT: #c7e2fc 1px solid; MARGIN: 5px; BACKGROUND: #fff; HEIGHT: 220px; BORDER-TOP: #c7e2fc 1px solid; BORDER-RIGHT: #c7e2fc 1px solid
+}
+.diaDasCriancas INPUT {
+	FLOAT: left; MARGIN-LEFT: 53px
+}
+.diaDasCriancas LABEL {
+	MARGIN-TOP: 5px; WIDTH: 60% !important; FLOAT: left
+}
+.segura_banner {
+	MARGIN-TOP: 5px
+}
+#ctl00_Conteudo_ctrlFormaPagamento_divDadosFormaPagamentoOutrasFormasMC .radio-cartao {
+	TEXT-ALIGN: center; WIDTH: 135px
+}
+#ctl00_Conteudo_ctrlFormaPagamento_divDadosFormaPagamentoOutrasFormasMC IMG {
+	MARGIN: 0px auto 5px; FLOAT: none
+}
+#ctl00_Conteudo_ctrlFormaPagamento_divDadosFormaPagamentoOutrasFormasMC .radio-cartao LABEL {
+	WIDTH: 135px; MARGIN-BOTTOM: 5px
+}
+#ctl00_Conteudo_ctrlFormaPagamento_divDadosFormaPagamentoOutrasFormasMC .radio-cartao LABEL STRONG {
+	DISPLAY: block
+}
+#ctl00_Conteudo_ctrlFormaPagamento_divDadosFormaPagamentoOutrasFormasMC FIELDSET P {
+	MIN-HEIGHT: 14px
+}
+.cartao .msg {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 40px; PADDING-RIGHT: 40px; BACKGROUND: url(../img/sprite.png) no-repeat -408px -1281px; PADDING-TOP: 2px
+}
+.pagamento H4.cc A {
+	FONT-SIZE: 15px
+}
+.formaPagto32 {
+	WIDTH: 230px; HEIGHT: 91px
+}
+.formaPagto34 {
+	WIDTH: 80px; FLOAT: left; CLEAR: none !important
+}
+.formaPagto35 {
+	WIDTH: 80px; FLOAT: left; CLEAR: none !important
+}
+.formaPagto36 {
+	WIDTH: 80px; FLOAT: left; CLEAR: none !important
+}
+.formaPagto39 {
+	WIDTH: 80px; FLOAT: left; CLEAR: none !important
+}
+.checkoutPassos#ctl00_Conteudo_ctrlFormaPagamento_divFormaPagamentoCartoesGPA .passo LABEL {
+	TEXT-ALIGN: right; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; WIDTH: 33%; PADDING-RIGHT: 0.5%; DISPLAY: block; FLOAT: left; CLEAR: none !important; FONT-SIZE: 10px; PADDING-TOP: 0px
+}
+#ctl00_Conteudo_ctrlFormaPagamento_divFormaPagamentoCartoesGPA .checkout .radioCartao STRONG {
+	TEXT-ALIGN: center; MARGIN-TOP: 3px; DISPLAY: block
+}
+.checkout .radio-cartao STRONG {
+	TEXT-ALIGN: center; MARGIN-TOP: 3px; DISPLAY: block
+}
+#GPA .formaPagto32 {
+	TEXT-ALIGN: center; WIDTH: 210px
+}
+#GPA .formaPagto32 IMG {
+	TEXT-ALIGN: center
+}
+#GPA .formaPagto32 INPUT {
+	TEXT-ALIGN: center
+}
+#GPA .formaPagto37 {
+	TEXT-ALIGN: center; WIDTH: 110px; MARGIN-BOTTOM: 20px; FLOAT: left
+}
+#GPA .formaPagto37 IMG {
+	TEXT-ALIGN: center
+}
+#GPA .formaPagto37 INPUT {
+	TEXT-ALIGN: center
+}
+#GPA .formaPagto28 {
+	TEXT-ALIGN: center; WIDTH: 135px; MARGIN-BOTTOM: 20px; FLOAT: left; MARGIN-RIGHT: 50px
+}
+#GPA .formaPagto28 IMG {
+	TEXT-ALIGN: center
+}
+#GPA .formaPagto28 INPUT {
+	TEXT-ALIGN: center
+}
+#GPA {
+	CLEAR: none
+}
+#GPA .checkoutPassos .passo FIELDSET P {
+	CLEAR: none
+}
+.checkoutPassos .passo FIELDSET DIV {
+	CLEAR: none
+}
+.checkoutPassos .passo FIELDSET LI {
+	CLEAR: none
+}
+.pagamento H4.cc A {
+	FONT-SIZE: 15px
+}
+DIV.pagamento H4.cpcartaopresente A {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 30px; PADDING-LEFT: 48px; PADDING-RIGHT: 0px; DISPLAY: block; COLOR: #333333; FONT-SIZE: 1em; FONT-WEIGHT: 900; PADDING-TOP: 0px
+}
+DIV.pagamento H4.cpcartaopresente {
+	BACKGROUND-POSITION: -400px -1081px
+}
+DIV.pagamento H4.cpcartaopresente {
+	PADDING-BOTTOM: 0px !important; PADDING-LEFT: 0px !important; PADDING-RIGHT: 0px !important; BACKGROUND: url(../img/sprite.png) #ffffff no-repeat -400px -959px; CLEAR: both; BORDER-TOP: #c7e2fc 1px solid; PADDING-TOP: 0px !important
+}
+#ctl00_Conteudo_ctrlFormaPagamento_divDadosFormaPagamentoOutrasFormasCartaoPresente .radio-cartao {
+	TEXT-ALIGN: center; WIDTH: 135px
+}
+#ctl00_Conteudo_ctrlFormaPagamento_divDadosFormaPagamentoOutrasFormasCartaoPresente IMG {
+	MARGIN: 0px auto 5px; FLOAT: none
+}
+#ctl00_Conteudo_ctrlFormaPagamento_divDadosFormaPagamentoOutrasFormasCartaoPresente .radio-cartao LABEL {
+	WIDTH: 135px; MARGIN-BOTTOM: 5px
+}
+#ctl00_Conteudo_ctrlFormaPagamento_divDadosFormaPagamentoOutrasFormasCartaoPresente .radio-cartao LABEL STRONG {
+	DISPLAY: block
+}
+#ctl00_Conteudo_ctrlFormaPagamento_divDadosFormaPagamentoOutrasFormasCartaoPresente FIELDSET P {
+	MIN-HEIGHT: 14px
+}

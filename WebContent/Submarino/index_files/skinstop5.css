@@ -1,0 +1,65 @@
+#contentExp { width:147px;}
+
+/*LIVROS*/
+.open .topBox1Top5 { background:transparent url(http://img.submarino.com.br/img/top5/img/bgBox2Top5.png) no-repeat scroll right top; text-align:left; height:43px;}
+* html .open .topBox1Top5 { background:transparent url(http://img.submarino.com.br/img/top5/img/bgBox2Top5.png) no-repeat scroll right top; text-align:left; height:20px;}
+.open .topBox1Top5 .topBox1ATop5 { background: transparent url(http://img.submarino.com.br/img/top5/img/bgBox2Top5.png) no-repeat scroll left top; width:90%;}
+.topBox1Top5 { background:transparent url(http://img.submarino.com.br/img/top5/img/bgBox1Top5.png) no-repeat scroll right top; text-align:left; height:45px;}
+* html .topBox1Top5 { background:transparent url(http://img.submarino.com.br/img/top5/img/bgBox1Top5.png) no-repeat scroll right top; text-align:left; height:20px;}
+.topBox1Top5 .topBox1ATop5 { background: transparent url(http://img.submarino.com.br/img/top5/img/bgBox1Top5.png) no-repeat scroll left top; width:90%;padding:0;}
+
+
+/*CDs E DVDs*/
+.open .topBox1Top { background:transparent url(http://img.submarino.com.br/img/top5/img/bgBox2Top5_2.png) no-repeat scroll right top;text-align:left; height:40px;}
+* html .open .topBox1Top { background:transparent url(http://img.submarino.com.br/img/top5/img/bgBox2Top5_2.png) no-repeat scroll right top;text-align:left; height:20px;}
+.open .topBox1Top .topBox1ATop { background: transparent url(http://img.submarino.com.br/img/top5/img/bgBox2Top5_2.png) no-repeat scroll left top;width:90%;}
+.topBox1Top { background:transparent url(http://img.submarino.com.br/img/top5/img/bgBox1Top5_2.png) no-repeat scroll right top;text-align:left; height:43px;}
+* html .topBox1Top { background:transparent url(http://img.submarino.com.br/img/top5/img/bgBox1Top5_2.png) no-repeat scroll right top;text-align:left; height:20px;}
+.topBox1Top .topBox1ATop { background: transparent url(http://img.submarino.com.br/img/top5/img/bgBox1Top5_2.png) no-repeat scroll left top;width:90%;}
+
+
+/*LIVROS*/
+.box3Top5 {background: url(http://img.submarino.com.br/img/top5/img/bgBox1Top5.png) no-repeat scroll right -70px; text-align:left;}
+.box3Top5 .box3ATop5 {background:transparent url(http://img.submarino.com.br/img/top5/img/bgBox1Top5.png) no-repeat scroll left -70px;padding:2px 2px 2px;}
+.open .box3Top5 {background: url(http://img.submarino.com.br/img/top5/img/bgBox2Top5.png) no-repeat scroll right -80px;background-color:#F4F4F4;}
+.open .box3Top5  .box3ATop5 {background: url(http://img.submarino.com.br/img/top5/img/bgBox2Top5.png) no-repeat left -80px; }
+
+
+/*CDs E DVDs*/
+.box3T {background:transparent url(http://img.submarino.com.br/img/top5/img/bgBox1Top5.png) no-repeat scroll right -80px; text-align:left; background-color:#F4F4F4;}
+.box3T .box3A {padding:2px 2px 2px 2px; background:transparent url(http://img.submarino.com.br/img/top5/img/bgBox1Top5.png) no-repeat scroll left -80px; overflow:hidden;}
+.open .box3T {background: url(http://img.submarino.com.br/img/top5/img/bgBox2Top5.png) no-repeat scroll right -80px; background-color:#F4F4F4;}
+.open .box3T  .box3A {background: url(http://img.submarino.com.br/img/top5/img/bgBox2Top5.png) no-repeat left -80px; }
+
+
+/*LIVROS*/
+.mostDesired .open .topBox1ATop5 .title5 {background:transparent url(http://img.submarino.com.br/img/top5/img/livro.png) no-repeat center; height:40px;}
+.mostDesired .open .topBox1ATop5 .title5Livro {background:transparent url(http://img.submarino.com.br/img/top5/img//top5Liv1.gif) no-repeat center; height:40px;}
+.mostDesired .topBox1ATop5 .title5Livro {background:transparent url(http://img.submarino.com.br/img/top5/img//top5Liv2.gif) no-repeat center; height:40px;}
+
+
+/*CDs E DVDs*/
+.mostDesired .open .topBox1ATop .title5Cd {background:transparent url(http://img.submarino.com.br/img/top5/img/top5Cds1.gif) no-repeat center; height:43px;}
+.mostDesired .open .topBox1ATop .title5Dvd {background:transparent url(http://img.submarino.com.br/img/top5/img/top5Dvds1.gif) no-repeat center; height:43px;}
+.mostDesired .topBox1ATop .title5 {background:transparent url(http://img.submarino.com.br/img/top5/img/livro2.png) no-repeat center; height:43px;}
+.mostDesired .topBox1ATop .title5Cd {background:transparent url(http://img.submarino.com.br/img/top5/img/top5Cds2.gif) no-repeat center; height:43px;}
+.mostDesired .topBox1ATop .title5Dvd {background:transparent url(http://img.submarino.com.br/img/top5/img/top5Dvds2.gif) no-repeat center; height:43px;}
+
+
+.mostDesired li ol li #fotoTop5 img { width:50px; height:50px;}
+.mostDesired li ol li #fotoTop5 {float:left; width:50px; height:50px; margin-right:4px; margin-top:3px;float:left;}
+.mostDesired li ol li #autorTop5 {display:block; font-size:9px; }
+.mostDesired li ol li #tituloTop5_2 a span { color:#666; font-weight:bold;}
+.mostDesired li ol li #tituloTop5_2 { margin-bottom:5px;padding-top:4px;width:80px; float:right; overflow:hidden; }
+* html .mostDesired li ol li #tituloTop5_2 { margin-bottom:5px;padding-top:4px;width:76px; float:right; }
+.mostDesired li ol li {background:transparent url() repeat-x scroll left bottom; list-style:none;}
+.mostDesired li ol li#blocTop5 {background:transparent url(http://img.submarino.com.br/img/bgDotted.gif) repeat-x; height:55px; }
+.mostDesired li ol li#bloc1 {height:55px; }
+
+a.linkB { color:#EEEEEE;}
+
+.box3T {
+background:#F4F4F4;
+}
+
+.open .box3T .box3ATop5 {background:url("http://img.submarino.com.br/img/top5/img/bgBox2Top5.png") no-repeat scroll left -80px transparent;	}

@@ -1,0 +1,237 @@
+* {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+BODY {
+	BACKGROUND-COLOR: #fff; FONT-FAMILY: arial, verdana, freesans, garuda, helvetica, sans-serif; COLOR: #666; FONT-SIZE: 62.5%
+}
+IMG {
+	BORDER-RIGHT-WIDTH: 0px; LIST-STYLE-TYPE: none; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px
+}
+UL {
+	BORDER-RIGHT-WIDTH: 0px; LIST-STYLE-TYPE: none; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px
+}
+A {
+	BORDER-RIGHT-WIDTH: 0px; LIST-STYLE-TYPE: none; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px
+}
+FIELDSET {
+	BORDER-RIGHT-WIDTH: 0px; LIST-STYLE-TYPE: none; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px
+}
+A {
+	CURSOR: pointer; TEXT-DECORATION: none
+}
+A:hover {
+	TEXT-DECORATION: underline
+}
+P {
+	MARGIN: 0.5em 0px
+}
+P A {
+	COLOR: #666; TEXT-DECORATION: underline
+}
+INPUT[type='text'] {
+	BORDER-BOTTOM: #b8b8b8 1px solid; BORDER-LEFT: #b8b8b8 1px solid; BORDER-TOP: #b8b8b8 1px solid; BORDER-RIGHT: #b8b8b8 1px solid
+}
+HR {
+	BORDER-RIGHT-WIDTH: 0px; MARGIN: 0.5em 0.2em; DISPLAY: none; BACKGROUND: #ccc; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 1px; COLOR: #ccc; BORDER-LEFT-WIDTH: 0px
+}
+SELECT {
+	FONT-SIZE: 1em
+}
+OPTION {
+	FONT-SIZE: 1.1em
+}
+.footerContent {
+	MARGIN: 0px auto; WIDTH: 76em; OVERFLOW: hidden
+}
+.footerContent H4 {
+	FONT-STYLE: normal; COLOR: #666666; FONT-SIZE: 11px
+}
+.footerContent A {
+	COLOR: #666
+}
+.footerContent A:hover {
+	TEXT-DECORATION: underline
+}
+.sharePage {
+	POSITION: relative; PADDING-BOTTOM: 10px; MARGIN: 0px 10px 15px; ZOOM: 1; BACKGROUND: url(../img/bgDotted.gif) repeat-x 50% bottom
+}
+.sharePage .sharePage2 {
+	MARGIN: 0px auto; WIDTH: 33.5em
+}
+.sharePage STRONG {
+	FLOAT: left; FONT-SIZE: 1.1em; MARGIN-RIGHT: 15px
+}
+.sharePage STRONG SPAN {
+	FONT-SIZE: 0.9em; FONT-WEIGHT: normal
+}
+.sharePage STRONG SPAN A {
+	COLOR: #666666; TEXT-DECORATION: underline
+}
+.sharePage .sharePageIcons LI {
+	PADDING-LEFT: 2px; DISPLAY: inline
+}
+#footer .prideSupport {
+	DISPLAY: none
+}
+.paymentWays {
+	MARGIN-BOTTOM: 1.5em; FLOAT: left; FONT-SIZE: 1.1em
+}
+.paymentWays UL LI {
+	CLEAR: left
+}
+.paymentWays .paymentWaysList {
+	WIDTH: 372px; BACKGROUND: url(../img/imgPayment.gif) no-repeat; HEIGHT: 24px
+}
+.paymentWays .paymentWaysList LI {
+	FLOAT: left; HEIGHT: 24px; CLEAR: none; OVERFLOW: hidden
+}
+.paymentWays .paymentWaysList LI A {
+	WIDTH: 100%; DISPLAY: block; HEIGHT: 100%; PADDING-TOP: 24px
+}
+.paymentWays .paymentWaysList .link1 {
+	WIDTH: 31px
+}
+.paymentWays .paymentWaysList .link2 {
+	WIDTH: 174px
+}
+.paymentWays .paymentWaysList .link3 {
+	WIDTH: 39px
+}
+.paymentWays .paymentWaysList .link4 {
+	WIDTH: 77px
+}
+.paymentWays .paymentWaysList .link5 {
+	WIDTH: 51px
+}
+.rssWidgets {
+	PADDING-BOTTOM: 8px; PADDING-LEFT: 15px; PADDING-RIGHT: 0px; ZOOM: 1; BACKGROUND: url(../img/bgDotted3.gif) repeat-y left 50%; FLOAT: left; MARGIN-LEFT: 15px; OVERFLOW: hidden; PADDING-TOP: 0px
+}
+.footerContent .awards {
+	PADDING-LEFT: 10px; ZOOM: 1; BACKGROUND: url(../img/bgDotted3.gif) repeat-y left 50%; FLOAT: left; MARGIN-LEFT: 15px; OVERFLOW: hidden
+}
+.footerContent .awards LI IMG {
+	MARGIN: 5px; OVERFLOW: hidden
+}
+.rssWidgets H4 {
+	MARGIN-BOTTOM: 5px
+}
+.rssWidgets UL {
+	OVERFLOW: hidden
+}
+.rssWidgets UL LI {
+	FLOAT: left; FONT-SIZE: 1.1em; OVERFLOW: hidden; MARGIN-RIGHT: 10px
+}
+.rssWidgets LI A IMG {
+	FLOAT: none; VERTICAL-ALIGN: middle; OVERFLOW: hidden; MARGIN-RIGHT: 5px
+}
+.rssWidgets LI A .last {
+	FLOAT: left
+}
+.rssWidgets LI A SPAN {
+	DISPLAY: block; OVERFLOW: hidden; MARGIN-RIGHT: 5px
+}
+.rssWidgets LI A SPAN:hover {
+	TEXT-DECORATION: underline
+}
+.rssWidgets .first {
+	PADDING-TOP: 5px
+}
+.questions LI {
+	DISPLAY: inline; FONT-SIZE: 1.1em
+}
+.institucional LI {
+	DISPLAY: inline; FONT-SIZE: 1.1em
+}
+.partners LI {
+	DISPLAY: inline; FONT-SIZE: 1.1em
+}
+.awards LI {
+	DISPLAY: inline; FONT-SIZE: 1.1em
+}
+.footerContent .partners {
+	CLEAR: left
+}
+.footerContent .partners H4 {
+	FLOAT: left; MARGIN-RIGHT: 5px
+}
+.questions H4 {
+	FLOAT: left; MARGIN-RIGHT: 5px
+}
+.institucional H4 {
+	FLOAT: left; MARGIN-RIGHT: 5px
+}
+.questions {
+	CLEAR: left
+}
+.institucional {
+	PADDING-BOTTOM: 15px; CLEAR: left
+}
+#footer .prideSupport {
+	ZOOM: 1; BACKGROUND: url(../img/bgDotted.gif) repeat-x 50% top; OVERFLOW: hidden; PADDING-TOP: 15px
+}
+#footer .prideSupport .pride {
+	PADDING-BOTTOM: 7px; LINE-HEIGHT: 12px; PADDING-LEFT: 37px; PADDING-RIGHT: 37px; BACKGROUND: url(../img/imgBandBrasil.gif) no-repeat left 50%; FLOAT: left; PADDING-TOP: 6px
+}
+#footer .prideSupport UL LI {
+	FLOAT: left; MARGIN-LEFT: 3px; PADDING-TOP: 3px
+}
+#footer .prideSupport .prideSupport2 {
+	MARGIN: 0pt auto; WIDTH: 18.5em
+}
+#footer .prideSupport .prideSupport2 P {
+	FONT-SIZE: 1.1em
+}
+#footer .prideSupport .prideSupport2 .support {
+	MARGIN-TOP: 10px; FLOAT: left
+}
+#footer .prideSupport .prideSupport2 UL LI {
+	MARGIN: 0px 5px
+}
+.box6 {
+	Z-INDEX: 2; BORDER-BOTTOM: #989898 1px solid; POSITION: absolute; BORDER-LEFT: #989898 1px solid; MIN-HEIGHT: 4em; BACKGROUND: url(../img/bgBox6.png) #fff repeat-x 50% top; BORDER-TOP: #989898 1px solid; BORDER-RIGHT: #989898 1px solid
+}
+.boxMoreInfo .box6 {
+	WIDTH: 35em; DISPLAY: none; TOP: 2.5em; LEFT: 0.5em
+}
+.selected.boxMoreInfo .box6 {
+	DISPLAY: block
+}
+.boxMoreInfo .box6A {
+	POSITION: relative; PADDING-BOTTOM: 0px; PADDING-LEFT: 1em; WIDTH: 35em; PADDING-RIGHT: 1em; BACKGROUND: url(../img/arowBox6.gif) no-repeat 15em top; TOP: -11px; PADDING-TOP: 1.7em
+}
+.boxMoreInfo .moreInfo {
+	PADDING-RIGHT: 15px; ZOOM: 1; OVERFLOW: hidden
+}
+.sharePage .boxMoreInfo .box6 {
+	WIDTH: 35em; TOP: 2em; LEFT: 46.5em
+}
+.selected.sharePage3 .box6 {
+	DISPLAY: block
+}
+.selected.moreDesiredLayer .box6 {
+	DISPLAY: block
+}
+.tabs UL LI .box6 {
+	DISPLAY: none
+}
+.tabs UL LI.selected2 .box6 {
+	DISPLAY: block
+}
+.tabs UL LI.selected2 .box6 {
+	FONT-SIZE: 11px; TOP: 3.2em; FONT-WEIGHT: normal; LEFT: 5em
+}
+.boxMoreInfo .moreInfo .mainDescription {
+	MARGIN-BOTTOM: 5px
+}
+.boxMoreInfo .moreInfo UL LI {
+	FLOAT: left; PADDING-TOP: 5px
+}
+.boxMoreInfo .moreInfo UL LI STRONG {
+	MARGIN: 0px 5px 0px 0px; FLOAT: left; FONT-SIZE: 1em
+}
+.boxMoreInfo .moreInfo UL LI SPAN {
+	MARGIN-LEFT: 5px
+}
+.boxMoreInfo .moreInfo UL LI IMG {
+	DISPLAY: inline; FLOAT: left; VERTICAL-ALIGN: middle; MARGIN-RIGHT: 5px
+}

@@ -1,0 +1,7 @@
+.cont_giro_left { height:69px; margin-right:2px;}
+.cont_giro_right { height:69px; margin-left:2px;}
+.giro_left {height:69px; background:url(giro_left.gif) no-repeat top left; overflow:hidden; }
+.giro_right {height:69px; background:url(giro_right.gif) no-repeat top right; padding-right:5px; text-align:center;}
+.giro_right img { padding:3px 0 0 8px;}
+.list4 li {padding:0 0 8px 0;}
+.productsHilights { height:75px; overflow:hidden;}

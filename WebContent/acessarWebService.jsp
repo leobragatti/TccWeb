@@ -44,32 +44,38 @@ catch(Exception e){
 %>
 
 <BODY>
-<table>
-	<tr>
-		<td>Nome:</td>
-		<td>
-			<input type="text" value="<%=ret.get(0) %>"/>
-		</td>
-	</tr>
-	<tr>
-		<td>Rg:</td>
-		<td>
-			<input type="text" value="<%=ret.get(1) %>"/>
-		</td>
-	</tr>
-	<tr>
-		<td>Cpf:</td>
-		<td>
-			<input type="text" value="<%=ret.get(2) %>"/>
-		</td>
-	</tr>
-	<tr>
-		<td>Endere&ccedil;o:</td>
-		<td>
-			<input type="text" value="<%=ret.get(3) %>"/>
-		</td>
-	</tr>
-</table>
+	<h3>Cadastro</h3>
+	<table>
+		<tr>
+			<td>Nome:</td>
+			<td>
+				<input type="text" value="<%=ret.get(0) %>"/>
+			</td>
+		</tr>
+		<tr>
+			<td>Rg:</td>
+			<td>
+				<input type="text" value="<%=ret.get(1) %>"/>
+			</td>
+		</tr>
+		<tr>
+			<td>Cpf:</td>
+			<td>
+				<input type="text" value="<%=ret.get(2) %>"/>
+			</td>
+		</tr>
+		<tr>
+			<td>Endere&ccedil;o:</td>
+			<td>
+				<input type="text" value="<%=ret.get(3) %>"/>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" align="center">
+				<input type="submit" value="Gravar" />
+			</td>
+		</tr>
+	</table>
 </BODY>
 
 <%@page import="java.security.PrivateKey"%></HTML>

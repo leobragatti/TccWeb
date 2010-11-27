@@ -1,0 +1,422 @@
+/* vcard */
+address {font-style:normal;}
+.vcard .adr .type {display:none;}
+.vcard .adr .fn, .vcard .adr .street-address {display:block;}
+
+.cardList .description {font-size:1.1em; color:#0082d6;}
+
+.freeShipping {display:none;}
+#content {padding-top:0; background:none;}
+#fullBanner { margin: 0 0 -1em -0.5em;  overflow: hidden; position: relative;}
+#fullBanner {height:7em;}
+.fullBanner {margin-left:-96em;}
+
+.cardData {padding-left:65px;}
+.cardData.card1 {background:url(../img/bgCard1.gif) no-repeat 0 10px;}
+
+.cardData2 span {display:block;}
+.cardData2 .label {float:left; clear:left; margin-right:5px;}
+
+
+.title16 span {display:block; font-weight:normal; color:#666; font-size:0.75em;}
+
+.addressList {width:49%; float:left;}
+.cardList {width:50%; float:right; background:url(../img/bgVertLine.gif) no-repeat left center; min-height:250px;}
+.addressList2, .cardList2 {padding:0 10px 0 15px;}
+
+.addressList .title16 {background:url(../img/bgTitle_address.gif) no-repeat 7px 0; padding:2px 0 20px 52px;}
+.addressList .title16.ok {background:url(../img/bgTitle_address_ok.gif) no-repeat 7px 0;}
+.addressList .title16.notSelect {background:url(../img/bgTitle_address_notSelect.gif) no-repeat 7px 0;}
+
+.cardList .title16 {background:url(../img/bgTitle_card.gif) no-repeat 7px 0; padding:2px 0 17px 52px;}
+.cardList .title16.ok {background-image:url(../img/bgTitle_card_ok.gif);}
+.cardList .title16.notSelect {background-image:url(../img/bgTitle_card_notSelect.gif);}
+
+.list3 li {background: url(../img/bgDotted2.gif) repeat-x 0 0; padding:5px 0;}
+.list3 li img {display:inline;}
+.list3 li input {float:left; margin:20px 20px 0 14px;}
+.list3 li div {overflow:hidden; zoom:1;}
+
+.list3 .select {padding:5px;}
+.list3 .selected .select {background:#f3f9fd;}
+
+.list11 {margin-bottom:50px;}
+
+.description {font-weight:bold; margin-right:5px;}
+
+.newItem {display:block; padding:10px 0; background:transparent url(../img/bgDotted1.gif) repeat-x 0 0;}
+
+.statusPage h1 {color:#0082D6; font-size:1.6em; padding-left:10px;}
+.statusPage h2 {padding-left:10px;}
+.statusPage p {padding-left:10px;}
+
+.statusPageList, .activeConfirmation, .createEditAddress, .createEditCard, .parcel, #content.customerInfo #form1, .giftForm {background:url(../img/bgPage1.gif) repeat-x 0 0; padding:25px 5px 50px 5px; margin-top:20px; overflow:hidden; zoom:1;}
+
+p.type2 {text-align:center;}
+
+ul.buttons {text-align:center;}
+ul.buttons li {display:inline; margin:0 15px;}
+
+.oneClickBuyBar {background:url(../img/bg1ClickBarCheckout.gif) no-repeat 0 0; position:relative; padding:60px 10px 10px 115px; width:574px; overflow:hidden; zoom:1; margin:20px;}
+.oneClickBuyBar fieldset input {float:left; margin-right:5px;}
+.oneClickBuyBar fieldset label {font-size:12px;}
+.oneClickBuyBar fieldset label strong{display:block;}
+.oneClickBuyBar fieldset a {font-size:12px; color:#666; text-decoration:underline;}
+#content .oneClickBuyBar .seeMore {position:absolute; top:32px; right:13px; color:#fff; font-size:10px;}
+
+/* form */
+input.type1 {width:100px;}
+input.type2 {width:250px;}
+input.type3 {width:70px;}
+input.type4 {width:140px;}
+input.type5 {width:380px;}
+input.type6 {width:320px;}
+input.type7 {width:35px;}
+
+.buttons .type1, .buttons .type2 {width:auto!important;}
+
+
+/* endereco */
+.createEditAddress {padding:35px 25px 10px;}
+
+.createEditAddress fieldset ul li {overflow:hidden; zoom:1; margin-bottom:5px;}
+.createEditAddress label, .createEditAddress .label {width:260px; float:left; padding:0 5px 7px 0; text-align:right; font-size:1.1em;}
+.createEditAddress label .desc{display:block; font-size:1em;}
+.createEditAddress .desc{font-size:1.1em;}
+
+.createEditAddress .postalCode {background:#fbfbfb; border:1px solid #eaeaea; padding:2px;}
+.createEditAddress .postalCode label {color:#4ca7e2; width:240px; padding:0 22px 0 0;}
+.createEditAddress a {color:#4ca7e2; text-decoration:underline;}
+
+.createEditAddress .addressId label, .createEditAddress .international label {margin-top:-3px; padding-bottom:0;}
+
+.createEditAddress .required label {font-weight:bold;}
+.createEditAddress .address {}
+.createEditAddress .number {width:auto; float:none; padding-left:5px;}
+
+.createEditAddress .complement {clear:left;}
+
+.createEditAddress li.config {overflow:visible; position:relative; height:0;}
+.createEditAddress .config div.roundCornerBR {padding-bottom:1em;}
+.createEditAddress .config .label {width:248px;}
+.createEditAddress .config label {width:auto;}
+.createEditAddress .config input {float:left; margin-right:5px;}
+
+.titleAddress {background:url(../img/bgTitleEndereco.gif) no-repeat 10px 0; padding:2px 0 5px 52px;}
+.titleAddress p {padding-left:5px; font-size:1.2em; margin:0;}
+
+
+.createEditAddress .boxMoreInfo .box6 {left:-9.4em; width:20em;}
+
+/* cartao */
+.createEditCard {padding-bottom:25px; zoom:1;}
+
+.createEditCard fieldset {margin-bottom:25px;}
+.createEditCard .cardInfo {margin-bottom:35px;}
+
+.list9 { padding: 0 5px 0 40px; overflow: hidden; zoom: 1!important; }
+.list9 li { position: relative; float: left; width: 12.5%; overflow: hidden; zoom: 1; }
+.list9 li.col01 { left: -35px; }
+.list9 li.col02 { left: -30px; }
+.list9 li.col03 { left: -25px; }
+.list9 li.col04 { left: -20px; }
+.list9 li.col05 { left: -15px; }
+.list9 li.col06 { left: -10px; }
+.list9 li.col07 { left: -5px; }
+.list9 li.col08 { left: 0; }
+.list9 li label { display: block; position: relative;  padding: 0 0 13px 0; text-align: center; overflow: hidden; }
+.list9 li strong { display: block; width: 65px; margin: 0 auto; padding: 35px 0 0 0; font-size: 1.1em; text-align: center; overflow: visible; background: url(../img/cardsSprite.png) no-repeat 0 0; }
+.list9 li strong.cSubAura { background-position: 7px 0; }
+.list9 li strong.cSubMc   { background-position: -52px 0; }
+.list9 li strong.cVisa    { background-position: -112px 0; }
+.list9 li strong.cHiper   { background-position: -172px 0; }
+.list9 li strong.cMc      { background-position: -232px 0; }
+.list9 li strong.cDiners  { background-position: -292px 0; }
+.list9 li strong.cAmex    { background-position: -352px 0; }
+.list9 li strong.cAura    { background-position: -412px 0; }
+
+.list9 li strong.cVisa, .list9 li strong.cHiper, .list9 li strong.cMc, .list9 li strong.cDiners, .list9 li strong.cAura { padding-top: 40px; }
+.list9 li .radio { width: 12px; height: 12px;  left: 50%; bottom: 0;}
+
+.list10 { list-style: none; zoom:1!important; }
+.list10 li { margin: 0 0 2px 0; }
+
+.cardInfo label { display: block; float: left; width: 12.5em; font-size: 1.1em; margin: 0 5px 0 0; text-align: right; }
+.cardInfo label.inline { display: inline; float: none; width: auto; text-align: left; }
+.cardInfo input.text { margin: 0 2px; }
+.cardInfo input.small { width: 3em; }
+.cardInfo input.small2 { width: 8.5em; }
+.cardInfo input.medium { width: 19em; }
+.cardInfo input.big { width: 28em; }
+.cardInfo small { font-size: .9em; }
+
+.cardInfo .boxMoreInfo .box6, .createEditAddress .boxMoreInfo .box6 {left:-11.2em; width:23.5em; top:2.5em!important; font-size: 1.1em;}
+.cardInfo  .boxMoreInfo .box6A, .createEditAddress  .boxMoreInfo .box6A {padding:2em 1em 0;}
+
+
+.titleCard {background:url(../img/bgTitleCartao.gif) no-repeat 10px 0; padding:2px 0 5px 52px;}
+.titleCard p {padding-left:5px; font-size:1.2em; margin:0;}
+
+
+/* buttons */
+.buttons { background:transparent url(../img/bgDotted1.gif) repeat-x scroll left top;  margin:10px 5px; overflow:hidden; clear:both;}
+.buttons2 { background:transparent url(../img/bgDotted1.gif) repeat-x scroll left top;  margin:10px 5px; text-align:center; overflow:hidden; padding-top:10px;}
+.buttons3 {margin-top:10px;}
+
+.buttons .type2 {width:auto;}
+
+/* tipBox */
+.tipBox { margin: 0 20px; }
+.tipBox .rc1 { background: url(../img/tipRoundBox.png) no-repeat right bottom; padding: 0 10px 0 0; }
+.tipBox .rc2 { background: url(../img/tipRoundBox.png) no-repeat 0 bottom; padding: 0 0 25px 0; }
+.tipBox .rc3 { background: url(../img/tipRoundBox.png) no-repeat right 0; padding: 0 10px 0 0; margin: 0 -10px 0 0; }
+.tipBox .rc4 { background: url(../img/tipRoundBox.png) no-repeat 0 0; padding: 10px 0 0 10px; overflow: hidden; }
+.tipBox .rc5 { overflow: hidden; }
+
+/* revisao cart  */
+.confirmCart .parcel {padding:25px;}
+
+.titleCart {background:url(../img/bgTitleCarrinho.gif) no-repeat 10px 0; padding:2px 0 5px 52px;}
+.titleCart p {padding-left:5px; font-size:1.2em; margin:0;}
+
+div.roundCornerTL1 { background: #dfedf7 url(../img/roundCornerTL1.gif) no-repeat 0 0; zoom:1;}
+div.roundCornerTR1 { background:  url(../img/roundCornerTR1.gif) no-repeat right 0; }
+div.roundCornerBL1 { background: url(../img/roundCornerBL1.gif) no-repeat 0 bottom; }
+div.roundCornerBR1 { padding: 1.5em 1.2em 2em; background:  url(../img/roundCornerBR1.gif) no-repeat right bottom; }
+div.roundCornerBR1:after {content: "."; display: block; clear: both; visibility: hidden; font-size: 0; line-height: 0; height: 0;}
+
+.error2 div.roundCornerTL1 { background: #ffeded url(../img/roundCornerTL2.gif) no-repeat 0 0; zoom:1;}
+.error2 div.roundCornerTR1 { background:  url(../img/roundCornerTR2.gif) no-repeat right 0; }
+.error2 div.roundCornerBL1 { background: url(../img/roundCornerBL2.gif) no-repeat 0 bottom; }
+.error2 div.roundCornerBR1 { padding: 1.5em 1.2em 2em; background:  url(../img/roundCornerBR2.gif) no-repeat right bottom; zoom:1 }
+.error2 div.roundCornerBR1:after {content: "."; display: block; clear: both; visibility: hidden; font-size: 0; line-height: 0; height: 0;}
+
+.parcel {position:relative;}
+.parcel label {color:#666; font-weight:bold;font-size:1.2em;}
+.parcel div.roundCornerBR1, .parcel div.roundCornerBR2 {text-align:center;}
+.parcel fieldset .parcelConfig {display:inline;}
+.parcel fieldset .doubt {display:block; text-align:center; margin-top:5px;}
+.parcel fieldset .doubt a {text-decoration:underline;}
+.parcel .tipBox {display:none;}
+
+.parcel.error2 {overflow:visible;}
+.parcel.error2 fieldset .parcelConfig {position:relative;}
+.parcel.error2 .tipBox {position:absolute; top:-90px; left:-25%; width:100%; display:block;}
+.parcel.error2 .tipBox .messageBox { font-size: .8em; padding: 10px 0 10px 40px; margin: 0 20px; }
+.parcel.error2 .tipBox .warning { background: url(../img/icoWarning.png) no-repeat 0 center; }
+.parcel.error2 .tipBox .messageBox p { font-size: 1.1em; margin: 0; color:#666;}
+
+.parcel.error2 div.roundCornerBR1 .tipBox, .parcel.error2  div.roundCornerBR2 .tipBox {text-align:left;}
+
+.parcelConfig {zoom:1;}
+.parcelConfig .tipBox {_width:380px;}
+
+
+.confirmCart .table01 {margin-top:25px; position:relative;}
+.table01 { width: 100%; margin: 0 auto 10px; border-top: 1px solid #d8d8d8; background: #fff url(../img/bgTb1Cont.gif) repeat-x 0 25px; }
+.table01 .col02 { width: 10%; }
+.table01 .col03 { width: 20%; }
+.table01 .col04 { width: 10%; }
+.table01 tfoot th {padding:2px 0 2px 5px; text-align:right; font-size:12px; font-weight:normal;}
+.table01 tfoot td {text-align: right; padding: 2px 5px; font-size:12px;}
+.table01 .thead td { border: 1px solid #f7f7f7; border-width: 1px 0; background: #d8d8d8 url(../img/bgTb1Head.gif) repeat-x 0 0; font-weight:bold;}
+.table01 .thead td.first{padding-left:20px;}
+.table01 td {padding: 5px; font-size: 1.2em; background: transparent;}
+.table01   u a{color:#666}
+/* .table01 tbody td { padding:7px 5px; font-size: 1.2em; background: transparent; } */
+.table01 .firstLine td, .table01 .firstLine th { padding-top: 15px; }
+
+.table01 .left { text-align: left; }
+.table01 .right { text-align: right; }
+.table01 .center { text-align: center; }
+
+.table01 .giftBox { text-align: center; }
+.table01 .giftBox .icon{ padding: 5px 0 5px 25px; background: url(../img/icoGift.png) no-repeat 0 center; }
+.table01 .price { color: #0082d6; text-align: right;  white-space:nowrap;}
+.table01 .type01 .price { color: #009e25; }
+.table01 tfoot .firstLine th, .table01 tfoot .firstLine td,
+.table01 .subtotal td, .table01 .subtotal th,
+.table01 .type01 td, .table01 .type01 th { background: url(../../img/bgDotted.gif) repeat-x 0 0; position:relative;}
+.table01 .error td, .table01 .error th { background-color: #ffeded; }
+.table01 .error .price { color: #666;}
+.table01 .text { width: 50%; margin: 0 5px; }
+.table01 .btnOk { width: 30px; height: 16px; text-indent: 30px; vertical-align: middle; border: 0; background: url(../../img/imgOk.gif) no-repeat 0 0; overflow: hidden; }
+.table01 .total td, .table01 .total th { font-size: 17px; font-weight: bold; text-transform: uppercase; }
+
+.table01 .subtotal th, .table01 .type01 th {font-size:12px; font-weight:bold;}
+
+#content .table01 u {text-decoration:none;}
+#content .table01 .text {color:#666; font-size:12px;}
+
+.wrapError { position: relative; padding-top: 2.8em; margin-top: -2.8em; }
+.wrapError .tipBox { display: none; position: absolute; width: 70%; top: -100%; left: 15%; }
+.table01 .error .tipBox { display: block; }
+.wrapError .tipBox .rc5 { height: 4em; }
+.wrapError .tipBox .messageBox { font-size: .8em; padding: 10px 0 10px 40px; margin: 0 20px; }
+.wrapError .tipBox .warning { background: url(../img/icoWarning.png) no-repeat 0 center; }
+.wrapError .tipBox .messageBox p { font-size: 1.1em; margin: 0; }
+
+.wrapError .tipBox { _top: -160%; }
+.table01 .btnOk { #font-size: 0; #line-height: 0; }
+.list9, .list9 li, .list9 li label, .list10, .tipBox .rc04, .tipBox .rc5, .columnsBox, .columnsBox .col01,
+.columnsBox .col02, .giftBoxSelection { zoom: 1; }
+
+.orderConfig {overflow:hidden; zoom:1;}
+.orderConfig .addressList .title16, .orderConfig .cardList .title16 {padding-left:45px; padding-bottom:10px;}
+.orderConfig .addressList .description, .orderConfig .cardList .description {font-size:1.2em; color:#666;}
+.orderConfig .cardData, .orderConfig .addressData {margin-left:45px;}
+
+.orderConfig .cardData2 span, .orderConfig address span {font-size:1.1em;}
+
+.orderConfig .cardList {background:url(../img/bgVertLine1.gif) no-repeat left center; min-height:130px;}
+
+.orderConfig .editItem {display:block; margin-top:5px; clear:both;}
+
+.confirmCart .titleCart p {color:#0082D6;}
+.confirmCart .buttons {margin:15px;}
+.confirmCart .important {color:#a3a3a3; margin-bottom:40px;}
+.confirmCart .important strong {color:#f66;}
+
+.giftBoxInfo { height: auto !important; height: 24em; min-height: 24em; margin: 0 45px 20px; padding: 10px 340px 0 0; background: url(../img/giftBoxBg.jpg) no-repeat right 0; zoom:1!important;}
+.giftBoxInfo p { font-size: 1.1em; }
+
+.columnsBox { position: relative; padding: 0 0 0 10px; margin: 0 0 10px 0; overflow: hidden; }
+.confirmCart .important strong {color:#f66;}
+
+.titleGiftBox {background:url(../img/bgTitle_giftBox.gif) no-repeat 10px 0; padding:2px 0 15px 52px;}
+
+/* lightwindow */
+#lightwindow_contents .messageBox { padding: 10px 0; margin: 0 20px; }
+#lightwindow_contents  .warning {padding-left:60px; background: url(../img/icoWarning2.gif) no-repeat 0 center; }
+#lightwindow_contents  .messageBox p { font-size: 1.2em; margin: 0; }
+#lightwindow_contents  .warning2 {text-align:center;}
+#lightwindow_contents  .warning2 p {text-align:center;}
+#lightwindow_contents  .warning2 .buttons {background:none;}
+
+
+.columnsBox .col01, .columnsBox .col02 { position: relative; float: left; width: 50%; overflow: hidden; }
+
+.columnsBox.giftOptions {zoom:1!important; _padding-top:40px; overflow:hidden;}
+.columnsBox .col01 { left: -10px; }
+.giftOptions .col01 { width: 60%; }
+.giftOptions .col02 { width: 40%; }
+.giftOptions textarea { width: 95%; margin: 0 0 10px 0; height:100px;}
+.giftOptions .giftBoxSelection { padding: 0 0 0 11.5em; overflow: hidden; }
+.giftBoxSelection .image { float: left; margin: 0 0 0 -11.5em; }
+
+.giftOptions .title9 { font-weight: normal; margin: 0 0 15px 0; }
+.giftOptions input { vertical-align: middle; }
+.giftOptions .gift { padding: 0 0 0 20px; background: url(../img/icoGift2.png) no-repeat 0 center; }
+.giftOptions .list10 { margin: 0 0 15px 0; }
+.giftOptions p { margin: 0 0 10px 0; }
+.giftOptions label { font-size: 1.1em; padding: 0 20px 0 0; }
+.giftQuestion a { font-size: 1.1em; color: #0082d6; }
+
+.charCounter { font-size: 1.1em; }
+.charCounter span { padding: 1px 2px; border: 1px solid #b8b8b8; background: #f0f0f0; }
+
+/* alteracoes para a parte de meu cadastro */
+.customerInfo  .text{padding-bottom: 10px}
+.customerInfo #area11 {background-image:none; padding-top:0; zoom:1}
+.customerInfo #form1 {padding-bottom:0;}
+.customerInfo .config .label {float:left; width:29.5%; margin-right:5px; text-align:right;}
+.customerInfo .boxMoreInfo .box6 {left:-13.5em;}
+.customerInfo .buttons {margin:15px;}
+
+.tdType1 {border-top:1px dotted #a5a5a5; background:url(../img/bg_mail.gif) no-repeat 26% 18px; }
+.tdType1 strong, .tdType1 a {display:block;}
+.tdType1 a {text-decoration:underline;}
+.tdType1 div {position:relative; left:30.5%; padding-top:15px;}
+
+.tdType2 {zoom:1; overflow:hidden;}
+.tdType2 .box1Click {float:right; margin-right:10px;}
+
+.tdType3 {width:165px;}
+.tdType3 #btnCloseOrder1 {float:right; width:165px;}
+.tdType4 {width:100%;}
+
+#tblButtonLower .buttons {margin-bottom:0;}
+
+.customerInfo  .text {font-size: 11px;}
+#formClick.customerInfo {margin-left: 30px; _margin-top:-100px;}
+#formClick.customerInfo table.text td {overflow:visible;}
+
+
+ #htbMeuCadastro {background: transparent; margin-top: -50px;}
+
+.customerInfo  #area11{padding-top: 50px; background:#FFF url(../img/header_cadastro.png) no-repeat;}
+.customerInfo #imaMeuCadastro {display: none;}
+.customerInfo #ucCustomerInfo_rbtFisica, .customerInfo #ucCustomerInfo_rbtJuridica { margin-right: 5px;}
+.customerInfo #imaMeuCadastro{ margin-left: 10px;}
+
+.customerInfo  #imaTitMeuEndereco {background: url(../img/imgMyAddress.gif) repeat-x scroll left bottom; height:52px; width:100%; margin: 0; padding: 0;}
+.customerInfo table.text td.text {padding:0; position:relative;}
+.customerInfo table.text span.text {padding:0 10px 0 0;}
+.customerInfo  *{vertical-align:middle;}
+
+.customerInfo #htbForm {width:100%!important; border-collapse:collapse!important;}
+
+
+.customerInfo #ucCustomerAddress_tdCEP_L {padding:4px 15px 6px 0; background:url(../img/bgSetaCep.gif) no-repeat right top;}
+
+.customerInfo #imbButContinue {margin-right:10px;}
+
+.customerInfo input.text, .customerInfo select.text {margin-bottom:5px; padding:2px; margin-right: 5px; border:1px solid #CCCCCC;}
+.customerInfo table.text a{display:inline;}
+span.text {display: inline;}
+
+#formClick  br{display: block;}
+#formClick  #htbMeuCadastro{margin: 0;}
+#formClick   #htbForm {margin: 30px 0;}
+#formClick a{color:#0082D6; padding:0;}
+#formClick #htbMeuEndereco{margin-top: 20px; _margin-top: -20px;}
+#formClick .buttons{margin-top: 40px;}
+#formClick #ucCustomerAddress_hlkDistrito{display: block; margin:2px 0 7px 8px;}
+#formClick a.type2{_margin-right: 10px;}
+
+#createCardClick{margin-left: 30px; font-size:62.5%;}
+#titleClick{background:transparent url(../img/bgTitleClick.gif) no-repeat 10px 0; margin-top: 20px; padding:2px 0 10px 52px;}
+#titleClick p{font-size: 11px;}
+#titleClick ul li{font-size: 14px; display: inline;}
+#titleClick ul li a{color: #666666;}
+#titleClick ul li .title26{font-size: 16px; margin:0; padding:0; font-weight: bold; display:inline;}
+#formClick #htbMeuEndereco{margin-top: 20px;}
+
+/* meu cadastro - edicao de endereco e cartao */
+#addrCreditCard{font-size:62.5%; margin-left: 30px;}
+
+/* createAddress - cadastro */
+#createAddress {font-size:62.5%; padding:10px 0 0 26px;}
+#createAddress {font-size:62.5%; padding:10px 0 0 26px;}
+
+#content, #area1 #area1C , #content #area11,  .statusPageList, .activeConfirmation, .createEditAddress, .createEditCard, .parcel, #content.customerInfo #form1, .giftForm{overflow: visible; }
+#content:after , #area1 #area1C:after  , #content #area11:after ,  .statusPageList:after , .activeConfirmation:after , .createEditAddress:after  , .createEditCard:after  , .parcel:after  , #content.customerInfo #form1:after , .giftForm:after {content: "."; display: block; clear: both; visibility: hidden; height: 0; font-size: 0;}
+a  .boxMoreInfo .moreInfo{text-decoration:none; padding-right:0;}
+#footer{position: static;}
+#lkbOneclick img, #lkbOneClick2 img{vertical-align:top;}
+#ucOneClickCardAdd1_cbIsCvc{margin-right: 3px;}
+.content1Click, .box1Click{zoom:1;}
+
+.confirmCart .parcel fieldset{position:relative;padding-right:270px;}
+.confirmCart .parcel  a.type2{position:absolute;width:193px;overflow:hidden;top:0; right:40px;height:36px;}
+
+.doubtInfo, .createEditAddress .doubtInfo  {position:relative; color:#666; text-decoration: none;}
+.doubtInfo:hover, .createEditAddress .doubtInfo:hover{text-decoration: none;} 
+
+.topHd .topTitle{padding:5px 0 0 15px;}
+.topHd .topTitle a, .topHd .topTitle input{float:left;margin-right:25px;}
+.topHd .topTitle p{font-size:12px;margin:4px 0;}
+
+.msgDescnt .msgTx{font-size:16px;font-weight:bold;background: url(../img/icoAlert.gif) no-repeat left center; padding-left: 40px;}
+.msgDescnt .msgTx span{display:block; font-size:11px;font-weight:normal;}
+.msgDescnt .msgTx span a{text-decoration:underline; color:#666666!important;}
+
+div.rcTL1 { background: #fffacc url(../img/rcTL1.gif) no-repeat 0 0; zoom:1;}
+div.rcTR1 { background:  url(../img/rcTR1.gif) no-repeat right 0; }
+div.rcBL1 { background: url(../img/rcBL1.gif) no-repeat 0 bottom; }
+div.rcBR1 { padding: 5px 0; background:  url(../img/rcBR1.gif) no-repeat right bottom; }
+div.rcBR1:after {content: "."; display: block; clear: both; visibility: hidden; font-size: 0; line-height: 0; height: 0;}
+
+.msgDescnt{margin:0 20px 20px 20px}
+.msgDescnt .msgDescBox{width:710px; margin:0 auto;}
+#ucOneClickBasketDetail1_trCoupon th.right,#ucOneClickBasketDetail1_trCoupon td.price {color:#178E07;}

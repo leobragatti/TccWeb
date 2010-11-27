@@ -24,7 +24,7 @@
 	<tr id="linhaCertificado">
 		<td align="right">Informe o local<br />do certificado:</td>
 		<td>
-			<input type="text" name="certificado" id="certificado" />
+			<input type="file" name="certificado" id="certificado" />
 			<label for="nome" id="error_Certificado" class="error">Campo deve ser preenchido</label>
 		</td>
 	</tr>

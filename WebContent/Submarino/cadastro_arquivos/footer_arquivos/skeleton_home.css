@@ -1,0 +1,6 @@
+#footer {
+	BACKGROUND: url(../img/bgFooterLeft.gif) #fff no-repeat 2px top
+}
+#footer .footer {
+	PADDING-BOTTOM: 20px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: url(../img/bgFooterRight.gif) no-repeat right top; PADDING-TOP: 20px
+}

@@ -8,6 +8,7 @@
 	try{
 		byte [] b = null;
 		if(!d.existirLeitor()){
+			session.removeAttribute("pessoaLogada");
 			out.println("N&atilde;o h&aacute; leitor conectado");
 			return;
 		}

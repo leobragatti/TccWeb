@@ -1,0 +1,90 @@
+/* NOVO */
+
+/* Header */
+.header { background:url(../img/header-natal.jpg) no-repeat left top; }
+.header .helpMenu li a, 
+.header .userInfo .login, 
+.header .userInfo .logout a, 
+.header .userInfo .login a,
+.header .userInfo .mySub a,
+.header #userInfo.cooked .mySub,
+.header .userInfo .logout, #hello {color:#FFFFFF;}
+
+
+
+/* Menu avegação*/
+#header .header .mainNav .showAll strong { background:transparent url(../img/bgMenu.png); }
+#header .header .mainNav .showAll span { background:transparent url(../img/bgMenu.png) no-repeat scroll right top; }
+.header .mainNav .secondLevel .secondLevelInside { background:transparent url(../img/bgMenu.png) no-repeat scroll left bottom; }
+.header .mainNav .secondLevel { background:transparent url(../img/bgMenu.png) no-repeat scroll right bottom; }
+
+
+/* Menu favoritos */
+.box10 {background: url(http://img.submarino.com.br/skins/submarinoverde/img/bgFavoriteBox.png) no-repeat right top; margin-left:10px; padding-right:10px;}
+.box10A { background: url(http://img.submarino.com.br/skins/submarinoverde/img/bgFavoriteBox.png) no-repeat left bottom; position:relative; top:38px; margin-left:-4px;}
+.box10B { background:  url(http://img.submarino.com.br/skins/submarinoverde/img/bgFavoriteBox.png) no-repeat right bottom; position: relative; left:10px;}
+.box10C { background: url(http://img.submarino.com.br/skins/submarinoverde/img/bgFavoriteBox.png) no-repeat left top;  position:relative; top:-38px; left:-10px;}
+.favoriteStoresBox .favoriteStores ul li strong {color: #6F9701;}
+.favoriteStoresBox .favoriteStores .restore {background:transparent url(http://img.submarino.com.br/skins/submarinoverde/img/allBgHome.png) no-repeat scroll left -41px;}
+.favoriteStoresBox .favoriteStores .save {background:transparent url(http://img.submarino.com.br/skins/submarinoverde/img/allBgHome.png) no-repeat scroll -203px -41px;}
+.header .mainNav #costumizeLayer.over {border-color:#779629 -moz-use-text-color #779629 #779629;}
+
+/* oculta o presentinho*/
+.title2 {background:none;}
+
+
+
+
+
+/* divs intermission */
+#natal-top-navegacao { 
+    position: absolute; 
+    left: 9px; 
+    top: 46px; 
+    width: 165px; 
+    z-index: 901; 
+}
+#natal-top-meumenu { 
+    position: absolute; 
+    left: 9px; 
+    top: 470px; 
+    width: 165px; 
+    z-index: 9000; 
+}
+#natal-lacos {
+    left:154px;
+    position:absolute;
+    top:562px;
+    width:37px;
+    z-index:9030;
+}
+#natal-seta {
+    left:137px;
+    position:absolute;
+    top:1195px;
+    width:37px;
+    z-index:903;
+}
+#natal-pisca-pisca {
+	margin-top:-62px;
+	position:relative;
+	top:25px;
+	width:100%;
+	z-index:15000;
+}
+#natal-rodape{
+	background:url(../img/natal-rodape.jpg) no-repeat center top;
+	height:155px;
+}
+
+#HS_LAT5 {
+	position:relative;
+	z-index:600;
+}
+
+#natal-rodape {
+	background:url(http://i.s8.com.br/images/skins/pecas/campanhas/natal2010/img/natal-rodape-2010.jpg) no-repeat scroll center top transparent;
+	height:115px;
+	margin-top:-30px;
+	position:relative;
+}

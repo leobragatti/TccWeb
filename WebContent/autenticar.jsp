@@ -17,7 +17,7 @@
 			<label for="filtro" class="error" id="error_Filtro">Campo de preenchimento obrigat&oacute;rio</label>
 			
 			<div id="areaCertificado">
-				Informe o caminho do certificado:<br /><input type="text" id="certificado" />
+				Informe o caminho do certificado:<br /><input type="file" id="certificado" />
 				<label for="certificado" class="error" id="error_Certificado">Campo de preenchimento obrigat&oacute;rio</label>
 				
 				<br />

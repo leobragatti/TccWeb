@@ -1,0 +1,1935 @@
+.header .mainSearch FIELDSET {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 16em; PADDING-RIGHT: 3.8em; HEIGHT: 3.1em; PADDING-TOP: 0.6em
+}
+.header .userMenu UL {
+	PADDING-BOTTOM: 1em; PADDING-LEFT: 1em; PADDING-RIGHT: 1.8em; PADDING-TOP: 1em
+}
+.header .userMenu UL LI {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 0; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 10px
+}
+.header .userMenu .last {
+	BACKGROUND-POSITION: right 13px
+}
+.allDepartmentsBox .allDepartmentsList .col1 {
+	WIDTH: 29%
+}
+.allDepartmentsBox .allDepartmentsList .col2 {
+	WIDTH: 29%
+}
+.allDepartmentsBox .allDepartmentsList .col3 {
+	WIDTH: 29%
+}
+.header .mainNav .departments .over .thirdLevel {
+	DISPLAY: block
+}
+.partners A {
+	FONT-SIZE: 11px
+}
+.footer {
+	TEXT-ALIGN: center
+}
+#footer .footerContent {
+	TEXT-ALIGN: left; BACKGROUND: #fff
+}
+#footer .sharePage {
+	DISPLAY: none
+}
+#page .header {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: url(../img/headerBg.png) #037fd0 no-repeat left top; OVERFLOW: hidden; PADDING-TOP: 10px
+}
+#page .header .userArea {
+	FLOAT: right
+}
+#page .header .linksUser {
+	CLEAR: left
+}
+.steps {
+	MARGIN: 0px 10px 5px 0px; FONT-FAMILY: arial; BACKGROUND: url(../img/bgDotted1.gif) repeat-x left bottom; FLOAT: left; HEIGHT: 3.9em; OVERFLOW: hidden
+}
+.steps LI {
+	PADDING-BOTTOM: 0.49em; LINE-HEIGHT: 30px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; WHITE-SPACE: nowrap; FLOAT: left; COLOR: #84bbde; FONT-SIZE: 1.3em; PADDING-TOP: 0px
+}
+.steps LI SPAN {
+	PADDING-RIGHT: 12px; DISPLAY: block; BACKGROUND: url(../img/bulletArrow1.gif) no-repeat right center; MARGIN-RIGHT: 7px
+}
+.steps LI.completed {
+	PADDING-BOTTOM: 0.7em; BACKGROUND: url(../img/bgLine1.gif) repeat-x left bottom
+}
+.steps .progress SPAN {
+	BACKGROUND: url(../img/bulletArrow2.gif) no-repeat right center
+}
+.steps LI.progress {
+	BACKGROUND: url(../img/bgArrowProgress.gif) repeat-x center bottom; COLOR: #fff000; FONT-SIZE: 1.9em
+}
+.steps LI.last SPAN {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.link1 {
+	BACKGROUND: url(../img/bullet1.gif) no-repeat left bottom
+}
+.link2 {
+	BACKGROUND: url(../img/bullet2.gif) no-repeat left bottom
+}
+.link1 {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 16px; PADDING-RIGHT: 0px; COLOR: #fff; FONT-SIZE: 1.1em; MARGIN-RIGHT: 10px; PADDING-TOP: 2px
+}
+.link2 {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 16px; PADDING-RIGHT: 0px; COLOR: #fff; FONT-SIZE: 1.1em; MARGIN-RIGHT: 10px; PADDING-TOP: 2px
+}
+.linksUser LI {
+	FLOAT: left
+}
+.header .linksUser .link2 {
+	TEXT-ALIGN: right
+}
+.thirdLevel {
+	Z-INDEX: 1000
+}
+#content #area11 {
+	PADDING-BOTTOM: 20px; WIDTH: 100%; BACKGROUND: #fff; OVERFLOW: hidden
+}
+#content .text {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; FONT-SIZE: 11px; PADDING-TOP: 10px
+}
+#content INPUT.text {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; PADDING-BOTTOM: 0px; PADDING-LEFT: 2px; PADDING-RIGHT: 0px; FONT-SIZE: 11px; BORDER-TOP: #ccc 1px solid; MARGIN-RIGHT: 5px; BORDER-RIGHT: #ccc 1px solid; PADDING-TOP: 0px
+}
+#content SELECT.text {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; PADDING-BOTTOM: 0px; PADDING-LEFT: 2px; PADDING-RIGHT: 0px; FONT-SIZE: 11px; BORDER-TOP: #ccc 1px solid; MARGIN-RIGHT: 5px; BORDER-RIGHT: #ccc 1px solid; PADDING-TOP: 0px
+}
+#content INPUT.text {
+	PADDING-BOTTOM: 2px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; MARGIN-BOTTOM: 5px; PADDING-TOP: 2px
+}
+#content A {
+	COLOR: #0082d6
+}
+#content .textb {
+	FONT-WEIGHT: bold
+}
+#content #hplNewAddress {
+	PADDING-RIGHT: 10px
+}
+#content #Image1 {
+	PADDING-LEFT: 10px
+}
+#content TABLE {
+	WIDTH: 100%
+}
+#content .text#table1 {
+	PADDING-BOTTOM: 0px; MARGIN: 5px 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+#content #ucListAddress_dtlAddress__ctl0_htrTop {
+	BACKGROUND: #fff; BORDER-RIGHT: #ccc 1px dotted
+}
+#content #ucListAddress_dtlAddress__ctl0_htrMiddle {
+	BACKGROUND: #fff; BORDER-RIGHT: #ccc 1px dotted
+}
+#content #ucListAddress_dtlAddress__ctl0_htrBaseline {
+	BACKGROUND: #fff; BORDER-RIGHT: #ccc 1px dotted
+}
+#content #ucListAddress_dtlAddress__ctl1_htrTop {
+	BACKGROUND: #fff; BORDER-RIGHT: #ccc 1px dotted
+}
+#content #ucListAddress_dtlAddress__ctl1_htrMiddle {
+	BACKGROUND: #fff; BORDER-RIGHT: #ccc 1px dotted
+}
+#content #ucListAddress_dtlAddress__ctl1_htrBaseline {
+	BACKGROUND: #fff; BORDER-RIGHT: #ccc 1px dotted
+}
+#content #ucListAddress_dtlAddress__ctl2_htrTop {
+	BACKGROUND: #fff; BORDER-RIGHT: #ccc 1px dotted
+}
+#content #ucListAddress_dtlAddress__ctl2_htrMiddle {
+	BACKGROUND: #fff; BORDER-RIGHT: #ccc 1px dotted
+}
+#content #ucListAddress_dtlAddress__ctl2_htrBaseline {
+	BACKGROUND: #fff; BORDER-RIGHT: #ccc 1px dotted
+}
+#content #ucListAddress_dtlAddress__ctl3_htrTop {
+	BACKGROUND: #fff; BORDER-RIGHT: #ccc 1px dotted
+}
+#content #ucListAddress_dtlAddress__ctl3_htrMiddle {
+	BACKGROUND: #fff; BORDER-RIGHT: #ccc 1px dotted
+}
+#content #ucListAddress_dtlAddress__ctl3_htrBaseline {
+	BACKGROUND: #fff; BORDER-RIGHT: #ccc 1px dotted
+}
+#content #ucListAddress_dtlAddress__ctl4_htrTop {
+	BACKGROUND: #fff; BORDER-RIGHT: #ccc 1px dotted
+}
+#content #ucListAddress_dtlAddress__ctl4_htrMiddle {
+	BACKGROUND: #fff; BORDER-RIGHT: #ccc 1px dotted
+}
+#content #ucListAddress_dtlAddress__ctl4_htrBaseline {
+	BACKGROUND: #fff; BORDER-RIGHT: #ccc 1px dotted
+}
+#content #ucListAddress_dtlAddress__ctl5_htrTop {
+	BACKGROUND: #fff; BORDER-RIGHT: #ccc 1px dotted
+}
+#content #ucListAddress_dtlAddress__ctl5_htrMiddle {
+	BACKGROUND: #fff; BORDER-RIGHT: #ccc 1px dotted
+}
+#content #ucListAddress_dtlAddress__ctl5_htrBaseline {
+	BACKGROUND: #fff; BORDER-RIGHT: #ccc 1px dotted
+}
+#content #ucListAddress_dtlAddress__ctl6_htrTop {
+	BACKGROUND: #fff; BORDER-RIGHT: #ccc 1px dotted
+}
+#content #ucListAddress_dtlAddress__ctl6_htrMiddle {
+	BACKGROUND: #fff; BORDER-RIGHT: #ccc 1px dotted
+}
+#content #ucListAddress_dtlAddress__ctl6_htrBaseline {
+	BACKGROUND: #fff; BORDER-RIGHT: #ccc 1px dotted
+}
+#content #ucListAddress_dtlAddress__ctl7_htrTop {
+	BACKGROUND: #fff; BORDER-RIGHT: #ccc 1px dotted
+}
+#content #ucListAddress_dtlAddress__ctl7_htrMiddle {
+	BACKGROUND: #fff; BORDER-RIGHT: #ccc 1px dotted
+}
+#content #ucListAddress_dtlAddress__ctl7_htrBaseline {
+	BACKGROUND: #fff; BORDER-RIGHT: #ccc 1px dotted
+}
+#content #ucListAddress_dtlAddress__ctl8_htrTop {
+	BACKGROUND: #fff; BORDER-RIGHT: #ccc 1px dotted
+}
+#content #ucListAddress_dtlAddress__ctl8_htrMiddle {
+	BACKGROUND: #fff; BORDER-RIGHT: #ccc 1px dotted
+}
+#content #ucListAddress_dtlAddress__ctl8_htrBaseline {
+	BACKGROUND: #fff; BORDER-RIGHT: #ccc 1px dotted
+}
+#content #ucListAddress_dtlAddress__ctl9_htrTop {
+	BACKGROUND: #fff; BORDER-RIGHT: #ccc 1px dotted
+}
+#content #ucListAddress_dtlAddress__ctl9_htrMiddle {
+	BACKGROUND: #fff; BORDER-RIGHT: #ccc 1px dotted
+}
+#content #ucListAddress_dtlAddress__ctl9_htrBaseline {
+	BACKGROUND: #fff; BORDER-RIGHT: #ccc 1px dotted
+}
+#content #ucListAddress_dtlAddress__ctl0_htrBaseline {
+	DISPLAY: none
+}
+#content #ucListAddress_dtlAddress__ctl7_htrBaseline {
+	DISPLAY: none
+}
+#content #ucListAddress_dtlAddress__ctl8_htrBaseline {
+	DISPLAY: none
+}
+#content #ucListAddress_dtlAddress__ctl9_htrBaseline {
+	DISPLAY: none
+}
+#content #imgNewAddress {
+	WIDTH: 100%; BACKGROUND: url(../img/imgNewAddress.gif) repeat-x left bottom; HEIGHT: 52px
+}
+#content #imaTitMeuEndereco {
+	WIDTH: 100%; BACKGROUND: url(../img/imgMyAddress.gif) repeat-x left bottom; HEIGHT: 52px
+}
+#content #htbMeuEndereco {
+	BACKGROUND: #fff; VERTICAL-ALIGN: middle
+}
+#content #htbMeuEndereco .text {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.addressBook#content TABLE {
+	WIDTH: 100% !important; BORDER-COLLAPSE: collapse !important
+}
+.addressBook#content #htbListAddress {
+	WIDTH: 98% !important
+}
+.addressBook#content INPUT {
+	MARGIN: 0px 5px; FONT-SIZE: 15px !important
+}
+.addressBook#content SELECT {
+	MARGIN: 0px 5px
+}
+.addressBook#content #htbMeuEndereco TABLE TD {
+	PADDING-BOTTOM: 2px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 2px
+}
+.addressBook#content TABLE.text {
+	WIDTH: 95% !important
+}
+.addressBook#content #ucCustomerAddress_tdCEP_L {
+	BORDER-BOTTOM: #e1e1e1 1px solid; POSITION: relative; BORDER-LEFT: #e1e1e1 1px solid; BACKGROUND-COLOR: #fafafa; BORDER-TOP: #e1e1e1 1px solid; BORDER-RIGHT: medium none
+}
+.addressBook#content #ucCustomerAddress_tdCEP_R {
+	BORDER-BOTTOM: #e1e1e1 1px solid; POSITION: relative; BORDER-LEFT: medium none; BACKGROUND-COLOR: #fafafa; PADDING-LEFT: 5px !important; BORDER-TOP: #e1e1e1 1px solid; BORDER-RIGHT: #e1e1e1 1px solid; LEFT: -5px
+}
+.addressBook#content #htbMeuEndereco TD.text {
+	FONT-SIZE: 1em
+}
+.addressBook#content #htbMeuEndereco TD.text SPAN.text {
+	FONT-SIZE: 1em
+}
+.addressBook#content #htbMeuEndereco TD.text SPAN.text B {
+	FONT-WEIGHT: normal
+}
+.confirmOrder#content #ucOrderDetail_rptOrderDetail__ctl0_htrOrderDetail TD {
+	BACKGROUND-COLOR: transparent !important
+}
+.confirmOrder#content TABLE {
+	MARGIN: 0px 20px; WIDTH: auto
+}
+.confirmOrder#content #ucConfirmOrder_divPaymentMethod {
+	POSITION: static; MARGIN: 0px; HEIGHT: 130px !important; LEFT: -1px
+}
+.confirmOrder#content #ucConfirmOrder_divPaymentMethod BR {
+	MARGIN: 3px 0px; DISPLAY: block
+}
+.confirmOrder#content #ucOrderDetail_htrTitleConfirmOrder {
+	BACKGROUND: url(../img/bgTable1.gif) #fff repeat-x left top
+}
+.confirmOrder#content #ucOrderDetail_htrTitleConfirmOrderDelivery1 {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.confirmOrder#content #ucOrderDetail_htrTitleConfirmOrderDelivery1 TD {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.confirmOrder#content #ucOrderDetail_htrTitleConfirmOrderDelivery2 TD {
+	BACKGROUND: url(../img/bgTable1Bottom.gif) #fff repeat-x left bottom
+}
+.confirmOrder#content #ucOrderDetail_lblShippingTotal {
+	WHITE-SPACE: nowrap; FONT-SIZE: 1.1em
+}
+.confirmOrder#content #ucOrderDetail_lblDiscountShipping {
+	COLOR: green
+}
+.confirmOrder#content #ucOrderDetail_lblDsShippingTotal {
+	FONT-SIZE: 1.3em
+}
+#content #ucOrderDetail_lblDsTotal {
+	FONT-SIZE: 1.3em
+}
+#content #ucOrderDetail_lblDsTotalDetail {
+	FONT-SIZE: 1.3em
+}
+.confirmOrder#content #ucOrderDetail_lblDsTotal {
+	FONT-SIZE: 1.6em; FONT-WEIGHT: bold
+}
+.confirmOrder#content #ucOrderDetail_lblTotalDetail {
+	PADDING-LEFT: 10px; WHITE-SPACE: nowrap; MARGIN-LEFT: 10px; FONT-SIZE: 1.1em
+}
+.confirmOrder#content #ucOrderDetail_lblShippingTotal {
+	MARGIN-LEFT: 10px
+}
+.confirmOrder#content #ucOrderDetail_lblTotal {
+	WHITE-SPACE: nowrap; COLOR: #0082d6; MARGIN-LEFT: 10px; FONT-SIZE: 1.3em; FONT-WEIGHT: bold
+}
+.confirmOrder#content #ucOrderDetail_rptOrderDetail__ctl0_lblWrap {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 10px; WIDTH: 90px; PADDING-RIGHT: 10px; DISPLAY: block; BACKGROUND: url(../img/iconGift.gif) no-repeat right center; PADDING-TOP: 10px
+}
+.confirmOrder#content #table1 {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-TOP: medium none; BORDER-RIGHT: medium none
+}
+.confirmOrder#content #table1 TR {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-TOP: medium none; BORDER-RIGHT: medium none
+}
+.confirmOrder#content #table1 TD {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-TOP: medium none; BORDER-RIGHT: medium none
+}
+.confirmOrder#content BR {
+	LINE-HEIGHT: 0; HEIGHT: 0px
+}
+.confirmOrder#content #ucConfirmOrder_divNoteOrder {
+	WIDTH: 186px !important; BACKGROUND: url(../img/anote_pedido.gif) no-repeat left top
+}
+.confirmOrder#content #ucConfirmOrder_htcSubmarinoAuraBanner A {
+	MARGIN-TOP: -20px; DISPLAY: block
+}
+.confirmOrder#content TABLE TABLE #table1 {
+	WIDTH: 100% !important
+}
+.confirmOrder#content TABLE TABLE #table1 TABLE {
+	MARGIN: 0px
+}
+.confirmOrder#content TABLE TABLE #table1 #ucOrderDetail_rptOrderDetail__ctl0_htrOrderDetail TD {
+	BORDER-BOTTOM: #666 1px dotted; HEIGHT: 100px
+}
+.confirmOrder#content TABLE TABLE #table1 #ucOrderDetail_rptOrderDetail__ctl1_htrOrderDetail TD {
+	BORDER-BOTTOM: #666 1px dotted; HEIGHT: 100px
+}
+.confirmOrder#content TABLE TABLE #table1 #ucOrderDetail_htrShipping TD.text {
+	PADDING-BOTTOM: 0px !important; PADDING-LEFT: 0px !important; PADDING-RIGHT: 0px !important; FONT-SIZE: 1em !important; PADDING-TOP: 0px !important
+}
+.confirmOrder#content TABLE TABLE #table1 #ucOrderDetail_htrTotal TD.text {
+	PADDING-BOTTOM: 0px !important; PADDING-LEFT: 0px !important; PADDING-RIGHT: 0px !important; FONT-SIZE: 1em !important; PADDING-TOP: 0px !important
+}
+.confirmOrder#content TABLE TABLE #table1 #ucOrderDetail_htrDiscountShipping TD.text {
+	PADDING-BOTTOM: 0px !important; PADDING-LEFT: 0px !important; PADDING-RIGHT: 0px !important; FONT-SIZE: 1.2em !important; PADDING-TOP: 0px !important
+}
+.confirmOrder#content TABLE TABLE #table1 TABLE.text {
+	PADDING-BOTTOM: 0px !important; PADDING-LEFT: 0px !important; PADDING-RIGHT: 0px !important; PADDING-TOP: 0px !important
+}
+.confirmOrder#content #ucOrderDetail_lblDiscountShipping {
+	FONT-SIZE: 1.1em
+}
+.confirmOrder#content #ucOrderDetail_htbDeliveryAddress B {
+	FONT-SIZE: 1.1em !important; FONT-WEIGHT: bold
+}
+.confirmOrder#content #ucOrderDetail_rptOrderDetail__ctl1_htrOrderDetail TD {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.confirmOrder#content TR#ucOrderDetail_htrDiscount TD {
+	FONT-SIZE: 1em
+}
+.customerInfo#content .text {
+	FONT-SIZE: 11px
+}
+#content #htbMeuCadastro {
+	MARGIN-TOP: -50px; BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.customerInfo#content #area11 {
+	BACKGROUND: url(../img/header_cadastro.png) #fff no-repeat; PADDING-TOP: 50px
+}
+.customerInfo#content #imaMeuCadastro {
+	DISPLAY: none
+}
+.customerInfo#content #ucCustomerInfo_rbtFisica {
+	MARGIN-RIGHT: 5px
+}
+.customerInfo#content #ucCustomerInfo_rbtJuridica {
+	MARGIN-RIGHT: 5px
+}
+.customerInfo#content #imaMeuCadastro {
+	MARGIN-LEFT: 10px
+}
+.customerInfo#content TABLE.text TD.text {
+	POSITION: relative; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.customerInfo#content TABLE.text SPAN.text {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 10px; PADDING-TOP: 0px
+}
+.customerInfo#content TABLE.text DIV * {
+	VERTICAL-ALIGN: middle
+}
+.customerInfo#content #htbForm {
+	WIDTH: 100% !important; BORDER-COLLAPSE: collapse !important
+}
+.customerInfo#content #imaTitMeuEndereco {
+	MARGIN: 0px 0px 10px; PADDING-RIGHT: 30px
+}
+.customerInfo#content #ucCustomerAddress_tdCEP_L {
+	PADDING-BOTTOM: 6px; PADDING-LEFT: 0px; PADDING-RIGHT: 15px; BACKGROUND: url(../img/bgSetaCep.gif) no-repeat right top; PADDING-TOP: 4px
+}
+.customerInfo#content #imbButContinue {
+	MARGIN-RIGHT: 10px
+}
+.subServices#content #box {
+	PADDING-BOTTOM: 20px; PADDING-LEFT: 30px; PADDING-RIGHT: 30px; BACKGROUND: url(../img/bgProduto.gif) no-repeat left top; PADDING-TOP: 20px
+}
+.subServices#content #produto LI {
+	FLOAT: left; HEIGHT: auto !important
+}
+.subServices#content #produto #topbox IMG {
+	DISPLAY: none
+}
+.subServices#content #produto #bottombox IMG {
+	DISPLAY: none
+}
+.subServices#content #produto HR {
+	DISPLAY: none
+}
+.subServices#content #continuar {
+	TEXT-ALIGN: right; CLEAR: left
+}
+.subServices#content #garantia {
+	FONT-SIZE: 11px
+}
+.basket TABLE TD {
+	BACKGROUND-COLOR: transparent !important
+}
+.basket#content #area11 {
+	BACKGROUND: url(../img/header_carrinho.png) #fff no-repeat; PADDING-TOP: 50px
+}
+.basket#content TABLE {
+	MARGIN: 0px auto; WIDTH: 100%
+}
+.basketBrinde#content TABLE {
+	MARGIN: 0px auto; WIDTH: 100%
+}
+.basket#content #Table3 {
+	WIDTH: auto
+}
+.basketBrinde#content #Table3 {
+	WIDTH: auto
+}
+.basket#content #tblButtonLower {
+	WIDTH: auto
+}
+.basketBrinde#content #tblButtonLower {
+	WIDTH: auto
+}
+#content #UcBasketDetail1_dgdBasketItem .titcar {
+	BACKGROUND: url(../img/bgTable1.gif) #fff repeat-x left top; HEIGHT: 35px !important; FONT-SIZE: 10px; VERTICAL-ALIGN: top
+}
+.basket#content #UcBasketDetail1_dgdBasketItem .titcar BR {
+	DISPLAY: none
+}
+.basket#content #UcBasketDetail1_dgdBasketItem .titcar * {
+	MARGIN-RIGHT: 5px
+}
+.basket#content #UcBasketDetail1_dgdBasketItem .titcar TD {
+	WIDTH: auto !important; WHITE-SPACE: nowrap; PADDING-TOP: 7px
+}
+.basket#content #UcBasketDetail1_ucParcel_tbcParcel {
+	BACKGROUND: url(../img/bgTable2Bottom.gif) #d8d8d8 repeat-x left bottom
+}
+.basket#content #UcBasketDetail1_tbcTot {
+	BACKGROUND: #d8d8d8
+}
+.basket#content #UcBasketDetail1_ucParcel_tbcLeft {
+	BACKGROUND: #d8d8d8
+}
+.basket#content #UcBasketDetail1_tbcTotA {
+	BACKGROUND: #d8d8d8
+}
+.basket#content #UcBasketDetail1_ucParcel_tbcRight {
+	BACKGROUND: #d8d8d8
+}
+.basket#content #UcBasketDetail1_tbcTotB {
+	BACKGROUND: #d8d8d8
+}
+.basket#content #UcBasketDetail1_TotalValue {
+	BACKGROUND: #d8d8d8
+}
+.basket#content #UcBasketDetail1_htrCEP TD {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.basket#content #UcBasketDetail1_htrCouponGift TD {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.basket#content #UcBasketDetail1_TotalValue {
+	COLOR: #0080d3; FONT-WEIGHT: bold
+}
+.basket#content #UcBasketDetail1_ucParcel_tbcParcel {
+	FONT-SIZE: 0.9em
+}
+.basket#content #UcBasketDetail1_tbcTotA {
+	FONT-SIZE: 1em; FONT-WEIGHT: bold; PADDING-TOP: 10px
+}
+.basket#content #UcBasketDetail1_htrCouponGift #UcBasketDetail1_tbcGift {
+	BACKGROUND: url(../img/bgTable1LeftBottom1.gif) no-repeat left bottom
+}
+.basket#content #UcBasketDetail1_htrCouponGift #UcBasketDetail1_tbcValueD {
+	BACKGROUND: url(../img/bgTable1RightBottom1.gif) no-repeat right bottom
+}
+.basket#content TR#UcBasketDetail1_htrCouponGift TD {
+	BACKGROUND: url(../img/bgTable1Bottom1.gif) repeat-x left bottom
+}
+.basket#content TR#UcBasketDetail1_htrCouponGift TD#UcBasketDetail1_tbcGiftA {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.basket#content #UcBasketDetail1_tbcGiftA {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; HEIGHT: auto !important; PADDING-TOP: 10px
+}
+.basket#content #UcBasketDetail1_tbcGiftB {
+	PADDING-BOTTOM: 15px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 10px
+}
+.basket#content #UcBasketDetail1_tbcGiftB #UcBasketDetail1_CouponNumber {
+	MARGIN: -15px 5px 0px 10px; FLOAT: right; FONT-SIZE: 12px !important
+}
+.basket#content #UcBasketDetail1_tbcGiftC {
+	PADDING-BOTTOM: 15px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 10px
+}
+.basket#content #UcBasketDetail1_tbcCepA #Table2 {
+	MARGIN: 0px; WIDTH: 100%
+}
+.basket#content #tblButtonLower {
+	Z-INDEX: 10; POSITION: relative; WIDTH: 100% !important; MARGIN-BOTTOM: 20px; FLOAT: right
+}
+.basket#content #tblButtonLower TABLE {
+	WIDTH: auto !important; MARGIN-RIGHT: 5px
+}
+.basket#content #tblButtonUpper {
+	Z-INDEX: 10; POSITION: relative; WIDTH: 100% !important
+}
+.basket#content #tblButtonUpper TABLE {
+	WIDTH: auto !important; MARGIN-RIGHT: 0px
+}
+.basket#content #tblButtonUpper #ucBasketCrossSelling1_tblCrossSelling {
+	MARGIN: auto; WIDTH: 100% !important
+}
+.basket#content #tblButtonUpper #ucBasketCrossSelling1_tblCrossSelling TD {
+	TEXT-ALIGN: center
+}
+.basket#content #tblButtonUpper #ucBasketCrossSelling1_tblCrossSelling TD.text {
+	TEXT-ALIGN: left
+}
+.basket#content #tblButtonUpper #ucBasketCrossSelling1_tblCrossSelling .price {
+	DISPLAY: block; COLOR: #0082d6; FONT-WEIGHT: bold
+}
+.basket#content #UcBasketDetail1_htrCEP TD {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 10px
+}
+.basket#content #UcBasketDetail1_htrCEP TD #Table2 TD {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-SIZE: 12px; PADDING-TOP: 0px
+}
+.basket#content A.text {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 10px; COLOR: #666; FONT-SIZE: 12px; TEXT-DECORATION: none; PADDING-TOP: 10px
+}
+.basket#content U {
+	TEXT-DECORATION: none
+}
+.basket#content #UcBasketDetail1_htrCouponGift #Table3 {
+	WIDTH: 100%
+}
+.basket#content #UcBasketDetail1_htrCouponGift #Table3 #UcBasketDetail1_tbcGiftB {
+	FONT-SIZE: 12px
+}
+.basket#content #UcBasketDetail1_tbcGiftB {
+	WIDTH: auto !important
+}
+.basket#content #UcBasketDetail1_imbCalculateBasket {
+	FLOAT: left
+}
+.basketBrinde#content #UcBasketDetail1_htrCouponGift #Table3 {
+	WIDTH: 100%
+}
+.basketBrinde#content #UcBasketDetail1_htrCouponGift #Table3 #UcBasketDetail1_tbcGiftB {
+	FONT-SIZE: 12px
+}
+.basketBrinde#content #UcBasketDetail1_htrCEP TD {
+	PADDING-TOP: 10px
+}
+.basketBrinde#content #UcBasketDetail1_htrCEP TD #Table2 TD {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-SIZE: 12px; PADDING-TOP: 0px
+}
+.basketBrinde#content TABLE TD {
+	BACKGROUND-COLOR: transparent !important
+}
+#UcBasketDetail1_htrCouponGift {
+	MARGIN-TOP: 15px; BACKGROUND: url(../img/bgTableBorder1.gif) repeat-x; PADDING-TOP: 20px
+}
+#UcBasketDetail1_htrCouponGift TD {
+	PADDING-TOP: 15px
+}
+#content .textb#UcBasketDetail1_Td1 {
+	COLOR: #0082d6
+}
+.basketBrinde#content A.text {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 10px; COLOR: #666; FONT-SIZE: 12px; TEXT-DECORATION: none; PADDING-TOP: 10px
+}
+.basketBrinde#content U {
+	TEXT-DECORATION: none
+}
+.basketBrinde#content #UcBasketDetail1_dgdBasketItem .titcar BR {
+	DISPLAY: none
+}
+.basketBrinde#content #UcBasketDetail1_dgdBasketItem .titcar * {
+	MARGIN-RIGHT: 5px
+}
+.basketBrinde#content #UcBasketDetail1_dgdBasketItem .titcar TD {
+	WIDTH: auto !important; WHITE-SPACE: nowrap; PADDING-TOP: 7px
+}
+.basketBrinde#content #ExchangeDevolutionMenu1_hgcLeftMenu {
+	BACKGROUND: #fff; COLOR: #666; FONT-SIZE: 11px
+}
+.basketBrinde#content #ExchangeDevolutionMenu1_hgcLeftMenu A {
+	COLOR: #666; FONT-SIZE: 11px
+}
+.basketBrinde#content #ExchangeDevolutionMenu1_hgcLeftMenu SPAN {
+	FLOAT: left; COLOR: #666666; FONT-SIZE: 11px; FONT-WEIGHT: bold
+}
+.basketBrinde#content .text {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.basketBrinde#content #UcBasketDetail1_ucParcel_tbcParcel {
+	BACKGROUND: url(../img/bgTable2Bottom.gif) #d8d8d8 repeat-x left bottom
+}
+.basketBrinde#content #UcBasketDetail1_tbcTot {
+	BACKGROUND: #d8d8d8
+}
+.basketBrinde#content #UcBasketDetail1_ucParcel_tbcLeft {
+	BACKGROUND: #d8d8d8
+}
+.basketBrinde#content #UcBasketDetail1_tbcTotA {
+	BACKGROUND: #d8d8d8
+}
+.basketBrinde#content #UcBasketDetail1_ucParcel_tbcRight {
+	BACKGROUND: #d8d8d8
+}
+.basketBrinde#content #UcBasketDetail1_tbcTotB {
+	BACKGROUND: #d8d8d8
+}
+.basketBrinde#content #UcBasketDetail1_TotalValue {
+	BACKGROUND: #d8d8d8
+}
+.basketBrinde#content #UcBasketDetail1_htrCouponGift #UcBasketDetail1_tbcGift {
+	BACKGROUND: url(../img/bgTable1LeftBottom1.gif) no-repeat left bottom
+}
+.basketBrinde#content #UcBasketDetail1_htrCouponGift #UcBasketDetail1_tbcValueD {
+	BACKGROUND: url(../img/bgTable1RightBottom1.gif) no-repeat right bottom
+}
+.basketBrinde#content TR#UcBasketDetail1_htrCouponGift TD {
+	BACKGROUND: url(../img/bgTable1Bottom1.gif) repeat-x left bottom
+}
+.basketBrinde#content TR#UcBasketDetail1_htrCouponGift TD#UcBasketDetail1_tbcGiftA {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.basketBrinde#content #UcBasketDetail1_tbcTotA {
+	FONT-SIZE: 1em; FONT-WEIGHT: bold; PADDING-TOP: 10px
+}
+.basketBrinde#content #UcBasketDetail1_tbcGiftB {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 10px
+}
+.basketBrinde#content #UcBasketDetail1_tbcGiftA {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 10px
+}
+.basketBrinde#content #UcBasketDetail1_tbcGiftB #UcBasketDetail1_CouponNumber {
+	MARGIN: -15px 5px 0px 0px; FLOAT: right; FONT-SIZE: 12px !important
+}
+.basketBrinde#content #UcBasketDetail1_tbcGiftC {
+	PADDING-BOTTOM: 15px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 10px
+}
+.basketBrinde#content #UcBasketDetail1_tbcCepA #Table2 {
+	MARGIN: 0px; WIDTH: 100%
+}
+.basketBrinde#content #UcBasketDetail1_TotalValue {
+	COLOR: #0080d3; FONT-WEIGHT: bold
+}
+.basketBrinde#content #UcBasketDetail1_ucParcel_tbcParcel {
+	FONT-SIZE: 0.9em
+}
+.basketBrinde#content #tblButtonLower {
+	Z-INDEX: 10; POSITION: relative; FLOAT: right
+}
+.basketBrinde#content #tblButtonLower TABLE {
+	MARGIN-RIGHT: 10px
+}
+.basketBrinde#content #tblButtonUpper {
+	Z-INDEX: 10; POSITION: relative; WIDTH: 100% !important
+}
+.basketBrinde#content #tblButtonUpper TABLE {
+	WIDTH: auto !important; MARGIN-RIGHT: 0px
+}
+.basketBrinde#content #tblButtonUpper #ucBasketCrossSelling1_tblCrossSelling {
+	MARGIN: auto; WIDTH: 100% !important
+}
+.basketBrinde#content #tblButtonUpper #ucBasketCrossSelling1_tblCrossSelling TD {
+	TEXT-ALIGN: center
+}
+.basketBrinde#content #tblButtonUpper #ucBasketCrossSelling1_tblCrossSelling TD.text {
+	TEXT-ALIGN: left
+}
+.basketBrinde#content #tblButtonUpper #ucBasketCrossSelling1_tblCrossSelling .price {
+	DISPLAY: block; COLOR: #0082d6; FONT-WEIGHT: bold
+}
+#page #content #tblLogin {
+	WIDTH: 100%; BACKGROUND: #f7f7f7
+}
+.loginLogout#content #lblTitle {
+	COLOR: #666; MARGIN-LEFT: 10px; FONT-WEIGHT: bold
+}
+.loginLogout#content .bluetitle {
+	COLOR: #666; FONT-WEIGHT: bold
+}
+.loginLogout#content #tblLogin {
+	FONT-SIZE: 0.9em
+}
+.loginLogout#content #tblLogin INPUT {
+	FONT-SIZE: 0.9em
+}
+.loginLogout#content .v16b {
+	FONT-SIZE: 0.9em
+}
+.loginLogout#content .text12 {
+	FONT-SIZE: 0.9em
+}
+.loginLogout#content TABLE {
+	MARGIN: 0px auto; WIDTH: 95%
+}
+.basketBrinde#content #tblRefresh TD {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; PADDING-TOP: 10px
+}
+.basketBrinde#content #UcBasketDetail1_tbcGiftB {
+	WIDTH: auto !important
+}
+.basketBrinde#content #UcBasketDetail1_imbCalculateBasket {
+	FLOAT: left
+}
+.basket#content TR.text * {
+	VERTICAL-ALIGN: middle
+}
+.basketBrinde#content TR.text * {
+	VERTICAL-ALIGN: middle
+}
+.basket#content TR.text TD {
+	BORDER-BOTTOM: #666 1px dotted; PADDING-BOTTOM: 10px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; PADDING-TOP: 10px
+}
+.basketBrinde#content TR.text TD {
+	BORDER-BOTTOM: #666 1px dotted; PADDING-BOTTOM: 10px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; PADDING-TOP: 10px
+}
+.payment#content #area11 {
+	BACKGROUND: url(../img/header_pgto.png) #fff no-repeat; PADDING-TOP: 50px
+}
+.payment#content #imgFirstStep {
+	MARGIN-LEFT: 15px
+}
+.payment#content TABLE {
+	BORDER-COLLAPSE: collapse
+}
+.payment#content TABLE TD {
+	BACKGROUND-COLOR: transparent !important
+}
+.payment#content #ucPaymentDetail_dgdBasketItem .titcar BR {
+	DISPLAY: none
+}
+.payment#content #ucPaymentDetail_dgdBasketItem .titcar * {
+	MARGIN-RIGHT: 5px
+}
+.payment#content #ucPaymentDetail_dgdBasketItem .titcar TD {
+	WIDTH: auto !important; WHITE-SPACE: nowrap; PADDING-TOP: 7px
+}
+.payment#content #ucPaymentDetail_dgdBasketItem TR.text * {
+	VERTICAL-ALIGN: middle
+}
+.payment#content #ucPaymentDetail_dgdBasketItem TR.text TD {
+	BORDER-BOTTOM: #666 1px dotted; PADDING-BOTTOM: 10px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; PADDING-TOP: 10px
+}
+.payment#content #ucPaymentDetail_tbcShip {
+	PADDING-BOTTOM: 10px !important; PADDING-LEFT: 0px !important; PADDING-RIGHT: 0px !important; PADDING-TOP: 10px !important
+}
+.payment#content #ucPaymentDetail_htrDiscountShipping TD.text {
+	PADDING-BOTTOM: 10px !important; PADDING-LEFT: 12px !important; PADDING-RIGHT: 0px !important; PADDING-TOP: 10px !important
+}
+.payment#content #ucPaymentDetail_tbcGiftB {
+	PADDING-RIGHT: 10px
+}
+.payment#content #ucPaymentDetail_tbcGiftC {
+	PADDING-RIGHT: 10px
+}
+.payment#content TABLE TD TABLE TD.textb {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 12px; PADDING-RIGHT: 0px; FONT-SIZE: 11px; PADDING-TOP: 10px
+}
+.payment#content #ucPaymentDetail_htrDiscountShipping {
+	BACKGROUND: url(../img/bgTableService1.gif) repeat-x left bottom
+}
+.payment#content #ucPaymentDetail_tbcTot #ucPaymentDetail_imgPmtCornerC {
+	DISPLAY: none
+}
+.payment#content #ucPaymentDetail_tbcTotB #ucPaymentDetail_imgPmtCornerD {
+	DISPLAY: none
+}
+.payment#content #ucPaymentDetail_imgPmtCorner1A {
+	DISPLAY: none
+}
+.payment#content #ucPaymentDetail_imgPmtCorner1B {
+	DISPLAY: none
+}
+.payment#content #ucPaymentDetail_htrTotal TD {
+	PADDING-BOTTOM: 7px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: url(../img/bgTableTotal1.gif) repeat-x left bottom; PADDING-TOP: 8px
+}
+.payment#content #ucPaymentDetail_htrTotal TD#ucPaymentDetail_tbcTotA {
+	PADDING-LEFT: 15px
+}
+.payment#content #ucPaymentDetail_tbcCouponA TD {
+	VERTICAL-ALIGN: middle
+}
+.payment#content #ucPaymentDetail_tbcCouponA TD.text {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 12px; PADDING-RIGHT: 0px; PADDING-TOP: 10px
+}
+.payment#content #ucPaymentDetail_tbcCouponA TD.text SPAN.textb {
+	FONT-SIZE: 11px
+}
+.payment#content #ucPaymentDetail_tbcCouponA TD.textb {
+	TEXT-ALIGN: left; WIDTH: 215px !important; COLOR: #fff
+}
+.payment#content #ucPaymentDetail_tbcCouponA TD.textb BR {
+	DISPLAY: none
+}
+.payment#content #ucPaymentDetail_tbcCouponA TD.textb #ucPaymentDetail_CouponNumber {
+	WIDTH: 210px; COLOR: #666
+}
+.payment#content #ucPaymentDetail_tbcCouponA #ucPaymentDetail_imgCalculateBasket {
+	MARGIN: 13px 5px 0px 0px; FLOAT: left
+}
+.payment#content #ucPaymentDetail_divCouponMessage {
+	FONT-SIZE: 11px
+}
+.payment#content #ucPaymentDetail_tbcCouponD {
+	BORDER-BOTTOM: #666 1px dotted
+}
+.payment#content #tbcAddressBook {
+	PADDING-BOTTOM: 15px; PADDING-LEFT: 12px; PADDING-RIGHT: 0px; BACKGROUND: url(../img/bgTableBottom2.gif) repeat-x left bottom; PADDING-TOP: 10px
+}
+.payment#content #tbcAddressBook TABLE {
+	WIDTH: 300px
+}
+.payment#content #tbcAddressBook TD {
+	TEXT-ALIGN: left
+}
+.payment#content #tbcAddressBook TD TABLE TD.text {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.payment#content #tbcAddressBook TD TABLE TD.textb {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.payment#content #tbcAddressBook #ucShippingAddress_lblName {
+	DISPLAY: none
+}
+.payment#content .casamento {
+	FONT-SIZE: 11px
+}
+.payment#content #ucPaymentType_imgSecondStep {
+	WIDTH: 100%; BACKGROUND: url(../img/formsPayment.gif) no-repeat left top; HEIGHT: 52px
+}
+.payment2#content #ucPaymentType_imgSecondStep {
+	WIDTH: 100%; BACKGROUND: url(../img/formsPayment.gif) no-repeat left top; HEIGHT: 52px
+}
+.payment#content .titMFrete {
+	WIDTH: 100%; BACKGROUND: url(../img/titMenuFrete.gif) no-repeat left top; HEIGHT: 52px
+}
+.payment#content #ucPaymentType_tblPaymentSubmarinoAura {
+	BACKGROUND: url(../img/bgTitles.gif) repeat-x left top
+}
+.payment#content #ucPaymentType_tblPaymentCC {
+	BACKGROUND: url(../img/bgTitles.gif) repeat-x left top
+}
+.payment#content #ucPaymentType_tblBoleto {
+	BACKGROUND: url(../img/bgTitles.gif) repeat-x left top
+}
+.payment#content #ucPaymentType_tblDebito {
+	BACKGROUND: url(../img/bgTitles.gif) repeat-x left top
+}
+.payment#content #ucPaymentType_tblPaymentSubmarinoAura {
+	BACKGROUND: url(../img/bgTitles.gif) repeat-x left top
+}
+.payment#content #ucPaymentType_tblPaymentCC {
+	BACKGROUND: url(../img/bgTitles.gif) repeat-x left top
+}
+.payment#content #ucPaymentType_tblDebito {
+	BACKGROUND: url(../img/bgTitles.gif) repeat-x left top
+}
+.payment#content #ucPaymentType_tblPaymentSubmarinoAura TD {
+	HEIGHT: 37px; VERTICAL-ALIGN: top; PADDING-TOP: 5px
+}
+.payment#content #ucPaymentType_tblPaymentCC TD {
+	HEIGHT: 37px; VERTICAL-ALIGN: top; PADDING-TOP: 5px
+}
+.payment#content #ucPaymentType_tblBoleto TD {
+	HEIGHT: 37px; VERTICAL-ALIGN: top; PADDING-TOP: 5px
+}
+.payment#content #ucPaymentType_tblDebito TD {
+	HEIGHT: 37px; VERTICAL-ALIGN: top; PADDING-TOP: 5px
+}
+.payment#content #ucPaymentType_imgSubmarinoAuraHelp {
+	MARGIN-RIGHT: 10px
+}
+.payment#content #ucPaymentType_imgHelp {
+	POSITION: relative; RIGHT: 25%
+}
+.payment#content #ucPaymentType_imgHelpA {
+	POSITION: relative; RIGHT: 25%
+}
+.payment#content #ucPaymentType_imgHelpB {
+	POSITION: relative; RIGHT: 25%
+}
+.payment#content #ucPaymentType_tblPaymentSubmarinoAura #ucPaymentType_imgSubmarinoAura {
+	MARGIN-TOP: 0px !important
+}
+.payment#content #ucPaymentType_tblPaymentSubmarinoAura #rbtPaymentSubAura {
+	MARGIN-TOP: 0px !important
+}
+.payment#content #rbtPaymentCC {
+	MARGIN-TOP: 0px !important
+}
+.payment#content #ucPaymentType_imgTitCC {
+	MARGIN: 3px 0px 0px 5px
+}
+.payment#content #ucPaymentType_tblPaymentSubmarinoAura #ucPaymentType_imgSubmarinoAura {
+	MARGIN: 3px 0px 0px 5px
+}
+.payment#content #ucPaymentType_tblPaymentSubmarinoAura #rbtPaymentSubAura {
+	MARGIN-LEFT: 10px
+}
+.payment#content #ucPaymentType_tblPaymentCC #rbtPaymentCC {
+	MARGIN-LEFT: 10px
+}
+.payment#content #ucPaymentDetail_imgPmtCornerA {
+	WIDTH: auto !important
+}
+.payment#content #ucPaymentDetail_imgPmtCornerB {
+	WIDTH: auto !important; HEIGHT: auto !important
+}
+.payment#content #ucPaymentDetail_dgdBasketItem .titcar {
+	BACKGROUND: none transparent scroll repeat 0% 0%; HEIGHT: auto !important; FONT-SIZE: 11px
+}
+.payment#content #ucPaymentDetail_dgdBasketItem {
+	WIDTH: 100% !important; BACKGROUND: url(../img/bgTable2.gif) repeat-x center top
+}
+.payment#content #ucPaymentDetail_dgdBasketItem .text {
+	HEIGHT: 100px
+}
+.payment#content #ucPaymentDetail_tbcGiftA {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-SIZE: 11px; PADDING-TOP: 10px
+}
+.payment#content #ucPaymentDetail_tbcGift {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-SIZE: 11px; PADDING-TOP: 10px
+}
+.payment#content #ucPaymentDetail_tbcGiftA {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 12px; PADDING-RIGHT: 0px; PADDING-TOP: 10px
+}
+.payment#content #ucPaymentDetail_tbcGiftB {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.payment#content #ucPaymentDetail_TotalValue {
+	PADDING-RIGHT: 10px; COLOR: #0082d6; FONT-SIZE: 13px
+}
+.payment#content #tbrAddressImages TD {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.payment#content #ucPaymentType_htrPaymentGroupAnchor .titmeio {
+	BACKGROUND: url(../img/PaymentGroupAnchorTopCenter.gif) repeat-x left top
+}
+.payment#content #ucPaymentType_htrPaymentGroupAnchor .titborda {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.payment#content #ucPaymentType_htrPaymentGroupAnchor .foot {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.payment#content #tblSubmarinoCreditCard TD {
+	BACKGROUND: none transparent scroll repeat 0% 0%; VERTICAL-ALIGN: top
+}
+.payment#content #ucPaymentType_tblPaymentSubmarino TD {
+	BACKGROUND: none transparent scroll repeat 0% 0%; VERTICAL-ALIGN: top
+}
+.payment#content #tblCreditCardData {
+	BACKGROUND: none transparent scroll repeat 0% 0%; VERTICAL-ALIGN: top
+}
+.payment#content #tblCreditCardParcel {
+	BACKGROUND: none transparent scroll repeat 0% 0%; VERTICAL-ALIGN: top
+}
+.payment#content #ucPaymentType_dtlCreditCard TD {
+	BACKGROUND: none transparent scroll repeat 0% 0%; VERTICAL-ALIGN: top
+}
+.payment#content #ucPaymentType_tblPaymentSubmarino TD {
+	BACKGROUND: none transparent scroll repeat 0% 0%; VERTICAL-ALIGN: top
+}
+.payment#content #tblCreditCardDataMasterCard {
+	BACKGROUND: none transparent scroll repeat 0% 0%; VERTICAL-ALIGN: top
+}
+.payment#content #tblSubmarinoCreditCard TD {
+	VERTICAL-ALIGN: top
+}
+.payment#content #ucPaymentType_rbtPaymentSubAuraSelect {
+	MARGIN-BOTTOM: 0px
+}
+.payment#content #ucPaymentType_imgCartoesSubmarinoAura {
+	MARGIN-TOP: 5px
+}
+.payment#content #ucPaymentType_tblPaymentSubmarino TD {
+	HEIGHT: auto !important
+}
+.payment#content #tblCreditCardData .text {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 5px
+}
+.payment#content #tblCreditCardDataMasterCard .text {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 5px
+}
+.payment#content #ucPaymentType_dtlCreditCard TD {
+	TEXT-ALIGN: left; FONT-SIZE: 12px
+}
+#tblSubmarinoCreditCard INPUT.text {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-TOP: medium none; BORDER-RIGHT: medium none
+}
+.payment#content #ucPaymentType_htrPaymentParcel TABLE TD {
+	FONT-SIZE: 11px
+}
+.payment#content #ucPaymentType_htrPaymentParcel TABLE TD INPUT {
+	MARGIN-RIGHT: 10px
+}
+.payment#content #htbCreditCard TD {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.payment#content #ucPaymentType_htbImagePagamentos {
+	POSITION: relative; WIDTH: 110% !important; BORDER-COLLAPSE: collapse; LEFT: -5px
+}
+.payment#content #htbSubmarinoAura TD {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 10px
+}
+.payment#content #htbCreditCard TD {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 10px
+}
+.payment#content #htbBoleto TD {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 10px
+}
+.payment#content #htbOnLine TD {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 10px
+}
+.payment#content #htcButtonCC {
+	PADDING-BOTTOM: 0px !important; PADDING-LEFT: 0px !important; PADDING-RIGHT: 0px !important; PADDING-TOP: 10px !important
+}
+.payment#content #htbSubmarinoAura TD #ucPaymentType_tblPaymentSubmarinoAura TD {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 5px
+}
+.payment#content #htbCreditCard TD #ucPaymentType_tblPaymentCC TD {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 5px
+}
+.payment#content #htbBoleto TD #ucPaymentType_tblBoleto TD {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 5px
+}
+.payment#content #htbOnLine TD #ucPaymentType_tblDebito TD {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 5px
+}
+#ucPaymentType_htbImagePagamentos TD {
+	PADDING-BOTTOM: 10px
+}
+.payment#content #ucPaymentType_htrPaymentGroupAnchor TD {
+	PADDING-BOTTOM: 30px !important; VERTICAL-ALIGN: top
+}
+.payment#content #ucPaymentType_htrPaymentGroupAnchor .box .foot {
+	PADDING-BOTTOM: 0px !important
+}
+.payment#content .box .foot IMG {
+	DISPLAY: none
+}
+.payment#content .box .titmeio SPAN {
+	PADDING-BOTTOM: 15px; DISPLAY: block; FONT-SIZE: 13px; FONT-WEIGHT: bold
+}
+.payment#content .box .titmeio A {
+	MARGIN: 0px 5px
+}
+.payment#content .box .titmeio BR {
+	DISPLAY: none
+}
+.payment#content #ucPaymentType_dgdGroupPaymentBoleto TABLE TD {
+	FONT-SIZE: 11px
+}
+.payment#content #ucPaymentType_dgdGroupPaymentOnLine TABLE TD {
+	FONT-SIZE: 11px
+}
+#tblCreditCardParcel TD {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 10px
+}
+#tblCreditCardParcel TD TABLE TD {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 15px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+#ucPaymentType_dtlCreditCard__ctl1_lblDescription SPAN.text {
+	FONT-SIZE: 11px !important
+}
+#ucPaymentType_dtlCreditCard__ctl2_lblDescription SPAN.text {
+	FONT-SIZE: 11px !important
+}
+#ucPaymentType_dtlCreditCard__ctl3_lblDescription SPAN.text {
+	FONT-SIZE: 11px !important
+}
+#ucPaymentType_dtlCreditCard__ctl4_lblDescription SPAN.text {
+	FONT-SIZE: 11px !important
+}
+#ucPaymentType_dtlCreditCard__ctl5_lblDescription SPAN.text {
+	FONT-SIZE: 11px !important
+}
+#ucPaymentType_dtlCreditCard__ctl6_lblDescription SPAN.text {
+	FONT-SIZE: 11px !important
+}
+#ucPaymentType_dtlCreditCard__ctl7_lblDescription SPAN.text {
+	FONT-SIZE: 11px !important
+}
+#ucPaymentType_dtlCreditCard__ctl8_lblDescription SPAN.text {
+	FONT-SIZE: 11px !important
+}
+#ucPaymentType_dtlCreditCard__ctl9_lblDescription SPAN.text {
+	FONT-SIZE: 11px !important
+}
+#ucPaymentType_dtlCreditCard__ctl10_lblDescription SPAN.text {
+	FONT-SIZE: 11px !important
+}
+#ucPaymentType_dtlCreditCard__ctl11_lblDescription SPAN.text {
+	FONT-SIZE: 11px !important
+}
+#ucPaymentType_dtlCreditCard__ctl12_lblDescription SPAN.text {
+	FONT-SIZE: 11px !important
+}
+#ucPaymentType_dtlFinancing__ctl1_lblDescription SPAN.text {
+	FONT-SIZE: 11px !important
+}
+#ucPaymentType_dtlFinancing__ctl2_lblDescription SPAN.text {
+	FONT-SIZE: 11px !important
+}
+#ucPaymentType_dtlFinancing__ctl3_lblDescription SPAN.text {
+	FONT-SIZE: 11px !important
+}
+#ucPaymentType_dtlFinancing__ctl4_lblDescription SPAN.text {
+	FONT-SIZE: 11px !important
+}
+.payment#content SPAN.gridParcel {
+	FONT-SIZE: 11px
+}
+.payment#content #ucPaymentType_dtlFinancing SPAN.text {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.payment#content #ucPaymentType_dtlCreditCard SPAN.text {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+#ucPaymentType_dtlFinancing {
+	BACKGROUND: url(../img/bg2.gif) repeat-x left top
+}
+#ucPaymentType_dtlCreditCard {
+	BACKGROUND: url(../img/bg2.gif) repeat-x left top
+}
+#content #ucPaymentType_imgBoleto {
+	MARGIN: 1px 0px 0px 10px
+}
+#content #ucPaymentType_imgDebito {
+	MARGIN: 1px 0px 0px 10px
+}
+#content #ucPaymentType_Tr1 BR {
+	DISPLAY: none
+}
+#content #ucPaymentType_Tr1 BR {
+	DISPLAY: none
+}
+.payment#content #htbSubmarinoAura TD.text {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.payment#content #htbAlignPOK TD {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.payment#content #ucPaymentType_tblSubmarinoAuraPok TD {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+#content #ucPaymentType_tblSubmarinoAuraNormal #ucPaymentType_htbRegularSubAura TD {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.payment#content #ucPaymentType_tblPaymentSubmarino #ucPaymentType_htdSubmarinoAura #tblCreditCardParcel TD {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 10px
+}
+.payment#content #ucPaymentType_tblPaymentSubmarino #ucPaymentType_htdSubmarinoAura #tblCreditCardParcel #ucPaymentType_dtlCreditCard TD {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 15px; PADDING-RIGHT: 15px; PADDING-TOP: 0px
+}
+.payment#content #ucPaymentType_tblPaymentSubmarino #ucPaymentType_htdSubmarinoAura #tblCreditCardParcel #ucPaymentType_dtlFinancing TD {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 15px; PADDING-RIGHT: 15px; PADDING-TOP: 0px
+}
+.payment#content #ucPaymentType_tblPaymentSubmarino #ucPaymentType_htdSubmarinoAura #tblCreditCardData TD {
+	PADDING-BOTTOM: 2px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 2px
+}
+.payment#content #ucPaymentType_tblPaymentSubmarino #ucPaymentType_htdSubmarinoMasterCard #tblCreditCardDataMasterCard TD {
+	PADDING-BOTTOM: 2px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 2px
+}
+.payment#content #ucPaymentType_tblPaymentSubmarino #ucPaymentType_htdSubmarinoAura #tblCreditCardData BR {
+	DISPLAY: none
+}
+.payment#content #ucPaymentType_tblPaymentSubmarino #ucPaymentType_htdSubmarinoMasterCard #tblCreditCardDataMasterCard BR {
+	DISPLAY: none
+}
+.payment#content .financePokTextLink {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-TOP: medium none; BORDER-RIGHT: medium none
+}
+.payment#content #ucPaymentType_htrSubmarinoAuraSpacer BR {
+	DISPLAY: none
+}
+.payment#content #htdCardB2 {
+	PADDING-BOTTOM: 0px !important; PADDING-LEFT: 0px !important; PADDING-RIGHT: 0px !important; PADDING-TOP: 0px !important
+}
+.payment#content #htdAlignPaymentB {
+	PADDING-BOTTOM: 0px !important; PADDING-LEFT: 0px !important; PADDING-RIGHT: 0px !important; PADDING-TOP: 0px !important
+}
+.payment#content #ucPaymentType_htdCardB4 {
+	PADDING-BOTTOM: 0px !important; PADDING-LEFT: 0px !important; PADDING-RIGHT: 0px !important; PADDING-TOP: 0px !important
+}
+.payment#content #ucPaymentType_htdCardB5 {
+	PADDING-BOTTOM: 0px !important; PADDING-LEFT: 0px !important; PADDING-RIGHT: 0px !important; PADDING-TOP: 0px !important
+}
+.payment#content #htdCardB2 BR {
+	DISPLAY: block
+}
+.payment#content #ucPaymentType_htrPaymentParcel TABLE {
+	DISPLAY: none
+}
+.payment#content #tbPaymentParcel38 .textb BR {
+	DISPLAY: none
+}
+.payment#content #tbPaymentParcel38 TD.gridParcelAlt {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.payment#content #tbPaymentParcel38 TD.gridParcel {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.payment#content #ucPaymentType_htrCreditCard #htbCreditCard TD.text {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 20px; PADDING-RIGHT: 20px; PADDING-TOP: 0px
+}
+.payment#content #htbBoleto TD {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 20px; PADDING-RIGHT: 20px; PADDING-TOP: 10px
+}
+.payment#content #htbOnLine TD {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 20px; PADDING-RIGHT: 20px; PADDING-TOP: 10px
+}
+.payment#content #ucPaymentType_dgdGroupPaymentBoleto TD {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.payment#content #htbOnLine TD TABLE TD {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.payment#content #htbCreditCard #ucPaymentType_tblPaymentCC {
+	POSITION: relative; MARGIN: 0px -200px 0px -20px; WIDTH: 130%; LEFT: -5px
+}
+.payment#content #ucPaymentType_tblBoleto {
+	POSITION: relative; MARGIN: 0px -200px 0px -20px; WIDTH: 130%; LEFT: -5px
+}
+.payment#content #ucPaymentType_tblDebito {
+	POSITION: relative; MARGIN: 0px -200px 0px -20px; WIDTH: 130%; LEFT: -5px
+}
+.payment#content #ucPaymentType_lblAlertTransfer {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.payment#content #ucPaymentType_dtlFinancing__ctl0_imgHeaderFinancing {
+	FLOAT: left
+}
+.payment#content #ucPaymentType_htrRegularSubAura #ucPaymentType_htbRegularSubAura TD.text {
+	PADDING-BOTTOM: 20px; PADDING-LEFT: 20px; PADDING-RIGHT: 20px; PADDING-TOP: 0px
+}
+.payment#content #ucPaymentType_imgCloseSubmarinoAura {
+	MARGIN: 0px 20px 20px 0px
+}
+.payment#content #ucPaymentType_imgCloseBoleto {
+	MARGIN: 0px 20px 20px 0px
+}
+.payment#content #ucPaymentType_imgCloseFinanceCDC {
+	MARGIN: 0px 20px 20px 0px
+}
+.payment#content #ucPaymentType_imgCloseSubmarinoAura {
+	MARGIN-BOTTOM: 60px
+}
+.payment#content #ucPaymentType_imgCloseFinanceCDC {
+	MARGIN-BOTTOM: 60px
+}
+.payment#content #ucPaymentType_imgCloseCC {
+	POSITION: relative; TOP: -55px
+}
+.payment#content #htcButtonCC {
+	WIDTH: 100%
+}
+.payment#content #ucPaymentType_dtlCreditCard {
+	WIDTH: 100% !important
+}
+.payment#content #ucPaymentType_dtlFinancing {
+	WIDTH: 100% !important
+}
+.payment#content #ucPaymentType_txtNameSubmarinoAura {
+	WIDTH: 160px !important
+}
+.payment#content #ucPaymentType_txtNameSubmarinoMasterCard {
+	WIDTH: 160px !important
+}
+.payment#content #ucPaymentType_txtNameCreditCard {
+	WIDTH: 160px !important
+}
+.payment#content #ucPaymentType_txtCreditCardNumber {
+	WIDTH: 160px !important
+}
+.payment#content #htbBandCreditCard TD {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; WIDTH: 12%; PADDING-RIGHT: 0px; HEIGHT: 90px; PADDING-TOP: 0px
+}
+.payment#content #htbBandCreditCard BR {
+	DISPLAY: none
+}
+.payment#content #htbBandCreditCard INPUT {
+	MARGIN: 5px auto; DISPLAY: block
+}
+.payment#content #htbBandCreditCard #ucPaymentType_dtlGroupPaymentCard__ctl2_lblCard {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.payment#content #ucPaymentType_dgdGroupPaymentOnLine TABLE TD {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; WIDTH: auto !important; BORDER-TOP: medium none; BORDER-RIGHT: medium none
+}
+.payment#content #ucPaymentType_dgdGroupPaymentOnLine TABLE TD#htcPaymentImage5 {
+	WIDTH: 100px !important
+}
+.payment#content #ucPaymentType_dgdGroupPaymentOnLine #htcPaymentImage6 {
+	WIDTH: 100px !important
+}
+.payment#content #ucPaymentType_dgdGroupPaymentOnLine #htcPaymentImage4 {
+	WIDTH: 100px !important
+}
+.payment#content #ucPaymentType_dgdGroupPaymentOnLine #htcPaymentImage3 {
+	WIDTH: 100px !important
+}
+.payment#content #ucPaymentType_dgdGroupPaymentOnLine #htcPaymentImage2 {
+	WIDTH: 100px !important
+}
+.payment#content #ucPaymentType_dgdGroupPaymentOnLine #htcPaymentImage1 {
+	WIDTH: 100px !important
+}
+.payment#content #ucPaymentType_dgdGroupPaymentOnLine #htcPaymentImage7 {
+	WIDTH: 100px !important
+}
+.payment#content #ucPaymentType_dgdGroupPaymentOnLine TD {
+	BORDER-BOTTOM: #666 1px dotted; PADDING-BOTTOM: 10px !important; PADDING-LEFT: 0px !important; PADDING-RIGHT: 0px !important; PADDING-TOP: 10px !important
+}
+.payment#content #ucPaymentType_dgdGroupPaymentBoleto__ctl2_lblInformationBoleto {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-SIZE: 11px; PADDING-TOP: 0px
+}
+.payment#content #ucPaymentType_dgdGroupPaymentOnLine__ctl2_Label7 {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-SIZE: 11px; PADDING-TOP: 0px
+}
+.payment#content #ucPaymentType_dgdGroupPaymentOnLine__ctl3_Label7 {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-SIZE: 11px; PADDING-TOP: 0px
+}
+.payment#content #ucPaymentType_dgdGroupPaymentOnLine__ctl2_Label7 A {
+	TEXT-DECORATION: underline
+}
+.payment#content #ucPaymentType_dgdGroupPaymentOnLine__ctl3_Label7 A {
+	TEXT-DECORATION: underline
+}
+.payment#content #ucPaymentType_dgdGroupPaymentBoleto__ctl2_lblObservationBoleto {
+	PADDING-BOTTOM: 3px; MARGIN: 5px 0px 0px 112px; PADDING-LEFT: 20px; PADDING-RIGHT: 0px; DISPLAY: block; BACKGROUND: url(../img/iconWarning.gif) no-repeat left 5px; PADDING-TOP: 5px
+}
+.payment#content #ucPaymentType_dgdGroupPaymentOnLine__ctl2_Label8 {
+	PADDING-BOTTOM: 3px; MARGIN: 5px 0px 0px 112px; PADDING-LEFT: 20px; PADDING-RIGHT: 0px; DISPLAY: block; BACKGROUND: url(../img/iconWarning.gif) no-repeat left 5px; PADDING-TOP: 5px
+}
+.payment#content #ucPaymentType_dgdGroupPaymentOnLine__ctl3_Label8 {
+	PADDING-BOTTOM: 3px; MARGIN: 5px 0px 0px 112px; PADDING-LEFT: 20px; PADDING-RIGHT: 0px; DISPLAY: block; BACKGROUND: url(../img/iconWarning.gif) no-repeat left 5px; PADDING-TOP: 5px
+}
+.payment#content #ucPaymentType_dgdGroupPaymentBoleto__ctl2_lblInformationBoleto {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 33px; PADDING-RIGHT: 0px; DISPLAY: block; PADDING-TOP: 0px
+}
+.payment#content #ucPaymentType_htrBoletoBR BR {
+	DISPLAY: none
+}
+.payment#content #ucPaymentType_dgdGroupPaymentBoleto BR {
+	DISPLAY: none
+}
+.payment#content #ucPaymentType_htrOnLineBR BR {
+	DISPLAY: none
+}
+.payment#content #ucPaymentType_dgdGroupPaymentOnLine TD {
+	BACKGROUND-COLOR: #fff !important
+}
+.payment#content #ucPaymentType_imgCloseBoleto {
+	MARGIN-BOTTOM: 40px
+}
+.payment#content #ucPaymentType_imgCloseOnLine {
+	MARGIN-TOP: 10px
+}
+.payment#content #ucPaymentType_lblAlertSubmarinoAura {
+	PADDING-BOTTOM: 0px !important; PADDING-LEFT: 0px !important; PADDING-RIGHT: 0px !important; PADDING-TOP: 0px !important
+}
+.payment#content #ucPaymentType_dgdGroupPaymentBoleto TABLE TD {
+	BORDER-BOTTOM: hidden; BORDER-LEFT: hidden; BORDER-TOP: hidden; BORDER-RIGHT: hidden
+}
+.payment#content #ucPaymentType_dgdGroupPaymentBoleto TR TD {
+	PADDING-LEFT: 89px; BACKGROUND: url(../img/bgBill.gif) no-repeat 34px 3px
+}
+.payment#content #ucPaymentType_dgdGroupPaymentBoleto TR TD TD {
+	PADDING-LEFT: 0px; BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.payment#content #ucPaymentType_dgdGroupPaymentBoleto TR TD TD INPUT {
+	POSITION: relative; RIGHT: 89px
+}
+#page .payment#content .fundo2 {
+	BACKGROUND: #f2f2f2
+}
+#page #content #ucPaymentType_htdSubmarinoAura {
+	BACKGROUND: #f2f2f2
+}
+#page #content #ucPaymentType_htdCard3 {
+	BACKGROUND: #f2f2f2
+}
+#page #content #ucPaymentType_tblPaymentSubmarino TD {
+	BACKGROUND: #f2f2f2
+}
+#page #content #htdCardA2 {
+	BACKGROUND: #f2f2f2
+}
+#page #content #htdCardB1 {
+	BACKGROUND: #f2f2f2
+}
+#page #content #htdCardB2 {
+	BACKGROUND: #f2f2f2
+}
+#page #content #htdCardB3 {
+	BACKGROUND: #f2f2f2
+}
+.payment#content #ucPaymentType_dtlFinanceCDC .text {
+	FONT-FAMILY: arial; FONT-SIZE: 11px
+}
+.payment#content #ucPaymentType_dtlFinanceCDC {
+	BACKGROUND: #eee
+}
+.payment#content #ucPaymentType_lblTitleFinanceDirect {
+	FONT-SIZE: 12px
+}
+.payment#content #ucPaymentType_htdCardB5 BR {
+	DISPLAY: block
+}
+#page #content #tblSubmarinoCreditCard *.clean {
+	BACKGROUND: #fff
+}
+.subServices#content #conteudo {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; PADDING-TOP: 10px
+}
+.unlockPassword#content TABLE {
+	MARGIN: 0px auto; WIDTH: 95%; BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.wrapRefferPage#content TABLE {
+	MARGIN: 0px auto; WIDTH: 98%
+}
+.addressBook#content TABLE {
+	MARGIN: 0px auto; WIDTH: 98%
+}
+.wrapRefferPage#content #table1 TD TABLE TD TABLE TD TABLE TD.text {
+	PADDING-BOTTOM: 2px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 2px
+}
+.wrapRefferPageBasket#content TABLE {
+	MARGIN: 0px auto; WIDTH: 95%
+}
+.wrapRefferPage#content #area11 {
+	BACKGROUND: url(../img/header_embrulho.png) #fff no-repeat; PADDING-TOP: 70px
+}
+UNKNOWN {
+	DISPLAY: none
+}
+.wrapRefferPageBasket#content #area11 {
+	BACKGROUND: url(../img/header_embrulho.png) #fff no-repeat; PADDING-TOP: 70px
+}
+UNKNOWN {
+	DISPLAY: none
+}
+.exchange#content #ExchangeDevolutionMenu1_hgcLeftMenu {
+	MARGIN-TOP: -5px; BACKGROUND: url(../img/top_meucadastro.gif) no-repeat left 5px; OVERFLOW: hidden
+}
+.exchange#content #corpo {
+	MARGIN: 0px
+}
+BODY {
+	MARGIN: 0px
+}
+.exchange#content #reptopo1 #imgAttendanceCentral {
+	MARGIN-TOP: 7px
+}
+.exchange#content #reptopo1 {
+	MARGIN: 0pt 5px 0pt 175px; BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.exchange#content #area1 #area1A {
+	PADDING-BOTTOM: 0pt; PADDING-LEFT: 0pt; PADDING-RIGHT: 0pt; PADDING-TOP: 1px
+}
+.exchange#content #area11 {
+	LINE-HEIGHT: 0pt; ZOOM: 1; BACKGROUND: url(../img/bgArea11.gif) no-repeat 145px top; FONT-SIZE: 0pt; OVERFLOW: hidden
+}
+.exchange#content #left {
+	WIDTH: 145px
+}
+.LeftNavigation {
+	WIDTH: 145px
+}
+.exchange#content #area1 #area1C {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.exchange#content #area1 #area1B {
+	MARGIN: 0pt 0pt 0pt -14px; BACKGROUND: url(../img/area1BgLeft.png) repeat-y 0pt 50%
+}
+.exchange#content #ExchangeDevolutionMenu1_hgcLeftMenu SPAN {
+	COLOR: #0082d7
+}
+.loginLogout#content #Image1 {
+	PADDING-LEFT: 0px
+}
+.loginLogout#content #area11 {
+	BACKGROUND: url(../img/header_login.png) #fff no-repeat; PADDING-TOP: 70px
+}
+.forgotPassword#content {
+	TEXT-ALIGN: center
+}
+.forgotPassword#content TABLE {
+	MARGIN: 0px auto; WIDTH: 450px
+}
+.forgotPassword#content #area11 {
+	BACKGROUND: url(../img/header_esqueciSenha.png) #fff no-repeat; PADDING-TOP: 70px
+}
+#ucSearch__ctl0_hgcTopSearch {
+	DISPLAY: none
+}
+#ucSearch__ctl0_hgcWave {
+	DISPLAY: none
+}
+.checkout#content TABLE.text TABLE TABLE {
+	WIDTH: auto
+}
+.payment#content #ucPaymentType_dtlCreditCard INPUT {
+	VERTICAL-ALIGN: middle
+}
+#ucPaymentType_dtlFinancing INPUT {
+	VERTICAL-ALIGN: middle
+}
+.payment#content #ucPaymentType_htrPaymentParcel TABLE TD SPAN {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; DISPLAY: block; PADDING-TOP: 5px
+}
+#tblCreditCardParcel TR TD FONT {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; DISPLAY: block; PADDING-TOP: 5px
+}
+.payment#content #ucPaymentType_htrPaymentParcel TABLE .gridPay SPAN {
+	COLOR: #000
+}
+.payment#content #ucPaymentType_htrPaymentParcel TABLE .gridPay STRONG {
+	COLOR: #0082d6
+}
+.payment#content #ucPaymentType_htrPaymentParcel TABLE TD INPUT {
+	VERTICAL-ALIGN: middle
+}
+.payment#content #tblCreditCardParcel TR .gridPay FONT {
+	BACKGROUND-COLOR: #ddeef9 !important
+}
+.payment#content #tblCreditCardParcel TR TD SPAN {
+	COLOR: #0082d6
+}
+.payment#content #tblCreditCardParcel TR .gridPay SPAN {
+	COLOR: #000
+}
+.payment#content #tblCreditCardParcel TR .gridPay .text .priceDiscount {
+	COLOR: #0082d6
+}
+.payment#content .optionPaymentOrder * {
+	COLOR: #000; FONT-SIZE: 11px
+}
+.payment#content .optionPaymentOrder .paymentOrder STRONG {
+	COLOR: #0082d6
+}
+.payment#content #ucPaymentType_lblDiscountDebito {
+	FONT-SIZE: 11px; FONT-WEIGHT: normal
+}
+.payment#content #ucPaymentType_lblDiscountDebito STRONG {
+	COLOR: #0082d6
+}
+.payment#content .allOptionPay2 {
+	PADDING-BOTTOM: 10px !important; BACKGROUND-COLOR: #ddeef9 !important; MARGIN: -10px 4px 0px 119px; PADDING-LEFT: 20px !important; PADDING-RIGHT: 20px !important; DISPLAY: block; PADDING-TOP: 10px !important
+}
+#page .payment#content .parcelConditionBox {
+	BACKGROUND: #ddeef9
+}
+#page .payment#content #parcelCondition {
+	WIDTH: auto; BACKGROUND: #ddeef9
+}
+#page .payment#content #parcelCondition TD {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; BACKGROUND: #ddeef9; VERTICAL-ALIGN: top; PADDING-TOP: 6px
+}
+#page .payment#content #parcelCondition TD.bgSeusDados {
+	WHITE-SPACE: nowrap
+}
+#page .payment#content #parcelCondition TD FONT {
+	PADDING-LEFT: 5px; COLOR: #000; FONT-SIZE: 13px; FONT-WEIGHT: bold
+}
+#page .payment#content #parcelCondition .duvidasParcel P {
+	PADDING-BOTTOM: 15px; PADDING-LEFT: 110px; PADDING-RIGHT: 0px; COLOR: #0082d6; FONT-SIZE: 10px; PADDING-TOP: 0px
+}
+#page .payment#content #parcelCondition .duvidasParcel P A {
+	TEXT-DECORATION: underline
+}
+#page .payment#content P.waringCard {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; BACKGROUND: #f2f2f2; FONT-SIZE: 10px; PADDING-TOP: 5px
+}
+#page .payment#content P.waringCard SPAN {
+	COLOR: #ff0202
+}
+#page .payment#content .listCombo LI {
+	LIST-STYLE-POSITION: inside; PADDING-BOTTOM: 0.3em; LIST-STYLE-TYPE: square; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0.3em
+}
+#page .payment#content .dataCard {
+	FONT-SIZE: 11px
+}
+#page .payment#content .dataCard INPUT {
+	BORDER-BOTTOM: #b8b8b8 1px solid; BORDER-LEFT: #b8b8b8 1px solid; HEIGHT: 18px; FONT-SIZE: 12px; BORDER-TOP: #b8b8b8 1px solid; BORDER-RIGHT: #b8b8b8 1px solid
+}
+#page .payment#content .dataCard LI {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 5px
+}
+#page .payment#content .dataCard .type1 {
+	FLOAT: left; CLEAR: left
+}
+#page .payment#content .dataCard LABEL {
+	TEXT-ALIGN: right; WIDTH: 150px; DISPLAY: block; MARGIN-RIGHT: 5px
+}
+#page .payment#content .dataCard #chk_Cvc {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; MARGIN: 0px 5px; VERTICAL-ALIGN: middle; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+}
+.payment#content #bandeira TD .txtBandeira {
+	PADDING-BOTTOM: 0px !important; PADDING-LEFT: 0px !important; PADDING-RIGHT: 0px !important; COLOR: #000; FONT-SIZE: 11px; FONT-WEIGHT: bold; PADDING-TOP: 0px !important
+}
+.payment#content #bandeira TD .checkBandeira {
+	PADDING-BOTTOM: 0px !important; PADDING-LEFT: 0px !important; PADDING-RIGHT: 0px !important; PADDING-TOP: 5px !important
+}
+.payment#content #bandeira TD TABLE {
+	WIDTH: auto !important
+}
+.payment#content #htbBandCreditCard SPAN {
+	COLOR: #000; FONT-SIZE: 11px; FONT-WEIGHT: bold
+}
+.payment#content #htbBandCreditCard .cardLine2 {
+	DISPLAY: block
+}
+.basket#content #UcBasketDetail1_prodAlert P {
+	MARGIN: 0px; COLOR: #ef0303; FONT-SIZE: 12px
+}
+.basket#content #UcBasketDetail1_prodAlert P A {
+	COLOR: #ef0303
+}
+.basket#content #UcBasketDetail1_prodAlert A {
+	COLOR: #666; FONT-SIZE: 11px; TEXT-DECORATION: underline
+}
+#header .userArea {
+	HEIGHT: 9em
+}
+.payment #area1 {
+	ZOOM: 1
+}
+.payment #area1 #area1A {
+	ZOOM: 1
+}
+.boxBuyButtons {
+	WIDTH: 175px; FLOAT: right
+}
+.box1Click {
+	PADDING-BOTTOM: 15px; MARGIN: 10px; BACKGROUND: url(../img/bgDotted.gif) repeat-x center bottom; OVERFLOW: hidden
+}
+.basket .box1Click {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 380px; BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.basket #tblButtonUpper .box1Click {
+	FLOAT: right
+}
+.box1Click .type1 {
+	TEXT-ALIGN: center; MARGIN-BOTTOM: 15px; BACKGROUND: url(../img/bgDotted.gif) repeat-x center 50%; FONT-SIZE: 1.1em
+}
+.basket .box1Click .type1 {
+	MARGIN-BOTTOM: 0px; FONT-SIZE: 11px
+}
+.box1Click .type1 SPAN {
+	BACKGROUND: #fff
+}
+.basket .box1Click .type1 SPAN {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; BACKGROUND: #fff; MARGIN-LEFT: 200px; PADDING-TOP: 0px
+}
+.box1Click .content1Click .type2 {
+	MARGIN: 0px; PADDING-LEFT: 12px; FONT-SIZE: 1.2em; FONT-WEIGHT: bold
+}
+.box1Click .content1Click .type3 {
+	PADDING-LEFT: 14px; DISPLAY: inline; FONT-SIZE: 1.1em
+}
+.basket .box1Click .content1Click .type2 {
+	FONT-SIZE: 11px
+}
+.basket .box1Click .content1Click .type3 {
+	FONT-SIZE: 11px
+}
+.box1Click .content1Click .type3 A {
+	COLOR: #0082d6; TEXT-DECORATION: underline
+}
+.boxBuyButtons UL.listBuyButtons LI.btBuy .box1Click .content1Click IMG {
+	DISPLAY: inline; VERTICAL-ALIGN: middle
+}
+.basket .box1Click .content1Click {
+	TEXT-ALIGN: right
+}
+.box1Click .content1Click * {
+	VERTICAL-ALIGN: middle
+}
+.box1Click .content1Click DIV {
+	MARGIN-TOP: 10px
+}
+.box1Click .content1Click LABEL {
+	FONT-SIZE: 1.1em
+}
+.box1Click .content1Click SELECT {
+	BORDER-BOTTOM: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid; PADDING-BOTTOM: 1px; PADDING-LEFT: 1px; WIDTH: 105px; PADDING-RIGHT: 1px; COLOR: #666666; FONT-SIZE: 1.1em; BORDER-TOP: #cccccc 1px solid; BORDER-RIGHT: #cccccc 1px solid; PADDING-TOP: 1px
+}
+.basket .box1Click .content1Click LABEL {
+	FONT-SIZE: 11px
+}
+.basket .box1Click .content1Click SELECT {
+	FONT-SIZE: 11px
+}
+.box1Click .content1Click INPUT {
+	BORDER-BOTTOM: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; BORDER-RIGHT: #cccccc 1px solid
+}
+.doubtInfo {
+	POSITION: relative
+}
+.content1Click .boxMoreInfo .box6 {
+	WIDTH: 15em; LEFT: -12.4em
+}
+.content1Click .boxMoreInfo .box6A {
+	DISPLAY: block; BACKGROUND-POSITION: 91% 0px
+}
+#htdCrossUp {
+	HEIGHT: 86px; VERTICAL-ALIGN: bottom
+}
+.dlvTypesBox {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 20px; PADDING-RIGHT: 20px; COLOR: #666; FONT-SIZE: 12px; OVERFLOW: hidden; PADDING-TOP: 0px
+}
+.dlvTypesBox .shpList {
+	PADDING-BOTTOM: 30px; PADDING-LEFT: 85px; PADDING-RIGHT: 0px; OVERFLOW: hidden; PADDING-TOP: 30px
+}
+.dlvTypesBox LI {
+	BORDER-LEFT: 1px dotted; PADDING-BOTTOM: 10px; PADDING-LEFT: 10px; WIDTH: 24.9%; PADDING-RIGHT: 10px; FLOAT: left; PADDING-TOP: 10px
+}
+.dlvTypesBox LI.first {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; MARGIN-LEFT: -90px; BORDER-TOP: medium none; BORDER-RIGHT: medium none
+}
+.dlvTypesBox .ico {
+	LINE-HEIGHT: 0; TEXT-INDENT: -9999em; WIDTH: 66px; DISPLAY: inline-block; BACKGROUND: url(../img/icoMenuFrete.png) no-repeat 1000px 1000px; FLOAT: left; HEIGHT: 49px; COLOR: #fff; FONT-SIZE: 0px; VERTICAL-ALIGN: middle; OVERFLOW: hidden
+}
+.popSaibaMais .ico {
+	LINE-HEIGHT: 0; TEXT-INDENT: -9999em; WIDTH: 66px; DISPLAY: inline-block; BACKGROUND: url(../img/icoMenuFrete.png) no-repeat 1000px 1000px; FLOAT: left; HEIGHT: 49px; COLOR: #fff; FONT-SIZE: 0px; VERTICAL-ALIGN: middle; OVERFLOW: hidden
+}
+.dlvTypesBox .conv {
+	BACKGROUND-POSITION: 0px 0px
+}
+.popSaibaMais .conv {
+	BACKGROUND-POSITION: 0px 0px
+}
+.dlvTypesBox .agen {
+	BACKGROUND-POSITION: -65px 0px
+}
+.popSaibaMais .agen {
+	BACKGROUND-POSITION: -65px 0px
+}
+.dlvTypesBox .econ {
+	BACKGROUND-POSITION: -130px 0px
+}
+.popSaibaMais .econ {
+	BACKGROUND-POSITION: -130px 0px
+}
+.dlvTypesBox .atom {
+	BACKGROUND-POSITION: -197px 0px
+}
+.popSaibaMais .atom {
+	BACKGROUND-POSITION: -197px 0px
+}
+.dlvTypesBox .slt {
+	FLOAT: left
+}
+.dlvTypesBox .dlCont {
+	PADDING-LEFT: 10px; OVERFLOW: hidden
+}
+.dlvTypesBox .dlCont .lk {
+	DISPLAY: block; COLOR: #666 !important; FONT-SIZE: 11px
+}
+.dlvTypesBox .dlCont .tp1 {
+	FONT-WEIGHT: bold
+}
+.dlvTypesBox .dlCont .tp1 {
+	DISPLAY: block; COLOR: #0082d6
+}
+.dlvTypesBox .dlCont .tp2 {
+	DISPLAY: block; COLOR: #0082d6
+}
+.cepMFrete .txtCep {
+	FLOAT: left
+}
+.cepMFrete .calcCep {
+	WIDTH: 99.6%
+}
+.cepMFrete .boxCep {
+	TEXT-ALIGN: right
+}
+.cepMFrete DIV.roundCornerBR {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; PADDING-TOP: 10px
+}
+.cepMFrete .dlvTypesBox LI {
+	BORDER-BOTTOM: medium none; POSITION: relative; BORDER-LEFT: medium none; BORDER-TOP: medium none; BORDER-RIGHT: medium none
+}
+.cepMFrete .dlvTypesBox .lk {
+	FONT-SIZE: 10px; TEXT-DECORATION: underline
+}
+.cepMFrete .dlvTypesBox .tp1 {
+	COLOR: #666; FONT-SIZE: 10px; FONT-WEIGHT: normal
+}
+.cepMFrete .dlvTypesBox .tp4 {
+	FONT-SIZE: 11px; FONT-WEIGHT: normal
+}
+.cepMFrete .dlvTypesBox {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.cepMFrete .dlvTypesBox .shpList {
+	POSITION: relative; PADDING-BOTTOM: 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; OVERFLOW: visible; PADDING-TOP: 10px
+}
+.cepMFrete .dlvTypesBox .shpList LI {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.cepMFrete .calcCep .roundCornerTL {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.cepMFrete .calcCep .roundCornerTR {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.cepMFrete .calcCep .roundCornerBR {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.cepMFrete .calcCep .roundCornerBT {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.cepMFrete .shpList .roundCornerTL {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.cepMFrete .shpList .roundCornerTR {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.cepMFrete .shpList .roundCornerBR {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.cepMFrete .shpList .roundCornerBT {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.cepMFrete .active .roundCornerTL {
+	BACKGROUND: url(../img/roundCornerTL.gif) #f6f6f6 no-repeat 0px 0px
+}
+.cepMFrete .active .roundCornerTR {
+	BACKGROUND: url(../img/roundCornerTR.gif) no-repeat right 0px
+}
+.cepMFrete .active .roundCornerBL {
+	BACKGROUND: url(../img/roundCornerBL.gif) no-repeat 0px bottom
+}
+.cepMFrete .shpList .selected .roundCornerBL {
+	BACKGROUND: url(../img/roundCornerBL.gif) no-repeat 0px bottom
+}
+.cepMFrete .shpList .selected .roundCornerBR {
+	BACKGROUND: url(../img/roundCornerBR.gif) no-repeat right bottom
+}
+.cepMFrete .shpList .selected .roundCornerTL {
+	BACKGROUND: #f6f6f6
+}
+.cepMFrete .shpList LI .roundCornerBR {
+	MIN-HEIGHT: 80px
+}
+.cepMFrete .shpList LI.selected {
+	MARGIN-TOP: -36px
+}
+.cepMFrete .shpList LI.selected .dlvTypes {
+	PADDING-TOP: 15px
+}
+.cepMFrete .shpList LI.selected .lk {
+	FONT-SIZE: 11px; FONT-WEIGHT: normal
+}
+.cepMFrete .shpList LI.selected .tp1 {
+	COLOR: #0082d6; FONT-SIZE: 12px; FONT-WEIGHT: bold
+}
+.confMFrete SPAN {
+	COLOR: #0082d6
+}
+.confMFrete SPAN .dateMf {
+	DISPLAY: block
+}
+.confMFrete SPAN .icoMF {
+	LINE-HEIGHT: 0; TEXT-INDENT: -9999em; WIDTH: 20px; DISPLAY: block; BACKGROUND: url(../img/icoMf.gif) no-repeat; HEIGHT: 18px; COLOR: #fff; FONT-SIZE: 0px; VERTICAL-ALIGN: middle; OVERFLOW: hidden
+}
+.popSaibaMais {
+	FONT-SIZE: 11px
+}
+.popSaibaMais LI {
+	MARGIN-BOTTOM: 15px; CLEAR: both
+}
+.popSaibaMais P {
+	MARGIN-BOTTOM: 15px; CLEAR: both
+}
+.popSaibaMais .titMF {
+	DISPLAY: block; MARGIN-BOTTOM: 30px; FONT-SIZE: 18px; FONT-WEIGHT: normal; PADDING-TOP: 10px
+}
+.popSaibaMais SPAN.ico {
+	FLOAT: left; MARGIN-RIGHT: 10px
+}
+.cepMFrete .boxCep #UcBasketDetail1_tbxcep1 {
+	COLOR: #666666; FONT-WEIGHT: bold
+}
+.cepMFrete .boxCep #UcBasketDetail1_tbxcep2 {
+	COLOR: #666666; FONT-WEIGHT: bold
+}

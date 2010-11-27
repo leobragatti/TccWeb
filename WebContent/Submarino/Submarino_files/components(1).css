@@ -1,0 +1,619 @@
+/* Css checkout */
+
+/*header*/
+/*  ###################### HEADER  #######################################*/
+.header .mainSearch fieldset {padding:0.6em 3.8em 0 16em; height: 2.7em; _height: 3.1em;}
+.header .userMenu ul{padding:1em 1.8em 1em 1em;}
+.header .userMenu ul li{padding:0; padding-top:10px; line-height:0;}
+.header .userMenu .last {background-position:right 13px;}
+.allDepartmentsBox .allDepartmentsList .col1, .allDepartmentsBox .allDepartmentsList .col2, .allDepartmentsBox .allDepartmentsList .col3 {_width:29%;}
+.header .mainNav .departments .over .thirdLevel {display: block}
+/*  ###################### FOOTER  #######################################*/
+.partners a {font-size:11px; }
+.footer {text-align:center;}
+#footer .footerContent{background:#FFF; text-align:left}
+#footer .sharePage {display: none;}
+
+#page .header {background:#037FD0 url(../img/headerBg.png) no-repeat scroll left top; overflow: hidden; padding: 10px 0;}
+#page  .header .userArea { float: right;}
+#page  .header .linksUser {clear: left;}
+
+.steps {overflow:hidden; float: left; background:url(../img/bgDotted1.gif) repeat-x left bottom; font-family: arial;  margin:0 10px 5px 0;  height: 3.9em;}
+.steps li { float: left; color: #84bbde; font-size: 1.3em; padding: 0 0 .49em 0; line-height: 30px; white-space: nowrap; }
+.steps li span{background: url(../img/bulletArrow1.gif) no-repeat right center; padding-right: 12px; margin-right: 7px; display:block;}
+.steps li.completed{ background: url(../img/bgLine1.gif) repeat-x left bottom; padding-bottom: .7em}
+.steps .progress span {background: url(../img/bulletArrow2.gif) no-repeat  right center;}
+.steps li.progress {color: #fff000; font-size: 1.9em; background: url(../img/bgArrowProgress.gif) repeat-x center bottom;}
+.steps li.last span{background: none;}
+
+.link1 {background:url(../img/bullet1.gif) no-repeat left bottom; }
+.link2 {background:url(../img/bullet2.gif) no-repeat left bottom;}
+.link1, .link2 {color: #fff; font-size: 1.1em; padding: 2px 0 0 16px; margin-right:10px;}
+
+.linksUser li{float: left;}
+.header  .linksUser .link2{text-align: right;}
+
+.thirdLevel {z-index:1000;}
+#content #area11 {background: #fff; width: 100%; overflow: hidden; padding-bottom: 20px;}
+#content  .text {font-size: 11px; padding: 10px;}
+#content  input.text, #content  select.text {padding: 0 0 0 2px; font-size: 11px; margin-right: 5px; border: 1px solid #ccc;} 
+#content  input.text {padding: 2px; margin-bottom: 5px;}
+#content a {color: #0082d6;}
+#content .textb {font-weight: bold;}
+#content #hplNewAddress {padding-right: 10px;}
+#content #Image1 { padding-left: 10px;}
+
+#content table{width:100%;}
+#content #table1.text{padding: 0; margin: 5px 0;}
+#content #ucListAddress_dtlAddress__ctl0_htrTop, #content #ucListAddress_dtlAddress__ctl0_htrMiddle, #content #ucListAddress_dtlAddress__ctl0_htrBaseline, #content #ucListAddress_dtlAddress__ctl1_htrTop, #content #ucListAddress_dtlAddress__ctl1_htrMiddle, #content #ucListAddress_dtlAddress__ctl1_htrBaseline,#content #ucListAddress_dtlAddress__ctl2_htrTop, #content #ucListAddress_dtlAddress__ctl2_htrMiddle, #content #ucListAddress_dtlAddress__ctl2_htrBaseline, #content #ucListAddress_dtlAddress__ctl3_htrTop, #content #ucListAddress_dtlAddress__ctl3_htrMiddle, #content #ucListAddress_dtlAddress__ctl3_htrBaseline, #content #ucListAddress_dtlAddress__ctl4_htrTop, #content #ucListAddress_dtlAddress__ctl4_htrMiddle, #content #ucListAddress_dtlAddress__ctl4_htrBaseline, #content #ucListAddress_dtlAddress__ctl5_htrTop, #content #ucListAddress_dtlAddress__ctl5_htrMiddle, #content #ucListAddress_dtlAddress__ctl5_htrBaseline, #content #ucListAddress_dtlAddress__ctl6_htrTop, #content #ucListAddress_dtlAddress__ctl6_htrMiddle, #content #ucListAddress_dtlAddress__ctl6_htrBaseline, #content #ucListAddress_dtlAddress__ctl7_htrTop, #content #ucListAddress_dtlAddress__ctl7_htrMiddle, #content #ucListAddress_dtlAddress__ctl7_htrBaseline, #content #ucListAddress_dtlAddress__ctl8_htrTop, #content #ucListAddress_dtlAddress__ctl8_htrMiddle, #content #ucListAddress_dtlAddress__ctl8_htrBaseline, #content #ucListAddress_dtlAddress__ctl9_htrTop, #content #ucListAddress_dtlAddress__ctl9_htrMiddle, #content #ucListAddress_dtlAddress__ctl9_htrBaseline {background:#fff; border-right: 1px dotted #CCC;}
+#content #ucListAddress_dtlAddress__ctl0_htrBaseline, #content #ucListAddress_dtlAddress__ctl7_htrBaseline, #content #ucListAddress_dtlAddress__ctl8_htrBaseline, #content #ucListAddress_dtlAddress__ctl9_htrBaseline {display: none;}
+#content #imgNewAddress {background:transparent url(../img/imgNewAddress.gif) repeat-x scroll left bottom; width: 100%; height: 52px;}
+#content #imaTitMeuEndereco {background:transparent url(../img/imgMyAddress.gif) repeat-x scroll left bottom; width: 100%; height: 52px;}
+#content #htbMeuEndereco {background: #fff; vertical-align: middle;}
+#content #htbMeuEndereco .text {padding: 0;}
+
+/* addressBook */
+#content.addressBook table {width:100%!important; border-collapse:collapse!important;}
+#content.addressBook #htbListAddress {width:98%!important;}
+#content.addressBook input {font-size:15px!important; margin:0 5px!important;}
+#content.addressBook select {margin:0 5px!important;}
+#content.addressBook #htbMeuEndereco table td {padding:2px 0;}
+
+#content.addressBook table.text {width:95%!important;}
+#content.addressBook #ucCustomerAddress_tdCEP_L {background-color:#fafafa; border:1px solid #e1e1e1; border-right:none; _position:relative;}
+#content.addressBook #ucCustomerAddress_tdCEP_R {background-color:#fafafa; border:1px solid #e1e1e1; border-left:none; _padding-left:5px!important; _position:relative; _left:-5px;}
+#content.addressBook #htbMeuEndereco td.text {font-size:1em;}
+#content.addressBook #htbMeuEndereco td.text span.text {font-size:1em;}
+#content.addressBook #htbMeuEndereco td.text span.text b {font-weight:normal;}
+
+
+/*pagina confirmOrder1*/
+
+#content.confirmOrder #ucOrderDetail_rptOrderDetail__ctl0_htrOrderDetail td {background-color:transparent!important;}
+#content.confirmOrder table{margin: 0 20px; width: auto;}
+#content.confirmOrder  #ucConfirmOrder_divPaymentMethod {height: 130px!important; margin:0!important; position:relative; left:-1px; _position:static;}
+#content.confirmOrder  #ucConfirmOrder_divPaymentMethod br{ margin: 3px 0; display: block;}
+#content.confirmOrder #ucOrderDetail_htrTitleConfirmOrder { background: #fff url(../img/bgTable1.gif) repeat-x left top;}
+#content.confirmOrder #ucOrderDetail_htrTitleConfirmOrderDelivery1 {background:transparent; }
+#content.confirmOrder #ucOrderDetail_htrTitleConfirmOrderDelivery1 td{background:none!important;}
+#content.confirmOrder #ucOrderDetail_htrTitleConfirmOrderDelivery2 td {background: #fff url(../img/bgTable1Bottom.gif) repeat-x left bottom;}
+#content.confirmOrder #ucOrderDetail_lblShippingTotal {white-space: nowrap; font-size: 1.1em;}
+#content.confirmOrder #ucOrderDetail_lblDiscountShipping {color: green;}
+#content.confirmOrder #ucOrderDetail_lblDsShippingTotal, #content #ucOrderDetail_lblDsTotal, #content  #ucOrderDetail_lblDsTotalDetail { font-size: 1.3em; }
+#content.confirmOrder #ucOrderDetail_lblDsTotal {font-weight: bold; font-size: 1.6em;}
+#content.confirmOrder #ucOrderDetail_lblTotalDetail {font-size: 1.1em; margin-left: 10px; white-space: nowrap; padding-left:10px;}
+#content.confirmOrder #ucOrderDetail_lblShippingTotal {margin-left:10px;}
+#content.confirmOrder #ucOrderDetail_lblTotal{margin-left:10px; color: #0082d6; font-size: 1.3em; font-weight: bold; white-space:nowrap;}
+#content.confirmOrder #ucOrderDetail_rptOrderDetail__ctl0_lblWrap {background: url(../img/iconGift.gif) no-repeat right center; display: block; padding: 10px; width: 90px; }
+#content.confirmOrder #Table1 {border:none!important;}
+#content.confirmOrder #Table1 tr {border:none!important;}
+#content.confirmOrder #Table1 td {border:none!important;}
+
+#content.confirmOrder br {height: 0; line-height: 0;}
+
+#content.confirmOrder #ucConfirmOrder_divNoteOrder {background:url(../img/anote_pedido.gif) no-repeat left top!important; width:186px!important;}
+
+#content.confirmOrder #ucConfirmOrder_htcSubmarinoAuraBanner a {display:block; margin-top:-20px;}
+
+#content.confirmOrder table table #Table1 {width:100%!important;}
+#content.confirmOrder table table #Table1 table {margin:0;}
+#content.confirmOrder table table #Table1 #ucOrderDetail_rptOrderDetail__ctl0_htrOrderDetail td {border-bottom:1px dotted #666!important; height:100px;}
+#content.confirmOrder table table #Table1 #ucOrderDetail_rptOrderDetail__ctl1_htrOrderDetail td {border-bottom:1px dotted #666!important; height:100px;}
+#content.confirmOrder table table #Table1 #ucOrderDetail_htrShipping td.text {font-size:1em!important; padding:0!important;}
+#content.confirmOrder table table #Table1 #ucOrderDetail_htrTotal td.text {font-size:1em!important; padding:0!important;}
+#content.confirmOrder table table #Table1 #ucOrderDetail_htrDiscountShipping td.text {font-size:1.2em!important; padding:0!important;}
+#content.confirmOrder table table #Table1 table.text {padding:0!important;}
+#content.confirmOrder #ucOrderDetail_lblDiscountShipping {font-size:1.1em;}
+#content.confirmOrder #ucOrderDetail_htbDeliveryAddress b {font-size:1.1em!important; font-weight:bold;}
+
+#content.confirmOrder #ucOrderDetail_rptOrderDetail__ctl1_htrOrderDetail td {background:transparent!important;}
+#content.confirmOrder tr#ucOrderDetail_htrDiscount td {font-size: 1em;}
+
+#content.customerInfo  .text {font-size: 11px;}
+
+#content #htbMeuCadastro {background: transparent; margin-top: -50px;}
+
+#content.customerInfo  #area11{padding-top: 50px; background:#FFF url(../img/header_cadastro.png) no-repeat;}
+#content.customerInfo #imaMeuCadastro {display: none;}
+#content.customerInfo #ucCustomerInfo_rbtFisica, #content.customerInfo #ucCustomerInfo_rbtJuridica { margin-right: 5px;}
+#content.customerInfo #imaMeuCadastro{ margin-left: 10px;}
+
+#content.customerInfo table.text td.text {padding:0; position:relative;}
+#content.customerInfo table.text span.text {padding:0 10px 0 0;}
+#content.customerInfo table.text div *{vertical-align:middle;}
+
+#content.customerInfo #htbForm {width:100%!important; border-collapse:collapse!important;}
+#content.customerInfo #imaTitMeuEndereco {margin:0 0 10px -10px; padding-right:30px; _margin-left:0;}
+
+#content.customerInfo #ucCustomerAddress_tdCEP_L {padding:4px 15px 6px 0; background:url(../img/bgSetaCep.gif) no-repeat right top;}
+
+#content.customerInfo #imbButContinue {margin-right:10px;}
+
+#content.subServices #box {background:url(../img/bgProduto.gif) no-repeat left top; padding:20px 30px;}
+#content.subServices #produto li {float:left; height:auto!important;}
+#content.subServices #produto #topbox img, #content.subServices #produto #bottombox img, #content.subServices #produto hr {display:none;}
+#content.subServices #continuar {text-align:right; clear:left;}
+#content.subServices #garantia {font-size:11px;}
+
+
+/* basket */
+.basket table td {background-color:transparent!important;}
+
+#content.basket  #area11{padding-top: 50px; background:#FFF url(../img/header_carrinho.png) no-repeat;}
+
+#content.basket table, #content.basketBrinde table{width: 100%; margin: 0 auto;}
+#content.basket #Table3, #content.basketBrinde #Table3 {width: auto;}
+#content.basket  #tblButtonLower, #content.basketBrinde   #tblButtonLower {width: auto;}
+
+#content #UcBasketDetail1_dgdBasketItem .titcar{ background:#fff url(../img/bgTable1.gif) repeat-x scroll left top; height: 35px!important;  font-size: 10px; vertical-align: top;}
+#content.basket #UcBasketDetail1_dgdBasketItem .titcar br{display: none}
+#content.basket #UcBasketDetail1_dgdBasketItem .titcar *{margin-right:5px;}
+#content.basket #UcBasketDetail1_dgdBasketItem .titcar td {padding-top: 7px; width: auto!important; white-space: nowrap;}
+#content.basket #UcBasketDetail1_ucParcel_tbcParcel {background: #d8d8d8 url(../img/bgTable2Bottom.gif) repeat-x left bottom!important;}
+#content.basket #UcBasketDetail1_tbcTot, #content.basket #UcBasketDetail1_ucParcel_tbcLeft, #content.basket #UcBasketDetail1_tbcTotA, #content.basket #UcBasketDetail1_ucParcel_tbcRight, #content.basket #UcBasketDetail1_tbcTotB, #content.basket #UcBasketDetail1_TotalValue{background: #d8d8d8!important;}
+#content.basket  #UcBasketDetail1_htrCEP td, #content.basket  #UcBasketDetail1_htrCouponGift td{background: transparent;}
+#content.basket  #UcBasketDetail1_TotalValue {color: #0080d3; font-weight: bold;}
+#content.basket  #UcBasketDetail1_ucParcel_tbcParcel {font-size:.9em;}
+#content.basket  #UcBasketDetail1_tbcTotA{font-size: 1em; font-weight: bold; padding-top:10px;}
+#content.basket #UcBasketDetail1_htrCouponGift #UcBasketDetail1_tbcGift {background: url(../img/bgTable1LeftBottom1.gif) no-repeat left bottom;}
+#content.basket #UcBasketDetail1_htrCouponGift #UcBasketDetail1_tbcValueD {background: url(../img/bgTable1RightBottom1.gif) no-repeat right bottom;}
+#content.basket tr#UcBasketDetail1_htrCouponGift td {background:url(../img/bgTable1Bottom1.gif) repeat-x bottom left;}
+#content.basket tr#UcBasketDetail1_htrCouponGift td#UcBasketDetail1_tbcGiftA {background:none!important;}
+
+#content.basket #UcBasketDetail1_tbcGiftA {padding:10px 0; height:auto!important;}
+#content.basket #UcBasketDetail1_tbcGiftB {padding:10px 0 15px 0;}
+#content.basket #UcBasketDetail1_tbcGiftB #UcBasketDetail1_CouponNumber {font-size:12px!important; float:right; margin:-15px 5px 0 10px;}
+#content.basket #UcBasketDetail1_tbcGiftC {padding:10px 0 15px 0; }
+#content.basket #UcBasketDetail1_tbcCepA #Table2 {margin:0; width:100%;}
+
+#content.basket #tblButtonLower {float:right; _z-index:10; _position:relative; width:100%!important; margin-bottom: 20px;}
+#content.basket #tblButtonLower table {margin-right:5px; width:auto!important;}
+
+#content.basket #tblButtonUpper {_z-index:10; _position:relative; width:100%!important;}
+#content.basket #tblButtonUpper table {margin-right:0; width:auto!important;}
+#content.basket #tblButtonUpper #ucBasketCrossSelling1_tblCrossSelling {margin:auto!important; width:100%!important;}
+#content.basket #tblButtonUpper #ucBasketCrossSelling1_tblCrossSelling td {text-align:center;}
+#content.basket #tblButtonUpper #ucBasketCrossSelling1_tblCrossSelling td.text {text-align:left;}
+#content.basket #tblButtonUpper #ucBasketCrossSelling1_tblCrossSelling .price {display:block; color:#0082d6; font-weight:bold;}
+
+
+#content.basket #UcBasketDetail1_htrCEP td {padding:10px 0;}
+#content.basket #UcBasketDetail1_htrCEP td #Table2 td {padding:0; font-size:12px;}
+
+#content.basket a.text {font-size:12px; padding:10px 10px 10px 0; color:#666; text-decoration:none;}
+#content.basket u {text-decoration:none;}
+
+#content.basket #UcBasketDetail1_htrCouponGift #Table3 {width:100%;}
+#content.basket #UcBasketDetail1_htrCouponGift #Table3 #UcBasketDetail1_tbcGiftB {font-size:12px;}
+
+#content.basket #UcBasketDetail1_tbcGiftB {width:405px; _width:auto!important;}
+#content.basket #UcBasketDetail1_imbCalculateBasket {float:left;}
+
+#content.basketBrinde #UcBasketDetail1_htrCouponGift #Table3 {width:100%;}
+#content.basketBrinde #UcBasketDetail1_htrCouponGift #Table3 #UcBasketDetail1_tbcGiftB {font-size:12px;}
+
+#content.basketBrinde #UcBasketDetail1_htrCEP td {padding-top:10px;}
+#content.basketBrinde #UcBasketDetail1_htrCEP td #Table2 td {padding:0; font-size:12px;}
+
+#content.basketBrinde table td {background-color:transparent!important;}
+
+#UcBasketDetail1_htrCouponGift {background: url(../img/bgTableBorder1.gif) repeat-x; padding-top: 20px; margin-top: 15px;}
+#UcBasketDetail1_htrCouponGift td {padding-top:15px;}
+#content #UcBasketDetail1_Td1.textb {color:#0082d6;}
+
+#content.basketBrinde a.text {font-size:12px; padding:10px 10px 10px 0; color:#666; text-decoration:none;}
+#content.basketBrinde u {text-decoration:none;}
+
+#content.basketBrinde #UcBasketDetail1_dgdBasketItem .titcar br{display: none}
+#content.basketBrinde #UcBasketDetail1_dgdBasketItem .titcar *{margin-right:5px;}
+#content.basketBrinde #UcBasketDetail1_dgdBasketItem .titcar td {padding-top: 7px; width: auto!important; white-space: nowrap;}
+
+#content.basketBrinde #ExchangeDevolutionMenu1_hgcLeftMenu{color:#666; font-size:11px; background: #fff;}
+#content.basketBrinde #ExchangeDevolutionMenu1_hgcLeftMenu a{color:#666;font-size:11px}
+#content.basketBrinde #ExchangeDevolutionMenu1_hgcLeftMenu span{color:#666666; float:left; font-size:11px; font-weight:bold;}
+
+#content.basketBrinde .text{padding:0;}
+
+#content.basketBrinde #UcBasketDetail1_ucParcel_tbcParcel {background: #d8d8d8 url(../img/bgTable2Bottom.gif) repeat-x left bottom!important;}
+#content.basketBrinde #UcBasketDetail1_tbcTot, #content.basketBrinde #UcBasketDetail1_ucParcel_tbcLeft, #content.basketBrinde #UcBasketDetail1_tbcTotA, #content.basketBrinde #UcBasketDetail1_ucParcel_tbcRight, #content.basketBrinde #UcBasketDetail1_tbcTotB, #content.basketBrinde #UcBasketDetail1_TotalValue {background: #d8d8d8!important;}
+#content.basketBrinde #UcBasketDetail1_htrCouponGift #UcBasketDetail1_tbcGift {background: url(../img/bgTable1LeftBottom1.gif) no-repeat left bottom;}
+#content.basketBrinde #UcBasketDetail1_htrCouponGift #UcBasketDetail1_tbcValueD {background: url(../img/bgTable1RightBottom1.gif) no-repeat right bottom!important;}
+#content.basketBrinde tr#UcBasketDetail1_htrCouponGift td {background:url(../img/bgTable1Bottom1.gif) repeat-x bottom left;}
+#content.basketBrinde tr#UcBasketDetail1_htrCouponGift td#UcBasketDetail1_tbcGiftA {background:none!important;}
+
+#content.basketBrinde  #UcBasketDetail1_tbcTotA{font-size: 1em; font-weight: bold; padding-top:10px;}
+
+#content.basketBrinde #UcBasketDetail1_tbcGiftB, #content.basketBrinde #UcBasketDetail1_tbcGiftA {padding:10px 0;}
+#content.basketBrinde #UcBasketDetail1_tbcGiftB #UcBasketDetail1_CouponNumber {font-size:12px!important; float:right; margin:-15px 5px 0 0;}
+#content.basketBrinde #UcBasketDetail1_tbcGiftC {padding:10px 0 15px 0; }
+#content.basketBrinde #UcBasketDetail1_tbcCepA #Table2 {margin:0; width:100%;}
+
+#content.basketBrinde  #UcBasketDetail1_TotalValue {color: #0080d3; font-weight: bold;}
+#content.basketBrinde  #UcBasketDetail1_ucParcel_tbcParcel {font-size:.9em;}
+
+#content.basketBrinde #tblButtonLower {float:right; _z-index:10; _position:relative;}
+#content.basketBrinde #tblButtonLower table {margin-right:10px;}
+
+#content.basketBrinde #tblButtonUpper { _z-index:10; _position:relative; width:100%!important;}
+#content.basketBrinde #tblButtonUpper table {margin-right:0; width:auto!important;}
+#content.basketBrinde #tblButtonUpper #ucBasketCrossSelling1_tblCrossSelling {margin:auto!important; width:100%!important;}
+#content.basketBrinde #tblButtonUpper #ucBasketCrossSelling1_tblCrossSelling td {text-align:center;}
+#content.basketBrinde #tblButtonUpper #ucBasketCrossSelling1_tblCrossSelling td.text {text-align:left;}
+#content.basketBrinde #tblButtonUpper #ucBasketCrossSelling1_tblCrossSelling .price {display:block; color:#0082d6; font-weight:bold;}
+
+
+#page #content #tblLogin {background:#F7F7F7; width: 100%;}
+#content.loginLogout #lblTitle { margin-left: 10px; color: #666; font-weight: bold;}
+#content.loginLogout .bluetitle {color: #666; font-weight: bold;}
+#content.loginLogout #tblLogin, #content.loginLogout #tblLogin input, #content.loginLogout .v16b,#content.loginLogout .text12{font-size: .9em; ;}
+#content.loginLogout table{width:95%; margin: 0 auto;}
+#content.basketBrinde #tblRefresh td {padding:10px;}
+
+
+#content.basketBrinde #UcBasketDetail1_tbcGiftB {width:405px; _width:auto!important;}
+#content.basketBrinde #UcBasketDetail1_imbCalculateBasket {float:left;}
+
+#content.basket tr.text *, #content.basketBrinde tr.text * {vertical-align: middle;}
+#content.basket tr.text td, #content.basketBrinde tr.text td {border-bottom: 1px dotted #666; padding: 10px 5px;}
+
+/* Pagamento */
+
+#content.payment  #area11{padding-top: 50px; background:#FFF url(../img/header_pgto.png) no-repeat;}
+#content.payment #imgFirstStep {margin-left: 15px;}
+#content.payment table {border-collapse:collapse;}
+#content.payment table td {background-color:transparent!important;}
+
+#content.payment #ucPaymentDetail_dgdBasketItem .titcar br{display: none;}
+#content.payment #ucPaymentDetail_dgdBasketItem .titcar * {margin-right:5px;}
+#content.payment #ucPaymentDetail_dgdBasketItem .titcar td {padding-top: 7px; width: auto!important; white-space: nowrap;}
+
+#content.payment #ucPaymentDetail_dgdBasketItem tr.text * {vertical-align: middle;}
+#content.payment #ucPaymentDetail_dgdBasketItem tr.text td {border-bottom: 1px dotted #666; padding: 10px 5px;}
+
+#content.payment #ucPaymentDetail_tbcShip {padding:10px 0!important;}
+#content.payment #ucPaymentDetail_htrDiscountShipping td.text {padding:10px 0 10px 12px!important;}
+#content.payment #ucPaymentDetail_tbcGiftB, #content.payment #ucPaymentDetail_tbcGiftC {padding-right:10px;}
+
+#content.payment table td table td.textb {padding:10px 0 10px 12px; font-size:11px;}
+
+#content.payment #ucPaymentDetail_htrDiscountShipping {background:url(../img/bgTableService1.gif) repeat-x left bottom!important;}
+
+#content.payment #ucPaymentDetail_tbcTot #ucPaymentDetail_imgPmtCornerC, #content.payment #ucPaymentDetail_tbcTotB #ucPaymentDetail_imgPmtCornerD, #content.payment #ucPaymentDetail_imgPmtCorner1A, #content.payment #ucPaymentDetail_imgPmtCorner1B {display:none;}
+#content.payment #ucPaymentDetail_htrTotal td {background:url(../img/bgTableTotal1.gif) repeat-x left bottom!important; padding:8px 0 7px 0;}
+#content.payment #ucPaymentDetail_htrTotal td#ucPaymentDetail_tbcTotA {padding-left:15px;}
+
+#content.payment #ucPaymentDetail_tbcCouponA td {vertical-align:middle;}
+#content.payment #ucPaymentDetail_tbcCouponA td.text {padding:10px 0 10px 12px;}
+#content.payment #ucPaymentDetail_tbcCouponA td.text span.textb { font-size:11px;}
+#content.payment #ucPaymentDetail_tbcCouponA td.textb {text-align:left; color:#fff; width:215px!important;}
+#content.payment #ucPaymentDetail_tbcCouponA td.textb br {display:none;}
+#content.payment #ucPaymentDetail_tbcCouponA td.textb #ucPaymentDetail_CouponNumber {width:210px; color:#666;}
+#content.payment #ucPaymentDetail_tbcCouponA #ucPaymentDetail_imgCalculateBasket {margin:13px 5px 0 0; float: left;}
+#content.payment #ucPaymentDetail_divCouponMessage {font-size: 11px; color: #green;}
+
+#content.payment #ucPaymentDetail_tbcCouponD {border-bottom:1px dotted #666;}
+
+#content.payment #tbcAddressBook {background:url(../img/bgTableBottom2.gif) repeat-x left bottom!important; padding:10px 0 15px 12px;}
+#content.payment #tbcAddressBook table {width: 300px;}
+#content.payment #tbcAddressBook td {text-align:left;}
+#content.payment #tbcAddressBook td table td.text {padding:0;}
+#content.payment #tbcAddressBook td table td.textb {padding:0;}
+#content.payment #tbcAddressBook #ucShippingAddress_lblName {display:none;}
+
+#content.payment .casamento {font-size:11px;}
+
+#content.payment #ucPaymentType_imgSecondStep, #content.payment2 #ucPaymentType_imgSecondStep {background: url(../img/formsPayment.gif) no-repeat left top; width: 100%; height: 52px;}
+#content.payment .titMFrete {background: url(../img/titMenuFrete.gif) no-repeat left top; width: 100%; height: 52px;}
+#content.payment #ucPaymentType_tblPaymentSubmarinoAura, #content.payment #ucPaymentType_tblPaymentCC,  #content.payment #ucPaymentType_tblBoleto, #content.payment #ucPaymentType_tblDebito, #content.payment #ucPaymentType_tblPaymentSubmarinoAura, #content.payment #ucPaymentType_tblPaymentCC, #content.payment #ucPaymentType_tblDebito {background: url(../img/bgTitles.gif) repeat-x left top; }
+#content.payment #ucPaymentType_tblPaymentSubmarinoAura td, #content.payment #ucPaymentType_tblPaymentCC td,  #content.payment #ucPaymentType_tblBoleto td, #content.payment #ucPaymentType_tblDebito td {padding-top: 5px; height: 37px; vertical-align: top;  }
+#content.payment #ucPaymentType_imgSubmarinoAuraHelp {margin-right:10px;}
+#content.payment #ucPaymentType_imgHelp, #content.payment #ucPaymentType_imgHelpA, #content.payment #ucPaymentType_imgHelpB {position:relative; right:25%;}
+
+#content.payment #ucPaymentType_tblPaymentSubmarinoAura #ucPaymentType_imgSubmarinoAura, #content.payment #ucPaymentType_tblPaymentSubmarinoAura #rbtPaymentSubAura, #content.payment #rbtPaymentCC {margin-top: 3px; _margin-top:0!important;}
+#content.payment #ucPaymentType_imgTitCC {margin:1px 0 0 5px; _margin-top:3px!important;}
+#content.payment #ucPaymentType_tblPaymentSubmarinoAura #ucPaymentType_imgSubmarinoAura {margin:2px 0 0 5px; _margin-top:3px!important;}
+
+#content.payment #ucPaymentType_tblPaymentSubmarinoAura #rbtPaymentSubAura, #content.payment #ucPaymentType_tblPaymentCC #rbtPaymentCC {margin-left: 10px;}
+#content.payment #ucPaymentDetail_imgPmtCornerA {width: auto!important;}
+#content.payment #ucPaymentDetail_imgPmtCornerB {height: auto!important; width: auto!important;}
+#content.payment #ucPaymentDetail_dgdBasketItem .titcar {height: auto!important; font-size: 11px; background: transparent!important;}
+#content.payment #ucPaymentDetail_dgdBasketItem {background: transparent url(../img/bgTable2.gif) repeat-x top center; width: 100%!important; }
+/*#content.payment table { width: 98%!important; margin:0 auto;}*/
+#content.payment #ucPaymentDetail_dgdBasketItem .text{height:100px;}
+#content.payment #ucPaymentDetail_tbcGiftA, #content.payment  #ucPaymentDetail_tbcGift {padding:10px 0; background: transparent!important; font-size:11px;}
+#content.payment #ucPaymentDetail_tbcGiftA {padding:10px 0 10px 12px;}
+#content.payment #ucPaymentDetail_tbcGiftB {padding: 0;}
+#content.payment #ucPaymentDetail_TotalValue {color: #0082d6; font-size: 13px; padding-right:10px;}
+
+#content.payment #tbrAddressImages td{background: transparent!important;}
+#content.payment #ucPaymentType_htrPaymentGroupAnchor .titmeio{background: transparent url(../img/PaymentGroupAnchorTopCenter.gif) repeat-x top left; }
+#content.payment #ucPaymentType_htrPaymentGroupAnchor .titborda, #content.payment #ucPaymentType_htrPaymentGroupAnchor .foot{background: transparent!important;}  
+
+#content.payment  #tblSubmarinoCreditCard td, #content.payment  #ucPaymentType_tblPaymentSubmarino td, #content.payment  #tblCreditCardData, #content.payment  #tblCreditCardParcel, #content.payment  #ucPaymentType_dtlCreditCard td, , #content.payment  #ucPaymentType_tblPaymentSubmarino td, #content.payment  #tblCreditCardDataMasterCard {background: transparent!important; vertical-align:top;}
+#content.payment  #tblSubmarinoCreditCard td{vertical-align:top;}
+#content.payment  #ucPaymentType_rbtPaymentSubAuraSelect {margin-bottom:0;}
+#content.payment  #ucPaymentType_imgCartoesSubmarinoAura {margin-top:5px;}
+#content.payment  #ucPaymentType_tblPaymentSubmarino td{height:auto!important;}
+/*#content.payment #ucPaymentType_imgborda_superior_esqD,#content.payment #ucPaymentType_imgborda_superior_esqB, #content.payment #ucPaymentType_imgborda_superior_dirD {display:none;}*/
+#content.payment #tblCreditCardData .text, #content.payment #tblCreditCardDataMasterCard .text {padding: 5px 0;}
+
+#content.payment #ucPaymentType_dtlCreditCard td{text-align: left; font-size: 12px;}
+#tblSubmarinoCreditCard input.text { border:none;}
+#content.payment #ucPaymentType_htrPaymentParcel table td{font-size: 11px;}
+#content.payment #ucPaymentType_htrPaymentParcel table td input{margin-right: 10px;}
+#content.payment #htbCreditCard td{background: transparent;}
+
+#content.payment #ucPaymentType_htbImagePagamentos{width:100%!important; border-collapse:collapse; _position:relative; _left:-5px; _width:110%!important;}
+#content.payment #htbSubmarinoAura td, #content.payment #htbCreditCard td, #content.payment #htbBoleto td, #content.payment #htbOnLine td {padding:10px 0;}
+#content.payment #htcButtonCC {padding:10px 0 0px 0!important;}
+#content.payment #htbSubmarinoAura td #ucPaymentType_tblPaymentSubmarinoAura td, #content.payment #htbCreditCard td #ucPaymentType_tblPaymentCC td, #content.payment #htbBoleto td #ucPaymentType_tblBoleto td, #content.payment #htbOnLine td #ucPaymentType_tblDebito td {padding:5px 0 0 0;}
+
+#ucPaymentType_htbImagePagamentos td {padding-bottom:10px;}
+
+#content.payment #ucPaymentType_htrPaymentGroupAnchor td {padding-bottom:30px!important; vertical-align: top;}
+#content.payment #ucPaymentType_htrPaymentGroupAnchor .box .foot {padding-bottom:0!important;}
+#content.payment .box .foot img {display:none;}
+#content.payment .box .titmeio span {font-weight:bold; font-size:13px; display:block; padding-bottom:15px;}
+#content.payment .box .titmeio a {margin:0 5px;}
+#content.payment .box .titmeio br {display:none;}
+
+#content.payment #ucPaymentType_dgdGroupPaymentBoleto table td, #content.payment #ucPaymentType_dgdGroupPaymentOnLine table td {font-size:11px;}
+
+#tblCreditCardParcel td {padding:10px 0;}
+#tblCreditCardParcel td table td {padding:0 0 0 15px;}
+#ucPaymentType_dtlCreditCard__ctl1_lblDescription span.text, #ucPaymentType_dtlCreditCard__ctl2_lblDescription span.text, #ucPaymentType_dtlCreditCard__ctl3_lblDescription span.text, #ucPaymentType_dtlCreditCard__ctl4_lblDescription span.text, #ucPaymentType_dtlCreditCard__ctl5_lblDescription span.text, #ucPaymentType_dtlCreditCard__ctl6_lblDescription span.text, #ucPaymentType_dtlCreditCard__ctl7_lblDescription span.text, #ucPaymentType_dtlCreditCard__ctl8_lblDescription span.text, #ucPaymentType_dtlCreditCard__ctl9_lblDescription span.text, #ucPaymentType_dtlCreditCard__ctl10_lblDescription span.text, #ucPaymentType_dtlCreditCard__ctl11_lblDescription span.text, #ucPaymentType_dtlCreditCard__ctl12_lblDescription span.text, #ucPaymentType_dtlFinancing__ctl1_lblDescription span.text, #ucPaymentType_dtlFinancing__ctl2_lblDescription span.text, #ucPaymentType_dtlFinancing__ctl3_lblDescription span.text, #ucPaymentType_dtlFinancing__ctl4_lblDescription span.text {font-size:11px!important;}
+#content.payment span.gridParcel {font-size:11px;}
+#content.payment #ucPaymentType_dtlFinancing span.text, #content.payment #ucPaymentType_dtlCreditCard span.text {padding:0;}
+#ucPaymentType_dtlFinancing, #ucPaymentType_dtlCreditCard {background:transparent url(../img/bg2.gif) repeat-x left top;}
+
+#content #ucPaymentType_imgBoleto, #content #ucPaymentType_imgDebito {margin:1px 0 0 10px;}
+#content #ucPaymentType_Tr1 br, #content #ucPaymentType_Tr1 br {display:none;}
+#content.payment #htbSubmarinoAura td.text, #content.payment #htbAlignPOK td, #content.payment #ucPaymentType_tblSubmarinoAuraPok td {padding:0;}
+#content #ucPaymentType_tblSubmarinoAuraNormal #ucPaymentType_htbRegularSubAura td {padding:0;}
+#content.payment #ucPaymentType_tblPaymentSubmarino #ucPaymentType_htdSubmarinoAura #tblCreditCardParcel td {padding:10px 0;}
+#content.payment #ucPaymentType_tblPaymentSubmarino #ucPaymentType_htdSubmarinoAura #tblCreditCardParcel #ucPaymentType_dtlCreditCard td, #content.payment #ucPaymentType_tblPaymentSubmarino #ucPaymentType_htdSubmarinoAura #tblCreditCardParcel #ucPaymentType_dtlFinancing td {padding:0 15px;}
+
+#content.payment #ucPaymentType_tblPaymentSubmarino #ucPaymentType_htdSubmarinoAura #tblCreditCardData td, #content.payment #ucPaymentType_tblPaymentSubmarino #ucPaymentType_htdSubmarinoMasterCard #tblCreditCardDataMasterCard td {padding:2px 0;}
+#content.payment #ucPaymentType_tblPaymentSubmarino #ucPaymentType_htdSubmarinoAura #tblCreditCardData br, #content.payment #ucPaymentType_tblPaymentSubmarino #ucPaymentType_htdSubmarinoMasterCard #tblCreditCardDataMasterCard br {display:none;}
+
+#content.payment .financePokTextLink {border:none!important;}
+#content.payment #ucPaymentType_htrSubmarinoAuraSpacer br {display:none;}
+#content.payment #htdCardB2, #content.payment #htdAlignPaymentB, #content.payment #ucPaymentType_htdCardB4, #content.payment #ucPaymentType_htdCardB5 {padding:0!important;}
+#content.payment #htdCardB2 br {display:block;}
+
+/*#content.payment #ucPaymentType_htrPaymentParcel #tbPaymentParcel38 {display:table!important;}*/
+#content.payment #ucPaymentType_htrPaymentParcel table {display:none;}
+/*#content.payment #ucPaymentType_htrPaymentParcel #tbPaymentParcel38 td {padding:0 15px;}
+#content.payment #ucPaymentType_htrPaymentParcel #tbPaymentParcel38 .textb {background:url(../img/bg3.gif) repeat-x left top!important; padding:25px 15px 10px 25px;}*/
+#content.payment #tbPaymentParcel38 .textb br {display:none;}
+#content.payment #tbPaymentParcel38 td.gridParcelAlt, #content.payment #tbPaymentParcel38 td.gridParcel {padding:0;} 
+
+#content.payment #ucPaymentType_htrCreditCard #htbCreditCard td.text {padding:0 20px;}
+#content.payment #htbBoleto td {padding:10px 20px;}
+#content.payment #htbOnLine td {padding:10px 20px;}
+#content.payment #ucPaymentType_dgdGroupPaymentBoleto td, #content.payment #htbOnLine td table td {padding:0;}
+#content.payment #htbCreditCard #ucPaymentType_tblPaymentCC, #content.payment #ucPaymentType_tblBoleto, #content.payment #ucPaymentType_tblDebito {width:130%; margin:0 -200px 0 -20px; position:relative; left:-5px;}
+#content.payment #ucPaymentType_lblAlertTransfer {padding:0;}
+
+#content.payment #ucPaymentType_dtlFinancing__ctl0_imgHeaderFinancing {float:left}
+
+
+
+#content.payment #ucPaymentType_htrRegularSubAura #ucPaymentType_htbRegularSubAura td.text {padding:0 20px 20px 20px;}
+#content.payment #ucPaymentType_imgCloseSubmarinoAura,#content.payment #ucPaymentType_imgCloseBoleto,#content.payment #ucPaymentType_imgCloseFinanceCDC {margin:0 20px 20px 0;}
+#content.payment #ucPaymentType_imgCloseSubmarinoAura,#content.payment #ucPaymentType_imgCloseFinanceCDC{margin-bottom: 60px;}
+#content.payment #ucPaymentType_imgCloseCC{top:-55px; position: relative}
+
+#content.payment #htcButtonCC{width:100%;}
+
+#content.payment #ucPaymentType_dtlCreditCard, #content.payment #ucPaymentType_dtlFinancing {width:100%!important;}
+#content.payment #ucPaymentType_txtNameSubmarinoAura, #content.payment #ucPaymentType_txtNameSubmarinoMasterCard, #content.payment #ucPaymentType_txtNameCreditCard, #content.payment #ucPaymentType_txtCreditCardNumber {width:160px!important;}
+
+#content.payment #htbBandCreditCard td {text-align:center; width:12%; height:90px; padding:0;}
+#content.payment #htbBandCreditCard br {display:none;}
+#content.payment #htbBandCreditCard input {margin:5px auto; display:block;}
+#content.payment #htbBandCreditCard #ucPaymentType_dtlGroupPaymentCard__ctl2_lblCard {padding:0;}
+
+#content.payment #ucPaymentType_dgdGroupPaymentOnLine table td {width:auto!important; border:none;}
+#content.payment #ucPaymentType_dgdGroupPaymentOnLine table td#htcPaymentImage5, #content.payment #ucPaymentType_dgdGroupPaymentOnLine #htcPaymentImage6, #content.payment #ucPaymentType_dgdGroupPaymentOnLine #htcPaymentImage4, #content.payment #ucPaymentType_dgdGroupPaymentOnLine #htcPaymentImage3, #content.payment #ucPaymentType_dgdGroupPaymentOnLine #htcPaymentImage2, #content.payment #ucPaymentType_dgdGroupPaymentOnLine #htcPaymentImage1, #content.payment #ucPaymentType_dgdGroupPaymentOnLine #htcPaymentImage7 {width:100px!important;}
+
+#content.payment #ucPaymentType_dgdGroupPaymentOnLine td {border-bottom:1px dotted #666; padding:10px 0!important;}
+#content.payment #ucPaymentType_dgdGroupPaymentBoleto__ctl2_lblInformationBoleto, #content.payment #ucPaymentType_dgdGroupPaymentOnLine__ctl2_Label7, #content.payment #ucPaymentType_dgdGroupPaymentOnLine__ctl3_Label7 {padding:0; font-size:11px;}
+#content.payment #ucPaymentType_dgdGroupPaymentOnLine__ctl2_Label7 a, #content.payment #ucPaymentType_dgdGroupPaymentOnLine__ctl3_Label7 a {text-decoration:underline;}
+#content.payment #ucPaymentType_dgdGroupPaymentBoleto__ctl2_lblObservationBoleto, #content.payment #ucPaymentType_dgdGroupPaymentOnLine__ctl2_Label8, #content.payment #ucPaymentType_dgdGroupPaymentOnLine__ctl3_Label8 {background:transparent url(../img/iconWarning.gif) no-repeat left 5px!important; padding:5px 0 3px 20px; display:block;margin:5px 0 0 112px;}
+#content.payment #ucPaymentType_dgdGroupPaymentBoleto__ctl2_lblInformationBoleto {padding:0 0 0 26px; display:block; _padding:0 0 0 33px;}
+
+
+#content.payment #ucPaymentType_htrBoletoBR br, #content.payment #ucPaymentType_dgdGroupPaymentBoleto br, #content.payment #ucPaymentType_htrOnLineBR br {display:none;}
+
+#content.payment #ucPaymentType_dgdGroupPaymentOnLine td {background-color:#fff!important;}
+
+#content.payment #ucPaymentType_imgCloseBoleto {margin-bottom:40px;}
+#content.payment #ucPaymentType_imgCloseOnLine {margin-top:10px;}
+
+#content.payment #ucPaymentType_lblAlertSubmarinoAura {padding:0!important;}
+#content.payment #ucPaymentType_dgdGroupPaymentBoleto table td {border:hidden!important;}
+
+#content.payment #ucPaymentType_dgdGroupPaymentBoleto tr td {padding-left: 89px; background:url(../img/bgBill.gif) no-repeat 34px 3px;}
+#content.payment #ucPaymentType_dgdGroupPaymentBoleto tr td td {padding-left: 0; background:none;}
+#content.payment #ucPaymentType_dgdGroupPaymentBoleto tr td td input {position: relative; right: 89px;}
+
+#page #content.payment .fundo2, #page #content #ucPaymentType_htdSubmarinoAura,#page #content #ucPaymentType_htdCard3, #page #content #ucPaymentType_tblPaymentSubmarino td, #page #content #htdCardA2, #page #content #htdCardB1, #page #content #htdCardB2, #page #content #htdCardB3 {background:#f2f2f2!important;}
+
+#content.payment #ucPaymentType_dtlFinanceCDC .text{font-size: 11px; font-family: arial;}
+#content.payment #ucPaymentType_dtlFinanceCDC {background: #EEE;}
+#content.payment #ucPaymentType_lblTitleFinanceDirect {font-size: 12px;}
+#content.payment #ucPaymentType_htdCardB5 br {display: block;}
+
+#page #content #tblSubmarinoCreditCard *.clean {background: #FFF!important;}
+
+#content.subServices #conteudo{padding: 10px;}
+#content.unlockPassword table {background: transparent!important; width: 95%; margin: 0 auto;}
+#content.wrapRefferPage table, #content.addressBook  table{width: 98%; margin: 0 auto;}
+#content.wrapRefferPage #Table1 td table td table td table td.text {padding:2px 0;}
+#content.wrapRefferPageBasket table{width: 95%; margin: 0 auto;}
+
+#content.wrapRefferPage  #area11{padding-top: 70px; background:#FFF url(../img/header_embrulho.png) no-repeat;}
+#content.wrapRefferPage  #_ctl0_imaWrapHeader {display: none;}
+
+#content.wrapRefferPageBasket  #area11{padding-top: 70px; background:#FFF url(../img/header_embrulho.png) no-repeat;}
+#content.wrapRefferPageBasket  #_ctl0_imaWrapHeader {display: none;}
+
+#content.exchange #ExchangeDevolutionMenu1_hgcLeftMenu { background: url(../img/top_meucadastro.gif) no-repeat left 5px !important; overflow:hidden; margin-top:-5px;}
+#content.exchange #corpo, body { margin:0;  } 
+#content.exchange #reptopo1 #imgAttendanceCentral { margin-top:7px;  }
+#content.exchange #reptopo1 { margin:0pt 5px 0pt 175px; background:none; }
+#content.exchange #area1 #area1A { padding:1px 0pt 0pt;}
+#content.exchange #area11 { background: url(../img/bgArea11.gif) no-repeat scroll 145px top; font-size:0pt; line-height:0pt; overflow:hidden; zoom:1;}
+#content.exchange #left, .LeftNavigation { width:145px; }
+#content.exchange #area1 #area1C { background:none; }
+#content.exchange #area1 #area1B { background:transparent url(../img/area1BgLeft.png) repeat-y scroll 0pt 50%; margin:0pt 0pt 0pt -14px; }
+#content.exchange #ExchangeDevolutionMenu1_hgcLeftMenu span { color:#0082D7; }
+
+#content.loginLogout  #Image1 { padding-left: 0;}
+#content.loginLogout  #area11{padding-top: 70px; background:#FFF url(../img/header_login.png) no-repeat;}
+
+#content.forgotPassword {text-align: center;}
+#content.forgotPassword table {width: 450px; margin: 0 auto;}
+#content.forgotPassword  #area11{padding-top: 70px; background:#FFF url(../img/header_esqueciSenha.png) no-repeat;}
+#ucSearch__ctl0_hgcTopSearch, #ucSearch__ctl0_hgcWave {display: none;}
+#content.checkout table.text table table{width: auto;}
+/* ALTERACAO DA PAGINA PAYMENT */
+#content.payment #ucPaymentType_dtlCreditCard input, #ucPaymentType_dtlFinancing input { vertical-align: middle;}
+#content.payment #ucPaymentType_htrPaymentParcel table td span, #tblCreditCardParcel tr td font {display:block; padding: 5px 10px;}
+#content.payment #ucPaymentType_htrPaymentParcel table .gridPay span{color:#000;}
+#content.payment #ucPaymentType_htrPaymentParcel table .gridPay strong{color:#0082d6;}
+#content.payment #ucPaymentType_htrPaymentParcel table td input  { vertical-align: middle;} 
+#content.payment #tblCreditCardParcel tr .gridPay font { background-color:#ddeef9 !important; }
+#content.payment #tblCreditCardParcel tr td span { color:#0082d6;}
+#content.payment #tblCreditCardParcel tr .gridPay span { color:#000;}
+#content.payment #tblCreditCardParcel tr .gridPay .text .priceDiscount{ color:#0082d6;}
+#content.payment .optionPaymentOrder  *{ font-size:11px; color:#000;}
+#content.payment .optionPaymentOrder .paymentOrder strong { color:#0082d6;}
+#content.payment #ucPaymentType_lblDiscountDebito{font-size:11px; color:#00; font-weight:normal}
+#content.payment #ucPaymentType_lblDiscountDebito strong { color:#0082d6;}
+
+#content.payment .allOptionPay2 { background-color:#ddeef9 !important; padding: 10px 20px !important; display: block; margin: -10px 4px 0 112px !important; #margin-left: 119px !important;}
+
+#page #content.payment .parcelConditionBox{background:#DDEEF9}
+#page #content.payment #parcelCondition{width: auto;background:#DDEEF9!important;}
+#page #content.payment #parcelCondition td{background:#DDEEF9!important; vertical-align:top; padding: 6px 2px 0 2px;}
+#page #content.payment #parcelCondition td.bgSeusDados{white-space: nowrap;}
+#page #content.payment #parcelCondition td font{color:#000; font-size:13px; font-weight:bold; padding-left: 5px;}
+/* #page #content.payment #parcelCondition input,#page #content.payment #parcelCondition select{_height: 18px; min-height:18px;} */
+#page #content.payment #parcelCondition .duvidasParcel p{font-size:10px; color:#0082D6; padding:0 0 15px 110px;}
+#page #content.payment #parcelCondition .duvidasParcel p a{text-decoration: underline;}
+#page #content.payment p.waringCard{font-size:10px;  padding: 5px 10px; background:#F2F2F2 ;}
+#page #content.payment p.waringCard span{color:#ff0202;}
+#page #content.payment .listCombo li{padding: 0.3em 0; list-style-type: square; list-style-position:inside;}
+#page #content.payment .dataCard{font-size:11px;}
+#page #content.payment .dataCard input{border:1px solid #b8b8b8; height:18px; font-size:12px;}
+#page #content.payment .dataCard li{padding: 5px 0;}
+#page #content.payment .dataCard .type1{float:left; clear:left;}
+#page #content.payment .dataCard label{display:block; text-align:right; width:150px; margin-right:5px;}
+#page #content.payment .dataCard  #chk_Cvc {margin:0 5px; vertical-align:middle; border:0;}
+
+
+/* PADRONIZACAO DA FORMA DE PAGAMENTO */
+#content.payment #bandeira td .txtBandeira{padding:0!important; font-size:11px; color:#000; font-weight:bold;}
+#content.payment #bandeira td .checkBandeira{padding:5px 0 0 0!important;}
+#content.payment #bandeira td table{width:auto!important;}
+#content.payment #htbBandCreditCard span{ font-size:11px; color:#000; font-weight:bold;}
+#content.payment #htbBandCreditCard .cardLine2{display:block;}
+
+/* PRODUTO INDISPONIVEL NO CARRINHO */
+#content.basket #UcBasketDetail1_prodAlert p{margin:0; color:#ef0303; font-size:12px;}
+#content.basket #UcBasketDetail1_prodAlert p a{color:#ef0303;}
+#content.basket #UcBasketDetail1_prodAlert a{color:#666; font-size:11px; text-decoration: underline;}
+
+/*Bug IE8*/
+#header .userArea {_height:9em;}
+.payment #area1, .payment #area1 #area1A {zoom:1;}
+
+/* ##################################### 1-click ################################ */
+
+/* Pagina de produto */
+.boxBuyButtons{ width: 175px; float: right}
+.box1Click {margin: 10px; padding-bottom: 15px; background: url(../img/bgDotted.gif) repeat-x scroll center bottom; overflow: hidden;}
+.basket .box1Click {background:none; margin:0; padding-bottom:0; width:380px;}
+.basket #tblButtonUpper .box1Click {float:right;}
+.box1Click .type1{font-size: 1.1em; text-align: center; background: url(../img/bgDotted.gif) repeat-x scroll center; margin-bottom: 15px;}
+.basket .box1Click .type1 {font-size:11px; margin-bottom:0;}
+.box1Click .type1 span{background: #FFF;}
+.basket .box1Click .type1 span {background: #FFF; margin-left:200px; padding:0 2px;}
+.box1Click  .content1Click .type2{font-size:1.2em; font-weight: bold; margin: 0; padding-left: 12px;}
+.box1Click  .content1Click .type3{font-size:1.1em; display: inline; padding-left: 14px;}
+.basket .box1Click  .content1Click .type2{font-size:11px;}
+.basket .box1Click  .content1Click .type3{font-size:11px;}
+.box1Click  .content1Click .type3 a{color: #0082D6; text-decoration: underline;}
+.boxBuyButtons ul.listBuyButtons li.btBuy .box1Click  .content1Click img{display: inline; vertical-align: middle;}
+.basket .box1Click .content1Click {text-align:right;}
+.box1Click  .content1Click   *{vertical-align: middle;}
+.box1Click  .content1Click   div {margin-top: 10px;}
+.box1Click  .content1Click   label{font-size: 1.1em;}
+.box1Click  .content1Click   select{border: 1px solid #cccccc; padding: 1px; width: 105px; font-size: 1.1em; color:#666666;}
+.basket .box1Click  .content1Click   label {font-size:11px;}
+.basket .box1Click  .content1Click   select {font-size:11px;}
+.box1Click  .content1Click   input {border: 1px solid #cccccc;}
+
+.doubtInfo {position:relative;}
+.content1Click .boxMoreInfo .box6 {left:-12.4em; width:15em;} 
+.content1Click .boxMoreInfo .box6A {display:block; background-position:91% 0;}
+
+#htdCrossUp {vertical-align:bottom; height:86px;}
+
+/* Menu Frete */
+
+/* Pagina de Pagamento */
+.dlvTypesBox{overflow:hidden; padding: 0 20px;color:#666;font-size:12px;}
+.dlvTypesBox .shpList{padding:30px 0 30px 85px;overflow:hidden;}
+.dlvTypesBox li{padding:10px;float:left;width:24.9%;border-left:1px dotted;}
+.dlvTypesBox li.first{border:none;margin-left:-90px;}
+.dlvTypesBox .ico, .popSaibaMais .ico{display:-moz-inline-box;display:inline-block;font-size:0;line-height:0;text-indent:-9999em;vertical-align:middle;color:#fff;background:url(../img/icoMenuFrete.png) no-repeat 1000px 1000px;overflow:hidden;width:66px;height:49px;float:left;}
+.dlvTypesBox .ico.conv, .popSaibaMais .ico.conv{background-position:0 0;}
+.dlvTypesBox .ico.agen, .popSaibaMais .ico.agen{background-position:-65px 0;}
+.dlvTypesBox .ico.econ, .popSaibaMais .ico.econ{background-position:-130px 0;}
+.dlvTypesBox .ico.atom, .popSaibaMais .ico.atom{background-position:-197px 0;}
+.dlvTypesBox .slt{float:left;}
+.dlvTypesBox .dlCont {overflow:hidden;padding-left:10px;}
+.dlvTypesBox .dlCont .lk{display:block;font-size:11px;color:#666!important;}
+.dlvTypesBox .dlCont .tp1{font-weight:bold;}
+.dlvTypesBox .dlCont .tp1, .dlvTypesBox .dlCont .tp2{display:block;color:#0082D6;}
+
+/* Basket */
+.cepMFrete .txtCep{float:left;}
+.cepMFrete .calcCep {width:99.6%;}
+.cepMFrete .boxCep{text-align:right;}
+.cepMFrete div.roundCornerBR{padding:10px;}
+.cepMFrete .dlvTypesBox li{border:none;position:relative;}
+.cepMFrete .dlvTypesBox .lk{font-size:10px;text-decoration:underline;}
+.cepMFrete .dlvTypesBox .tp1{font-size:10px;color:#666;font-weight:normal;}
+.cepMFrete .dlvTypesBox .tp4{font-size:11px;font-weight:normal;}
+.cepMFrete .dlvTypesBox {padding:0;}
+.cepMFrete .dlvTypesBox .shpList{padding:10px 0;overflow:visible;position:relative;}
+.cepMFrete .dlvTypesBox .shpList li{padding:0;margin:0;}
+.cepMFrete .calcCep .roundCornerTL, .cepMFrete .calcCep  .roundCornerTR, .cepMFrete .calcCep  .roundCornerBR, .cepMFrete .calcCep  .roundCornerBT, .cepMFrete .shpList .roundCornerTL, .cepMFrete .shpList .roundCornerTR, .cepMFrete .shpList .roundCornerBR, .cepMFrete .shpList .roundCornerBT{background:none;}
+.cepMFrete .calcCep.active .roundCornerTL { background: #f6f6f6 url(../img/roundCornerTL.gif) no-repeat 0 0;}
+.cepMFrete .calcCep.active .roundCornerTR { background:  url(../img/roundCornerTR.gif) no-repeat right 0; }
+.cepMFrete .calcCep.active .roundCornerBL, .cepMFrete .shpList .selected .roundCornerBL { background: url(../img/roundCornerBL.gif) no-repeat 0 bottom; }
+.cepMFrete  .shpList .selected  .roundCornerBR {background: url(../img/roundCornerBR.gif) no-repeat right bottom; }
+.cepMFrete  .shpList .selected .roundCornerTL{background:#f6f6f6;}
+.cepMFrete  .shpList li  .roundCornerBR{min-height:80px;}
+.cepMFrete  .shpList li.selected{margin-top:-36px;}
+.cepMFrete  .shpList li.selected .dlvTypes {padding-top:15px;}
+.cepMFrete  .shpList li.selected .lk{font-size:11px;font-weight:normal;}
+.cepMFrete  .shpList li.selected .tp1{font-size:12px;font-weight:bold;color:#0082d6;}
+
+/* Pagina final */
+.confMFrete  span{color:#0082D6;}
+.confMFrete  span .dateMf{display:block;}
+.confMFrete  span  .ico.icoMF{display:-moz-inline-box;display:block;font-size:0;line-height:0;text-indent:-9999em;vertical-align:middle;color:#fff;background:url(../img/icoMf.gif) no-repeat;overflow:hidden;width:20px;height:18px;}
+
+/* Pop Saiba Mais */
+.popSaibaMais{font-size:11px;}
+.popSaibaMais li,.popSaibaMais p{margin-bottom:15px;clear:both;}
+.popSaibaMais .titMF{font-size:18px;margin-bottom:30px;font-weight:normal;display:block;padding-top:10px;}
+.popSaibaMais  span.ico{float:none; margin-right:10px;float:left;}
+
+.cepMFrete .boxCep #UcBasketDetail1_tbxcep1, .cepMFrete .boxCep  #UcBasketDetail1_tbxcep2{font-weight:bold;color:#666666;}
+/* FIM Menu Frete */

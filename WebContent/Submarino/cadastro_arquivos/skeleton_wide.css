@@ -1,0 +1,81 @@
+HTML {
+	BACKGROUND: url(../img/bgBody.gif) repeat-y left 50%
+}
+BODY #skipNav {
+	DISPLAY: none
+}
+#page {
+	MIN-WIDTH: 77.8em; BACKGROUND: url(../img/bgHtml.gif) repeat-y right 50%
+}
+.checkout#header {
+	Z-INDEX: 1000; POSITION: relative; BACKGROUND: blue
+}
+.checkoutHeader#header {
+	Z-INDEX: 1000; POSITION: relative; BACKGROUND: blue
+}
+#content {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 5px; PADDING-RIGHT: 0px; BACKGROUND: url(../img/bg1.gif) repeat-x left top; OVERFLOW: hidden; PADDING-TOP: 5px
+}
+#fullBanner {
+	POSITION: relative; MARGIN: 0px 0px -1em -0.5em; HEIGHT: 13em; OVERFLOW: hidden
+}
+#area1 {
+	Z-INDEX: 20; POSITION: relative; WIDTH: 100%; BACKGROUND: url(../img/area1RoundBoxTL.gif) no-repeat left top; FLOAT: none; MARGIN-LEFT: 0px; LEFT: 0px
+}
+#area1 #area1A {
+	PADDING-BOTTOM: 0px; MARGIN: 0px 5px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: url(../img/area1RoundBoxTR.gif) #fff no-repeat right 0px; PADDING-TOP: 15px
+}
+#area1 #area1B {
+	MARGIN: 0px 0px 0px -14px; BACKGROUND: url(../img/area1BgLeft.png) #fff repeat-y 0px 0px
+}
+#area1 #area1C {
+	POSITION: relative; PADDING-BOTTOM: 0px; MARGIN: 0px -5px 0px 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 6px; BACKGROUND: url(../img/area1BgRight.gif) repeat-y right 0px; OVERFLOW: hidden; PADDING-TOP: 0px
+}
+#area12 {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 5px; WIDTH: 145px; PADDING-RIGHT: 0px; FLOAT: right; PADDING-TOP: 5px
+}
+#area13 {
+	ZOOM: 1; BACKGROUND: #fff; OVERFLOW: hidden
+}
+#area131 {
+	CLEAR: both
+}
+#area134 {
+	CLEAR: both
+}
+#area132 {
+	WIDTH: 50%; FLOAT: left
+}
+#area133 {
+	WIDTH: 50%; FLOAT: left
+}
+#area133 {
+	FLOAT: right
+}
+#area135 {
+	PADDING-LEFT: 15px; ZOOM: 1
+}
+#area132 {
+	ZOOM: 1; DISPLAY: inline; MARGIN-LEFT: -15px
+}
+#area2 {
+	Z-INDEX: 2; POSITION: relative; WIDTH: 18.5em; LEFT: -17.5em
+}
+#area3 {
+	PADDING-BOTTOM: 20px; MARGIN: 0px 0px 5px -5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; CLEAR: both; PADDING-TOP: 0px
+}
+#area4 {
+	POSITION: relative; WIDTH: 100%; FLOAT: right; MARGIN-LEFT: -190px; LEFT: -5px
+}
+#footer {
+	BACKGROUND: url(../img/bgFooterLeft.gif) #fff no-repeat 2px top
+}
+#footer .footer {
+	PADDING-BOTTOM: 30px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: url(../img/bgFooterRight.gif) no-repeat right top; PADDING-TOP: 30px
+}
+.exchange#content #area1 #area1A {
+	PADDING-BOTTOM: 0px; MARGIN: 0px 5px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: url(../img/area1RoundBoxTR.gif) no-repeat right 0px; PADDING-TOP: 15px
+}
+.exchange#content #area1 #area1C {
+	POSITION: relative; PADDING-BOTTOM: 0pt; MARGIN: 0px -5px 0px 0px; PADDING-LEFT: 5px; PADDING-RIGHT: 6px; BACKGROUND: url(../img/area1BgRight.gif) repeat-y right 0px; OVERFLOW: hidden; PADDING-TOP: 0pt
+}

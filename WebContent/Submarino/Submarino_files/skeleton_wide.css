@@ -1,0 +1,28 @@
+html {background: url(../img/bgBody.gif) repeat-y left;}
+body 
+#skipNav {display: none;}
+#page {min-width: 77.8em; background: url(../img/bgHtml.gif) repeat-y right;}
+#header.checkout, #header.checkoutHeader {background: blue; z-index: 1000; position: relative;}
+#content {padding:5px 0 0 5px; overflow: hidden; background:transparent url(../img/bg1.gif) repeat-x scroll left top;}
+
+#fullBanner { margin: 0 0 -1em -0.5em;  overflow: hidden; position: relative; height: 13em}
+#area1 { float: none; width: 100%; margin-left: 0; position: relative; z-index: 20; left: 0;  background:  url(../img/area1RoundBoxTL.gif) no-repeat left top; }/*#area1 #area1A, #area1 #area1B { position: relative; }*/
+#area1 #area1A { background: #fff url(../img/area1RoundBoxTR.gif) no-repeat right 0; margin:  0 5px; padding: 15px 0 0 0; }
+#area1 #area1B { background: #fff url(../img/area1BgLeft.png) repeat-y 0 0; margin: 0 0 0 -14px; }
+#area1 #area1C { background:  url(../img/area1BgRight.gif) repeat-y right 0; padding:0 6px 0 10px; margin: 0 -5px 0 0; position: relative; overflow: hidden; }
+#area12{ float: right; width: 145px; padding: 5px 0 5px 5px;}
+#area13 {overflow: hidden; zoom: 1; background:#FFF;}
+#area131, #area134 {clear: both;}
+#area132, #area133 {float: left; width: 50%;}
+#area133 {float: right;}
+#area135 {padding-left:15px; zoom:1; }
+#area132 {margin-left: -15px; zoom:1; _display:inline;}
+
+#area2 { left: -17.5em; width: 18.5em; position: relative; z-index: 2;}
+#area3 {padding: 0 5px 20px; clear: both; margin: 0 0 5px -5px;}
+#area4{ float: right; width: 100%; margin-left: -190px; position: relative; left: -5px;}
+#footer {background: #FFF url(../img/bgFooterLeft.gif) no-repeat 2px top;}
+#footer .footer{padding: 30px 0; background: url(../img/bgFooterRight.gif) no-repeat right top;}
+
+#content.exchange #area1 #area1A { background: url(../img/area1RoundBoxTR.gif) no-repeat right 0; margin:  0 5px; padding: 15px 0 0 0; }
+#content.exchange #area1 #area1C { background: url(../img/area1BgRight.gif) repeat-y right 0; padding:0pt 6px 0pt 5px; margin: 0 -5px 0 0; position: relative; overflow: hidden; }

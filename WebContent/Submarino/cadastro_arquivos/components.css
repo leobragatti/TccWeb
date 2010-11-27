@@ -1,0 +1,5946 @@
+* {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+BODY {
+	BACKGROUND-COLOR: #fff; FONT-FAMILY: arial, verdana, freesans, garuda, helvetica, sans-serif; COLOR: #666; FONT-SIZE: 62.5%
+}
+IMG {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; LIST-STYLE-TYPE: none; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+}
+UL {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; LIST-STYLE-TYPE: none; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+}
+A {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; LIST-STYLE-TYPE: none; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+}
+FIELDSET {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; LIST-STYLE-TYPE: none; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+}
+A {
+	CURSOR: pointer; TEXT-DECORATION: none
+}
+A:hover {
+	TEXT-DECORATION: underline
+}
+P {
+	MARGIN: 0.5em 0px
+}
+P A {
+	COLOR: #666; TEXT-DECORATION: underline
+}
+INPUT[type='text'] {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid
+}
+HR {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; MARGIN: 0.5em 0.2em; DISPLAY: none; BACKGROUND: #ccc; HEIGHT: 1px; COLOR: #ccc; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+}
+SELECT {
+	FONT-SIZE: 1em
+}
+OPTION {
+	FONT-SIZE: 1.1em
+}
+.box1 {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: #ccc 5px solid; PADDING-BOTTOM: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; MARGIN-BOTTOM: -2px; OVERFLOW: hidden; BORDER-TOP: 0px; BORDER-RIGHT: #ccc 5px solid; PADDING-TOP: 5px
+}
+.box2 {
+	PADDING-BOTTOM: 20px; MARGIN-BOTTOM: 1em; BACKGROUND: url(../img/bgBox1.png) no-repeat left -6.8em; OVERFLOW: hidden
+}
+.box2 .box2A {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 10px; BACKGROUND: url(../img/bgBox1.png) no-repeat right -6.8em; MARGIN-LEFT: 5px; OVERFLOW: hidden; PADDING-TOP: 10px
+}
+.meetToo .box2 .box2A {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 10px; PADDING-TOP: 0px
+}
+.box3 {
+	BACKGROUND: url(../img/bgBox2.png) #fff no-repeat left -80px; OVERFLOW: hidden
+}
+.box3 .box3A {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 10px; BACKGROUND: url(../img/bgBox2.png) no-repeat right -80px; OVERFLOW: hidden; PADDING-TOP: 5px
+}
+.box7 {
+	BACKGROUND: url(../img/bgBox6Left.gif) #f6f6f6 no-repeat left top
+}
+.box7 .box7A {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 10px; BACKGROUND: url(../img/bgBox6Right.gif) no-repeat right top; PADDING-TOP: 5px
+}
+.box5 {
+	BACKGROUND: url(../img/bgBox5RightTop.gif) no-repeat right top; OVERFLOW: hidden
+}
+.box5A {
+	BACKGROUND: url(../img/bgBox5LeftTop.gif) no-repeat left top; OVERFLOW: hidden
+}
+.box5B {
+	BACKGROUND: url(../img/bgBox5RightBottom.gif) no-repeat right bottom; OVERFLOW: hidden
+}
+.box5C {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; BACKGROUND: url(../img/bgBox5LeftBottom.gif) no-repeat left bottom; OVERFLOW: hidden; PADDING-TOP: 5px
+}
+.box9 {
+	BACKGROUND: url(../img/bgBox9RightTop.gif) no-repeat right top; OVERFLOW: hidden
+}
+.box9A {
+	BACKGROUND: url(../img/bgBox9LeftTop.gif) no-repeat left top; OVERFLOW: hidden
+}
+.box9B {
+	BACKGROUND: url(../img/bgBox9LeftBottom.gif) no-repeat left bottom; OVERFLOW: hidden
+}
+.box9C {
+	MARGIN-TOP: 7px; BACKGROUND: url(../img/bgBox9RightBottom.gif) no-repeat right bottom; OVERFLOW: hidden
+}
+.topBox1 {
+	POSITION: relative; PADDING-LEFT: 10px; BACKGROUND: url(../img/bgBox1.png) no-repeat left top; MARGIN-RIGHT: 10px
+}
+.topBox1 .topBox1A {
+	POSITION: relative; PADDING-BOTTOM: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; BACKGROUND: url(../img/bgBox1.png) no-repeat right top; OVERFLOW: hidden; MARGIN-RIGHT: -10px; PADDING-TOP: 5px
+}
+.topBox2 {
+	ZOOM: 1; BACKGROUND: url(../img/bgBox2.png) no-repeat left top; MARGIN-RIGHT: 10px
+}
+.topBox2 .topBox2A {
+	POSITION: relative; PADDING-BOTTOM: 5px; PADDING-LEFT: 0px; PADDING-RIGHT: 5px; BACKGROUND: url(../img/bgBox2.png) no-repeat right top; COLOR: #fff; OVERFLOW: hidden; RIGHT: -10px; PADDING-TOP: 5px
+}
+.topBox3 {
+	PADDING-LEFT: 5px; ZOOM: 1; BACKGROUND: url(../img/bgTopBox3Left.gif) no-repeat left top; OVERFLOW: hidden
+}
+.topBox3 .topBox3A {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; BACKGROUND: url(../img/bgTopBox3Right.gif) no-repeat right top; OVERFLOW: hidden; PADDING-TOP: 5px
+}
+.menuFilterNavigation .topBox1 .topBox1A {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 0px; PADDING-RIGHT: 5px; PADDING-TOP: 5px
+}
+.meetToo .topBox1 .topBox1A {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 0px; PADDING-RIGHT: 5px; PADDING-TOP: 5px
+}
+.menuBrowseWorld .topBox1 .topBox1A {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 0px; PADDING-RIGHT: 5px; PADDING-TOP: 5px
+}
+.menuFilterNavigation .box2 {
+	PADDING-BOTTOM: 0px
+}
+.list1 {
+	PADDING-BOTTOM: 10px; CLEAR: both
+}
+.list1 LI {
+	LIST-STYLE-POSITION: inside; LIST-STYLE-TYPE: decimal; COLOR: #666; FONT-SIZE: 1.1em; FONT-WEIGHT: normal
+}
+.list1 .seeAll {
+	LIST-STYLE-POSITION: outside
+}
+.list1 A {
+	COLOR: #666
+}
+.list2 {
+	PADDING-BOTTOM: 10px; CLEAR: both
+}
+.list2 LI {
+	COLOR: #666; FONT-SIZE: 1.1em; FONT-WEIGHT: normal
+}
+.list2 SPAN {
+	COLOR: #666; MARGIN-LEFT: 0.5em; FONT-SIZE: 1.1em; FONT-WEIGHT: normal
+}
+.list2 A {
+	COLOR: #666
+}
+.list3 {
+	PADDING-BOTTOM: 10px; CLEAR: both
+}
+.list3 {
+	ZOOM: 1; OVERFLOW: hidden
+}
+.list3 LI {
+	PADDING-BOTTOM: 5px; MARGIN-TOP: -1px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; ZOOM: 1; BACKGROUND: url(../img/bgDotted.gif) repeat-x left top; COLOR: #666; FONT-SIZE: 1.1em; OVERFLOW: hidden; PADDING-TOP: 5px
+}
+.list3 LI IMG {
+	MARGIN: 0px auto; DISPLAY: block
+}
+.list3 LI A {
+	COLOR: #666
+}
+.list3 LI * {
+	VERTICAL-ALIGN: middle
+}
+.list3 H2 {
+	MARGIN-TOP: 10px
+}
+.list3 .warning {
+	MARGIN-TOP: 5px; BACKGROUND: none transparent scroll repeat 0% 0%
+}
+#area11 .list3 {
+	PADDING-BOTTOM: 0px
+}
+#area11 .list3 STRONG {
+	DISPLAY: block
+}
+.list3 A:hover * {
+	TEXT-DECORATION: underline
+}
+.productsHilights .list4 {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.list4 {
+	ZOOM: 1; OVERFLOW: hidden
+}
+.list4 LI {
+	PADDING-BOTTOM: 10px; LIST-STYLE-TYPE: none; PADDING-LEFT: 0px; WIDTH: 49.9%; PADDING-RIGHT: 0px; DISPLAY: inline; FLOAT: left; PADDING-TOP: 10px
+}
+.list4 LI A {
+	COLOR: #666
+}
+.list4 .title7 {
+	DISPLAY: block
+}
+A:hover .title7 {
+	TEXT-DECORATION: underline
+}
+.list4 .highlight1 {
+	FLOAT: left; MARGIN-LEFT: 25px; MARGIN-RIGHT: 15px
+}
+.list5 {
+	PADDING-BOTTOM: 15px; BACKGROUND: url(../img/bgDotted.gif) repeat-x 50% bottom
+}
+.list5 LI {
+	LIST-STYLE-POSITION: inside; LIST-STYLE-TYPE: square; MARGIN-BOTTOM: 5px; COLOR: #666; FONT-SIZE: 1.1em
+}
+.list5 A {
+	COLOR: #666
+}
+.list6 {
+	MARGIN-TOP: 15px
+}
+.list6 LI {
+	MARGIN-BOTTOM: 10px; COLOR: #666; FONT-SIZE: 1.1em
+}
+.list6 A {
+	COLOR: #666
+}
+.list6 LI * {
+	VERTICAL-ALIGN: middle
+}
+.list8 {
+	PADDING-BOTTOM: 15px; MARGIN-TOP: 2px
+}
+.list8 LI {
+	DISPLAY: inline
+}
+.list8 LI A {
+	COLOR: #666; FONT-SIZE: 1.1em
+}
+.myMenu {
+	PADDING-BOTTOM: 5px; BACKGROUND: url(../img/bgMyMenuRight.gif) no-repeat right bottom
+}
+.myMenu .topBox1 {
+	PADDING-LEFT: 0px
+}
+.myMenu .last {
+	BACKGROUND: url(../img/bgMyMenuRight.gif) no-repeat right bottom
+}
+.myMenu .title1 {
+	FLOAT: left
+}
+.myMenu .title2 {
+	FLOAT: left
+}
+.myMenu .title1 {
+	PADDING-LEFT: 5px
+}
+.myMenu .edit {
+	POSITION: absolute; TOP: 5px; RIGHT: 11px
+}
+.myMenu .edit A {
+	COLOR: #666
+}
+.myMenu .button {
+	FLOAT: left
+}
+.myMenu .button A {
+	MARGIN-TOP: 5px; WIDTH: 9px; DISPLAY: block; BACKGROUND: url(../img/allBgHome.png) no-repeat left -21px; HEIGHT: 0px; COLOR: #666; OVERFLOW: hidden; PADDING-TOP: 5px
+}
+.myMenu .myMenuBox .topBox1 .topBox1A {
+	MARGIN-LEFT: 2px
+}
+.closed .box1 {
+	DISPLAY: none
+}
+.closed .button A {
+	BACKGROUND: url(../img/allBgHome.png) no-repeat -9px -21px
+}
+.myMenuBox {
+	POSITION: relative
+}
+.myMenuBox UL LI .delete {
+	PADDING-BOTTOM: 0px; MARGIN-TOP: 2px; PADDING-LEFT: 0px; PADDING-RIGHT: 5px; BACKGROUND: url(../img/imgX.gif) no-repeat; FLOAT: right; HEIGHT: 0px; OVERFLOW: hidden; MARGIN-RIGHT: 2px; PADDING-TOP: 9px
+}
+.myMenuBox UL LI .delete:hover {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 5px; BACKGROUND: url(../img/imgX.gif) no-repeat 0px -9px; HEIGHT: 0px; OVERFLOW: hidden; PADDING-TOP: 9px
+}
+.myMenuBox .list2 {
+	ZOOM: 1; OVERFLOW: hidden
+}
+.myMenuBox .list2 LI {
+	WIDTH: 100%; WHITE-SPACE: nowrap; OVERFLOW: hidden
+}
+.myMenuBox .list2 .wishListTitle {
+	WHITE-SPACE: normal
+}
+.serviceMenu {
+	MARGIN-TOP: 10px; ZOOM: 1; OVERFLOW: hidden
+}
+.partnersMenu {
+	MARGIN-TOP: 10px; ZOOM: 1; OVERFLOW: hidden
+}
+.worldsMenu {
+	MARGIN-TOP: 10px; ZOOM: 1; OVERFLOW: hidden
+}
+.offers {
+	MARGIN-TOP: 10px; ZOOM: 1; OVERFLOW: hidden
+}
+.digitalServicesMenu {
+	MARGIN-TOP: 10px; ZOOM: 1; OVERFLOW: hidden
+}
+.submarineSupports {
+	MARGIN-TOP: 10px; ZOOM: 1; OVERFLOW: hidden
+}
+.worldsMenu .list3 LI {
+	PADDING-BOTTOM: 2px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 2px
+}
+.partnersMenu .list3 LI {
+	PADDING-BOTTOM: 2px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 2px
+}
+.serviceMenu LI {
+	PADDING-BOTTOM: 2px; LINE-HEIGHT: 1; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; CLEAR: left; PADDING-TOP: 2px
+}
+.serviceMenu LI IMG {
+	MARGIN: 0px; PADDING-RIGHT: 5px; FLOAT: left
+}
+.serviceMenu .list3 {
+	PADDING-RIGHT: 10px
+}
+.digitalServicesMenu .list3 LI {
+	PADDING-BOTTOM: 2px; LINE-HEIGHT: 1; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; ZOOM: 1; CLEAR: both; PADDING-TOP: 2px
+}
+.digitalServicesMenu .list3 LI A {
+	COLOR: #666
+}
+.digitalServicesMenu .list3 LI IMG {
+	PADDING-RIGHT: 5px; DISPLAY: inline; FLOAT: left
+}
+.digitalServicesMenu .list3 STRONG {
+	DISPLAY: block; OVERFLOW: hidden; FONT-WEIGHT: normal
+}
+.digitalServicesMenu .list3 .seeMore {
+	FONT-WEIGHT: bold; PADDING-TOP: 5px
+}
+.submarineSupports .list3 LI {
+	ZOOM: 1; CLEAR: both
+}
+.submarineSupports .list3 LI A {
+	COLOR: #666
+}
+.submarineSupports .list3 LI IMG {
+	PADDING-RIGHT: 5px; DISPLAY: inline; FLOAT: left
+}
+.submarineSupports .list3 STRONG {
+	DISPLAY: block; OVERFLOW: hidden; FONT-WEIGHT: normal
+}
+.submarineSupports .list3 .seeMore {
+	FONT-WEIGHT: bold; PADDING-TOP: 5px
+}
+.title1 {
+	COLOR: #666; FONT-SIZE: 1.2em
+}
+.title1 A {
+	COLOR: #666
+}
+.title2 {
+	PADDING-BOTTOM: 2px; PADDING-LEFT: 30px; PADDING-RIGHT: 0px; BACKGROUND: url(../img/allBgHome.png) no-repeat -345px -42px; COLOR: #666; FONT-SIZE: 1.2em; PADDING-TOP: 2px
+}
+.title2 A {
+	COLOR: #666
+}
+.title3 {
+	PADDING-BOTTOM: 2px; PADDING-LEFT: 30px; PADDING-RIGHT: 0px; BACKGROUND: url(../img/bgTitle.gif) no-repeat left center; COLOR: #666; FONT-SIZE: 1.2em; FONT-WEIGHT: normal; PADDING-TOP: 2px
+}
+.title4 {
+	COLOR: #666; FONT-SIZE: 1.2em
+}
+.title4 A {
+	COLOR: #666
+}
+.title5 {
+	FONT-SIZE: 1.2em
+}
+.title5 A {
+	COLOR: #fff
+}
+#area2 .title5 {
+	FONT-SIZE: 1.6em
+}
+.title6 {
+	COLOR: #666; FONT-SIZE: 1.2em; BORDER-TOP: #ccc 1px solid; PADDING-TOP: 5px
+}
+.title7 {
+	COLOR: #666; FONT-SIZE: 1.1em; FONT-WEIGHT: bold
+}
+.title8 {
+	COLOR: #0082d6; FONT-SIZE: 1.2em
+}
+.title9 {
+	COLOR: #666; FONT-SIZE: 1.1em
+}
+.title10 {
+	COLOR: #666; FONT-SIZE: 1.2em
+}
+.title11 {
+	COLOR: #666; FONT-SIZE: 1.3em
+}
+.title11 A {
+	COLOR: #666
+}
+.title12 {
+	MARGIN-TOP: 10px; BACKGROUND: url(../img/bgDotted.gif) repeat-x center top; COLOR: #666; FONT-SIZE: 1.1em; PADDING-TOP: 10px
+}
+.title13 {
+	COLOR: #0082d6; FONT-SIZE: 1.3em; FONT-WEIGHT: bold
+}
+.title14 {
+	COLOR: #0082d6; FONT-SIZE: 2.3em
+}
+.title16 {
+	COLOR: #0082d6; FONT-SIZE: 1.6em
+}
+.title17 {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; COLOR: #666; FONT-SIZE: 2.2em; PADDING-TOP: 10px
+}
+.title18 {
+	PADDING-BOTTOM: 10px; TEXT-TRANSFORM: uppercase; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; MARGIN-BOTTOM: 10px; BACKGROUND: url(../img/bgDotted.gif) repeat-x 0px bottom; COLOR: #666; FONT-SIZE: 1.3em; PADDING-TOP: 0px
+}
+.title18 A.relatedProducts {
+	TEXT-TRANSFORM: none; DISPLAY: block; COLOR: #666666; FONT-SIZE: 0.84em; FONT-WEIGHT: normal; TEXT-DECORATION: underline
+}
+.title19 {
+	COLOR: #0082d6; FONT-SIZE: 1.3em
+}
+.title20 {
+	COLOR: #666; FONT-SIZE: 1.6em
+}
+.title21 {
+	FLOAT: left; COLOR: #666; FONT-SIZE: 1.2em
+}
+.title21 A {
+	COLOR: #666
+}
+.title22 {
+	COLOR: #0082d6; FONT-SIZE: 1em
+}
+.title23 {
+	COLOR: #0082d6; FONT-SIZE: 1.2em
+}
+.title24 {
+	COLOR: #0082d6; FONT-SIZE: 2.3em
+}
+.title25 {
+	FONT-SIZE: 1em
+}
+.title26 {
+	MARGIN-TOP: 5px; PADDING-LEFT: 5px; DISPLAY: block; COLOR: #0082d6; FONT-SIZE: 1.4em
+}
+.title27 {
+	POSITION: relative; PADDING-BOTTOM: 25px; PADDING-LEFT: 50px; PADDING-RIGHT: 0px; DISPLAY: block; COLOR: #fff; FONT-SIZE: 1.6em; PADDING-TOP: 5px
+}
+.text1 {
+	COLOR: #666; FONT-SIZE: 1.1em
+}
+.text2 {
+	COLOR: #666; FONT-SIZE: 1.1em
+}
+A:hover .text2 {
+	TEXT-DECORATION: underline
+}
+.header {
+	WIDTH: 100%; BACKGROUND: url(../img/headerBg.png) #0082d6 no-repeat left top
+}
+.header:after {
+	DISPLAY: block; HEIGHT: 0px; VISIBILITY: hidden; CLEAR: both; FONT-SIZE: 0px
+}
+.header .logo {
+	MARGIN: 20px 0px 0px 20px; DISPLAY: inline; FLOAT: left; FONT-SIZE: 1em
+}
+.header A.logo:hover {
+	BACKGROUND: url(../img/logoHover.gif) no-repeat
+}
+.header .logo IMG {
+	WIDTH: 12.9em; DISPLAY: block
+}
+.header .userArea {
+	MIN-HEIGHT: 9em; OVERFLOW: hidden
+}
+.header .helpMenu {
+	TEXT-ALIGN: right; PADDING-BOTTOM: 5px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 5px
+}
+.header .helpMenu LI {
+	MARGIN: 0px 5px; DISPLAY: inline; COLOR: #c0def2; FONT-SIZE: 1.1em
+}
+.header .helpMenu LI SPAN {
+	FONT-SIZE: 0.9em; TEXT-DECORATION: underline
+}
+.header .helpMenu LI A {
+	COLOR: #c0def2
+}
+.header .card {
+	MARGIN: 0.5em 0.5em 0px; FLOAT: right; CLEAR: right
+}
+.header .card IMG {
+	WIDTH: 14.7em; DISPLAY: block; MARGIN-BOTTOM: 0.5em
+}
+.header .userInfo {
+	MARGIN: 5px 0px 0px 65px; MIN-HEIGHT: 30px; PADDING-LEFT: 45px; WIDTH: 35em; DISPLAY: inline; BACKGROUND: url(../img/headerGoldBox.png) no-repeat left top; FLOAT: left; COLOR: #fff; CLEAR: both; OVERFLOW: hidden
+}
+.header .userInfo .hello {
+	MARGIN: 0px 5px 0px 0px; DISPLAY: inline; FONT-SIZE: 1.2em; FONT-WEIGHT: bold
+}
+.header .userInfo .logout {
+	MARGIN: 0px; DISPLAY: none; COLOR: #c0def2
+}
+.header .cooked#userInfo .logout {
+	DISPLAY: inline
+}
+.header .userInfo .login {
+	MARGIN: 0px; COLOR: #c0def2
+}
+.header .cooked#userInfo .login {
+	DISPLAY: none
+}
+.header .userInfo .logout A {
+	COLOR: #c0def2
+}
+.header .userInfo .login A {
+	COLOR: #c0def2
+}
+.header .userInfo .mySub {
+	MARGIN: 2px 0px; DISPLAY: none; COLOR: #c0def2
+}
+.header .cooked#userInfo .mySub {
+	DISPLAY: block; FONT-SIZE: 1.1em
+}
+.header .userInfo .mySub A {
+	COLOR: #c0def2
+}
+.header .mainNavigationBar {
+	WIDTH: 100%; CLEAR: both
+}
+#header .header .mainNavigationBar .myCartBox {
+	DISPLAY: block; COLOR: #fff
+}
+#header .header .mainNavigationBar A:hover #cartQty {
+	TEXT-DECORATION: underline
+}
+.header .shoppingCart {
+	FLOAT: right
+}
+.header .shoppingCart {
+	POSITION: relative; TOP: -0.5em
+}
+.header .shoppingCart SPAN {
+	WIDTH: 46px; DISPLAY: block; MARGIN-BOTTOM: -5px; BACKGROUND: url(../img/imgCartOff.gif) no-repeat; HEIGHT: 0px; OVERFLOW: hidden; PADDING-TOP: 39px
+}
+.box13A {
+	BACKGROUND: url(../img/bgLayerCartTop.gif) no-repeat left top
+}
+.box13B {
+	POSITION: relative; PADDING-BOTTOM: 20px; PADDING-LEFT: 10px; WIDTH: 290px; PADDING-RIGHT: 10px; BACKGROUND: url(../img/bgLayerCart.gif) no-repeat left bottom; OVERFLOW: hidden; TOP: 11px; PADDING-TOP: 10px
+}
+.boxCart .layerCart {
+	DISPLAY: none
+}
+.open .layerCart {
+	DISPLAY: block
+}
+.full .shoppingCart SPAN {
+	BACKGROUND: url(../img/imgCartOn.gif) no-repeat
+}
+.full .box13B {
+	PADDING-BOTTOM: 35px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; BACKGROUND: url(../img/bgLayerCartOn.gif) no-repeat left bottom; PADDING-TOP: 0px
+}
+.boxCart .layerCart {
+	POSITION: absolute; TOP: 123px; RIGHT: 2px
+}
+.boxCart P {
+	TEXT-ALIGN: center; FONT-SIZE: 1.3em; FONT-WEIGHT: bold
+}
+.boxCart TABLE {
+	WIDTH: 100%; BORDER-COLLAPSE: collapse
+}
+.boxCart CAPTION {
+	TEXT-ALIGN: left; MARGIN-BOTTOM: 5px; COLOR: #037fd0; FONT-SIZE: 1.2em; FONT-WEIGHT: bold
+}
+.boxCart TBODY TD.price {
+	TEXT-ALIGN: right; PADDING-BOTTOM: 0px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; COLOR: #0082d6; PADDING-TOP: 0px
+}
+.boxCart TBODY TD {
+	PADDING-BOTTOM: 2px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT-SIZE: 1.1em; PADDING-TOP: 2px
+}
+.boxCart TBODY TD.last {
+	PADDING-BOTTOM: 10px
+}
+.boxCart TBODY TD A {
+	COLOR: #666666
+}
+.boxCart TBODY TD SPAN {
+	COLOR: #c8c8c8
+}
+.boxCart TFOOT TD {
+	FONT-SIZE: 1.2em
+}
+.boxCart TFOOT TD STRONG {
+	MARGIN-TOP: 10px; DISPLAY: block; BORDER-TOP: #dfdfdf 1px solid; PADDING-TOP: 5px
+}
+.boxCart TFOOT TD.price {
+	TEXT-ALIGN: right; COLOR: #0082d6
+}
+.boxCart .linkLayer {
+	POSITION: absolute; WIDTH: 163px; BOTTOM: 8px; DISPLAY: block; BACKGROUND: url(../img/buttonCart.png) no-repeat; HEIGHT: 0px; OVERFLOW: hidden; PADDING-TOP: 18px; LEFT: 60px
+}
+.header .mainNav {
+	MARGIN-TOP: -5px; PADDING-LEFT: 0.5em; WIDTH: 17.5em; FLOAT: left
+}
+.header .mainNav .showAll {
+	POSITION: relative; PADDING-LEFT: 5px; DISPLAY: block
+}
+#header .header .mainNav .showAll SPAN {
+	PADDING-RIGHT: 29px; DISPLAY: block; BACKGROUND: url(../img/bgMenu.png) no-repeat right top
+}
+#header .header .mainNav .showAll STRONG {
+	POSITION: relative; DISPLAY: block; BACKGROUND: url(../img/bgMenu.png) no-repeat left top; HEIGHT: 3.9em; LEFT: -5px
+}
+#header .header .mainNav .showAll STRONG SPAN {
+	DISPLAY: block; BACKGROUND: none transparent scroll repeat 0% 0%; HEIGHT: 0px; OVERFLOW: hidden; PADDING-TOP: 20px
+}
+.header .mainNav .showAll:hover * {
+	TEXT-DECORATION: none
+}
+.header .mainNav .showAll:hover {
+	TEXT-DECORATION: none
+}
+.header .mainTabs {
+	POSITION: relative; DISPLAY: none; FLOAT: left
+}
+.header .mainTabs A {
+	POSITION: relative; WIDTH: 10.5em; DISPLAY: block; HEIGHT: 3.4em; OVERFLOW: hidden
+}
+.header .mainTabs A IMG {
+	WIDTH: 100%; DISPLAY: block
+}
+.freeShipping {
+	MIN-HEIGHT: 2.2em; MARGIN-BOTTOM: -5px
+}
+.freeShipping IMG {
+	MARGIN: 0px auto; DISPLAY: block; OVERFLOW: hidden
+}
+.freeShipping SPAN {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; COLOR: #fff; FONT-SIZE: 1.5em; FONT-WEIGHT: bold; PADDING-TOP: 5px
+}
+.freeShipping SPAN SPAN {
+	PADDING-LEFT: 5px; FONT-SIZE: 0.6em
+}
+.header .mainNav .secondLevel {
+	Z-INDEX: 3000; POSITION: absolute; WIDTH: 17.5em; DISPLAY: none; BACKGROUND: url(../img/bgMenu.png) no-repeat right bottom; FONT-SIZE: 1em
+}
+.header .mainNav .secondLevel .secondLevelInside {
+	PADDING-BOTTOM: 0.5em; PADDING-LEFT: 5px; PADDING-RIGHT: 0px; ZOOM: 1; BACKGROUND: url(../img/bgMenu.png) no-repeat left bottom; HEIGHT: 34.3em; MARGIN-RIGHT: 5px; PADDING-TOP: 0.5em
+}
+.home .mainNav .secondLevel {
+	DISPLAY: block
+}
+.header .mainNav:hover .secondLevel {
+	DISPLAY: block
+}
+.header .over .secondLevel {
+	DISPLAY: block
+}
+.header .mainNav .departments .over .boxAllDepartments {
+	DISPLAY: block
+}
+#header .header .mainNav .departments .over {
+	BORDER-BOTTOM: #666 3px solid; BORDER-LEFT: #666 1px solid; BORDER-TOP: #666 1px solid; BORDER-RIGHT: 0px
+}
+.header .mainNav .departments {
+	ZOOM: 1
+}
+.header .mainNav .departments #allStores {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0.3em; PADDING-RIGHT: 0.3em; ZOOM: 1; PADDING-TOP: 0px
+}
+.header .mainNav .departments .over#allStores A {
+	Z-INDEX: 3; POSITION: relative; BACKGROUND: #fff
+}
+.header .mainNav .departments .item {
+	Z-INDEX: 2; BORDER-BOTTOM: transparent 1px solid; POSITION: relative; BORDER-LEFT: transparent 1px solid; PADDING-BOTTOM: 0.1em; PADDING-LEFT: 0.3em; PADDING-RIGHT: 0.3em; ZOOM: 1; BACKGROUND: url(../img/thirdLevelBullet.gif) no-repeat 15.3em center; BORDER-TOP: transparent 1px solid; BORDER-RIGHT: 0px; PADDING-TOP: 0.1em
+}
+.header .mainNav .departments .item:hover {
+	Z-INDEX: 3; BORDER-BOTTOM: #666 3px solid; BORDER-LEFT: #666 1px solid; BACKGROUND: #fff; BORDER-TOP: #666 1px solid; BORDER-RIGHT: 0px
+}
+.header .mainNav .departments .over {
+	Z-INDEX: 3; BORDER-BOTTOM: #666 3px solid; BORDER-LEFT: #666 1px solid; BACKGROUND: #fff; BORDER-TOP: #666 1px solid; BORDER-RIGHT: 0px
+}
+.header .mainNav .departments .over {
+	MARGIN-BOTTOM: -2px
+}
+.header .mainNav .departments .item A {
+	DISPLAY: block; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #666; FONT-SIZE: 1.2em; CURSOR: default
+}
+.header .mainNav .departments .item A:hover {
+	Z-INDEX: 1; POSITION: relative; BACKGROUND: #fff; TEXT-DECORATION: none
+}
+.header .mainNav A.edit {
+	TEXT-ALIGN: right; DISPLAY: block; COLOR: #666; FONT-SIZE: 0.9em; MARGIN-RIGHT: 5px
+}
+.header .mainNav .departments .item .thirdLevel {
+	Z-INDEX: 2000; POSITION: absolute; MARGIN-TOP: 4px; WIDTH: 24em; PADDING-RIGHT: 7px; DISPLAY: none; BACKGROUND: url(../img/thirdLevelBg.png) no-repeat right bottom; TOP: 0pt; LEFT: 14.8em
+}
+.header .mainNav .departments .item:hover .thirdLevel {
+	DISPLAY: block
+}
+.header .mainNav .departments .item:hover .boxAllDepartments {
+	DISPLAY: block
+}
+.header .mainNav .departments .item .thirdLevel LI {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0.1em; PADDING-LEFT: 1em; PADDING-RIGHT: 1.5em; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0.1em
+}
+.header .mainNav .departments .item .thirdLevel LI.first {
+	BORDER-LEFT: #fff 1px solid
+}
+.header .mainNav .departments .item .thirdLevel A {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-LEFT: 12px; BACKGROUND: url(../img/thirdLevelBullet.gif) no-repeat left center; BORDER-TOP: 0px; FONT-WEIGHT: normal; BORDER-RIGHT: 0px
+}
+.header .mainNav .departments .item .thirdLevel A:hover {
+	TEXT-DECORATION: underline
+}
+.header .mainNav .departments .item .thirdLevel .thirdLevel2 {
+	POSITION: relative; PADDING-BOTTOM: 10px; BACKGROUND: url(../img/thirdLevelBg.png) no-repeat left bottom; LEFT: -5px
+}
+.header .mainNav .departments .item .thirdLevel .thirdLevel2 UL {
+	POSITION: relative; BOTTOM: 5px; ZOOM: 1; BACKGROUND: url(../img/thirdLevelBg.png) no-repeat right top; LEFT: 12px
+}
+.header .mainNav .departments .item .thirdLevel .thirdLevel2 UL LI {
+	POSITION: relative; MARGIN-BOTTOM: 2px; TOP: 1px; RIGHT: 12px
+}
+.header .mainNav .departments .item .thirdLevel .thirdLevel2 UL LI A {
+	POSITION: relative; COLOR: #666; FONT-SIZE: 1.3em; TOP: 7px; CURSOR: pointer; FONT-WEIGHT: bold
+}
+.header .mainNav .departments .item .thirdLevel .thirdLevel2 UL LI.first A {
+	LEFT: -1px
+}
+#header .header .custom .showAll STRONG {
+	BACKGROUND: url(../img/mainNavTopCustom.png) no-repeat left top
+}
+.header .custom .departments .item:hover {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-TOP: medium none; BORDER-RIGHT: medium none
+}
+#header .header .custom .departments .over {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-TOP: medium none; BORDER-RIGHT: medium none
+}
+.header .custom .departments .item A {
+	CURSOR: pointer
+}
+.header .custom .departments .item A:hover {
+	TEXT-DECORATION: underline
+}
+.header .custom .departments .item {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BACKGROUND: none transparent scroll repeat 0% 0%; BORDER-TOP: medium none; BORDER-RIGHT: medium none
+}
+#header .header .custom .departments #allStores:hover {
+	BORDER-BOTTOM: #666 3px solid; POSITION: relative; BORDER-LEFT: #666 1px solid; PADDING-BOTTOM: 0px; MARGIN-TOP: 0px; PADDING-LEFT: 0.3em; PADDING-RIGHT: 0.3em; MARGIN-BOTTOM: -4px; BACKGROUND: #fff; BORDER-TOP: #666 1px solid; TOP: -1px; BORDER-RIGHT: 0px; PADDING-TOP: 0px; LEFT: -1px
+}
+#header .header .custom .departments #allStores .over {
+	BORDER-BOTTOM: #666 3px solid; BORDER-LEFT: #666 1px solid; BORDER-TOP: #666 1px solid; BORDER-RIGHT: 0px
+}
+#header .header .custom .departments #allStores A:hover {
+	POSITION: relative; BACKGROUND: #fff; TEXT-DECORATION: none
+}
+.boxAllDepartments {
+	Z-INDEX: 2; POSITION: absolute; WIDTH: 61em; DISPLAY: none; TOP: -13.2em; LEFT: 15em
+}
+.box8 {
+	PADDING-RIGHT: 7px; BACKGROUND: url(../img/thirdLevelBg.png) no-repeat right bottom; MARGIN-LEFT: 5px
+}
+.box8A {
+	BACKGROUND: url(../img/thirdLevelBg.png) no-repeat left bottom; MARGIN-LEFT: -5px
+}
+.box8B {
+	POSITION: relative; BOTTOM: 15px; BACKGROUND: url(../img/thirdLevelBg.png) no-repeat right top; LEFT: 7px
+}
+.box8C {
+	POSITION: relative; PADDING-BOTTOM: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; ZOOM: 1; BACKGROUND: url(../img/thirdLevelBg.png) no-repeat left top; OVERFLOW: hidden; RIGHT: 7px; PADDING-TOP: 5px
+}
+.selected#allStores {
+	Z-INDEX: 1; WIDTH: 14.4em; BORDER-RIGHT: #fff 1px solid
+}
+.selected#allStores .boxAllDepartments {
+	Z-INDEX: -1; DISPLAY: block
+}
+.allDepartmentsBox {
+	MARGIN: 15px 0px 0px 15px; PADDING-LEFT: 45px; OVERFLOW: hidden
+}
+.header .mainNav .departments .selected1 .allDepartmentsBox {
+	DISPLAY: block
+}
+.header .mainNav .departments .item .allDepartmentsBox .allDepartmentsList A {
+	DISPLAY: inline; COLOR: #666; FONT-SIZE: 1.2em; CURSOR: pointer; FONT-WEIGHT: normal
+}
+.header .mainNav .departments .item .allDepartmentsBox .allDepartmentsList A:hover {
+	TEXT-DECORATION: underline
+}
+.allDepartmentsBox .allDepartmentsList .col1 {
+	DISPLAY: inline; MARGIN-LEFT: -45px
+}
+.allDepartmentsBox .allDepartmentsList .col1 {
+	PADDING-BOTTOM: 5px; WIDTH: 173px; FLOAT: left; MARGIN-RIGHT: 14px
+}
+.allDepartmentsBox .allDepartmentsList .col2 {
+	PADDING-BOTTOM: 5px; WIDTH: 173px; FLOAT: left; MARGIN-RIGHT: 14px
+}
+.allDepartmentsBox .allDepartmentsList .col3 {
+	PADDING-BOTTOM: 5px; WIDTH: 173px; FLOAT: left; MARGIN-RIGHT: 14px
+}
+.allDepartmentsBox .allDepartmentsList .col1 LI UL {
+	MARGIN-BOTTOM: 20px
+}
+.allDepartmentsBox .col2 LI UL {
+	MARGIN-BOTTOM: 20px
+}
+.allDepartmentsBox .col3 LI UL {
+	MARGIN-BOTTOM: 20px
+}
+.allDepartmentsBox .allDepartmentsList .col4 {
+	ZOOM: 1; BACKGROUND: url(../img/bgDotted.gif) repeat-x left top; MARGIN-LEFT: -45px; CLEAR: left; OVERFLOW: hidden; PADDING-TOP: 5px
+}
+.allDepartmentsBox .allDepartmentsList .col4 LI {
+	DISPLAY: inline
+}
+.allDepartmentsBox .allDepartmentsList .col4 LI STRONG {
+	DISPLAY: block
+}
+.header .mainNav .departments .item .allDepartmentsBox .allDepartmentsList LI STRONG A {
+	COLOR: #0082d6; FONT-SIZE: 1.2em; FONT-WEIGHT: bold
+}
+#costumizeLayer .favoriteStoresBox {
+	Z-INDEX: 1000; POSITION: absolute; WIDTH: 55em; DISPLAY: none; TOP: -4em; LEFT: 14.5em
+}
+.favoriteStoresBox H2 {
+	POSITION: relative; PADDING-BOTTOM: 25px; PADDING-LEFT: 50px; PADDING-RIGHT: 0px; COLOR: #fff; FONT-SIZE: 1.6em; PADDING-TOP: 5px
+}
+.favoriteStoresBox STRONG SPAN {
+	FONT-SIZE: 0.8em; FONT-WEIGHT: normal
+}
+.favoriteStoresBox H2 SPAN {
+	FONT-SIZE: 0.8em; FONT-WEIGHT: normal
+}
+.favoriteStoresBox .favoriteStores {
+	PADDING-BOTTOM: 0px; MARGIN: 0px 0px 0px 5px; PADDING-LEFT: 60px; PADDING-RIGHT: 10px; ZOOM: 1; BACKGROUND: #fff; OVERFLOW: hidden; PADDING-TOP: 0px
+}
+.favoriteStoresBox .favoriteStores LI LI * {
+	VERTICAL-ALIGN: middle
+}
+.favoriteStoresBox .favoriteStores UL A {
+	COLOR: #666; FONT-SIZE: 1.2em
+}
+.favoriteStoresBox .favoriteStores .col1 {
+	DISPLAY: inline; MARGIN-LEFT: -45px
+}
+.favoriteStoresBox .favoriteStores .col1 {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 15px; WIDTH: 33%; PADDING-RIGHT: 0px; FLOAT: left; PADDING-TOP: 0px
+}
+.favoriteStores .col2 {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 15px; WIDTH: 33%; PADDING-RIGHT: 0px; FLOAT: left; PADDING-TOP: 0px
+}
+.favoriteStores .col3 {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 15px; WIDTH: 33%; PADDING-RIGHT: 0px; FLOAT: left; PADDING-TOP: 0px
+}
+.favoriteStoresBox .favoriteStores .col1 LI UL {
+	MARGIN-BOTTOM: 20px
+}
+.favoriteStores .col2 LI UL {
+	MARGIN-BOTTOM: 20px
+}
+.favoriteStores .col3 LI UL {
+	MARGIN-BOTTOM: 20px
+}
+.favoriteStoresBox .favoriteStores .col4 {
+	ZOOM: 1; BACKGROUND: url(../img/bgDotted.gif) repeat-x left top; MARGIN-LEFT: -45px; CLEAR: left; OVERFLOW: hidden; PADDING-TOP: 15px
+}
+.favoriteStoresBox .favoriteStores .col4 LI {
+	DISPLAY: inline
+}
+.favoriteStoresBox .favoriteStores .col4 LI STRONG {
+	DISPLAY: block
+}
+.favoriteStoresBox .favoriteStores UL LI STRONG {
+	COLOR: #666; FONT-SIZE: 1.2em
+}
+.favoriteStoresBox .favoriteStores UL LI A {
+	COLOR: #666; FONT-SIZE: 1em
+}
+.favoriteStoresBox .favoriteStores LABEL {
+	MARGIN-LEFT: 2px; FONT-SIZE: 1.1em
+}
+.favoriteStoresBox .favoriteStores .restore {
+	WIDTH: 203px; BACKGROUND: url(../img/allBgHome.png) no-repeat left -41px; FLOAT: left; HEIGHT: 20px
+}
+.favoriteStoresBox .favoriteStores .save {
+	WIDTH: 113px; BACKGROUND: url(../img/allBgHome.png) no-repeat -203px -41px; FLOAT: right; HEIGHT: 20px
+}
+.favoriteStoresBox .favoriteStores .restore A {
+	WIDTH: 100%; DISPLAY: block; HEIGHT: 0px; OVERFLOW: hidden; PADDING-TOP: 20px
+}
+.favoriteStoresBox .favoriteStores .save A {
+	WIDTH: 100%; DISPLAY: block; HEIGHT: 0px; OVERFLOW: hidden; PADDING-TOP: 20px
+}
+.header .mainNav .departments .item .favoriteStoresBox .favoriteStores A:hover {
+	TEXT-DECORATION: underline
+}
+.header .mainNav .others {
+	PADDING-BOTTOM: 0.5em; MARGIN: 0px 0.3em; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; ZOOM: 1; BACKGROUND: url(../img/bgDotted.gif) repeat-x left top; OVERFLOW: hidden; PADDING-TOP: 0.5em
+}
+.header .mainNav .others LI {
+	PADDING-BOTTOM: 0.23em; PADDING-LEFT: 0.2em; PADDING-RIGHT: 0.2em; PADDING-TOP: 0.23em
+}
+.header .mainNav .others LI STRONG {
+	COLOR: #666; FONT-SIZE: 1.2em; FONT-WEIGHT: bold
+}
+.header .mainNav .others LI LI A {
+	COLOR: #666; FONT-SIZE: 1.2em
+}
+.header .mainNav .customize {
+	Z-INDEX: 2000; POSITION: relative; PADDING-BOTTOM: 5px; PADDING-LEFT: 25px; PADDING-RIGHT: 0px; DISPLAY: block; BACKGROUND: url(../img/allBgHome.png) no-repeat -352px -110px; CURSOR: default; TEXT-DECORATION: none; PADDING-TOP: 5px
+}
+.header .mainNav .customizeBox {
+	BORDER-BOTTOM: #fff 2px solid; BORDER-LEFT: #fff 2px solid; MARGIN: 5px 0px; BORDER-TOP: #fff 2px solid; BORDER-RIGHT: #fff 2px solid
+}
+.header .mainNav .customizeBox:hover {
+	BORDER-BOTTOM: #f99837 2px solid; BORDER-LEFT: #f99837 2px solid; BACKGROUND: #fff; BORDER-TOP: #f99837 2px solid; BORDER-RIGHT: 0px
+}
+.header .mainNav .over#costumizeLayer {
+	BORDER-BOTTOM: #f99837 2px solid; BORDER-LEFT: #f99837 2px solid; BORDER-TOP: #f99837 2px solid; BORDER-RIGHT: 0px
+}
+.header .mainNav .over#costumizeLayer .favoriteStoresBox {
+	DISPLAY: block
+}
+.header .mainNav .customize:hover {
+	BACKGROUND: url(../img/customize.png) #fff no-repeat left center; TEXT-DECORATION: none
+}
+.header .mainNav .customize A:hover {
+	BACKGROUND: url(../img/customize.png) #fff no-repeat left center
+}
+.header .mainNav .over#costumizeLayer .customize {
+	BACKGROUND: url(../img/customize.png) #fff no-repeat left center
+}
+.header .mainNav #costumizeLayer:hover .favoriteStoresBox {
+	DISPLAY: block
+}
+.header .userMenu {
+	BACKGROUND: url(../img/bgFormHeader.png) no-repeat right top; FLOAT: right; PADDING-TOP: 0.5em
+}
+.header .userMenu UL {
+	PADDING-BOTTOM: 0.6em; PADDING-LEFT: 0px; PADDING-RIGHT: 1em; BACKGROUND: url(../img/bgFormHeader.png) no-repeat right bottom; PADDING-TOP: 0px
+}
+.header .userMenu LI {
+	PADDING-BOTTOM: 0.5em; LINE-HEIGHT: 2.3em; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-TOP: 0.5em
+}
+.header .userMenu LI A {
+	LINE-HEIGHT: 1; MARGIN: 0px 0.1em; COLOR: #666; FONT-SIZE: 1.1em
+}
+.header .userMenu .drop A {
+	PADDING-RIGHT: 12px
+}
+.header .userMenu .drop {
+	TEXT-ALIGN: center; BACKGROUND: url(../img/imgArrowLinkBottom.gif) no-repeat right center
+}
+.header .myCartBox1 {
+	MARGIN: 0px 5px 0px 0px; DISPLAY: block; BACKGROUND: url(../img/bgMyCart02.gif) no-repeat right bottom; FLOAT: right
+}
+.header A.myCartBox .myCartBox1 STRONG {
+	COLOR: #fff
+}
+.header A.myCartBox .myCartBox1 SPAN {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 0px; PADDING-RIGHT: 18px; DISPLAY: block; BACKGROUND: url(../img/arowCart.gif) no-repeat right center; FONT-SIZE: 1.4em; FONT-WEIGHT: bold; PADDING-TOP: 0px
+}
+A:hover .myCartBox1 {
+	TEXT-DECORATION: none
+}
+A:hover .shoppingCart {
+	TEXT-DECORATION: none
+}
+A.myCartBox:hover {
+	TEXT-DECORATION: none
+}
+.header .myCartBox1 STRONG {
+	DISPLAY: block
+}
+.header .myCartBox2 {
+	POSITION: relative; PADDING-BOTTOM: 0.5em; PADDING-LEFT: 0.3em; PADDING-RIGHT: 1em; BACKGROUND: url(../img/bgMyCart01.gif) no-repeat right top; HEIGHT: 2.4em; TOP: -0.5em; PADDING-TOP: 0.5em
+}
+.header .myCartBox2 STRONG {
+	WIDTH: 64px; DISPLAY: block; BACKGROUND: url(../img/imgMyCart.gif) no-repeat; HEIGHT: 0px; OVERFLOW: hidden; PADDING-TOP: 12px
+}
+.header .mainSearch {
+	POSITION: relative; BACKGROUND: url(../img/bgFormHeader.png) no-repeat left top; OVERFLOW: hidden; PADDING-TOP: 0.7em
+}
+.header .mainSearch FIELDSET {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 19em; PADDING-RIGHT: 3em; BACKGROUND: url(../img/bgFormHeader.png) no-repeat left bottom; HEIGHT: 2.7em; OVERFLOW: hidden; PADDING-TOP: 0px
+}
+.header .mainSearch * {
+	VERTICAL-ALIGN: middle
+}
+.header .mainSearch LABEL {
+	COLOR: #666; FONT-SIZE: 1.1em
+}
+.header .mainSearch LABEL.label1 {
+	MARGIN-LEFT: -17em
+}
+.header .mainSearch .searchFilter {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; WIDTH: 10.5em; HEIGHT: 1.7em; COLOR: #666; FONT-SIZE: 1.1em; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid
+}
+.header .mainSearch .searchFilter OPTION {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-RIGHT: 1em; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+}
+.header .mainSearch .searchString {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; PADDING-BOTTOM: 0px; PADDING-LEFT: 2px; WIDTH: 100%; PADDING-RIGHT: 2px; HEIGHT: 1.5em; COLOR: #666; FONT-SIZE: 1.1em; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid; PADDING-TOP: 1px
+}
+.header .mainSearch .searchSubmit {
+	BORDER-BOTTOM: 0px; POSITION: absolute; BORDER-LEFT: 0px; WIDTH: 2.6em; HEIGHT: 1.9em; FONT-SIZE: 1em; BORDER-TOP: 0px; TOP: 0.7em; RIGHT: 0.5em; BORDER-RIGHT: 0px
+}
+#header .store {
+	Z-INDEX: 40; POSITION: relative; PADDING-BOTTOM: 5px
+}
+#header .store .mainNav .showAll {
+	POSITION: relative; DISPLAY: block
+}
+#header .store .mainNav .showAll STRONG SPAN {
+	PADDING-RIGHT: 15px; DISPLAY: block; COLOR: #fff; FONT-SIZE: 1.4em; FONT-WEIGHT: normal
+}
+#header .store .mainTabs {
+	DISPLAY: block; FONT-SIZE: 1em
+}
+#header .store .mainSubMenu {
+	DISPLAY: block
+}
+.header .mainSubMenu {
+	PADDING-LEFT: 21.5em; MARGIN-BOTTOM: -5px; BACKGROUND: #0082d6; HEIGHT: 2.2em
+}
+.header .mainSubMenu .subMenu {
+	PADDING-BOTTOM: 0.5em; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; HEIGHT: 1em; OVERFLOW: hidden; PADDING-TOP: 0.5em
+}
+.header .mainSubMenu .subMenu LI {
+	DISPLAY: inline; COLOR: #ffffff; FONT-SIZE: 1.1em; MARGIN-RIGHT: 1.5em
+}
+.header .mainSubMenu LI A {
+	COLOR: #ffffff
+}
+.header .mainSubMenu LI A:hover {
+	COLOR: #ffffff
+}
+.fullBanner {
+	POSITION: absolute; WIDTH: 192em; DISPLAY: block; HEIGHT: 100%; MARGIN-LEFT: -85em; TOP: 0px; LEFT: 50%
+}
+#mainBanner OBJECT {
+	DISPLAY: block
+}
+#mainBanner EMBED {
+	DISPLAY: block
+}
+.departmentBannerTop1 {
+	ZOOM: 1; MARGIN-BOTTOM: 5px; MARGIN-LEFT: 5px; OVERFLOW: hidden
+}
+.simpleBanner {
+	MARGIN: 0.5em 0px; DISPLAY: block
+}
+.simpleBanner IMG {
+	WIDTH: 100%; DISPLAY: block
+}
+.textList {
+	MARGIN: 10px 0px 30px 10px; COLOR: #666
+}
+.textList A {
+	COLOR: #666; FONT-SIZE: 1.1em
+}
+.storeBanner {
+	Z-INDEX: 0; POSITION: relative; TEXT-ALIGN: center; DISPLAY: block; BACKGROUND: #0082d6
+}
+.Worlds A {
+	COLOR: #666; FONT-SIZE: 1px
+}
+.partners A {
+	COLOR: #666; FONT-SIZE: 1px
+}
+.interestProducts {
+	PADDING-LEFT: 20px; CLEAR: left; OVERFLOW: hidden
+}
+.lastProductSaw {
+	TEXT-ALIGN: center; MARGIN: 10px 10px 20px -20px; WIDTH: 50%; DISPLAY: inline; FLOAT: left; OVERFLOW: hidden
+}
+.lastProductSaw .product .name {
+	FONT-SIZE: 1.2em; FONT-WEIGHT: normal
+}
+.lastProductSaw .title4 {
+	TEXT-ALIGN: left
+}
+.lastProductSaw .product {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.lastProductSaw .product .info {
+	MARGIN-LEFT: 0px
+}
+.lastProductSaw .product .price {
+	WIDTH: auto; MAX-WIDTH: none; FLOAT: none; COLOR: #0082d6
+}
+.lastProductSaw .product .name {
+	COLOR: #666
+}
+.relatedSuggestions {
+	WIDTH: 50%; BACKGROUND: url(../img/bgDotted2.gif) repeat-y left 50%; OVERFLOW: hidden
+}
+.relatedSuggestions LI {
+	MARGIN: 10px 10px 20px
+}
+.relatedSuggestions .productName {
+	DISPLAY: block; COLOR: #666; FONT-SIZE: 1.2em; FONT-WEIGHT: normal
+}
+.relatedSuggestions .title4 {
+	MARGIN-BOTTOM: 10px
+}
+.relatedSuggestions .for {
+	COLOR: #0082d6
+}
+.parcel {
+	COLOR: #0082d6
+}
+.condition {
+	COLOR: #0082d6
+}
+.receiveOffers {
+	PADDING-LEFT: 5px
+}
+.receiveOffers P {
+	MARGIN: 0px
+}
+.receiveOffers FORM {
+	BACKGROUND: url(../img/bgDotted.gif) repeat-x 50% bottom; OVERFLOW: hidden
+}
+.receiveOffers FIELDSET {
+	PADDING-BOTTOM: 10px
+}
+.receiveOffers INPUT {
+	MARGIN: 5px 3px 0px 0px; FLOAT: left
+}
+.rss {
+	MARGIN: 0.5em 0px; BACKGROUND: url(../img/iconRSS.gif) no-repeat left 4px
+}
+.rss A {
+	DISPLAY: block; MARGIN-LEFT: 30px
+}
+.rss * {
+	VERTICAL-ALIGN: middle
+}
+.rss .text1 {
+	TEXT-ALIGN: left
+}
+.textType20 {
+	WIDTH: 70%
+}
+.tagCloud {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 30px; PADDING-LEFT: 20px; PADDING-RIGHT: 20px; PADDING-TOP: 15px
+}
+.tagCloud LI {
+	LINE-HEIGHT: 1.1; DISPLAY: inline; VERTICAL-ALIGN: middle
+}
+.tagCloud LI A {
+	COLOR: #0082d6
+}
+.tagCloud LI A:hover {
+	BACKGROUND-COLOR: #0082d6; COLOR: #fff; TEXT-DECORATION: none
+}
+.tagCloud LI * {
+	DISPLAY: inline; FONT-SIZE: 1em; FONT-WEIGHT: normal
+}
+.tagCloud LI H1 {
+	DISPLAY: inline; FONT-SIZE: 1em; FONT-WEIGHT: normal
+}
+.tagCloud LI H2 {
+	DISPLAY: inline; FONT-SIZE: 1em; FONT-WEIGHT: normal
+}
+.tagCloud LI H3 {
+	DISPLAY: inline; FONT-SIZE: 1em; FONT-WEIGHT: normal
+}
+.tagCloud LI H4 {
+	DISPLAY: inline; FONT-SIZE: 1em; FONT-WEIGHT: normal
+}
+.tagCloud LI H5 {
+	DISPLAY: inline; FONT-SIZE: 1em; FONT-WEIGHT: normal
+}
+.tagCloud LI H6 {
+	DISPLAY: inline; FONT-SIZE: 1em; FONT-WEIGHT: normal
+}
+.tagCloud .level1 {
+	FONT-SIZE: 1.2em
+}
+.tagCloud .level2 {
+	FONT-SIZE: 1.4em
+}
+.tagCloud .level3 {
+	FONT-SIZE: 1.6em
+}
+.tagCloud .level4 {
+	FONT-SIZE: 1.8em
+}
+.tagCloud .level5 {
+	FONT-SIZE: 2em
+}
+.tagCloud .level6 {
+	FONT-SIZE: 2.4em
+}
+.tagCloud .level7 {
+	FONT-SIZE: 2.8em
+}
+.productVitrine {
+	PADDING-BOTTOM: 40px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; CLEAR: both; OVERFLOW: hidden; PADDING-TOP: 10px
+}
+.productVitrine .productList LI {
+	PADDING-BOTTOM: 2em; PADDING-LEFT: 4em; PADDING-RIGHT: 0pt; PADDING-TOP: 2em
+}
+.product {
+	MIN-HEIGHT: 120px; PADDING-LEFT: 16em
+}
+.product .link {
+	WIDTH: 100%; FLOAT: left; MARGIN-LEFT: -15.4em
+}
+.product .link .image {
+	POSITION: relative; MARGIN-BOTTOM: -50px; FLOAT: left; MARGIN-RIGHT: 10px
+}
+.product .info {
+	DISPLAY: block; MARGIN-LEFT: 135px
+}
+.product A:hover .info {
+	TEXT-DECORATION: underline
+}
+.product .name {
+	DISPLAY: block; FONT-SIZE: 1.3em; FONT-WEIGHT: bold
+}
+.product .more IMG {
+	MARGIN: 5px 0px 0px; DISPLAY: block
+}
+.product .link .stamps {
+	DISPLAY: none
+}
+.product .stamps {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 135px; PADDING-RIGHT: 0px; DISPLAY: block; MARGIN-LEFT: -15.4em; CLEAR: left; MARGIN-RIGHT: 150px; PADDING-TOP: 10px
+}
+.product .stamps IMG {
+	MARGIN: 0px 15px 10px 0px
+}
+.product .price {
+	WIDTH: 10.1em; DISPLAY: inline; MAX-WIDTH: 175px; FLOAT: right; MARGIN-RIGHT: 5px
+}
+.product .price IMG {
+	WIDTH: 100%; DISPLAY: block
+}
+.product .price A {
+	POSITION: relative
+}
+.product .brand {
+	LINE-HEIGHT: 1.4; DISPLAY: block; COLOR: #0082d6; FONT-SIZE: 1.1em
+}
+.product .evaluation {
+	LINE-HEIGHT: 1.4; DISPLAY: block; COLOR: #0082d6; FONT-SIZE: 1.1em
+}
+.product .description {
+	LINE-HEIGHT: 1.4; DISPLAY: block; COLOR: #0082d6; FONT-SIZE: 1.1em
+}
+.product .from {
+	LINE-HEIGHT: 1.4; DISPLAY: block; COLOR: #0082d6; FONT-SIZE: 1.1em
+}
+.product .discount {
+	LINE-HEIGHT: 1.4; DISPLAY: block; COLOR: #178e07; FONT-SIZE: 1.1em
+}
+.product .for {
+	LINE-HEIGHT: 1.4; DISPLAY: block; COLOR: #0082d6; FONT-SIZE: 1.1em; FONT-WEIGHT: bold
+}
+.product .price IMG {
+	DISPLAY: block; MARGIN-BOTTOM: 2px
+}
+.product .related {
+	PADDING-LEFT: 135px; MARGIN-LEFT: -15.4em; CLEAR: left; MARGIN-RIGHT: 150px
+}
+.product .related LI {
+	PADDING-BOTTOM: 2em; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: inline; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-SIZE: 1.1em; PADDING-TOP: 2em
+}
+.product .related LI SPAN {
+	MARGIN: 0px 10px
+}
+.product .evaluation {
+	COLOR: #666
+}
+.product .description {
+	COLOR: #666
+}
+.product .price .notAvail {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 3px; DISPLAY: block; FONT-SIZE: 1.1em; FONT-WEIGHT: bold
+}
+.productVitrine .grid LI {
+	PADDING-BOTTOM: 2em; PADDING-LEFT: 0px; PADDING-RIGHT: 0pt; PADDING-TOP: 2em
+}
+.grid .product .related LI SPAN {
+	DISPLAY: none
+}
+.grid .product .evaluation {
+	DISPLAY: none
+}
+.grid .product .description {
+	DISPLAY: none
+}
+.grid .product .price IMG {
+	DISPLAY: none
+}
+.grid .product .stamps {
+	DISPLAY: none
+}
+.grid .product .more {
+	DISPLAY: none
+}
+.grid .product {
+	TEXT-ALIGN: center; MARGIN: 0px auto; PADDING-LEFT: 0px; MAX-WIDTH: 80%
+}
+.product .brand {
+	COLOR: #666
+}
+.grid .product .brand {
+	CLEAR: both
+}
+.grid .product .name {
+	MARGIN-TOP: 5px; FONT-SIZE: 1.1em; FONT-WEIGHT: normal
+}
+.grid .product .link {
+	WIDTH: auto; FLOAT: none; MARGIN-LEFT: 0px; OVERFLOW: hidden
+}
+.grid .product .link .image {
+	MARGIN: 0px auto; DISPLAY: block; MAX-WIDTH: 100%; FLOAT: none
+}
+.grid .product .stamps IMG {
+	MARGIN: 0px auto; DISPLAY: block; MAX-WIDTH: 100%; FLOAT: none
+}
+.grid .product .price {
+	PADDING-BOTTOM: 0px; MARGIN: 0px auto; PADDING-LEFT: 0px; WIDTH: auto; PADDING-RIGHT: 0px; DISPLAY: block; FLOAT: none; PADDING-TOP: 0px
+}
+.grid .product .related LI {
+	PADDING-BOTTOM: 0px; MARGIN: 0px auto; PADDING-LEFT: 0px; WIDTH: auto; PADDING-RIGHT: 0px; DISPLAY: block; FLOAT: none; PADDING-TOP: 0px
+}
+.grid .product .info {
+	PADDING-BOTTOM: 0px; MARGIN: 0px auto; PADDING-LEFT: 0px; WIDTH: auto; PADDING-RIGHT: 0px; DISPLAY: block; FLOAT: none; PADDING-TOP: 0px
+}
+.grid .product .related {
+	PADDING-BOTTOM: 0px; MARGIN: 0px auto; PADDING-LEFT: 0px; WIDTH: auto; PADDING-RIGHT: 0px; DISPLAY: block; FLOAT: none; PADDING-TOP: 0px
+}
+.grid .product .link .stamps {
+	PADDING-BOTTOM: 0px; MARGIN: 0px auto; PADDING-LEFT: 0px; WIDTH: auto; PADDING-RIGHT: 0px; DISPLAY: block; FLOAT: none; PADDING-TOP: 0px
+}
+.grid .product .link .stamps IMG {
+	PADDING-BOTTOM: 0px; MARGIN: 0px auto; PADDING-LEFT: 0px; WIDTH: auto; PADDING-RIGHT: 0px; DISPLAY: block; FLOAT: none; PADDING-TOP: 0px
+}
+.grid .product .from {
+	DISPLAY: block; COLOR: #0082d6; FONT-SIZE: 1.1em
+}
+.grid .product .parcel {
+	DISPLAY: block; COLOR: #0082d6; FONT-SIZE: 1.1em
+}
+.grid .product .condition {
+	DISPLAY: block; COLOR: #0082d6; FONT-SIZE: 1.1em
+}
+.grid .product .tax {
+	COLOR: #0082d6; FONT-SIZE: 1em
+}
+.grid .product .link .stamps {
+	PADDING-TOP: 5px
+}
+.productList {
+	ZOOM: 1; COLOR: #666; OVERFLOW: hidden
+}
+.productList LI {
+	PADDING-BOTTOM: 2em; MARGIN-TOP: -1px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: url(../img/bgDotted.gif) repeat-x 50% top; OVERFLOW: visible; PADDING-TOP: 2em
+}
+.productList LI:after {
+	DISPLAY: block; HEIGHT: 0px; VISIBILITY: hidden; CLEAR: both; FONT-SIZE: 0px
+}
+.line LI {
+	MARGIN-TOP: 0px
+}
+.product A {
+	COLOR: #666
+}
+.grid LI {
+	FLOAT: left
+}
+.grid .first {
+	CLEAR: left
+}
+.grid LI {
+	WIDTH: 33%
+}
+.myNavegation {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 32em; PADDING-RIGHT: 0px; PADDING-TOP: 1em
+}
+.myNavegation .grid LI {
+	WIDTH: 33%
+}
+.myNavegation .col1 {
+	PADDING-BOTTOM: 35px; PADDING-LEFT: 10px; WIDTH: 100%; DISPLAY: inline; BACKGROUND: url(../img/bgvertmynavigation.gif) no-repeat right top; FLOAT: left; MARGIN-LEFT: -33em
+}
+.myNavegation .col1 .title8 {
+	PADDING-LEFT: 14px
+}
+.myNavegation .col1 .pageList {
+	MARGIN: 0.5em 1.8em
+}
+.myNavegation .col2 {
+	WIDTH: 30.7em; FLOAT: right; OVERFLOW: hidden
+}
+.myNavegation .col2 .list5 LI {
+	WHITE-SPACE: nowrap; MARGIN-BOTTOM: 0px; OVERFLOW: hidden; MARGIN-RIGHT: 20px
+}
+.productListBox {
+	POSITION: relative; MARGIN: 0px 10px; OVERFLOW: hidden
+}
+.productListBox .back {
+	MARGIN-TOP: 90px; WIDTH: 9px; HEIGHT: 0px; FONT-SIZE: 0px; OVERFLOW: hidden; PADDING-TOP: 19px
+}
+.productListBox .next {
+	MARGIN-TOP: 90px; WIDTH: 9px; HEIGHT: 0px; FONT-SIZE: 0px; OVERFLOW: hidden; PADDING-TOP: 19px
+}
+.productListBox .back {
+	BACKGROUND: url(../img/allBgHome.png) no-repeat -46px -21px; FLOAT: left
+}
+.productListBox .next {
+	BACKGROUND: url(../img/allBgHome.png) no-repeat -36px -21px; FLOAT: right; MARGIN-RIGHT: 10px
+}
+.myNavegation .pageList .selected A {
+	BACKGROUND: #0082d6
+}
+.myNavegation .pageList LI A:hover {
+	BACKGROUND-COLOR: #0082d6; COLOR: #fff
+}
+.interestProducts {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 20px; PADDING-RIGHT: 0px; CLEAR: left; OVERFLOW: hidden; PADDING-TOP: 5px
+}
+.lastProductSaw {
+	TEXT-ALIGN: center; MARGIN: 0px 10px 20px -20px; WIDTH: 50%; DISPLAY: inline; FLOAT: left; OVERFLOW: hidden
+}
+.lastProductSaw .product .name {
+	FONT-SIZE: 1.2em; FONT-WEIGHT: normal
+}
+.interestProducts .title4 {
+	TEXT-ALIGN: left; PADDING-LEFT: 10px; OVERFLOW: hidden
+}
+.lastProductSaw .product {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.lastProductSaw .product .info {
+	MARGIN-LEFT: 0px
+}
+.lastProductSaw .product .price {
+	MARGIN: 0px; WIDTH: auto; MAX-WIDTH: none; FLOAT: none; COLOR: #0082d6
+}
+.relatedSuggestions .product .from {
+	FONT-WEIGHT: bold
+}
+.relatedSuggestions .product .name {
+	FONT-WEIGHT: normal
+}
+.lastProductSaw .product .name {
+	COLOR: #666
+}
+.interestProducts .for {
+	FONT-SIZE: 1.1em
+}
+.parcel {
+	FONT-SIZE: 1.1em
+}
+.condition {
+	FONT-SIZE: 1.1em
+}
+.relatedSuggestions {
+	WIDTH: 50%; BACKGROUND: url(../img/bgDotted2.gif) repeat-y left 50%; OVERFLOW: hidden
+}
+.relatedSuggestions LI {
+	MARGIN: 0px 10px 10px
+}
+.relatedSuggestions .product {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 5px
+}
+.relatedSuggestions .product .link {
+	WIDTH: auto; FLOAT: none; MARGIN-LEFT: 0px
+}
+.relatedSuggestions .product .info {
+	MARGIN: 0px
+}
+.relatedSuggestions .product .price {
+	MARGIN: 0px; FLOAT: none
+}
+.footerContent {
+	MARGIN: 0px auto; WIDTH: 76em; BACKGROUND: #f5f5f5; OVERFLOW: hidden
+}
+.footerContent STRONG {
+	FONT-STYLE: normal; COLOR: #666; FONT-SIZE: 11px
+}
+.footerContent H4 {
+	FONT-STYLE: normal; COLOR: #666; FONT-SIZE: 11px
+}
+.footerContent A {
+	COLOR: #666
+}
+.footerContent A:hover {
+	TEXT-DECORATION: underline
+}
+.sharePage {
+	POSITION: relative; PADDING-BOTTOM: 10px; MARGIN: 0px 10px 15px; ZOOM: 1; BACKGROUND: url(../img/bgDotted.gif) repeat-x 50% bottom
+}
+.sharePage .sharePage2 {
+	MARGIN: 0px auto; WIDTH: 34.5em
+}
+.sharePage .sharePage4 {
+	FLOAT: left; FONT-SIZE: 1.1em; MARGIN-RIGHT: 15px
+}
+.sharePage .sharePage4 .shareInfo {
+	POSITION: relative; FLOAT: left; FONT-SIZE: 0.9em; FONT-WEIGHT: normal
+}
+.sharePage .sharePage4 .shareTitle {
+	FLOAT: left; MARGIN-RIGHT: 5px
+}
+.sharePage .sharePage4 .shareInfo A {
+	COLOR: #666; TEXT-DECORATION: underline
+}
+.sharePage .sharePageIcons LI {
+	PADDING-LEFT: 2px; DISPLAY: inline
+}
+.paymentWays {
+	MARGIN-BOTTOM: 1.5em; FLOAT: left; FONT-SIZE: 1.1em
+}
+.paymentWays UL LI {
+	CLEAR: left
+}
+.paymentWays .paymentWaysList {
+	WIDTH: 373px; BACKGROUND: url(../img/allBgHome.png) no-repeat 0px 3px; HEIGHT: 21px
+}
+.paymentWays .paymentWaysList LI {
+	ZOOM: 1; FLOAT: left; HEIGHT: 21px; CLEAR: none; OVERFLOW: hidden
+}
+.paymentWays .paymentWaysList LI A {
+	WIDTH: 100%; DISPLAY: block; HEIGHT: 100%; PADDING-TOP: 21px
+}
+.paymentWays .paymentWaysList .link1 {
+	WIDTH: 53px
+}
+.paymentWays .paymentWaysList .link2 {
+	WIDTH: 162px
+}
+.paymentWays .paymentWaysList .link3 {
+	WIDTH: 35px
+}
+.paymentWays .paymentWaysList .link4 {
+	WIDTH: 77px
+}
+.paymentWays .paymentWaysList .link5 {
+	WIDTH: 45px
+}
+.rssWidgets {
+	PADDING-BOTTOM: 8px; PADDING-LEFT: 15px; PADDING-RIGHT: 0px; ZOOM: 1; BACKGROUND: url(../img/bgDotted3.gif) repeat-y left 50%; FLOAT: left; MARGIN-LEFT: 15px; OVERFLOW: hidden; PADDING-TOP: 0px
+}
+.footerContent .awards {
+	PADDING-LEFT: 10px; ZOOM: 1; BACKGROUND: url(../img/bgDotted3.gif) repeat-y left 50%; FLOAT: left; MARGIN-LEFT: 15px; OVERFLOW: hidden
+}
+.footerContent .awards LI IMG {
+	MARGIN: 5px; OVERFLOW: hidden
+}
+.rssWidgets H4 {
+	MARGIN-BOTTOM: 5px
+}
+.rssWidgets UL {
+	MARGIN-TOP: 5px; OVERFLOW: hidden
+}
+.rssWidgets UL LI {
+	FLOAT: left; FONT-SIZE: 1.1em; OVERFLOW: hidden; MARGIN-RIGHT: 10px
+}
+.rssWidgets LI A IMG {
+	FLOAT: none; VERTICAL-ALIGN: middle; OVERFLOW: hidden; MARGIN-RIGHT: 5px
+}
+.rssWidgets LI A .last {
+	FLOAT: left
+}
+.rssWidgets LI A SPAN {
+	DISPLAY: block; OVERFLOW: hidden; MARGIN-RIGHT: 5px
+}
+.rssWidgets LI A SPAN:hover {
+	TEXT-DECORATION: underline
+}
+.rssWidgets .first {
+	PADDING-TOP: 5px
+}
+.questions LI {
+	DISPLAY: inline; FONT-SIZE: 1.1em
+}
+.institucional LI {
+	DISPLAY: inline; FONT-SIZE: 1.1em
+}
+.partners LI {
+	DISPLAY: inline; FONT-SIZE: 1.1em
+}
+.awards LI {
+	DISPLAY: inline; FONT-SIZE: 1.1em
+}
+.footerContent .partners {
+	CLEAR: left
+}
+.footerContent .partners STRONG {
+	FLOAT: left; MARGIN-RIGHT: 5px
+}
+.questions STRONG {
+	FLOAT: left; MARGIN-RIGHT: 5px
+}
+.institucional STRONG {
+	FLOAT: left; MARGIN-RIGHT: 5px
+}
+.footerContent .partners H4 {
+	FLOAT: left; MARGIN-RIGHT: 5px
+}
+.questions H4 {
+	FLOAT: left; MARGIN-RIGHT: 5px
+}
+.institucional H4 {
+	FLOAT: left; MARGIN-RIGHT: 5px
+}
+.questions {
+	CLEAR: left
+}
+.institucional {
+	PADDING-BOTTOM: 15px; CLEAR: left
+}
+#footer .prideSupport {
+	ZOOM: 1; BACKGROUND: url(../img/bgDotted.gif) repeat-x 50% top; OVERFLOW: hidden; PADDING-TOP: 15px
+}
+#footer .prideSupport .pride {
+	PADDING-BOTTOM: 7px; LINE-HEIGHT: 12px; PADDING-LEFT: 37px; PADDING-RIGHT: 37px; BACKGROUND: url(../img/imgBandBrasil.gif) no-repeat left 50%; FLOAT: left; PADDING-TOP: 6px
+}
+#footer .prideSupport UL LI {
+	FLOAT: left; MARGIN-LEFT: 3px; PADDING-TOP: 3px
+}
+#footer .prideSupport .prideSupport2 {
+	MARGIN: 0pt auto; WIDTH: 18.5em
+}
+#footer .prideSupport .prideSupport2 P {
+	FONT-SIZE: 1.1em
+}
+#footer .prideSupport .prideSupport2 .support {
+	MARGIN-TOP: 10px; FLOAT: left
+}
+#footer .prideSupport .prideSupport2 UL LI {
+	MARGIN: 0px 5px
+}
+.sectionMenu .menuBrowseWorld .productSession LI {
+	PADDING-LEFT: 5px; BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.sectionMenu .menuBrowseWorld .box3A {
+	PADDING-TOP: 10px
+}
+.artistSearch .navBG {
+	BACKGROUND: url(../img/bgDotted.gif) repeat-x center top; PADDING-TOP: 10px
+}
+.letterSearch {
+	MARGIN: 5px
+}
+.artistSearch LI A {
+	COLOR: #666; FONT-WEIGHT: normal
+}
+.artistSearch H5 {
+	PADDING-LEFT: 5px; COLOR: #666; FONT-SIZE: 1.1em; FONT-WEIGHT: bold
+}
+.artistSearch .letterSearch LI {
+	DISPLAY: inline; COLOR: #666; FONT-SIZE: 1.1em
+}
+.artistSearch .letterSearch LI A:hover {
+	BACKGROUND-COLOR: #f6f6f6
+}
+.artistSearch .tagCloud {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 0px; PADDING-LEFT: 5px; PADDING-RIGHT: 10px; PADDING-TOP: 0px
+}
+.artistSearch .tagCloud LI A {
+	COLOR: #666
+}
+.artistSearch .tagCloud LI A:hover {
+	BACKGROUND-COLOR: #666; TEXT-DECORATION: none
+}
+.artistSearch .top1 {
+	PADDING-LEFT: 15px
+}
+.artistSearch .top2 {
+	PADDING-LEFT: 15px
+}
+.artistSearch .top3 {
+	PADDING-LEFT: 15px
+}
+.artistSearch .top4 {
+	PADDING-LEFT: 15px
+}
+.artistSearch .top5 {
+	PADDING-LEFT: 15px
+}
+.topFive .top6 {
+	PADDING-BOTTOM: 5px; MARGIN-TOP: 5px; ZOOM: 1; DISPLAY: block; BACKGROUND: url(../img/bgDotted.gif) repeat-x left bottom; CLEAR: left; OVERFLOW: hidden
+}
+.top7 {
+	PADDING-BOTTOM: 5px; MARGIN-TOP: 5px; ZOOM: 1; DISPLAY: block; BACKGROUND: url(../img/bgDotted.gif) repeat-x left bottom; CLEAR: left; OVERFLOW: hidden
+}
+.top8 {
+	PADDING-BOTTOM: 5px; MARGIN-TOP: 5px; ZOOM: 1; DISPLAY: block; BACKGROUND: url(../img/bgDotted.gif) repeat-x left bottom; CLEAR: left; OVERFLOW: hidden
+}
+.top9 {
+	PADDING-BOTTOM: 5px; MARGIN-TOP: 5px; ZOOM: 1; DISPLAY: block; BACKGROUND: url(../img/bgDotted.gif) repeat-x left bottom; CLEAR: left; OVERFLOW: hidden
+}
+.top10 {
+	PADDING-BOTTOM: 5px; MARGIN-TOP: 5px; ZOOM: 1; DISPLAY: block; BACKGROUND: url(../img/bgDotted.gif) repeat-x left bottom; CLEAR: left; OVERFLOW: hidden
+}
+.topFive .top6 A {
+	DISPLAY: block
+}
+.top7 A {
+	DISPLAY: block
+}
+.top8 A {
+	DISPLAY: block
+}
+.top9 A {
+	DISPLAY: block
+}
+.top10 A {
+	DISPLAY: block
+}
+.topFive .top7 IMG {
+	FLOAT: left
+}
+.top8 IMG {
+	FLOAT: left
+}
+.top9 IMG {
+	FLOAT: left
+}
+.top10 IMG {
+	FLOAT: left
+}
+.topFive .top6 SPAN {
+	DISPLAY: block
+}
+.topFive .top7 SPAN {
+	MARGIN-LEFT: 5px
+}
+.top8 SPAN {
+	MARGIN-LEFT: 5px
+}
+.top9 SPAN {
+	MARGIN-LEFT: 5px
+}
+.topFive .text2 {
+	MARGIN-TOP: 5px
+}
+.topFive .top6 A {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 15px; PADDING-RIGHT: 0px; DISPLAY: block; BACKGROUND: url(../img/bgButton1.gif) no-repeat left top; PADDING-TOP: 0px
+}
+.topFive .top7 A {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 19px; PADDING-RIGHT: 0px; BACKGROUND: url(../img/bgButton2.gif) no-repeat left top; PADDING-TOP: 0px
+}
+.topFive .top8 A {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 19px; PADDING-RIGHT: 0px; BACKGROUND: url(../img/bgButton3.gif) no-repeat left top; PADDING-TOP: 0px
+}
+.topFive .top9 A {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 19px; PADDING-RIGHT: 0px; BACKGROUND: url(../img/bgButton4.gif) no-repeat left top; PADDING-TOP: 0px
+}
+.topFive .top10 A {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 13px; PADDING-RIGHT: 0px; BACKGROUND: url(../img/bgButton5.gif) no-repeat left top; PADDING-TOP: 0px
+}
+.productVitrine .grid {
+	CLEAR: both
+}
+.productVitrine .grid LI {
+	WIDTH: 24.9%
+}
+.topVitrine2 .pageList {
+	FLOAT: right
+}
+.pageList {
+	MARGIN: 0.5em 10px 0.5em 0px; DISPLAY: inline; FLOAT: right
+}
+.pageList .text2 {
+	LINE-HEIGHT: 1.25; MARGIN: auto 0px auto 10px; DISPLAY: inline; FLOAT: left
+}
+.pageList LI {
+	DISPLAY: inline; COLOR: #666; FONT-SIZE: 1.1em
+}
+.pageList LI A {
+	PADDING-BOTTOM: 2px; PADDING-LEFT: 3px; PADDING-RIGHT: 3px; COLOR: #666; FONT-SIZE: 1.1em; PADDING-TOP: 2px
+}
+.pageList LI A:hover {
+	BACKGROUND-COLOR: #0082d6; COLOR: #fff; TEXT-DECORATION: none
+}
+.pageList .selected {
+	COLOR: #fff
+}
+.pageList .selected A {
+	BACKGROUND-COLOR: #0082d6; COLOR: #fff
+}
+.pageList .previous A {
+	WIDTH: 8px; BACKGROUND: url(../img/imgArrowLeft.gif) no-repeat left center; OVERFLOW: hidden; PADDING-TOP: 0px
+}
+.pageList .after A {
+	WIDTH: 8px; BACKGROUND: url(../img/imgArrowRight.gif) no-repeat right center; OVERFLOW: hidden; PADDING-TOP: 0px
+}
+.pageList .after A IMG {
+	VISIBILITY: hidden
+}
+.pageList .previous A IMG {
+	VISIBILITY: hidden
+}
+.pageList .previous A:hover {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.pageList .after A:hover {
+	BACKGROUND: url(../img/imgArrowRight.gif) no-repeat right center
+}
+.topVitrine LABEL {
+	COLOR: #666; FONT-SIZE: 1.1em
+}
+.ordering {
+	MIN-HEIGHT: 20px; FLOAT: left; HEIGHT: 20px; OVERFLOW: hidden
+}
+.ordering2 {
+	PADDING-LEFT: 10px; FLOAT: left; OVERFLOW: hidden
+}
+.ordering .sales {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; HEIGHT: 1.8em; COLOR: #666; FONT-SIZE: 1.1em; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid
+}
+.ordering2 SELECT {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; HEIGHT: 1.8em; COLOR: #666; FONT-SIZE: 1.1em; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid
+}
+.ordering SELECT {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; HEIGHT: 1.8em; COLOR: #666; FONT-SIZE: 1.1em; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid
+}
+.preview {
+	FLOAT: right; OVERFLOW: hidden; PADDING-TOP: 3px
+}
+.preview .listVitrine {
+	BACKGROUND: url(../img/imgListTabOff.png) no-repeat -90px -46px
+}
+.preview .gridVitrine {
+	BACKGROUND: url(../img/imgListTabOff.png) no-repeat left -46px; MARGIN-LEFT: 5px; MARGIN-RIGHT: 10px
+}
+.preview LI {
+	DISPLAY: inline; COLOR: #666; FONT-SIZE: 1.1em
+}
+.preview A {
+	PADDING-LEFT: 20px; COLOR: #666; FONT-SIZE: 1.1em
+}
+.selected#to_list_link1 {
+	BACKGROUND: url(../img/imgListTabOn.png) no-repeat -90px -46px
+}
+.preview .selected A {
+	COLOR: #0082d6
+}
+.preview .selected A {
+	COLOR: #0082d6
+}
+.selected#to_grid_link1 {
+	BACKGROUND: url(../img/imgListTabOn.png) no-repeat left -46px
+}
+.topVitrine2 LABEL {
+	COLOR: #666
+}
+.topVitrine2 .results {
+	FLOAT: left; MARGIN-LEFT: 10px; CLEAR: both
+}
+.results {
+	FLOAT: left; CLEAR: both
+}
+.results SELECT {
+	COLOR: #666; FONT-SIZE: 1.1em
+}
+.results .iten {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; COLOR: #666; FONT-SIZE: 1.1em; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid
+}
+.results LI {
+	DISPLAY: inline; COLOR: #666; FONT-SIZE: 1.1em
+}
+.results LI SPAN {
+	MARGIN: 0px 10px
+}
+.results A {
+	DISPLAY: inline; COLOR: #666; FONT-SIZE: 1.1em
+}
+.productVitrine .productList {
+	CLEAR: both
+}
+.productVitrine .grid .related LI {
+	WIDTH: auto
+}
+.bottomPageList {
+	TEXT-ALIGN: center; BACKGROUND: url(../img/bgDotted.gif) repeat-x 50% top; PADDING-TOP: 15px
+}
+.bottomPageList .results {
+	PADDING-BOTTOM: 5px; FLOAT: none
+}
+.bottomPageList .pageList {
+	FLOAT: none
+}
+.departmentBannerTop {
+	WIDTH: 100%; MARGIN-BOTTOM: 10px; BACKGROUND: #f6f6f6
+}
+.productSimple .product .link .stamps {
+	DISPLAY: block
+}
+.productSimple .product {
+	PADDING-BOTTOM: 0px; MIN-HEIGHT: 13em; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.productSimple .price {
+	MARGIN: 0px; WIDTH: auto; DISPLAY: block; MAX-WIDTH: 100%; FLOAT: none; COLOR: #0082d6; OVERFLOW: hidden
+}
+.productSimple .link .image {
+	MARGIN: 0px 10px 0px 5px
+}
+.productSimple .link {
+	MARGIN: 0px; WIDTH: auto; ZOOM: 0; FLOAT: none
+}
+.productSimple .info {
+	MARGIN: 0px; OVERFLOW: hidden
+}
+.productSimple .stamps {
+	PADDING-BOTTOM: 0px; MARGIN: 5px 0px 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; CLEAR: none; PADDING-TOP: 0px
+}
+.productSimple .name {
+	HEIGHT: 2.4em; FONT-SIZE: 1.1em; OVERFLOW: hidden; FONT-WEIGHT: normal
+}
+.productSimple .from {
+	FONT-WEIGHT: bold
+}
+.productSimple .parcel {
+	COLOR: #0082d6; FONT-SIZE: 1.1em
+}
+.condition {
+	COLOR: #0082d6; FONT-SIZE: 1.1em
+}
+.productSimple .list3 LI {
+	PADDING-BOTTOM: 3px; PADDING-LEFT: 0px; WIDTH: 100%; PADDING-RIGHT: 0px; WHITE-SPACE: nowrap; PADDING-TOP: 3px
+}
+.productSimple .list3 LI SPAN {
+	DISPLAY: block; COLOR: #0082d6; TEXT-DECORATION: none
+}
+.productSimple .list3 LI A:hover SPAN {
+	TEXT-DECORATION: underline
+}
+.productSimple .list3 LI STRONG {
+	TEXT-DECORATION: none
+}
+.hilightsDepartamentBox {
+	OVERFLOW: hidden
+}
+.hilightsDepartament {
+	MIN-HEIGHT: 35em; CLEAR: both
+}
+.hilightsDepartament .box2A {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; PADDING-TOP: 20px
+}
+.hilightsDepartament .first {
+	WIDTH: 49%; FLOAT: left
+}
+.hilightsDepartament .last {
+	WIDTH: 49%; FLOAT: right
+}
+.hilightsDepartament H4 A {
+	COLOR: #666
+}
+.tabs {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 9px; PADDING-RIGHT: 0px; ZOOM: 1; MARGIN-BOTTOM: 10px; BACKGROUND: url(../img/bgTabsLeft.gif) no-repeat left 7px; PADDING-TOP: 7px
+}
+.tabs UL {
+	PADDING-BOTTOM: 132px; MIN-HEIGHT: 29px; ZOOM: 1; MARGIN-BOTTOM: -120px; BACKGROUND: url(../img/bgTabsRight.gif) no-repeat right top; CLEAR: both
+}
+.tabs UL:after {
+	DISPLAY: block; HEIGHT: 0px; VISIBILITY: hidden; CLEAR: both; FONT-SIZE: 0px
+}
+.tabs UL LI {
+	POSITION: relative; PADDING-BOTTOM: 0px; MARGIN-TOP: 3px; PADDING-LEFT: 0px; PADDING-RIGHT: 8px; BACKGROUND: url(../img/tabRight.gif) no-repeat right top; FLOAT: left; MARGIN-RIGHT: -10px; PADDING-TOP: 0px
+}
+.tabs UL LI A {
+	PADDING-BOTTOM: 2px; PADDING-LEFT: 20px; PADDING-RIGHT: 10px; DISPLAY: block; BACKGROUND: url(../img/tabLeft.gif) no-repeat left top; COLOR: #666; FONT-SIZE: 1.2em; PADDING-TOP: 5px
+}
+.tabs UL LI H2 {
+	PADDING-BOTTOM: 2px; PADDING-LEFT: 20px; PADDING-RIGHT: 10px; DISPLAY: block; BACKGROUND: url(../img/tabLeft.gif) no-repeat left top; COLOR: #666; FONT-SIZE: 1.2em; PADDING-TOP: 5px
+}
+.tabs UL LI.selected {
+	Z-INDEX: 100; MARGIN-TOP: -7px; MARGIN-BOTTOM: -29px; BACKGROUND: url(../img/tabRightSelected.gif) no-repeat right top; FONT-SIZE: 1.3em; FONT-WEIGHT: bold; MARGIN-RIGHT: -7px
+}
+.tabs UL LI.selected A {
+	PADDING-BOTTOM: 20px; PADDING-LEFT: 20px; PADDING-RIGHT: 10px; BACKGROUND: url(../img/tabLeftSelected.gif) no-repeat left top; PADDING-TOP: 10px
+}
+.tabs UL LI.selected H2 {
+	PADDING-BOTTOM: 20px; PADDING-LEFT: 20px; PADDING-RIGHT: 10px; BACKGROUND: url(../img/tabLeftSelected.gif) no-repeat left top; PADDING-TOP: 10px
+}
+.tabs UL LI SPAN {
+	DISPLAY: block; BACKGROUND: url(../img/tabLeft.gif) no-repeat left top; COLOR: #666; FONT-SIZE: 1.2em
+}
+.videoNews .box2A {
+	PADDING-BOTTOM: 20px; PADDING-LEFT: 20px; PADDING-RIGHT: 20px; PADDING-TOP: 20px
+}
+.videoNews .player {
+	FLOAT: left
+}
+.videoNews .list3 LI {
+	PADDING-LEFT: 0px; WHITE-SPACE: nowrap
+}
+.videoNews .boxContent {
+	PADDING-LEFT: 20px; OVERFLOW: hidden
+}
+.hilightArtists .title4 {
+	FLOAT: left
+}
+.hilightArtists .text2 A {
+	FLOAT: right
+}
+.hilightArtists .box2 {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.hilightArtists .box2A {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; PADDING-TOP: 0px
+}
+.artistList {
+	MARGIN: 30px 10px 0px 0px; FLOAT: left; HEIGHT: 126px
+}
+.selectArtist {
+	TEXT-ALIGN: center; MARGIN: 30px 15px; FLOAT: left; OVERFLOW: hidden
+}
+.selectArtist .arrowUp {
+	DISPLAY: block; BACKGROUND: url(../img/bgPoint.gif) repeat-y center top; PADDING-TOP: 5px
+}
+.selectArtist .arrowDown {
+	PADDING-BOTTOM: 5px; DISPLAY: block; BACKGROUND: url(../img/bgPoint.gif) repeat-y center top
+}
+.selectArtist A {
+	DISPLAY: block
+}
+.selectArtist .up {
+	MARGIN-TOP: 40px
+}
+.selectArtist .down {
+	MARGIN-BOTTOM: 40px
+}
+.artistContent {
+	MARGIN-TOP: 30px; OVERFLOW: hidden
+}
+.artistContent IMG {
+	FLOAT: left; MARGIN-RIGHT: 10px
+}
+.artistContent .list3 {
+	LINE-HEIGHT: 0.8; ZOOM: 1; CLEAR: none; OVERFLOW: hidden
+}
+.artistContent .list3 LI {
+	LIST-STYLE-POSITION: inside; PADDING-BOTTOM: 2px; LIST-STYLE-TYPE: square; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; WHITE-SPACE: nowrap; BACKGROUND: none transparent scroll repeat 0% 0%; PADDING-TOP: 2px
+}
+.artistContent .list3 LI STRONG {
+	COLOR: #0082d6
+}
+.artistContent .list3 LI.first {
+	MARGIN-TOP: 0px; BACKGROUND: url(../img/bgDotted.gif) repeat-x left top; PADDING-TOP: 10px
+}
+.artistContent .list3 LI.list {
+	LIST-STYLE-TYPE: none; MARGIN-TOP: 5px; BACKGROUND: url(../img/bgDotted.gif) repeat-x left top
+}
+.artistContent .list A {
+	PADDING-TOP: 5px
+}
+.artistContent .title10 {
+	MARGIN: 0px 0px 5px 10px
+}
+.allBrands {
+	OVERFLOW: hidden
+}
+.allBrands .letter {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 7px; MARGIN: 0px 10px 0px 0px; PADDING-LEFT: 7px; WIDTH: 3em; PADDING-RIGHT: 7px; BACKGROUND: url(../img/bgAlphabet.gif) no-repeat center center; FLOAT: left; COLOR: #fff; FONT-SIZE: 1.1em; PADDING-TOP: 7px
+}
+.allBrands .list3 LI {
+	PADDING-BOTTOM: 20px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; OVERFLOW: hidden; PADDING-TOP: 20px
+}
+.allBrands .list3 UL {
+	PADDING-LEFT: 20px; OVERFLOW: hidden
+}
+.allBrands .list3 UL LI {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; WIDTH: 33.3%; PADDING-RIGHT: 0px; FLOAT: left; PADDING-TOP: 0px
+}
+.allBrands .list3 UL LI {
+	DISPLAY: inline; BACKGROUND: none transparent scroll repeat 0% 0%; MARGIN-LEFT: 10px
+}
+.allBrands .list3 UL LI.first {
+	MARGIN-LEFT: -20px; CLEAR: left
+}
+.promotionBrand .box2A {
+	POSITION: relative
+}
+.promotionBrand .back {
+	POSITION: absolute; WIDTH: 7px; HEIGHT: 0px; FONT-SIZE: 0px; OVERFLOW: hidden; TOP: 30px; PADDING-TOP: 15px
+}
+.promotionBrand .next {
+	POSITION: absolute; WIDTH: 7px; HEIGHT: 0px; FONT-SIZE: 0px; OVERFLOW: hidden; TOP: 30px; PADDING-TOP: 15px
+}
+.promotionBrand .back {
+	BACKGROUND: url(../img/imgBack2.gif) no-repeat left center; LEFT: 10px
+}
+.promotionBrand .next {
+	BACKGROUND: url(../img/imgNext2.gif) no-repeat right center; RIGHT: 10px
+}
+.promotionBrand .logos LI {
+	TEXT-ALIGN: center; WIDTH: 24.9%; FLOAT: left
+}
+.logos LI {
+	TEXT-ALIGN: center; WIDTH: 24.9%; FLOAT: left
+}
+.assistent {
+	PADDING-LEFT: 50px; BACKGROUND: url(../img/bgAssistent.gif) no-repeat left 50%
+}
+.assistent P {
+	FONT-SIZE: 1.1em
+}
+.assistent LABEL {
+	FONT-SIZE: 1.1em
+}
+.menuNavigation .list2 {
+	FONT-SIZE: 1.2em
+}
+.menuNavigation .list2 LI {
+	PADDING-LEFT: 5px
+}
+.menuNavigation .list2 .typeProduct {
+	FONT-SIZE: 1.2em
+}
+.menuNavigation .typeProduct LI SPAN {
+	FONT-SIZE: 1em
+}
+.menuNavigation .typeProduct {
+	DISPLAY: none
+}
+.menuNavigation .allProduct .selected UL {
+	DISPLAY: block
+}
+.menuNavigation .allProduct LI {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: url(../img/imgArrowHoriz.gif) no-repeat left center; FONT-SIZE: 0.84em; PADDING-TOP: 0px
+}
+.menuNavigation .allProduct STRONG {
+	PADDING-LEFT: 10px; MARGIN-LEFT: 2px
+}
+.menuNavigation .allProduct .selected {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.menuNavigation .allProduct .selected STRONG {
+	BACKGROUND: url(../img/imgArrowVert.gif) no-repeat left center
+}
+.menuNavigation .allProduct .selected STRONG A {
+	COLOR: #0082d6
+}
+.menuNavigation .typeProduct LI {
+	PADDING-LEFT: 20px; BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.menuNavigation .typeProduct LI.selected A {
+	COLOR: #0082d6; FONT-WEIGHT: bold
+}
+.menuNavigation .typeProduct LI.separadorMenu {
+	MARGIN-TOP: 8px; BACKGROUND: #eaeaea; FONT-WEIGHT: bold
+}
+.menuNavigation .box2 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.vitrineNavigationBox {
+	MARGIN: 0px 15px; OVERFLOW: hidden
+}
+.vitrineNavigation {
+	TEXT-ALIGN: center; MARGIN: 20px 0px; PADDING-LEFT: 10px; ZOOM: 1; BACKGROUND: url(../img/bgVitrineNavigationLeft.gif) no-repeat left top; COLOR: #666; OVERFLOW: hidden
+}
+.vitrineNavigation UL {
+	ZOOM: 1; BACKGROUND: url(../img/bgVitrineNavigationRight.gif) no-repeat right top; OVERFLOW: hidden
+}
+.vitrineNavigation UL LI {
+	WIDTH: 24.9%; FLOAT: left
+}
+.vitrineNavigation UL LI UL {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.vitrineNavigation UL LI UL LI {
+	WIDTH: auto; FLOAT: none
+}
+.vitrineNavigation UL LI UL LI A {
+	COLOR: #666; FONT-SIZE: 1.1em
+}
+.breadcrumb LI {
+	DISPLAY: inline; COLOR: #666; FONT-SIZE: 1.4em
+}
+.breadcrumb LI A {
+	COLOR: #666
+}
+.breadcrumb LI H1 {
+	DISPLAY: inline; FONT-SIZE: 1em
+}
+.breadcrumb .selected {
+	COLOR: #0082d6; FONT-SIZE: 1.6em; FONT-WEIGHT: bold
+}
+.breadcrumb .selected A {
+	COLOR: #0082d6
+}
+.breadcrumb .viewMore {
+	COLOR: #0082d6; FONT-SIZE: 1.1em
+}
+.breadcrumb .viewMore A {
+	COLOR: #0082d6; TEXT-DECORATION: underline
+}
+.breadcrumbBox {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 15px; PADDING-RIGHT: 17.6em; MARGIN-BOTTOM: 5px; PADDING-TOP: 0px
+}
+#page .breadcrumbBox P {
+	MARGIN: 0px; PADDING-LEFT: 0px; DISPLAY: inline; FONT-SIZE: 1.1em
+}
+.breadcrumbBox P A {
+	COLOR: #666; FONT-SIZE: 1.2em; FONT-WEIGHT: bold
+}
+.breadcrumbBox .group {
+	DISPLAY: inline; FONT-SIZE: 1.1em
+}
+.breadcrumbBox .group LI {
+	DISPLAY: inline
+}
+.breadcrumbBox .group LI A {
+	COLOR: #666
+}
+#area131 P {
+	PADDING-LEFT: 12px; FONT-SIZE: 1.1em
+}
+.serviceDepartament {
+	PADDING-LEFT: 10px; BACKGROUND: #fff
+}
+.serviceDepartament UL LI {
+	PADDING-BOTTOM: 2em; PADDING-LEFT: 0px; WIDTH: 33.3%; PADDING-RIGHT: 0px; FLOAT: left; PADDING-TOP: 0px
+}
+.serviceDepartament UL LI UL LI {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; WIDTH: auto; PADDING-RIGHT: 0px; FLOAT: none; CLEAR: none; PADDING-TOP: 0px
+}
+.serviceDepartament .topDepart {
+	COLOR: #0082d6; FONT-SIZE: 1.2em
+}
+.serviceDepartament .list3 LI {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.serviceDepartament .list3 .listHightlight {
+	PADDING-TOP: 0.8em
+}
+.serviceDepartament .list3 .listHightlight STRONG {
+	DISPLAY: block
+}
+.serviceDepartament .list3 .listHightlight A {
+	COLOR: #0082d6; PADDING-TOP: 0.5em
+}
+.serviceDepartament .list3 .listHightlight .subCard {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 3.2em; PADDING-RIGHT: 0px; BACKGROUND: url(../img/icoSubmarinoCard3.gif) no-repeat left center; PADDING-TOP: 0px
+}
+.serviceDepartament .departService .last A {
+	COLOR: #0082d6
+}
+.serviceDepartament .departService .col2 {
+	PADDING-TOP: 15px
+}
+.serviceDepartament .departService .col3 {
+	PADDING-TOP: 15px
+}
+.serviceDepartament .departService .col4 {
+	PADDING-TOP: 15px
+}
+.serviceDepartament .departService .col5 {
+	PADDING-TOP: 15px
+}
+.serviceDepartament .title14 {
+	PADDING-BOTTOM: 35px; PADDING-LEFT: 10px; PADDING-RIGHT: 0px; BACKGROUND: url(../img/breadCrumbsBg.gif) repeat-x left bottom; MARGIN-LEFT: -10px; PADDING-TOP: 0px
+}
+.linkServiceSub A {
+	TEXT-DECORATION: none
+}
+.listArtist {
+	ZOOM: 1; MARGIN-LEFT: 30px; CLEAR: both; OVERFLOW: hidden; PADDING-TOP: 30px
+}
+.listArtist LI {
+	LIST-STYLE-POSITION: inside; TEXT-ALIGN: left; LINE-HEIGHT: 1.6; LIST-STYLE-TYPE: square; WIDTH: 33%; FLOAT: left; FONT-SIZE: 1.1em; OVERFLOW: hidden
+}
+.listArtist LI A {
+	COLOR: #666
+}
+.listArtistBox .bottomPageList {
+	MARGIN-TOP: 30px
+}
+.listArtistBox {
+	Z-INDEX: 1; CLEAR: both
+}
+.bannerList {
+	TEXT-ALIGN: center; CLEAR: both; OVERFLOW: hidden
+}
+.bannerList LI {
+	PADDING-BOTTOM: 10px; ZOOM: 1; OVERFLOW: hidden
+}
+.bannerList .last {
+	PADDING-BOTTOM: 0px
+}
+.bannerList LI STRONG {
+	DISPLAY: block; COLOR: #666; FONT-SIZE: 1.2em
+}
+.bannerList LI SPAN {
+	COLOR: #666; FONT-SIZE: 1.1em
+}
+.bannerList LI IMG {
+	WIDTH: 100%; DISPLAY: block
+}
+.wishListBox {
+	ZOOM: 1; COLOR: #666; OVERFLOW: hidden
+}
+.wishListBox .userLook SPAN {
+	COLOR: #666
+}
+.wishListBox IMG {
+	TEXT-ALIGN: center; MARGIN: 0px auto; DISPLAY: block
+}
+.wishListBox A {
+	COLOR: #666; TEXT-DECORATION: none
+}
+.wishListBox A:hover {
+	TEXT-DECORATION: underline
+}
+.wishListBox .price A {
+	COLOR: #0082d6
+}
+.wishListBox .list {
+	MARGIN-TOP: 10px; BACKGROUND: url(../img/bgDotted.gif) repeat-x left top; PADDING-TOP: 10px
+}
+.wishListBox P {
+	MARGIN: 0px; FONT-SIZE: 1.1em
+}
+.wishListBox LI {
+	MARGIN-TOP: 5px; BACKGROUND: url(../img/bgDotted.gif) repeat-x left top; PADDING-TOP: 5px
+}
+.wishListBox .first {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.wishListBox LI {
+	FONT-SIZE: 1.1em
+}
+.wishListBox .last {
+	LIST-STYLE-POSITION: outside; LIST-STYLE-TYPE: none; FONT-WEIGHT: bold
+}
+.wishListBox .open P {
+	TEXT-ALIGN: center; DISPLAY: block
+}
+.wishListBox .open IMG {
+	TEXT-ALIGN: center; DISPLAY: block
+}
+.wishListBox .description {
+	DISPLAY: none
+}
+.wishListBox .price {
+	DISPLAY: none
+}
+.wishListBox IMG {
+	DISPLAY: none
+}
+.wishListBox .open .description {
+	DISPLAY: block
+}
+.open .wishListBox .price {
+	DISPLAY: block
+}
+.open .wishListBox IMG {
+	DISPLAY: block
+}
+.wishListBox .topWishList {
+	DISPLAY: block
+}
+.shopAssistent .list2 LI {
+	LIST-STYLE-POSITION: inside; LIST-STYLE-TYPE: square; BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.shopAssistent .list2 .list {
+	LIST-STYLE-POSITION: outside; LIST-STYLE-TYPE: none; MARGIN-TOP: 10px; BACKGROUND: url(../img/bgDotted.gif) repeat-x left top; PADDING-TOP: 10px
+}
+.filterMenu .sectionFilters {
+	MARGIN-RIGHT: 5px
+}
+.filterMenu .sectionFilters .filterTitle .titleNavigation {
+	PADDING-LEFT: 5px; COLOR: #666; FONT-SIZE: 1.2em; FONT-WEIGHT: bold
+}
+.filterMenu .sectionFilters LI {
+	PADDING-BOTTOM: 1em; MARGIN-TOP: -1px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; ZOOM: 1; BACKGROUND: url(../img/bgDotted.gif) repeat-x 50% top; FONT-SIZE: 1.1em; OVERFLOW: hidden; PADDING-TOP: 1em
+}
+.filterMenu .sectionFilters .first {
+	MARGIN-TOP: -10px; BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.filterMenu .sectionFilters LI STRONG {
+	FONT-WEIGHT: normal
+}
+.filterMenu .sectionFilters LI UL LI {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 15px; PADDING-RIGHT: 5px; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-SIZE: 1em; PADDING-TOP: 0px
+}
+.filterMenu .sectionFilters LI UL LI.selected {
+	BACKGROUND: url(../img/bgCheckList.gif) #dfedf7 no-repeat 2px center
+}
+.filterMenu .sectionFilters .itens {
+	COLOR: #666
+}
+.filterMenu .sectionFilters LI UL LI A {
+	COLOR: #666
+}
+.filterMenu .sectionFilters .list {
+	PADDING-LEFT: 10px; BACKGROUND: url(../img/imgArrowHoriz.gif) no-repeat left 50%; FONT-WEIGHT: bold
+}
+.menuSection {
+	COLOR: #666
+}
+.menuSection LI {
+	PADDING-BOTTOM: 5px
+}
+.menuSection LI A {
+	PADDING-LEFT: 5px; DISPLAY: block; COLOR: #666; FONT-SIZE: 1.2em; FONT-WEIGHT: bold
+}
+.menuSection LI STRONG {
+	FONT-WEIGHT: normal
+}
+.menuSection LI UL LI {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 7px; PADDING-RIGHT: 0px; FONT-SIZE: 0.9em; PADDING-TOP: 0px
+}
+.menuSection LI UL LI.separadorMenu {
+	MARGIN-TOP: 8px; BACKGROUND: #eaeaea; FONT-WEIGHT: bold
+}
+.menuSection LI .separadorMenu STRONG {
+	FONT-WEIGHT: bold
+}
+.listSearchOptions {
+	PADDING-BOTTOM: 25px; PADDING-LEFT: 45px; PADDING-RIGHT: 0px; BACKGROUND: url(../img/bgSearchResult.gif) no-repeat left top; MARGIN-LEFT: 12px; PADDING-TOP: 0px
+}
+.listSearchOptions A {
+	COLOR: #0082d6
+}
+UL.listLetters {
+	TEXT-ALIGN: center; MARGIN: 30px 0px; OVERFLOW: hidden
+}
+UL.listLetters LI {
+	MARGIN: 0px; DISPLAY: inline; FONT-SIZE: 2.4em
+}
+UL.listLetters LI A {
+	PADDING-BOTTOM: 1px; PADDING-LEFT: 3px; PADDING-RIGHT: 3px; COLOR: #666; PADDING-TOP: 1px
+}
+UL.listLetters LI A:hover {
+	PADDING-BOTTOM: 1px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; PADDING-TOP: 1px
+}
+UL.listLetters LI A:hover {
+	BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND: #0082d6; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid
+}
+UL.listLetters LI.selected {
+	BORDER-BOTTOM: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BACKGROUND: #0082d6; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid
+}
+UL.listLetters LI.selected A {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 1px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 1px
+}
+UL.listLetters LI.selected A:hover {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 1px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 1px
+}
+UL.listLetters LI A:hover {
+	COLOR: #fff; TEXT-DECORATION: none
+}
+UL.listLetters LI.selected A {
+	COLOR: #fff; TEXT-DECORATION: none
+}
+.titleTop13 {
+	MARGIN: 0px 0px 20px 15px; FONT-SIZE: 1.8em; FONT-WEIGHT: normal
+}
+H3.titleTop13 {
+	MARGIN: 0px 0px 20px 15px; FONT-SIZE: 1.8em; FONT-WEIGHT: normal
+}
+UL.listTop13 {
+	PADDING-BOTTOM: 30px; MARGIN: 0px; PADDING-LEFT: 0pt; PADDING-RIGHT: 0pt; OVERFLOW: hidden; PADDING-TOP: 20px
+}
+UL.listTop13 LI {
+	PADDING-BOTTOM: 0px; MARGIN: 0px 0px 10px; PADDING-LEFT: 0px; WIDTH: 49.9%; PADDING-RIGHT: 0px; FLOAT: left; FONT-SIZE: 1.2em; PADDING-TOP: 0px
+}
+UL.listTop13 LI A {
+	COLOR: #666
+}
+UL.listTop13 LI UL {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; PADDING-TOP: 0px
+}
+UL.listTop13 LI.detached {
+	POSITION: relative; TEXT-ALIGN: center; MARGIN: 0px 0px 10px; WIDTH: 33%; FLOAT: left; FONT-SIZE: 1.3em
+}
+UL.listTop13 LI.detached DIV.wrapDetachedItem {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; PADDING-TOP: 0px
+}
+UL.listTop13 LI.detached SPAN.line {
+	POSITION: absolute; WIDTH: 100%; BOTTOM: 1em; DISPLAY: block; LEFT: 0px
+}
+UL.listTop13 LI IMG {
+	MARGIN: 0px auto; DISPLAY: block; HEIGHT: 11.5em
+}
+UL.listTop13 LI IMG.imgFade2 {
+	MARGIN-TOP: -150px
+}
+UL.listTop13 UL LI {
+	MARGIN: 0px; WIDTH: 100%; FLOAT: none; FONT-SIZE: 1em
+}
+UL.listTop13 LI SPAN.ico_cd {
+	BORDER-BOTTOM: #462091 1px solid; BORDER-LEFT: #462091 1px solid; PADDING-BOTTOM: 1px; TEXT-TRANSFORM: uppercase; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; BACKGROUND: url(../img/bgIcoBlue.gif) #462091 repeat-x 0px 0px; COLOR: #fff; FONT-SIZE: 0.7em; BORDER-TOP: #462091 1px solid; BORDER-RIGHT: #462091 1px solid; PADDING-TOP: 1px
+}
+UL.listTop13 LI SPAN.ico_dvd {
+	BORDER-BOTTOM: #462091 1px solid; BORDER-LEFT: #462091 1px solid; PADDING-BOTTOM: 1px; TEXT-TRANSFORM: uppercase; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; BACKGROUND: url(../img/bgIcoBlue.gif) #462091 repeat-x 0px 0px; COLOR: #fff; FONT-SIZE: 0.7em; BORDER-TOP: #462091 1px solid; BORDER-RIGHT: #462091 1px solid; PADDING-TOP: 1px
+}
+UL.listTop13 LI SPAN.ico_book {
+	BORDER-BOTTOM: #462091 1px solid; BORDER-LEFT: #462091 1px solid; PADDING-BOTTOM: 1px; TEXT-TRANSFORM: uppercase; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; BACKGROUND: url(../img/bgIcoBlue.gif) #462091 repeat-x 0px 0px; COLOR: #fff; FONT-SIZE: 0.7em; BORDER-TOP: #462091 1px solid; BORDER-RIGHT: #462091 1px solid; PADDING-TOP: 1px
+}
+UL.listTop13 LI SPAN.ico_cd {
+	BORDER-BOTTOM-COLOR: #eda200; BORDER-TOP-COLOR: #eda200; BACKGROUND: url(../img/bgIcoYellow.gif) #eda200 repeat-x 0px 0px; BORDER-RIGHT-COLOR: #eda200; BORDER-LEFT-COLOR: #eda200
+}
+UL.listTop13 LI SPAN.ico_book {
+	BORDER-BOTTOM-COLOR: #5aa61f; BORDER-TOP-COLOR: #5aa61f; BACKGROUND: url(../img/bgIcoGreen.gif) #5aa61f repeat-x 0px 0px; BORDER-RIGHT-COLOR: #5aa61f; BORDER-LEFT-COLOR: #5aa61f
+}
+.productPicFull {
+	TEXT-ALIGN: center; PADDING-LEFT: 15px; FLOAT: left
+}
+.boxProductPics {
+	TEXT-ALIGN: center; PADDING-LEFT: 15px; FLOAT: left
+}
+.productPicFull IMG {
+	WIDTH: 18em; HEIGHT: 18em
+}
+DIV.boxProductPics .zoom {
+	TEXT-ALIGN: center; MARGIN: 0px 0px 25px
+}
+DIV.boxProductPics .btView360Gray {
+	MARGIN: 0.2em 0px 0px
+}
+DIV.boxProductPics .btDownloadManual {
+	MARGIN: 0.2em 0px 0px
+}
+DIV.boxProductPics .btWatchVideo {
+	MARGIN: 0.2em 0px 0px
+}
+UL.listThumbsProduct {
+	TEXT-ALIGN: center; CLEAR: left; OVERFLOW: hidden
+}
+UL.listThumbsProduct LI {
+	MARGIN: 0px 0px 0.4em; WIDTH: 40px; DISPLAY: inline
+}
+UL.listThumbsProduct LI A IMG {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; MARGIN: 0px 0.2em; WIDTH: 3.8em; HEIGHT: 3.8em; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid
+}
+.searchNavigation .sectionSearch .filterTitle {
+	MARGIN-TOP: 10px
+}
+.searchNavigation .sectionSearch .filterTitle .titleNavigation {
+	PADDING-LEFT: 5px; COLOR: #666; FONT-SIZE: 1.2em; FONT-WEIGHT: bold
+}
+.searchNavigation .sectionSearch LI STRONG {
+	FONT-WEIGHT: normal
+}
+.searchNavigation .sectionSearch LI UL LI {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 15px; PADDING-RIGHT: 5px; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-SIZE: 1.1em; PADDING-TOP: 0px
+}
+.searchNavigation .sectionSearch .itens {
+	COLOR: #666; MARGIN-LEFT: 2px
+}
+.searchNavigation .sectionSearch LI UL LI A {
+	COLOR: #666
+}
+.searchNavigation .sectionSearch .selected {
+	BACKGROUND: url(../img/bgCheckList.gif) #dfedf7 no-repeat 2px center
+}
+.searchNavigation .sectionSearch .selected STRONG {
+	FONT-WEIGHT: normal
+}
+.searchNavigation .sectionSearch .list STRONG {
+	FONT-WEIGHT: bold
+}
+DIV.boxProductPrice {
+	MARGIN: 0px 0px 2em; CLEAR: left
+}
+DIV.roundCornerTL {
+	ZOOM: 1; BACKGROUND: url(../img/roundCornerTL.gif) #f6f6f6 no-repeat 0px 0px
+}
+DIV.roundCornerTR {
+	BACKGROUND: url(../img/roundCornerTR.gif) no-repeat right 0px
+}
+DIV.roundCornerBL {
+	BACKGROUND: url(../img/roundCornerBL.gif) no-repeat 0px bottom
+}
+DIV.roundCornerBR {
+	PADDING-BOTTOM: 2em; PADDING-LEFT: 1.2em; PADDING-RIGHT: 1.2em; BACKGROUND: url(../img/roundCornerBR.gif) no-repeat right bottom; PADDING-TOP: 1.5em
+}
+DIV.roundCornerBR:after {
+	LINE-HEIGHT: 0; DISPLAY: block; HEIGHT: 0px; VISIBILITY: hidden; CLEAR: both; FONT-SIZE: 0px
+}
+.box7 .roundCornerTR {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.box7 DIV.roundCornerTL {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+UL.listPriceInfo {
+	MARGIN: 0px -13em 0px 0px; FLOAT: left
+}
+UL.listPriceInfo LI {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 13em; FONT-SIZE: 1.1em; PADDING-TOP: 0px
+}
+UL.listPriceInfo .from {
+	DISPLAY: block; FONT-WEIGHT: normal
+}
+UL.listPriceInfo .for {
+	DISPLAY: block; COLOR: #0082d6; FONT-SIZE: 1.5em; FONT-WEIGHT: bold
+}
+UL.listPriceInfo LI.totalDiscount {
+	COLOR: #178e07
+}
+UL.listPriceInfo LI.parceledPrice {
+	PADDING-RIGHT: 7.25em; COLOR: #0082d6
+}
+UL.listPriceInfo LI.taxSubCardInfo {
+	FONT-SIZE: 0.9em
+}
+UL.listPriceInfo LI.paymentMethods A {
+	COLOR: #666
+}
+UL.listPriceInfo LI.paymentMethods {
+	POSITION: relative; PADDING-TOP: 10px
+}
+SPAN.strike {
+	MARGIN-RIGHT: 15px; TEXT-DECORATION: line-through
+}
+UL.listBuyButtons {
+	WIDTH: 12.1em; FLOAT: right
+}
+UL.listBuyButtons LI {
+	ZOOM: 1
+}
+UL.listBuyButtons LI.btBuy {
+	PADDING-BOTTOM: 0.5em
+}
+UL.listBuyButtons LI.btBuy IMG {
+	WIDTH: 12em
+}
+UL.listBuyButtons LI.btAddList {
+	POSITION: relative
+}
+UL.listBuyButtons LI.btAddList IMG {
+	WIDTH: 11em
+}
+UL.listBuyButtons IMG {
+	MARGIN: 0px auto; DISPLAY: block
+}
+DIV.boxProductPrice UL.listBuyButtons LI.btBuy IMG {
+	WIDTH: 122px; BACKGROUND: url(../img/btbuy_gd.gif) no-repeat; HEIGHT: 0px; OVERFLOW: hidden; PADDING-TOP: 28px
+}
+DIV.boxProductPrice UL.listBuyButtons LI.btAddList IMG {
+	WIDTH: 111px; BACKGROUND: url(../img/btadd_gd.gif) no-repeat; HEIGHT: 0px; OVERFLOW: hidden; PADDING-TOP: 15px
+}
+.productList UL.listBuyButtons LI.btBuy IMG {
+	WIDTH: 101px
+}
+.productList UL.listBuyButtons LI.btAddList IMG {
+	WIDTH: 102px
+}
+P.milesSubmarinoCard {
+	MARGIN: 0px 0px 0px 1em; FONT-SIZE: 1.1em
+}
+P.milesSubmarinoCard IMG {
+	POSITION: relative; MARGIN: -1em 0.5em 0px 0px; WIDTH: 3.6em; VERTICAL-ALIGN: middle
+}
+P.milesSubmarinoCard A {
+	COLOR: #0082d6; TEXT-DECORATION: none
+}
+P.milesSubmarinoCard A:hover SPAN {
+	TEXT-DECORATION: underline
+}
+DIV.boxShipping {
+	POSITION: relative; MARGIN: 0px 0px 2em; ZOOM: 1; FONT-SIZE: 1.1em
+}
+DIV.boxShipping .type1 {
+	MARGIN: 0px; COLOR: #666; FONT-SIZE: 1.2em
+}
+DIV.boxShipping .type1 A {
+	COLOR: #666
+}
+DIV.boxShipping .type1 SPAN {
+	FONT-SIZE: 0.75em
+}
+DIV.boxShipping .type2 {
+	MARGIN: 0px 5px 0px 0px; COLOR: #0082d6; FONT-SIZE: 1.2em
+}
+DIV.boxShipping .type3 {
+	CLEAR: left; OVERFLOW: hidden; PADDING-TOP: 10px
+}
+DIV.boxShipping .otherLocations {
+	DISPLAY: block
+}
+DIV.boxShipping .otherLocations A {
+	MARGIN: 3px 0px 0px 5px; DISPLAY: block; COLOR: #666; FONT-SIZE: 0.8em
+}
+DIV.boxShipping .otherLocations A IMG {
+	MARGIN: 0px 5px 0px 0px
+}
+DIV.boxShipping .imgFreeShipping {
+	DISPLAY: block; CLEAR: both
+}
+DIV.boxShipping .btFreeShipping {
+	MARGIN-BOTTOM: 15px
+}
+DIV.boxShipping .btFreeShipping STRONG {
+	COLOR: #0082d6
+}
+DIV.boxShipping .btFreeShipping SPAN {
+	FONT-WEIGHT: bold
+}
+DIV.boxProductAvail {
+	MARGIN: 0px 0px 2em
+}
+DIV.boxProductAvail A {
+	COLOR: #666
+}
+DIV.boxProductAvail H4 {
+	MARGIN: 0px 0px 0.3em; COLOR: #666; FONT-SIZE: 1.2em
+}
+DIV.boxProductAvail H4 IMG {
+	MARGIN: 0px 0.1em 0px 0px; WIDTH: 2.1em; VERTICAL-ALIGN: middle
+}
+DIV.boxProductAvail H4 SMALL {
+	FONT-SIZE: 0.8em; FONT-WEIGHT: normal
+}
+DIV.boxProductAvail H4 SMALL A {
+	TEXT-DECORATION: underline
+}
+DIV.boxProductAvail UL.listAvailOptions {
+	PADDING-BOTTOM: 0.3em; PADDING-LEFT: 0.2em; PADDING-RIGHT: 0px; OVERFLOW: hidden; PADDING-TOP: 0px
+}
+DIV.boxProductAvail UL.listAvailOptions * {
+	VERTICAL-ALIGN: bottom
+}
+DIV.boxProductAvail UL.listAvailOptions LI {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0.6em; FLOAT: left; PADDING-TOP: 0px
+}
+DIV.boxProductAvail UL.listAvailOptions LI LABEL {
+	FONT-SIZE: 1.1em
+}
+DIV.boxProductAvail UL.listAvailOptions LI.separator {
+	VERTICAL-ALIGN: middle
+}
+DIV.boxProductAvail UL.listAvailOptions LI.lineSeparator {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; WIDTH: 100%; PADDING-RIGHT: 0px; FLOAT: none; HEIGHT: 0px; FONT-SIZE: 0px; OVERFLOW: hidden; PADDING-TOP: 0px
+}
+DIV.boxProductAvail UL.listAvailOptions LI.firstColumn {
+	WIDTH: 8.5em; CLEAR: both
+}
+DIV.boxProductAvail UL.listAvailOptions LI.firstColumn A {
+	FONT-SIZE: 1.1em
+}
+DIV.boxProductAvail UL.listAvailOptions LI INPUT {
+	MARGIN: 0px 0.2em 0px 0px; VERTICAL-ALIGN: middle
+}
+DIV.boxProductAvail UL.listAvailOptions LI IMG {
+	WIDTH: 6.8em
+}
+DIV.boxProductAvail UL.listAvailOptions LI.avail A:hover {
+	TEXT-DECORATION: none
+}
+DIV.boxProductAvail UL.listAvailOptions LI.avail A:hover SPAN {
+	TEXT-DECORATION: underline
+}
+DIV.boxProductAvail UL.listAvailOptions .avail .rankingListBox LI {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+DIV.boxProductAvail UL.listAvailOptions .avail .rankingListBox LI A:hover SPAN {
+	TEXT-DECORATION: none
+}
+.boxReadRatings .col1 .rankingList {
+	PADDING-LEFT: 5px
+}
+.rankingList {
+	DISPLAY: inline; OVERFLOW: hidden
+}
+.rankingList LI IMG {
+	WIDTH: auto; VERTICAL-ALIGN: middle
+}
+.rankingList LI {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: inline; BACKGROUND: none transparent scroll repeat 0% 0%; FLOAT: none; PADDING-TOP: 0px
+}
+.bannerFactoryBox {
+	MIN-HEIGHT: 125px; ZOOM: 1; OVERFLOW: hidden
+}
+.bannerFactoryBox H1 {
+	DISPLAY: none
+}
+.bannerFactory {
+	FLOAT: right
+}
+.componentHighLight {
+	ZOOM: 1; OVERFLOW: hidden
+}
+.artistSearchBox {
+	BACKGROUND: #fff
+}
+.artistSearchBox H1 {
+	PADDING-LEFT: 15px; FONT-SIZE: 1.6em
+}
+.highLightBrands LI {
+	TEXT-ALIGN: center; WIDTH: 16.3%; FLOAT: left; OVERFLOW: hidden
+}
+.highLightBrands LI A {
+	COLOR: #666
+}
+.highLightBrands LI A SPAN {
+	DISPLAY: block; FONT-SIZE: 1.1em
+}
+.highLightBrands LI A IMG {
+	MAX-WIDTH: 100%
+}
+.box2 .allBrands {
+	ZOOM: 1; FLOAT: right; FONT-SIZE: 1.1em
+}
+.box2 .allBrands A {
+	COLOR: #666
+}
+.boxProductKits {
+	PADDING-TOP: 10px
+}
+UL.listProductKits {
+	OVERFLOW: hidden
+}
+UL.listProductKits LI {
+	POSITION: relative; PADDING-BOTTOM: 1em; PADDING-LEFT: 1em; PADDING-RIGHT: 13em; DISPLAY: block; BACKGROUND: url(../img/bottedLightBlue.gif) repeat-x 0px 0px; HEIGHT: 100%; OVERFLOW: hidden; PADDING-TOP: 2.5em
+}
+UL.listProductKits LI.first {
+	PADDING-BOTTOM: 1em; PADDING-LEFT: 1em; PADDING-RIGHT: 13em; PADDING-TOP: 0px
+}
+UL.listProductKits LI UL LI {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+UL.listProductKits LI.first {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+UL.listProductKits LI DIV.leftColumn {
+	WIDTH: 100%; FLOAT: left; HEIGHT: 100%; MARGIN-RIGHT: -13em
+}
+UL.listProductKits LI DIV.rightColumn {
+	POSITION: relative; WIDTH: 12em; FLOAT: right; HEIGHT: 100%; OVERFLOW: hidden; LEFT: 13em
+}
+UL.boxPicsKit {
+	WIDTH: 27em; FLOAT: left; HEIGHT: 100%; OVERFLOW: hidden
+}
+UL.boxPicsKit LI {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FLOAT: left; PADDING-TOP: 0px
+}
+UL.boxPicsKit LI.separator {
+	TEXT-ALIGN: center; LINE-HEIGHT: 7em; WIDTH: 1.2em; COLOR: #666; FONT-SIZE: 1.8em
+}
+UL.boxInfoKit {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; HEIGHT: 100%; FONT-SIZE: 1.1em; PADDING-TOP: 0px
+}
+UL.boxInfoKit LI {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+UL.boxInfoKit LI SPAN {
+	COLOR: #0082d6
+}
+UL.boxInfoKit LI STRONG {
+	FONT-WEIGHT: bold
+}
+UL.boxInfoKit LI.title {
+	MARGIN: 0px 0px 0.5em; FONT-WEIGHT: bold
+}
+UL.boxInfoKit LI.title SPAN {
+	COLOR: #666; FONT-WEIGHT: normal
+}
+UL.boxInfoKit LI.title A {
+	COLOR: #666
+}
+DIV.rightColumn P.btBuyKit {
+	WIDTH: 11.1em; HEIGHT: 3em
+}
+DIV.rightColumn P.btBuyKit IMG {
+	
+}
+DIV.boxProductName {
+	MARGIN: 0px 0px 1em
+}
+DIV.boxProductName .brands LI {
+	DISPLAY: inline; FONT-SIZE: 1.1em; MARGIN-RIGHT: 5px
+}
+DIV.boxProductName .brands LI A {
+	COLOR: #666
+}
+DIV.boxProductName H1 {
+	FONT-SIZE: 1.6em
+}
+DIV.boxProductName H1 SMALL {
+	FONT-SIZE: 0.7em; FONT-WEIGHT: normal
+}
+DIV.boxProductName .brands LI {
+	DISPLAY: inline; FONT-SIZE: 1.1em; MARGIN-RIGHT: 5px
+}
+DIV.boxProductName .brands LI A {
+	COLOR: #666
+}
+DIV.boxProductName UL.listMoreInfos {
+	PADDING-BOTTOM: 10px; OVERFLOW: hidden
+}
+DIV.boxProductName UL.listMoreInfos LI {
+	MARGIN: 0px 0.5em 0.5em 0px; FLOAT: left
+}
+DIV.boxProductName UL.listMoreInfos LI.withoutAvail {
+	FLOAT: none; FONT-SIZE: 1.1em
+}
+DIV.boxProductName UL.listMoreInfos LI.withoutAvail A {
+	COLOR: #666; TEXT-DECORATION: underline
+}
+DIV.boxProductName UL.listMoreInfos LI.generalAvail {
+	POSITION: relative; FONT-SIZE: 1.1em
+}
+DIV.boxProductName UL.listMoreInfos LI.generalAvail IMG {
+	WIDTH: auto
+}
+DIV.boxProductName UL.listMoreInfos LI.btMoreInfoAvails IMG {
+	WIDTH: 1em
+}
+DIV.boxProductName UL.listMoreInfos LI.btProductDetail {
+	CLEAR: both
+}
+DIV.boxProductName UL.listMoreInfos LI.btProductDetail IMG {
+	WIDTH: 14.1em
+}
+DIV.boxProductName .sku {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: block; CLEAR: both; OVERFLOW: hidden; PADDING-TOP: 10px
+}
+DIV.boxProductName .sku SELECT {
+	FONT-SIZE: 1.1em
+}
+DIV.boxProductName .sku FIELDSET {
+	MARGIN-BOTTOM: 5px
+}
+DIV.boxProductName .sku LABEL {
+	TEXT-ALIGN: right; FLOAT: left; FONT-SIZE: 1.1em; FONT-WEIGHT: bold; MARGIN-RIGHT: 5px
+}
+DIV.boxProductName .sku .type1 {
+	WIDTH: 6em
+}
+.productInformation .listFeatureTecnica LI {
+	MARGIN: 10px 30px 20px 0px; ZOOM: 1; FLOAT: left; OVERFLOW: hidden
+}
+.productInformation .ficheTechnique {
+	POSITION: relative; MARGIN: 0px 15px; CLEAR: left; FONT-SIZE: 1.1em
+}
+.productInformation .promotion {
+	MARGIN-BOTTOM: 50px
+}
+.productInformation .ficheTechnique A {
+	COLOR: #666; TEXT-DECORATION: underline
+}
+.box6 {
+	Z-INDEX: 2; BORDER-BOTTOM: #ccc 1px solid; POSITION: absolute; BORDER-LEFT: #ccc 1px solid; MIN-HEIGHT: 4em; BACKGROUND: url(../img/bgBox6.png) #fff repeat-x 50% top; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid
+}
+DIV.boxProductName UL.listMoreInfos LI.generalAvail .boxEvalClient .box6 {
+	DISPLAY: none
+}
+DIV.boxProductName UL.listMoreInfos LI.selected .boxEvalClient .box6 {
+	DISPLAY: block
+}
+.boxEvalClient .box6 {
+	WIDTH: 18em; TOP: 1.5em; LEFT: 5.9em
+}
+.boxEvalClient .box6A {
+	POSITION: relative; PADDING-BOTTOM: 0px; PADDING-LEFT: 1em; WIDTH: 18em; PADDING-RIGHT: 1em; BACKGROUND: url(../img/arowBox6.gif) no-repeat 15em top; TOP: -11px; PADDING-TOP: 1.7em
+}
+.btAddList .boxGroupLists .box6 {
+	DISPLAY: none
+}
+.selected .boxGroupLists .box6 {
+	DISPLAY: block
+}
+.boxGroupLists .box6 {
+	WIDTH: 23em; TOP: 1.8em; LEFT: -11.5em
+}
+.boxGroupLists .box6A {
+	POSITION: relative; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: url(../img/arowBox6.gif) no-repeat 21em top; TOP: -1.1em; PADDING-TOP: 1.7em
+}
+.buttonAddList .boxAddAllList .box6 {
+	DISPLAY: none
+}
+.selected .boxAddAllList .box6 {
+	DISPLAY: block
+}
+.boxAddAllList .box6 {
+	WIDTH: 18.9em; TOP: 43.2em; LEFT: 48.7em
+}
+.boxAddAllList .box6A {
+	POSITION: relative; PADDING-BOTTOM: 0px; PADDING-LEFT: 1em; PADDING-RIGHT: 1em; BACKGROUND: url(../img/arowBox6.gif) no-repeat 17em top; TOP: -1em; PADDING-TOP: 1.7em
+}
+.boxAddAllList .title13 {
+	FONT-SIZE: 1em
+}
+.boxAddAllList LABEL {
+	FONT-SIZE: 0.8em
+}
+UL.listPriceInfo LI.parceledCondition .boxFormPag .box6 {
+	DISPLAY: none
+}
+UL.listPriceInfo LI.parceledCondition .selected .boxFormPag .box6 {
+	DISPLAY: block
+}
+UL.listPriceInfo LI.parceledCondition {
+	COLOR: #0082d6; FONT-SIZE: 1.5em; FONT-WEIGHT: bold
+}
+.boxFormPag .box6 {
+	WIDTH: 31em; TOP: 20.1em; LEFT: -3.9em
+}
+.boxFormPag .box6A {
+	POSITION: relative; PADDING-BOTTOM: 0px; PADDING-LEFT: 1em; PADDING-RIGHT: 1em; BACKGROUND: url(../img/arowBox6.gif) no-repeat 21em top; TOP: -1.1em; PADDING-TOP: 1.7em
+}
+.paymentMethods {
+	CLEAR: both; OVERFLOW: hidden
+}
+UL.listPriceInfo LI.paymentMethods .boxFormPag2 .box6 {
+	DISPLAY: none
+}
+UL.listPriceInfo LI.selected .boxFormPag2 .box6 {
+	DISPLAY: block
+}
+.boxFormPag2 .box6 {
+	WIDTH: 36em; TOP: 2.5em; LEFT: -4.9em
+}
+.boxFormPag2 .box6A {
+	POSITION: relative; PADDING-BOTTOM: 0px; PADDING-LEFT: 1em; PADDING-RIGHT: 1em; BACKGROUND: url(../img/arowBox6.gif) no-repeat 21em top; TOP: -1.1em; PADDING-TOP: 1.7em
+}
+DIV.boxShipping .boxCepList .box6 {
+	DISPLAY: none
+}
+DIV.boxShipping .boxCepList2 .box6 {
+	DISPLAY: none
+}
+DIV.selected .boxCepList .box6 {
+	DISPLAY: block
+}
+DIV.selected .boxCepList2 {
+	DISPLAY: block
+}
+.boxCepList .box6 {
+	WIDTH: 31em; TOP: 3.3em; LEFT: 8.8em
+}
+.boxCepList .box6A {
+	POSITION: relative; PADDING-BOTTOM: 0px; PADDING-LEFT: 1em; PADDING-RIGHT: 1em; BACKGROUND: url(../img/arowBox6.gif) no-repeat 21em top; TOP: -1.1em; PADDING-TOP: 1.7em
+}
+.boxCepList2 .box6 {
+	WIDTH: 37em; TOP: 69.3em; LEFT: 11.8em
+}
+.boxCepList2 .box6A {
+	POSITION: relative; PADDING-BOTTOM: 0px; PADDING-LEFT: 1em; PADDING-RIGHT: 1em; BACKGROUND: url(../img/arowBox6.gif) no-repeat 21em top; TOP: -1.1em; PADDING-TOP: 1.7em
+}
+.boxDetail .box6 {
+	WIDTH: 31em; TOP: 86.7em; LEFT: 13.9em
+}
+.boxDetail .box6A {
+	POSITION: relative; PADDING-BOTTOM: 0px; PADDING-LEFT: 1em; PADDING-RIGHT: 1em; BACKGROUND: url(../img/arowBox6.gif) no-repeat 2em top; TOP: -1.1em; PADDING-TOP: 1.7em
+}
+.price .listBuyButtons {
+	WIDTH: 100%; FLOAT: none
+}
+.price .listBuyButtons LI {
+	PADDING-BOTTOM: 0px; MARGIN-TOP: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; ZOOM: 1; BACKGROUND: none transparent scroll repeat 0% 0%; HEIGHT: auto; OVERFLOW: visible; PADDING-TOP: 0px
+}
+.price .listBuyButtons LI.btBuy {
+	MARGIN: 0px; HEIGHT: auto
+}
+.price .listBuyButtons LI.btAddList {
+	MARGIN: 0px; HEIGHT: auto
+}
+.price .listBuyButtons LI.btBuy IMG {
+	WIDTH: 100%
+}
+.price .listBuyButtons LI.btAddList IMG {
+	WIDTH: 100%
+}
+.price .boxGroupLists .box6 {
+	LEFT: -12.6em
+}
+.product .price .listBuyButtons LI.btBuy A {
+	POSITION: static
+}
+.product .price .listBuyButtons LI.btAddList A {
+	POSITION: static
+}
+.cepList .dayDelivery {
+	LINE-HEIGHT: 20px; FONT-SIZE: 0.9em
+}
+.cepList .dayDelivery .listDayDelivery INPUT {
+	VERTICAL-ALIGN: middle
+}
+.cepList .dayDelivery A {
+	PADDING-BOTTOM: 1em; DISPLAY: block; COLOR: #666; FONT-SIZE: 1.1em
+}
+.cepList .dayDelivery A IMG {
+	MARGIN-LEFT: 5px
+}
+.cepList .dayDelivery .consultCep {
+	MARGIN-TOP: -1px; ZOOM: 1; DISPLAY: block; BACKGROUND: url(../img/bgDotted.gif) repeat-x 50% top; COLOR: #0082d6; OVERFLOW: hidden; PADDING-TOP: 1em
+}
+#page .button1 {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; LINE-HEIGHT: 0; TEXT-INDENT: -9999px; WIDTH: 26px; DISPLAY: inline-block; BACKGROUND: url(../img/bt_ok.gif) no-repeat; HEIGHT: 16px; BORDER-TOP: medium none; CURSOR: pointer; BORDER-RIGHT: medium none
+}
+.optionDelivery {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+}
+.cepList2 {
+	MARGIN: 0px auto; WIDTH: 29em
+}
+.cepList2 .dayDelivery {
+	PADDING-BOTTOM: 20px; MARGIN: 0px auto; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 10px
+}
+.cepList2 .dayDelivery SPAN {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: none transparent scroll repeat 0% 0%; FLOAT: left; MARGIN-LEFT: 5px; PADDING-TOP: 0px
+}
+.cepList2 .consultCep {
+	COLOR: #0082d6; FONT-SIZE: 1.1em; OVERFLOW: hidden
+}
+.cepList2 STRONG {
+	TEXT-ALIGN: center; FONT-SIZE: 1.1em
+}
+.cepList2 LABEL {
+	FLOAT: left; OVERFLOW: hidden
+}
+.cepList2 INPUT {
+	FLOAT: left; OVERFLOW: hidden
+}
+.cepList2 INPUT {
+	MARGIN-LEFT: 5px; OVERFLOW: hidden
+}
+.cepListInfo {
+	PADDING-BOTTOM: 20px; MARGIN: 0px auto; WIDTH: 29em
+}
+.cepListInfo LI {
+	FONT-SIZE: 1.2em
+}
+.cepListInfo .period {
+	COLOR: #0082d6
+}
+.cepListInfo .service {
+	FONT-SIZE: 1em
+}
+.boxCepList2 SPAN {
+	BACKGROUND: url(../img/bgDotted.gif) repeat-x 50% top; FLOAT: left; FONT-SIZE: 1.1em; OVERFLOW: hidden; PADDING-TOP: 5px
+}
+.groupLists .allListStandard {
+	LINE-HEIGHT: 20px; FONT-SIZE: 1.1em
+}
+.groupLists .allListStandard INPUT {
+	VERTICAL-ALIGN: middle
+}
+.groupLists .listStandard {
+	MARGIN-LEFT: 15px
+}
+.groupLists .allListStandard .button1 {
+	FLOAT: right; MARGIN-RIGHT: 10px
+}
+.groupLists .layerBottom {
+	PADDING-BOTTOM: 5px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; ZOOM: 1; OVERFLOW: hidden; PADDING-TOP: 5px
+}
+.addAllList .addListComponent {
+	FONT-SIZE: 1.1em
+}
+.addAllList .addListComponent INPUT {
+	VERTICAL-ALIGN: middle
+}
+.addAllList .button1 {
+	MARGIN-TOP: 10px; FLOAT: right
+}
+.addAllList .addListComponent .bgLine {
+	PADDING-BOTTOM: 1em; MARGIN-TOP: -1px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; ZOOM: 1; BACKGROUND: url(../img/bgDotted.gif) repeat-x 50% top; OVERFLOW: hidden; PADDING-TOP: 0.5em
+}
+.addAllList .addListComponent .first {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.formPag .interest {
+	COLOR: #0082d6
+}
+.formPag .typePag {
+	OVERFLOW: hidden
+}
+.formPag .typePag LI {
+	MARGIN-TOP: -1px; COLOR: #0082d6; OVERFLOW: hidden
+}
+.formPag .typePag .interest2 {
+	DISPLAY: block; FONT-SIZE: 1.1em
+}
+.formPag .interest {
+	WIDTH: 50%; FLOAT: right; COLOR: #666; FONT-SIZE: 1em; MARGIN-RIGHT: 7px
+}
+.formPag .typePag .parcelCard LI.discount {
+	FONT-WEIGHT: bold
+}
+.formPag .typePag .parcelCard {
+	WIDTH: 49%; FLOAT: left; OVERFLOW: hidden
+}
+.formPag .typePag .parcelCard LI {
+	PADDING-BOTTOM: 2px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-SIZE: 1.2em; MARGIN-RIGHT: 1px; PADDING-TOP: 2px
+}
+.formPag .typePag .parcelCard LI A {
+	COLOR: #0082d6
+}
+.formPag .typePag .imgCard {
+	WIDTH: 5.9em; FLOAT: left; MARGIN-RIGHT: 10px
+}
+.formPag .typePag .title15 {
+	PADDING-BOTTOM: 0.5em; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: block; BACKGROUND: url(../img/bgDotted.gif) repeat-x right center; COLOR: #666; FONT-SIZE: 1.2em; PADDING-TOP: 0.5em
+}
+.formPag .typePag .title15 A {
+	COLOR: #666
+}
+.formPag .typePag .title15 .type1 {
+	PADDING-RIGHT: 4px; DISPLAY: inline; BACKGROUND: #f6f6f6; COLOR: #666; FONT-WEIGHT: normal
+}
+.formPag .typePag .formPagSub {
+	COLOR: #0082d6; FONT-SIZE: 1.6em; FONT-WEIGHT: bold
+}
+.evalClient {
+	COLOR: #666; FONT-SIZE: 1.1em
+}
+.evalClient .levelEval IMG {
+	WIDTH: 6.9em
+}
+.evalClient .eval {
+	FONT-WEIGHT: bold
+}
+.evalClient .opni {
+	PADDING-LEFT: 10px; BACKGROUND: url(../img/pont.gif) no-repeat left 50%; CLEAR: both
+}
+.evalClient .opni SPAN {
+	COLOR: #666
+}
+.evalClient .opni A {
+	COLOR: #666
+}
+.detail {
+	FONT-SIZE: 1.1em
+}
+.detail .specification {
+	MARGIN-BOTTOM: 20px
+}
+.detail .otherProduct {
+	PADDING-BOTTOM: 1em; MARGIN-TOP: -1px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; ZOOM: 1; BACKGROUND: url(../img/bgDotted.gif) repeat-x 50% top; OVERFLOW: hidden; PADDING-TOP: 1em
+}
+.detail .otherProduct A {
+	COLOR: #666; TEXT-DECORATION: none
+}
+.menuNavigationCollections .collectionsNavigation .collectionsTitle {
+	MARGIN-TOP: 10px; PADDING-LEFT: 10px; FONT-SIZE: 1.2em; FONT-WEIGHT: bold
+}
+.menuNavigationCollections .collectionsNavigation UL LI {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 20px; PADDING-RIGHT: 5px; FONT-SIZE: 1.1em; PADDING-TOP: 0px
+}
+.menuNavigationCollections .collectionsNavigation UL LI A {
+	COLOR: #666
+}
+.menuNavigationCollections .collectionsNavigation .itens {
+	COLOR: #666
+}
+.withMultiInsertion .box2 {
+	PADDING-BOTTOM: 0px
+}
+.withMultiInsertion INPUT {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-TOP: medium none; BORDER-RIGHT: medium none
+}
+.withMultiInsertion .productGenericList .selectSale {
+	PADDING-LEFT: 10px; COLOR: #0082d6; FONT-SIZE: 1.2em; VERTICAL-ALIGN: middle; FONT-WEIGHT: bold
+}
+.withMultiInsertion .grid LI {
+	OVERFLOW: visible
+}
+.withMultiInsertion .grid .product .link {
+	WIDTH: 100%
+}
+.withMultiInsertion .grid .product .link .image {
+	
+}
+.withMultiInsertion .grid .product FORM {
+	TEXT-ALIGN: center; MARGIN-RIGHT: 0px
+}
+.withMultiInsertion .grid .product .link .image {
+	DISPLAY: inline
+}
+.grid .product .stamps IMG {
+	DISPLAY: inline
+}
+.withMultiInsertion .productList LI {
+	OVERFLOW: hidden
+}
+.withMultiInsertion .product .link {
+	WIDTH: auto
+}
+.withMultiInsertion .product .link .image {
+	MARGIN: 0px
+}
+.withMultiInsertion .product FORM {
+	TEXT-ALIGN: right; MARGIN-RIGHT: 35px
+}
+.componentWorld {
+	BACKGROUND: #fff
+}
+.componentWorld H1 {
+	PADDING-LEFT: 10px; COLOR: #0082d6; FONT-SIZE: 1.8em; FONT-WEIGHT: normal
+}
+.componentWorld P {
+	MARGIN: 0px; PADDING-LEFT: 10px; FONT-SIZE: 1.1em
+}
+.componentWorld P A {
+	COLOR: #666
+}
+.componentWorld .allMarks {
+	PADDING-BOTTOM: 1em; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; CLEAR: left; OVERFLOW: hidden; PADDING-TOP: 1em
+}
+.componentWorld .logos {
+	OVERFLOW: hidden
+}
+.componentWorld .logos LI {
+	PADDING-BOTTOM: 15px; MARGIN-TOP: -1px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; ZOOM: 1; BACKGROUND: url(../img/bgDotted.gif) repeat-x 50% top; PADDING-TOP: 15px
+}
+.multiProductsCart {
+	PADDING-BOTTOM: 50px; MARGIN: 20px 10px 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: url(../img/bgDotted.gif) repeat-x center top; PADDING-TOP: 20px
+}
+.multiProductsCart .buttonProductsCart {
+	MARGIN: 0px 20px; FLOAT: right
+}
+.multiProductsCart .quantProductsCart P {
+	TEXT-ALIGN: right; LINE-HEIGHT: 1.2em; MARGIN: 0px; FONT-SIZE: 1.2em
+}
+.multiProductsCart .quantProductsCart .subtotal {
+	COLOR: #0082d6; MARGIN-LEFT: 5px; FONT-WEIGHT: bold
+}
+.productInformation .imgProductArtist IMG {
+	WIDTH: 100%
+}
+.productInformation .imgProductArtist {
+	MARGIN-TOP: 45px; WIDTH: 136px; FLOAT: left
+}
+.productInformation .boxProductPrice {
+	MARGIN: 20px 0px 0px 160px
+}
+.productInformation .roundCornerBR P {
+	FONT-SIZE: 1.1em
+}
+.productInformation .roundCornerBR P IMG {
+	TEXT-ALIGN: center; MARGIN-LEFT: 2px
+}
+.productInformation .roundCornerBR P SPAN {
+	FONT-SIZE: 1.7em; FONT-WEIGHT: bold
+}
+.productInformation .roundCornerBR .strike {
+	FONT-SIZE: 1.2em
+}
+.productInformation .roundCornerBR .listPriceInfo {
+	MARGIN-TOP: 20px
+}
+.productInformation .roundCornerBR .listPriceInfo STRONG {
+	COLOR: #0082d6; FONT-SIZE: 1.7em
+}
+.productHighlightsArtist .spacing {
+	PADDING-LEFT: 1.5em; FONT-SIZE: 1.1em; MARGIN-RIGHT: 10px
+}
+.productHighlightsArtist .spacing SPAN {
+	COLOR: #0082d6; FONT-WEIGHT: bold
+}
+.productHighlightsArtist .spacing A {
+	COLOR: #666
+}
+.productInformation .milesSubmarinoCard A {
+	COLOR: #0082d6
+}
+.biographyArtist {
+	PADDING-BOTTOM: 30px; PADDING-LEFT: 57px; PADDING-RIGHT: 0px; ZOOM: 1; OVERFLOW: hidden; PADDING-TOP: 0px
+}
+.biographyArtist .imgArtist {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 42px; FLOAT: left; PADDING-TOP: 20px
+}
+.biographyArtist .imgArtist .imgFade {
+	MARGIN-LEFT: -121px
+}
+.biographyArtist .textBiographyArtist {
+	ZOOM: 1; OVERFLOW: hidden
+}
+.biographyArtist .textBiographyArtist H1 {
+	FONT-SIZE: 1.6em; PADDING-TOP: 10px
+}
+.biographyArtist .textBiographyArtist H2 {
+	FONT-SIZE: 1.6em; PADDING-TOP: 10px
+}
+.biographyArtist .textBiographyArtist P {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 1em; MARGIN-BOTTOM: 10px; BACKGROUND: url(../img/bgDotted.gif) repeat-x 50% bottom; FONT-SIZE: 1.1em; PADDING-TOP: 0.5em
+}
+.biographyArtist .breadcrumb LI A {
+	FONT-SIZE: 14px
+}
+.biographyArtist .breadcrumb .selected {
+	COLOR: #5a00a7; FONT-SIZE: 16px
+}
+.biographyArtist .generalAvail {
+	FONT-SIZE: 1.1em
+}
+.biographyArtist .rankingList SPAN {
+	COLOR: #666
+}
+.menuNavigationWorld .searchNavigation {
+	MARGIN-BOTTOM: 30px
+}
+.menuNavigationWorld .searchNavigation H3 {
+	MARGIN-TOP: 5px; COLOR: #0082d6; FONT-SIZE: 1.4em
+}
+.menuNavigationSearch .searchNavigation H3 {
+	MARGIN-TOP: 5px; COLOR: #0082d6; FONT-SIZE: 1.4em
+}
+.searchNavigation H3 {
+	PADDING-LEFT: 5px
+}
+.menuNavigationWorld .searchNavigation .sectionSearch .filterTitle {
+	MARGIN-TOP: 10px
+}
+#area2 .menuNavigationWorld .searchNavigation .first {
+	MARGIN-TOP: 0px
+}
+.menuNavigationWorld .searchNavigation .check {
+	PADDING-BOTTOM: 1em; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; ZOOM: 1; BACKGROUND: url(../img/bgDotted.gif) repeat-x 50% top; CLEAR: left; OVERFLOW: hidden; PADDING-TOP: 1em
+}
+.menuNavigationWorld .searchNavigation .titleNavigation {
+	BACKGROUND: url(../img/imgArrowhoriz.gif) no-repeat left center
+}
+.menuNavigationWorld .searchNavigation .filterTitle UL {
+	DISPLAY: none
+}
+.menuNavigationWorld .searchNavigation .filterTitle UL LI {
+	PADDING-LEFT: 10px; FONT-WEIGHT: normal
+}
+.menuNavigationWorld .searchNavigation .selected UL {
+	DISPLAY: block
+}
+.menuNavigationWorld .searchNavigation .selected {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.menuNavigationWorld .searchNavigation .selected .titleNavigation {
+	ZOOM: 1; BACKGROUND: url(../img/imgArrowVert.gif) no-repeat left center; OVERFLOW: hidden
+}
+.menuNavigationWorld .searchNavigation .selected .titleNavigation SPAN {
+	DISPLAY: none
+}
+.menuNavigationWorld .searchNavigation .lastGroup {
+	MARGIN-BOTTOM: 1em
+}
+.biographyArtist .breadcrumb .selected {
+	COLOR: #5a00a7; FONT-SIZE: 16px
+}
+.multiProductsCart .quantProductsCart .subtotal {
+	COLOR: #0082d6; MARGIN-LEFT: 5px; FONT-WEIGHT: bold
+}
+.promoNavigation {
+	BACKGROUND: #fff
+}
+.promoNavigation P {
+	PADDING-LEFT: 15px; FONT-SIZE: 1.1em
+}
+.promoNavigation P A {
+	COLOR: #0082d6
+}
+.promoNavigation .results {
+	FLOAT: left
+}
+.promoNavigation .pageList {
+	MARGIN-TOP: 10px; FLOAT: right
+}
+.promoNavigation .tabs {
+	MARGIN-TOP: 20px; MARGIN-BOTTOM: 0px
+}
+.promoNavigation .breadcrumbBox {
+	ZOOM: 1; OVERFLOW: hidden
+}
+.promoNavigation P {
+	ZOOM: 1; OVERFLOW: hidden
+}
+.promoProducts {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 15px; PADDING-RIGHT: 15px; CLEAR: both; OVERFLOW: hidden; PADDING-TOP: 0px
+}
+.promoProducts .product .link .image {
+	WIDTH: 8.7em; MARGIN-BOTTOM: 0px
+}
+.promoProducts .product .description {
+	COLOR: #666; FONT-SIZE: 1.1em; PADDING-TOP: 5px
+}
+.promoProducts .product .validate {
+	FONT-SIZE: 1.1em; FONT-WEIGHT: bold
+}
+.promoProducts .product .info {
+	MARGIN-LEFT: 10px; OVERFLOW: hidden
+}
+.promoProducts .tips {
+	COLOR: #0082d6
+}
+.promoProducts .productList {
+	CLEAR: both
+}
+.promoProducts .productList LI {
+	OVERFLOW: hidden
+}
+.receiveOffer {
+	MARGIN: 0px -1px 15px; ZOOM: 1; OVERFLOW: hidden
+}
+.receiveOffer .receiveList {
+	PADDING-LEFT: 80px; OVERFLOW: hidden
+}
+.receiveOffer .receiveList A {
+	COLOR: #666
+}
+.receiveOffer .receiveList A .vejaMais {
+	COLOR: #0082d6
+}
+.receiveOffer .receiveList .first {
+	DISPLAY: inline; MARGIN-LEFT: -70px
+}
+.receiveOffer .receiveList LI {
+	PADDING-BOTTOM: 40px; PADDING-LEFT: 10px; WIDTH: 33%; PADDING-RIGHT: 10px; BACKGROUND: url(../img/bgDotted2.gif) repeat-y right top; FLOAT: left; FONT-SIZE: 1.1em; PADDING-TOP: 5px
+}
+.receiveOffer .receiveList .last {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.receiveOffer .receiveList .roundCornerTL {
+	MARGIN-TOP: 15px
+}
+.receiveOffer .receiveList .roundCornerBR {
+	PADDING-BOTTOM: 1em; PADDING-LEFT: 1em; PADDING-RIGHT: 1em; PADDING-TOP: 1em
+}
+.receiveOffer .receiveList .roundCornerBR .textType20 {
+	WIDTH: 82%; FLOAT: left; MARGIN-RIGHT: 5px
+}
+.receiveOffer .titleRss {
+	PADDING-BOTTOM: 10px; MIN-HEIGHT: 39px; PADDING-LEFT: 50px; PADDING-RIGHT: 0px; BACKGROUND: url(../img/imgRSS.gif) no-repeat left top; FONT-SIZE: 1.5em; OVERFLOW: hidden; PADDING-TOP: 0px
+}
+.receiveOffer .titleWidgets {
+	PADDING-BOTTOM: 10px; MIN-HEIGHT: 39px; PADDING-LEFT: 50px; PADDING-RIGHT: 0px; BACKGROUND: url(../img/imgWidgets.gif) no-repeat left top; FONT-SIZE: 1.5em; OVERFLOW: hidden; PADDING-TOP: 0px
+}
+.receiveOffer .titleMail {
+	PADDING-BOTTOM: 10px; MIN-HEIGHT: 39px; PADDING-LEFT: 50px; PADDING-RIGHT: 0px; BACKGROUND: url(../img/imgMail.gif) no-repeat left top; FONT-SIZE: 1.5em; OVERFLOW: hidden; PADDING-TOP: 0px
+}
+.componentSearchSold {
+	PADDING-TOP: 10px
+}
+.componentSearchSold FORM {
+	TEXT-ALIGN: center
+}
+.componentSearchSold .selected {
+	COLOR: #0082d6
+}
+.componentSearchSold .breadcrumb {
+	MARGIN: 10px 20px
+}
+.componentSearchSold .searchSold * {
+	MARGIN-RIGHT: 5px
+}
+.componentSearchSold .searchSold .textType20 {
+	WIDTH: 20em
+}
+.componentSearchSold .selectSearch {
+	WIDTH: 18em; FONT-SIZE: 1.1em
+}
+.componentSearchSold .titleSearch {
+	COLOR: #0082d6; FONT-SIZE: 1.2em; FONT-WEIGHT: bold
+}
+.componentSearchSold .button1 {
+	MARGIN-LEFT: 5px
+}
+.componentSearchSold .form1 {
+	PADDING-TOP: 10px
+}
+.componentFilterSold {
+	OVERFLOW: hidden
+}
+.componentFilterSold .filterPrice LI {
+	TEXT-ALIGN: center; PADDING-TOP: 40px
+}
+.componentFilterSold .filterPrice LI IMG {
+	WIDTH: 10.5em
+}
+.menuOffPrice .box3A {
+	BORDER-LEFT: #ccc 1px solid
+}
+.menuOffPrice .box3A H4 {
+	MARGIN-TOP: 10px
+}
+.categories {
+	PADDING-LEFT: 5px; FONT-SIZE: 1.1em
+}
+.priceRange {
+	PADDING-LEFT: 5px; FONT-SIZE: 1.1em
+}
+.categories A {
+	COLOR: #666
+}
+.priceRange A {
+	COLOR: #666
+}
+.menuOffPrice .box3A .last {
+	MARGIN-TOP: 15px; ZOOM: 1; BACKGROUND: url(../img/bgDotted.gif) repeat-x 50% top; PADDING-TOP: 15px
+}
+.menuOffPrice .categories {
+	MARGIN-BOTTOM: 20px
+}
+.menuOffPrice .categories .selected A {
+	COLOR: #0082d6; FONT-WEIGHT: bold
+}
+.menuOffPrice .categories .itens {
+	COLOR: #ccc; MARGIN-LEFT: 2px
+}
+.offersProducts .selectSale {
+	PADDING-LEFT: 10px; COLOR: #0082d6; FONT-SIZE: 1.2em; VERTICAL-ALIGN: middle; FONT-WEIGHT: bold
+}
+.offersProducts .product FORM {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: block; PADDING-TOP: 5px
+}
+.offersProducts INPUT {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-TOP: medium none; BORDER-RIGHT: medium none
+}
+.componentAssistentShop .assistentShop {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 50px; PADDING-RIGHT: 0px; BACKGROUND: url(../img/bgAssistent.gif) no-repeat left 25px; MARGIN-LEFT: 10px; PADDING-TOP: 10px
+}
+.componentAssistentShop .assistentShop {
+	FONT-SIZE: 1.1em
+}
+.componentAssistentShop .assistentShop OPTION {
+	WIDTH: 120px; FONT-SIZE: 1.1em
+}
+.componentSearchSold {
+	PADDING-BOTTOM: 15px; OVERFLOW: hidden
+}
+.unavailableProduct {
+	MARGIN-BOTTOM: 15px; FONT-SIZE: 1.2em
+}
+.unavailableProduct .buttonAddList {
+	FLOAT: right
+}
+.unavailableProduct P STRONG {
+	COLOR: #0082d6
+}
+.unavailableProduct INPUT.text {
+	WIDTH: 60%
+}
+.unavailableProduct INPUT {
+	VERTICAL-ALIGN: middle
+}
+.unavailableProduct UL.listBuyButtons LI.btAddList IMG {
+	WIDTH: 111px; BACKGROUND: url(../img/btadd_gd.gif) no-repeat; HEIGHT: 0px; OVERFLOW: hidden; PADDING-TOP: 15px
+}
+.unavailableProduct UL.listBuyButtons {
+	BACKGROUND-COLOR: #f6f6f6; FONT-SIZE: 0.83em
+}
+.centerRssSub .box2 {
+	BACKGROUND: #fff
+}
+.centerRssSub .box2A {
+	BACKGROUND: #fff
+}
+.centerRssSub .componentRss1 {
+	PADDING-BOTTOM: 1px; MARGIN-TOP: -30px; MIN-HEIGHT: 97px; PADDING-LEFT: 0pt; PADDING-RIGHT: 0pt; ZOOM: 1; BACKGROUND: url(../img/imgRssWidgets.png) no-repeat left 20px; MARGIN-LEFT: 15px; OVERFLOW: hidden; PADDING-TOP: 20px
+}
+.centerRssSub .componentRss1 H1 {
+	PADDING-LEFT: 115px; COLOR: #0082d6; FONT-SIZE: 1.6em
+}
+.centerRssSub .componentRss1 P {
+	PADDING-LEFT: 115px; FONT-SIZE: 1.1em
+}
+.centerRssSub .componentRss2 .categories {
+	MARGIN-TOP: 30px; ZOOM: 1; OVERFLOW: hidden
+}
+.centerRssSub .componentRss2 .categories LI {
+	PADDING-LEFT: 20px; WIDTH: 33.3%; BACKGROUND: url(../img/bgDotted2.gif) repeat-y left top; FLOAT: left
+}
+.centerRssSub .componentRss2 .categories LI P {
+	MARGIN: 0px 0px 10px; FONT-SIZE: 1.1em
+}
+.centerRssSub .componentRss2 .categories LI A {
+	COLOR: #666
+}
+.centerRssSub .componentRss2 .categories LI H2 {
+	FONT-SIZE: 1.4em
+}
+.centerRssSub .componentRss2 .categories LI UL {
+	MARGIN-TOP: 20px
+}
+.centerRssSub .componentRss2 .categories LI UL LI {
+	MIN-HEIGHT: 15px; PADDING-LEFT: 20px; WIDTH: 100%; ZOOM: 1; MARGIN-BOTTOM: 5px; BACKGROUND: url(../img/imgRssIcon.png) no-repeat left top; CLEAR: left; FONT-SIZE: 1.1em; OVERFLOW: hidden
+}
+.centerRssSub .componentRss2 .categories .last {
+	MARGIN-TOP: 15px; PADDING-LEFT: 30px; BACKGROUND: url(../img/imgRssCard.png) no-repeat left top
+}
+.centerRssSub .componentRss2 .categories .first {
+	DISPLAY: inline; BACKGROUND: none transparent scroll repeat 0% 0%; MARGIN-LEFT: -120px
+}
+.centerRssSub .componentRss2 .categories {
+	PADDING-LEFT: 120px
+}
+.centerRssSub .componentRss3 {
+	ZOOM: 1; CLEAR: left; OVERFLOW: hidden; PADDING-TOP: 50px
+}
+.centerRssSub .componentRss3 OL {
+	MARGIN: 30px 20px 0px 40px
+}
+.centerRssSub .componentRss3 OL LI {
+	LIST-STYLE-TYPE: decimal
+}
+.centerRssSub .componentRss3 OL H3 {
+	MARGIN-TOP: 20px
+}
+.centerRssSub .componentRss3 OL LI H3 {
+	FONT-SIZE: 1.1em
+}
+.centerRssSub .componentRss3 OL LI P {
+	FONT-SIZE: 1.1em
+}
+.centerRssSub .componentRss4 {
+	PADDING-TOP: 40px
+}
+.componentRss4 .receiveOffer .titleWidgets {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.componentRss4 .receiveOffer .receiveList2 P {
+	MARGIN-TOP: -10px; PADDING-LEFT: 50px; FONT-SIZE: 1.1em
+}
+.componentRss4 .receiveOffer .receiveList2 H4 {
+	FONT-SIZE: 1.6em
+}
+.componentRss4 .receiveOffer .receiveList2 H4 {
+	PADDING-LEFT: 50px
+}
+.receiveList2 A {
+	PADDING-LEFT: 50px
+}
+.componentRss4 .receiveOffer .receiveList2 {
+	MARGIN: 20px 0px 0px 70px
+}
+.componentRss4 .receiveOffer .receiveList2 A {
+	COLOR: #0082d6; FONT-SIZE: 1.1em
+}
+.componentRss4 .receiveOffer .receiveList2 LI {
+	WIDTH: 50%; PADDING-TOP: 10px
+}
+.componentRss4 .receiveOffer .receiveList2 .first {
+	MIN-HEIGHT: 39px; ZOOM: 1; DISPLAY: inline; BACKGROUND: url(../img/imgWidgets.gif) no-repeat left 10px; FLOAT: left; MARGIN-LEFT: -50px; OVERFLOW: hidden
+}
+.componentRss4 .receiveOffer .receiveList2 .last {
+	PADDING-LEFT: 20px; BACKGROUND: url(../img/bgDotted2.gif) repeat-y left top; FLOAT: left
+}
+.componentRss4 .receiveOffer .receiveList2 .last P {
+	MARGIN-BOTTOM: 10px
+}
+.componentRss4 DIV.roundCornerBR {
+	PADDING-BOTTOM: 1.3em; PADDING-LEFT: 1em; PADDING-RIGHT: 1em; PADDING-TOP: 1.5em
+}
+.componentRss4 .form1 {
+	POSITION: relative; OVERFLOW: hidden
+}
+.componentRss4 .form1 FIELDSET {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 1em; PADDING-RIGHT: 4em; PADDING-TOP: 0px
+}
+.componentRss4 .form1 .textType20 {
+	WIDTH: 100%
+}
+.componentRss4 .form1 .button1 {
+	POSITION: absolute; TOP: 0px; RIGHT: 5px
+}
+.componentRss5 {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 25px; PADDING-RIGHT: 0px; ZOOM: 1; OVERFLOW: hidden; PADDING-TOP: 10px
+}
+#area131 .componentRss5 P {
+	PADDING-LEFT: 0px; FONT-SIZE: 1.1em
+}
+.componentRss5 .rssTop {
+	MIN-HEIGHT: 77px; PADDING-LEFT: 95px; MARGIN-BOTTOM: 15px; BACKGROUND: url(../img/iconTitleRss.png) no-repeat left top
+}
+.componentRss5 .rssTop H1 {
+	LINE-HEIGHT: 1; COLOR: #0082d6; FONT-SIZE: 2.5em
+}
+.componentRss5 .rssTop H2 {
+	FONT-SIZE: 1.8em; FONT-WEIGHT: normal
+}
+.componentRss5 .rssTop P {
+	MARGIN: 0px
+}
+.componentRss5 .rssBox H3 {
+	FONT-SIZE: 1.4em
+}
+.componentRss5 .rssBox {
+	BACKGROUND: url(../img/breadCrumbsBg.gif) repeat-x left top; MARGIN-LEFT: -30px
+}
+.componentRss5 .rssBox .rssBoxA {
+	PADDING-BOTTOM: 0px; MARGIN: 0px 10px; PADDING-LEFT: 280px; PADDING-RIGHT: 0px; ZOOM: 1; BACKGROUND: url(../img/imgRss.png) no-repeat left 30px; OVERFLOW: hidden; PADDING-TOP: 30px
+}
+.componentRss5 .rssBox UL {
+	MARGIN-BOTTOM: 50px
+}
+.componentRss5 .rssBox UL LI {
+	DISPLAY: block; MARGIN-BOTTOM: 22px
+}
+.componentRss5 .rssBox UL LI P {
+	MARGIN: 0.2em 0px
+}
+.menuBrowseWorld .box3A {
+	PADDING-BOTTOM: 20px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; PADDING-TOP: 10px
+}
+.menuBrowseWorld .title11 {
+	DISPLAY: inline
+}
+.menuBrowseWorld .marks {
+	FONT-SIZE: 1.1em
+}
+.menuBrowseWorld .seAll {
+	MARGIN-TOP: 5px; DISPLAY: block; BACKGROUND: url(../img/bgDotted.gif) repeat-x center top; PADDING-TOP: 5px
+}
+.menuBrowseWorld .seAll {
+	PADDING-LEFT: 10px; BACKGROUND: url(../img/bgArrowLeft.gif) no-repeat left center; COLOR: #666; MARGIN-LEFT: 2px; FONT-SIZE: 1.1em
+}
+.menuBrowseWorld .marks LI {
+	PADDING-LEFT: 10px; ZOOM: 1; BACKGROUND: url(../img/imgArrowHoriz.gif) no-repeat left 3px; OVERFLOW: hidden
+}
+.menuBrowseWorld .marks A {
+	COLOR: #666
+}
+.menuBrowseWorld .productSession .allProductSession LI {
+	PADDING-LEFT: 4px; BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.menuBrowseWorld .productSession {
+	DISPLAY: none
+}
+.menuBrowseWorld .allProductSession {
+	DISPLAY: none
+}
+.menuBrowseWorld .marks .selected .productSession {
+	DISPLAY: block
+}
+.menuBrowseWorld .marks .selected {
+	ZOOM: 1; BACKGROUND: url(../img/imgArrowVert.gif) no-repeat left 4px; OVERFLOW: hidden
+}
+.menuBrowseWorld .productSession .selected .allProductSession {
+	DISPLAY: block
+}
+.menuBrowseWorld .productSession .selected STRONG A {
+	COLOR: #0082d6
+}
+.menuBrowseWorld .productSession .selected {
+	ZOOM: 1; BACKGROUND: url(../img/imgArrowVert.gif) no-repeat left 4px; OVERFLOW: hidden
+}
+.menuBrowseWorld .productSession .itens {
+	COLOR: #ccc; MARGIN-LEFT: 2px
+}
+.menuBrowseWorld .conditionSale UL LI A {
+	PADDING-LEFT: 10px; COLOR: #666; FONT-SIZE: 1.1em
+}
+.menuBrowseWorld .conditionSale {
+	PADDING-BOTTOM: 20px; MARGIN-TOP: 10px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; ZOOM: 1; BACKGROUND: url(../img/bgDotted.gif) repeat-x left top; OVERFLOW: hidden; PADDING-TOP: 15px
+}
+.meetToo .list2 {
+	ZOOM: 1; OVERFLOW: hidden; MARGIN-RIGHT: 5px
+}
+.meetToo .optionMeetToo {
+	PADDING-BOTTOM: 1em; MARGIN-TOP: -1px; PADDING-LEFT: 0.5em; PADDING-RIGHT: 0px; ZOOM: 1; BACKGROUND: url(../img/bgDotted.gif) repeat-x 50% top; FONT-SIZE: 1em; OVERFLOW: hidden; PADDING-TOP: 1em
+}
+.meetToo .bannerProduct IMG {
+	MARGIN: 0px auto; WIDTH: 12em; PADDING-RIGHT: 15px; DISPLAY: block
+}
+#area2 .meetToo .box3 {
+	BACKGROUND: url(../img/bgBox3LeftB.gif) #f6f6f6 no-repeat left top
+}
+#area2 .meetToo .box3 .box3A {
+	BACKGROUND: url(../img/bgBox3RightB.gif) no-repeat right top
+}
+#area2 .meetToo .login {
+	MARGIN-BOTTOM: 40px
+}
+.menuNavigation .otherSald A {
+	COLOR: #666; FONT-SIZE: 1.1em
+}
+.menuNavigation .otherSald {
+	PADDING-BOTTOM: 20px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 10px
+}
+.productSpecialList .productGenericList .title20 {
+	MARGIN: 0px 12px 10px
+}
+.productEspecial {
+	PADDING-BOTTOM: 20px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; ZOOM: 1; CLEAR: both; OVERFLOW: hidden; PADDING-TOP: 20px
+}
+.productEspecial .image {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 20px; WIDTH: 18em; PADDING-RIGHT: 20px; MAX-WIDTH: 100%; FLOAT: left; PADDING-TOP: 0px
+}
+.productEspecial .info .name {
+	COLOR: #666; FONT-SIZE: 1.6em; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.productEspecial2 A:hover .info .name {
+	TEXT-DECORATION: underline
+}
+.productEspecial A {
+	COLOR: #666
+}
+.productEspecial .info .brand {
+	DISPLAY: block; COLOR: #666; FONT-SIZE: 1.2em
+}
+.productEspecial .price {
+	MARGIN-TOP: 10px
+}
+.productEspecial .price .discount {
+	COLOR: #178e07
+}
+.productEspecial .price SPAN {
+	DISPLAY: block; COLOR: #0082d6; FONT-SIZE: 1.1em
+}
+.productEspecial .price .for {
+	MARGIN: 5px 0px; FONT-SIZE: 1.6em; FONT-WEIGHT: bold
+}
+.productEspecial .related {
+	MARGIN-TOP: 5px; FONT-SIZE: 1.1em
+}
+.productEspecial .related LI {
+	DISPLAY: block
+}
+.productEspecial .related A {
+	COLOR: #666
+}
+.productEspecial .info .evaluation {
+	FONT-SIZE: 1.1em
+}
+.productEspecial .link .stamps {
+	DISPLAY: none
+}
+.productEspecial .price .cupom {
+	DISPLAY: none
+}
+.productEspecial .price .from {
+	DISPLAY: inline
+}
+.productEspecial .price .for {
+	DISPLAY: inline
+}
+.productEspecial .price .parcel SPAN {
+	DISPLAY: inline
+}
+.productEspecial .price .for {
+	MARGIN-LEFT: 5px; FONT-SIZE: 1.1em; FONT-WEIGHT: normal
+}
+.productEspecial .price .for STRONG {
+	FONT-WEIGHT: normal
+}
+.productEspecial .price .parcel {
+	FONT-SIZE: 1.3em; FONT-WEIGHT: bold
+}
+.productEspecial .price .condition {
+	MARGIN-LEFT: 5px
+}
+.productEspecial .price .stamps {
+	MARGIN-TOP: 20px
+}
+.productEspecial1 .grid .link .evaluation {
+	DISPLAY: none
+}
+.grid .price .stamps {
+	DISPLAY: none
+}
+.productEspecial1 .grid .link .stamps {
+	DISPLAY: block
+}
+.grid .price .cupom {
+	DISPLAY: block
+}
+.grid .price .parcel SPAN {
+	DISPLAY: block
+}
+.productVitrineHighlight .productGenericList .productEspecial1 .grid .info .name {
+	FONT-SIZE: 1.4em
+}
+.productVitrineHighlight .productGenericList .productEspecial2 .grid .info .name {
+	FONT-SIZE: 1.4em
+}
+.productEspecial2 .grid .info .evaluation {
+	DISPLAY: none
+}
+.productEspecial2 .grid .discount {
+	DISPLAY: none
+}
+.productEspecial2 .grid .price .stamps {
+	DISPLAY: none
+}
+.productEspecial2 .grid .price .from {
+	DISPLAY: block
+}
+.productEspecial2 .grid .price .for {
+	DISPLAY: block
+}
+.productEspecial2 .grid .price .cupom {
+	DISPLAY: block
+}
+.productEspecial2 .grid .price .parcel SPAN {
+	DISPLAY: block
+}
+.productEspecial2 .grid .link .stamps {
+	DISPLAY: block
+}
+.productSpecialList .productGenericList .productList {
+	MARGIN-LEFT: 16px
+}
+.productSpecialList .productGenericList .grid LI {
+	WIDTH: 24.9%
+}
+.productSpecialList .productGenericList .productList .first {
+	PADDING-LEFT: 16px; MARGIN-LEFT: -16px
+}
+.productSpecialList .productGenericList .grid {
+	TEXT-ALIGN: center; PADDING-LEFT: 0px; MAX-WIDTH: 100%
+}
+.productSpecialList .productGenericList .grid .image {
+	FLOAT: none
+}
+.productSpecialList .productGenericList .grid .info .name {
+	MARGIN: 0px auto; DISPLAY: block; FONT-SIZE: 1.1em
+}
+.productSpecialList .productGenericList .grid .related LI {
+	WIDTH: 100%; FLOAT: none
+}
+.productSpecialList .productGenericList .grid .price .for {
+	MARGIN: 0px; FONT-SIZE: 1.1em
+}
+.productSpecialList .productGenericList .grid .price {
+	MARGIN-TOP: 0px
+}
+.productEspecial2 {
+	MARGIN-LEFT: 40px; CLEAR: both
+}
+.productEspecial2 .col1 {
+	PADDING-LEFT: 40px; WIDTH: 49.9%; FLOAT: left; MARGIN-LEFT: -40px
+}
+.productEspecial2 .col2 {
+	WIDTH: 49.9%; FLOAT: right
+}
+.productSpecialList .productGenericList .productList {
+	CLEAR: both
+}
+.titleRight {
+	FLOAT: right; FONT-SIZE: 1.1em; MARGIN-RIGHT: 10px
+}
+.titleRight A {
+	COLOR: #666
+}
+.mostDesired {
+	MARGIN: 10px 0px
+}
+.mostDesired LI OL LI {
+	PADDING-BOTTOM: 3px; PADDING-LEFT: 3px; PADDING-RIGHT: 0px; BACKGROUND: url(../img/bgDotted.gif) repeat-x left bottom; COLOR: #666; FONT-SIZE: 1.1em; PADDING-TOP: 3px
+}
+.mostDesired .open .moreWished .title5 A {
+	COLOR: #fff
+}
+.mostDesired .open .moreGifted .title5 A {
+	COLOR: #fff
+}
+.mostDesired .open .bestOverwall .title5 A {
+	COLOR: #fff
+}
+.mostDesired LI OL .first {
+	LIST-STYLE-POSITION: outside; TEXT-ALIGN: center; LIST-STYLE-TYPE: none
+}
+.mostDesired LI OL .last {
+	PADDING-BOTTOM: 15px; BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.mostDesired LI OL .last A {
+	FONT-WEIGHT: bold
+}
+.mostDesired LI OL LI A {
+	COLOR: #666
+}
+.mostDesired LI OL LI IMG {
+	MARGIN: 0px auto; DISPLAY: block
+}
+.mostDesired LI OL LI STRONG {
+	DISPLAY: block; COLOR: #0082d6
+}
+.mostDesired .list7 {
+	POSITION: relative
+}
+.mostDesired .moreSold {
+	MARGIN-BOTTOM: -3px
+}
+.mostDesired .moreGifted {
+	MARGIN-BOTTOM: -3px
+}
+.mostDesired .moreWished {
+	MARGIN-BOTTOM: -3px
+}
+.mostDesired .topBox1 .title5 A {
+	COLOR: #666
+}
+.mostDesired .topBox1 {
+	PADDING-LEFT: 6px
+}
+.moreDesired .col2 .list5 {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.moreDesired .col2 .listGroupFooter H4 {
+	BACKGROUND: url(../img/bgDotted.gif) repeat-x 50% top; PADDING-TOP: 15px
+}
+.moreDesired .myNavegation .first {
+	FLOAT: left
+}
+.moreDesired .myNavegation .listPag {
+	FLOAT: left; COLOR: #ccc; MARGIN-LEFT: 2px; FONT-SIZE: 1.2em
+}
+.moreDesired .myNavegation .listPag .last {
+	COLOR: #666; MARGIN-LEFT: 5px
+}
+.moreDesired .productListBox {
+	CLEAR: both
+}
+.moreDesired .box9A {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; PADDING-TOP: 5px
+}
+.moreDesired .title21 SPAN {
+	FONT-SIZE: 0.75em; FONT-WEIGHT: normal
+}
+.moreDesired .title21 SPAN A {
+	TEXT-DECORATION: underline
+}
+.moreDesired .topBox1 {
+	Z-INDEX: 10; POSITION: relative; OVERFLOW: visible
+}
+#area3 .moreDesired .topBox1 .topBox1A {
+	WIDTH: 100%; DISPLAY: table; OVERFLOW: visible
+}
+.productPriceBar {
+	MARGIN-BOTTOM: 40px
+}
+.productPriceBar .boxProductPrice {
+	MARGIN-BOTTOM: 0px
+}
+.productPriceBar .box7A {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.productPriceBar .title5 {
+	COLOR: #0082d6
+}
+.productPriceBar .title5 SPAN {
+	COLOR: #0082d6; FONT-WEIGHT: normal
+}
+.otherCollections {
+	BORDER-LEFT: #ccc 1px solid
+}
+.otherCollections UL LI A {
+	PADDING-LEFT: 10px; COLOR: #666; FONT-SIZE: 1.1em
+}
+.otherCollections .box2 {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.componentGloss {
+	MARGIN-LEFT: 20px; OVERFLOW: hidden; PADDING-TOP: 20px
+}
+.componentGloss .productImage {
+	WIDTH: 10.7em; FLOAT: left; HEIGHT: 9.2em
+}
+.componentGloss .productImage2 {
+	MARGIN-TOP: 50px; WIDTH: 19.1em; FLOAT: right; HEIGHT: 17.5em
+}
+.componentGloss .mainContent {
+	OVERFLOW: hidden
+}
+.componentGloss H1 {
+	COLOR: #666; FONT-SIZE: 1.1em
+}
+.componentGloss P {
+	LINE-HEIGHT: 1.5; MARGIN: 0.5em 0pt; FONT-SIZE: 1.1em
+}
+.componentSubBanner {
+	PADDING-BOTTOM: 3em; OVERFLOW: hidden
+}
+.componentSubBanner IMG {
+	MARGIN: 0px auto; DISPLAY: block
+}
+.meetToo .box3 {
+	BACKGROUND: #f6f6f6
+}
+.safeBuy {
+	POSITION: absolute; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; BOTTOM: 2em; PADDING-RIGHT: 38px; BACKGROUND: url(../img/imgSafeBuy.gif) no-repeat right bottom; OVERFLOW: hidden; RIGHT: 0px; MARGIN-RIGHT: 7px; PADDING-TOP: 6px
+}
+.safeBuy A {
+	TEXT-DECORATION: none
+}
+.safeBuy A:hover {
+	TEXT-DECORATION: underline
+}
+#area131 .safeBuy P {
+	FONT-SIZE: 1em
+}
+.box10 {
+	PADDING-RIGHT: 10px; BACKGROUND: url(../img/bgFavoriteBox.png) no-repeat right top; MARGIN-LEFT: 10px
+}
+.box10A {
+	POSITION: relative; BACKGROUND: url(../img/bgFavoriteBox.png) no-repeat left bottom; MARGIN-LEFT: -4px; TOP: 38px
+}
+.box10B {
+	POSITION: relative; BACKGROUND: url(../img/bgFavoriteBox.png) no-repeat right bottom; LEFT: 10px
+}
+.box10C {
+	POSITION: relative; BACKGROUND: url(../img/bgFavoriteBox.png) no-repeat left top; TOP: -38px; LEFT: -10px
+}
+UNKNOWN {
+	OVERFLOW: hidden
+}
+.boxProductArtist {
+	MARGIN-TOP: 25px; ZOOM: 1; OVERFLOW: hidden
+}
+.productBogofArtist {
+	MARGIN-TOP: 25px; ZOOM: 1; OVERFLOW: hidden
+}
+.boxProductArtist .boxProductName {
+	OVERFLOW: hidden
+}
+.boxProductArtist .boxShipping {
+	OVERFLOW: hidden
+}
+.productBogofArtist .boxProductName {
+	OVERFLOW: hidden
+}
+.productBogofArtist .boxProductPrice {
+	OVERFLOW: hidden
+}
+.productBogofArtist .boxShipping {
+	OVERFLOW: hidden
+}
+.boxProductArtist .boxProductPrice:after {
+	DISPLAY: block; HEIGHT: 0px; VISIBILITY: hidden; CLEAR: both; FONT-SIZE: 0px
+}
+.boxProductArtist .boxProductPrice {
+	CLEAR: none
+}
+.productBogofArtist .boxProductPrice {
+	CLEAR: none
+}
+.boxProd .boxShipping {
+	PADDING-BOTTOM: 0.5em; PADDING-LEFT: 2em; PADDING-RIGHT: 2.5em; PADDING-TOP: 0px
+}
+.boxProd UL.listPriceInfo LI {
+	PADDING-BOTTOM: 0.3em; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.boxProd DIV.boxProductName {
+	MARGIN-BOTTOM: 0px
+}
+.boxProd .boxProductPrice P.milesSubmarinoCard {
+	MARGIN: 0px
+}
+.boxProductArtist .boxProductInfo {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 15px; PADDING-RIGHT: 15px; ZOOM: 1; OVERFLOW: hidden; PADDING-TOP: 0px
+}
+.errorPage {
+	FONT-SIZE: 1.1em; OVERFLOW: hidden
+}
+.errorPage A {
+	DISPLAY: block; COLOR: #666; FONT-SIZE: 1.1em
+}
+.errorPage A:hover {
+	TEXT-DECORATION: underline
+}
+.errorPage UL {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+}
+.errorPage LI {
+	LIST-STYLE: none none outside; BORDER-BOTTOM: 0pt; BORDER-LEFT: 0pt; PADDING-BOTTOM: 0pt; PADDING-LEFT: 0pt; PADDING-RIGHT: 0pt; BORDER-TOP: 0pt; BORDER-RIGHT: 0pt; PADDING-TOP: 0pt
+}
+.errorPage LI#bt {
+	TEXT-ALIGN: center; WIDTH: 41%; BACKGROUND: url(../img/imgLineVertical.gif) no-repeat right center; FLOAT: left; HEIGHT: 250px; MARGIN-RIGHT: 30px
+}
+.errorPage .notFound {
+	MARGIN: 70px 0px 20px; DISPLAY: block
+}
+.errorPage .reasons {
+	PADDING-BOTTOM: 20px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 15px
+}
+.errorPage .textBlue {
+	DISPLAY: block; MARGIN-BOTTOM: 1px; COLOR: #0082d6; FONT-SIZE: 1.2em; FONT-WEIGHT: bold
+}
+.doubts {
+	DISPLAY: block; MARGIN-BOTTOM: 1px; COLOR: #0082d6; FONT-SIZE: 1.2em; FONT-WEIGHT: bold
+}
+.errorPage .call {
+	PADDING-BOTTOM: 20px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 20px
+}
+.myTags {
+	MARGIN: 0px 15px
+}
+.myTagsBox .tabs UL LI A {
+	PADDING-BOTTOM: 20px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; PADDING-TOP: 10px
+}
+.myTagsBox .tabs STRONG {
+	PADDING-BOTTOM: 8px; PADDING-LEFT: 50px; PADDING-RIGHT: 0pt; BACKGROUND: url(../img/bgTAGs.gif) no-repeat left center; PADDING-TOP: 5pt
+}
+.myTagsBox .tabs SPAN {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: inline; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-SIZE: 0.6em; PADDING-TOP: 0px
+}
+.myTagsBox .myTagsAll {
+	FONT-SIZE: 1.2em
+}
+.myTagsBox .myTagsAll A {
+	COLOR: #666
+}
+.myTagsBox .common {
+	CLEAR: left; FONT-SIZE: 1.2em
+}
+.myTagsBox .myTagsInfo {
+	PADDING-BOTTOM: 10px; WIDTH: 100%; DISPLAY: table; MARGIN-BOTTOM: 10px; BACKGROUND: url(../img/bgDotted.gif) repeat-x left bottom
+}
+.myTagsBox .myTagsInfo P {
+	FLOAT: left; FONT-SIZE: 1.1em
+}
+.myTagsBox .myTagsInfo .info {
+	POSITION: relative; MARGIN: 0.5em 0px 0px 5px; FLOAT: left
+}
+.myTagsBox .myTagsInfo .info P {
+	FLOAT: none
+}
+.myTagsBox .myTagsInfo .info A {
+	FLOAT: left; COLOR: #666; FONT-SIZE: 1.1em; TEXT-DECORATION: underline
+}
+.myTagsBox .type3 P {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.myTagsBox .myTagsView {
+	DISPLAY: none; FLOAT: right; MARGIN-RIGHT: 5px
+}
+.myTagsBox .myTagsView LI {
+	PADDING-LEFT: 5px; FLOAT: left; FONT-SIZE: 1.1em
+}
+.myTagsBox .myTagsView LI A {
+	COLOR: #666; TEXT-DECORATION: underline
+}
+.myTagsBox .myTagsView .selected A {
+	FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.myTagsCloud {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 20px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: url(../img/bgDotted.gif) repeat-x left bottom; CLEAR: right; PADDING-TOP: 10px
+}
+.myTagsCloud LI {
+	LINE-HEIGHT: 1.1; DISPLAY: inline; VERTICAL-ALIGN: middle
+}
+.myTagsCloud LI A {
+	COLOR: #0082d6
+}
+.myTagsCloud LI A:hover {
+	BACKGROUND-COLOR: #0082d6; COLOR: #fff; TEXT-DECORATION: none
+}
+.myTagsCloud .level1 {
+	FONT-SIZE: 1.3em
+}
+.myTagsCloud .level2 {
+	FONT-SIZE: 1.6em
+}
+.myTagsCloud .level3 {
+	FONT-SIZE: 1.9em
+}
+.myTagsCloud .level4 {
+	FONT-SIZE: 2.2em
+}
+.myTagsCloud .level5 {
+	FONT-SIZE: 2.5em
+}
+.myTagsCloud .level6 {
+	FONT-SIZE: 2.8em
+}
+.myTagsCloud .level7 {
+	FONT-SIZE: 3.2em
+}
+.myTagsMainBox {
+	PADDING-BOTTOM: 20px; PADDING-LEFT: 11.5em; PADDING-RIGHT: 0pt; ZOOM: 1; OVERFLOW: hidden; PADDING-TOP: 20px
+}
+.myTagsBox .myTagsMain {
+	ZOOM: 1; DISPLAY: inline; MARGIN-LEFT: -12em; OVERFLOW: hidden
+}
+.myTagsBox .myTagsMain STRONG {
+	ZOOM: 1; FONT-SIZE: 1.2em
+}
+.myTagsBox .searchTags STRONG {
+	ZOOM: 1; FONT-SIZE: 1.2em
+}
+.myTagsBox .myTagsMain STRONG SPAN {
+	FONT-SIZE: 0.8em; TEXT-DECORATION: underline
+}
+.myTagsBox .myTagsMain STRONG SPAN A {
+	COLOR: #666
+}
+.myTagsBox .myTagsMain UL LI {
+	DISPLAY: inline; FONT-SIZE: 1.2em
+}
+.myTagsBox .myTagsMain UL LI A {
+	COLOR: #0082d6
+}
+.myTagsBox .myTagsMain INPUT {
+	VERTICAL-ALIGN: middle
+}
+.myTagsBox .searchTags INPUT {
+	VERTICAL-ALIGN: middle
+}
+.myTagsBox .myTagsMain .createSubmit {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-TOP: medium none; BORDER-RIGHT: medium none
+}
+.myTagsBox .searchTags .okSubmit {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-TOP: medium none; BORDER-RIGHT: medium none
+}
+.myTagsBox .myTagsMain P {
+	COLOR: #666
+}
+.myTagsBox .searchTags {
+	MIN-HEIGHT: 100px; ZOOM: 1; BACKGROUND: url(../img/bgVertLine.gif) no-repeat left center; OVERFLOW: hidden; PADDING-TOP: 20px
+}
+.myTagsBox .searchTags SPAN {
+	FONT-SIZE: 1.2em
+}
+.myTagsBox .searchTags SPAN A {
+	COLOR: #666
+}
+.myTagsBox .searchTags FORM {
+	MARGIN-BOTTOM: 20px
+}
+.myTagsBox .searchTags {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 30px; WIDTH: 49.9%; PADDING-RIGHT: 30px; FLOAT: left; PADDING-TOP: 0px
+}
+.myTagsBox .myTagsMain {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 5px; WIDTH: 49.9%; PADDING-RIGHT: 55px; FLOAT: left; PADDING-TOP: 0px
+}
+.myTagsList {
+	PADDING-BOTTOM: 10px; ZOOM: 1; BACKGROUND: url(../img/bgDotted.gif) repeat-x left bottom; CLEAR: right; OVERFLOW: hidden
+}
+.myTags .myTags {
+	MARGIN-LEFT: 0px
+}
+.myTagsList LI {
+	WIDTH: 33%; FLOAT: left; FONT-SIZE: 1.1em
+}
+.myTagsList LI UL LI {
+	WIDTH: 100%; MARGIN-BOTTOM: 2px; FLOAT: none; CLEAR: left
+}
+.myTagsList LI UL LI SPAN {
+	COLOR: #c8c8c8
+}
+.myTagsList LI A {
+	COLOR: #666; OVERFLOW: hidden; TEXT-DECORATION: underline
+}
+.productBogofImage {
+	TEXT-ALIGN: center; MARGIN-TOP: 5px
+}
+.bogofSelectList .withMultiInsertion .for {
+	FONT-WEIGHT: bold
+}
+.bogofSelectList .withMultiInsertion .grid .product .name {
+	PADDING-BOTTOM: 0pt; PADDING-LEFT: 40px; PADDING-RIGHT: 40px; PADDING-TOP: 0pt
+}
+.chooseGift {
+	PADDING-BOTTOM: 20px; MARGIN: 0px auto; ZOOM: 1; OVERFLOW: hidden
+}
+.chooseGift .chooseImage {
+	TEXT-ALIGN: center; MARGIN: 0px
+}
+.chooseGift UL {
+	TEXT-ALIGN: center; MARGIN-TOP: 20px; ZOOM: 1; OVERFLOW: hidden
+}
+.chooseGift LI {
+	PADDING-BOTTOM: 1em; MARGIN-TOP: -1px; PADDING-LEFT: 0px; WIDTH: 33%; PADDING-RIGHT: 0px; BACKGROUND: url(../img/bgDotted.gif) repeat-x left top; FLOAT: left; PADDING-TOP: 1em
+}
+.chooseGift LI.first {
+	CLEAR: left
+}
+.chooseGift .selectGift {
+	PADDING-LEFT: 5px; COLOR: #0082d6; FONT-SIZE: 1.2em; VERTICAL-ALIGN: middle; FONT-WEIGHT: bold
+}
+.chooseGift .gift INPUT {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-TOP: medium none; BORDER-RIGHT: medium none
+}
+.chooseGift SPAN {
+	DISPLAY: block; COLOR: #666; FONT-SIZE: 1.1em; FONT-WEIGHT: bold
+}
+.productBogofInfo P {
+	MARGIN: 20px 10px 30px
+}
+.readRatings {
+	PADDING-BOTTOM: 5em; CLEAR: left; OVERFLOW: hidden
+}
+.readRatings .boxReadRatings {
+	BORDER-BOTTOM: #e0e0e0 1px solid; PADDING-BOTTOM: 20px; PADDING-LEFT: 11.5em; PADDING-RIGHT: 0px; ZOOM: 1; OVERFLOW: hidden; PADDING-TOP: 0px
+}
+.readRatings .boxReadRatings .col1 {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 30px; WIDTH: 49.9%; PADDING-RIGHT: 30px; FLOAT: left; PADDING-TOP: 0px
+}
+.readRatings .boxReadRatings .col2 {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 30px; WIDTH: 49.9%; PADDING-RIGHT: 30px; FLOAT: left; PADDING-TOP: 0px
+}
+.readRatings .boxReadRatings .col1 {
+	ZOOM: 1; DISPLAY: inline; MARGIN-LEFT: -12em; OVERFLOW: hidden
+}
+.readRatings .boxReadRatings .col2 {
+	PADDING-BOTTOM: 40px; PADDING-LEFT: 30px; PADDING-RIGHT: 30px; ZOOM: 1; BACKGROUND: url(../img/bgVertLine.gif) no-repeat left center; OVERFLOW: hidden; PADDING-TOP: 20px
+}
+.readRatings .boxReadRatings .col1 .avail {
+	MARGIN-LEFT: 2px; FONT-SIZE: 1.1em
+}
+.readRatings .results {
+	MARGIN: 15px 10px
+}
+.readRatings .pageList {
+	MARGIN: 15px 10px
+}
+.boxReadRatings .col2 INPUT {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; MARGIN: 5px auto; DISPLAY: block; BORDER-TOP: medium none; BORDER-RIGHT: medium none
+}
+.boxReadRatings .assessment {
+	FLOAT: left; FONT-SIZE: 1.1em; FONT-WEIGHT: bold
+}
+.boxReadRatings .assessment SPAN {
+	DISPLAY: block; FONT-WEIGHT: normal
+}
+.boxReadRatings .listRatings {
+	CLEAR: left; OVERFLOW: hidden
+}
+.boxReadRatings .listRatings LI {
+	PADDING-BOTTOM: 2px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; OVERFLOW: hidden; PADDING-TOP: 2px
+}
+.boxReadRatings .listRatings .value {
+	MARGIN: 0px; FLOAT: left
+}
+.boxReadRatings .listRatings .label {
+	MARGIN: 0px; FLOAT: left
+}
+.boxReadRatings .listRatings .value {
+	TEXT-ALIGN: right; WIDTH: 6em; WHITE-SPACE: nowrap
+}
+.boxReadRatings .listRatings .label {
+	LINE-HEIGHT: 0.9em; MARGIN: 0px 5px; WIDTH: 10em; BACKGROUND: url(../img/bgBarRating.gif) #dfedf7 no-repeat; HEIGHT: 1.1em; FONT-SIZE: 1.35em
+}
+.boxReadRatings .listRatings .label STRONG {
+	PADDING-LEFT: 5px; FONT-SIZE: 0.74em; FONT-WEIGHT: normal
+}
+.readReviews {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; CLEAR: both; OVERFLOW: hidden; PADDING-TOP: 0px
+}
+.readReviews LI {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: url(../img/bgDotted.gif) repeat-x left bottom; PADDING-TOP: 10px
+}
+.readReviews LI STRONG {
+	FONT-SIZE: 1.4em
+}
+.readReviews LI .date {
+	MARGIN: 0px 10px; FONT-SIZE: 1.1em
+}
+.readReviews LI P {
+	MARGIN: 0px; CLEAR: both; FONT-SIZE: 1.1em
+}
+.readReviews LI .name {
+	DISPLAY: block; FLOAT: left
+}
+.readReviews .rankingList {
+	FLOAT: left
+}
+.readReviews LI .replyReviews {
+	DISPLAY: none; OVERFLOW: hidden; PADDING-TOP: 5px
+}
+.readReviews LI .replyReviews LI {
+	DISPLAY: inline; BACKGROUND: none transparent scroll repeat 0% 0%; MARGIN-LEFT: 5px; FONT-SIZE: 1.1em
+}
+.readReviews LI .replyReviews LI .view {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 20px; PADDING-RIGHT: 0px; BACKGROUND: url(../img/bgBallon.gif) no-repeat left center; COLOR: #0082d6; TEXT-DECORATION: underline; PADDING-TOP: 4px
+}
+.readReviews LI .replyReviews LI .reporting {
+	COLOR: #666; FONT-SIZE: 0.9em
+}
+.readReviews LI .replyReviews LI .reporting A {
+	COLOR: #666; TEXT-DECORATION: underline
+}
+.readReviews LI .replyReviews LI * {
+	VERTICAL-ALIGN: middle
+}
+.readRatings .bottomPageList {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: none transparent scroll repeat 0% 0%; PADDING-TOP: 0px
+}
+.accessoriesBox {
+	ZOOM: 1; OVERFLOW: hidden
+}
+.acessoriesList {
+	WIDTH: 100%; CLEAR: both
+}
+.accessoriesBox .acessoriesProducts {
+	MARGIN-RIGHT: 20px
+}
+.accessoriesBox .acessoriesHilight {
+	PADDING-BOTTOM: 2em; PADDING-LEFT: 0pt; WIDTH: 20%; PADDING-RIGHT: 20px; BACKGROUND: url(../img/bgVertLine2.gif) no-repeat right center; FLOAT: left; MARGIN-LEFT: 20px; PADDING-TOP: 2em
+}
+.accessoriesBox .acessoriesHilight FORM {
+	MARGIN-TOP: 5px
+}
+.accessoriesBox .acessoriesHilight .selectSale {
+	COLOR: #0082d6; FONT-SIZE: 1.3em; FONT-WEIGHT: bold
+}
+.accessoriesBox .acessoriesHilight .sale {
+	MARGIN-RIGHT: 10px
+}
+.accessoriesBox .productList {
+	OVERFLOW: hidden
+}
+.accessoriesBox .acessoriesHilights {
+	CLEAR: both; OVERFLOW: hidden
+}
+.accessoriesBox .accessoriesInfo {
+	FLOAT: left; MARGIN-LEFT: 20px; FONT-SIZE: 1.1em
+}
+.accessoriesBox .productList {
+	PADDING-LEFT: 30px; ZOOM: 1; OVERFLOW: hidden
+}
+.accessoriesBox .productList FORM {
+	MARGIN-TOP: 5px
+}
+.accessoriesBox .productList .sale {
+	MARGIN-RIGHT: 10px
+}
+.accessoriesBox .productList .selectSale {
+	COLOR: #0082d6; FONT-SIZE: 1.3em; FONT-WEIGHT: bold
+}
+.accessoriesBox .grid LI {
+	PADDING-RIGHT: 5px; ZOOM: 1; OVERFLOW: hidden
+}
+.accessoriesBox .grid .first {
+	MARGIN-LEFT: -30px
+}
+.accessoriesBox .grid .product {
+	MAX-WIDTH: none
+}
+.accessoriesBox .back {
+	ZOOM: 1; FLOAT: left; MARGIN-LEFT: 15px; OVERFLOW: hidden
+}
+.accessoriesBox .next {
+	ZOOM: 1; FLOAT: right; OVERFLOW: hidden
+}
+.accessoriesBox .next IMG {
+	MARGIN-TOP: 80px
+}
+.accessoriesBox .back IMG {
+	MARGIN-TOP: 80px
+}
+.accessoriesBox .acessoriesProducts .grid .product .link .image {
+	MAX-WIDTH: none
+}
+.grid .product .stamps IMG {
+	MAX-WIDTH: none
+}
+.boxClient {
+	PADDING-LEFT: 5px; BACKGROUND: url(../img/boxLeftBottom.gif) no-repeat left bottom
+}
+.boxClientA {
+	PADDING-BOTTOM: 10px; MARGIN-TOP: -6px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; BACKGROUND: url(../img/boxRightBottom.gif) no-repeat right bottom; PADDING-TOP: 0pt
+}
+.clientTagsBox P {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: url(../img/bgDotted.gif) repeat-x center bottom; FONT-SIZE: 1.1em; PADDING-TOP: 10px
+}
+.clientTagsBox STRONG A {
+	COLOR: #666; FONT-SIZE: 1.1em
+}
+.clientTagsBox .tagCloud {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; MARGIN-BOTTOM: 20px; PADDING-TOP: 0px
+}
+.clientTagsBox .tagCloud LI A {
+	COLOR: #666
+}
+.clientTagsBox .tagCloud LI A:hover {
+	BACKGROUND-COLOR: #666; COLOR: #fff
+}
+.clientTagsBox H4 {
+	PADDING-BOTTOM: 6px; PADDING-LEFT: 0px; PADDING-RIGHT: 25px; BACKGROUND: url(../img/bgTAGs2.gif) no-repeat right center; PADDING-TOP: 0px
+}
+.offersCustomInfo {
+	PADDING-BOTTOM: 0px; MARGIN-TOP: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 0px; BACKGROUND: url(../img/bgDotted.gif) repeat-x left top; CLEAR: left; FONT-SIZE: 1.2em; PADDING-TOP: 10px
+}
+.offersCustomInfo A {
+	COLOR: #666
+}
+.topProductRecomend {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 15px; PADDING-RIGHT: 0px; ZOOM: 1; BACKGROUND: url(../img/bgDotted.gif) repeat-x left bottom; OVERFLOW: hidden; PADDING-TOP: 0px
+}
+.topProductRecomend IMG {
+	ZOOM: 1; FLOAT: left
+}
+.topProductRecomend STRONG {
+	PADDING-LEFT: 10px; ZOOM: 1; DISPLAY: block; COLOR: #666; FONT-SIZE: 1.1em; OVERFLOW: hidden
+}
+#area131 .topProductRecomend P {
+	LINE-HEIGHT: 1.25; MARGIN: 0px; PADDING-LEFT: 10px; ZOOM: 1; COLOR: #666; OVERFLOW: hidden
+}
+.topProductRecomend A:hover STRONG {
+	TEXT-DECORATION: underline
+}
+.productRecomend {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 15px; PADDING-RIGHT: 0px; ZOOM: 1; OVERFLOW: hidden; PADDING-TOP: 10px
+}
+.productRecomend .image {
+	FLOAT: left; OVERFLOW: hidden
+}
+.productRecomend .product .info {
+	ZOOM: 1; MARGIN-LEFT: 0px; OVERFLOW: hidden
+}
+.productRecomend .product .price {
+	PADDING-LEFT: 10px; DISPLAY: block; MARGIN-BOTTOM: 5px; FLOAT: none; OVERFLOW: hidden
+}
+.productRecomend .product {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.productRecomend .product .price IMG {
+	WIDTH: auto
+}
+.productRecomend .product .productBox {
+	DISPLAY: block; OVERFLOW: hidden
+}
+.productRecomend .price .for {
+	TEXT-ALIGN: left; OVERFLOW: hidden
+}
+.productRecomend .price .for {
+	COLOR: #0082d6; FONT-SIZE: 1.1em
+}
+.productRecomend .name {
+	DISPLAY: block; COLOR: #666; MARGIN-LEFT: 10px; FONT-SIZE: 1.1em; OVERFLOW: hidden; FONT-WEIGHT: bold
+}
+.productRecomend .brand {
+	MARGIN-LEFT: 10px; OVERFLOW: hidden
+}
+.productRecomend .productInfo {
+	LINE-HEIGHT: 1.25; MARGIN: 0px; PADDING-LEFT: 10px; ZOOM: 1; DISPLAY: block; FONT-SIZE: 1.1em; OVERFLOW: hidden
+}
+.productRecomend A:hover .productInfo {
+	TEXT-DECORATION: underline
+}
+.productRecomend A:hover .price {
+	TEXT-DECORATION: none
+}
+#area235 {
+	PADDING-BOTTOM: 5px; ZOOM: 1; OVERFLOW: hidden
+}
+#area231 {
+	WIDTH: 49.9%; FLOAT: left
+}
+#area232 {
+	WIDTH: 49.9%; ZOOM: 1; FLOAT: left
+}
+.productRecomend LI {
+	MARGIN-BOTTOM: 15px
+}
+.productRecomend .first {
+	PADDING-BOTTOM: 15px; BACKGROUND: url(../img/bgDotted.gif) repeat-x left bottom
+}
+.productRecomend LI .productFrequency {
+	PADDING-LEFT: 10px; OVERFLOW: hidden
+}
+.productRecomend LI .productFrequency INPUT {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-TOP: medium none; BORDER-RIGHT: medium none
+}
+.productRecomend LI .productFrequency SELECT {
+	WIDTH: 8em; FONT-SIZE: 1.1em
+}
+.productRecomend LI .price .for {
+	FONT-SIZE: 1.2em
+}
+.offersCustom1 .product .link .image {
+	WIDTH: auto
+}
+.offersCustom2 .product .link .image {
+	WIDTH: auto
+}
+.offersCustom3 .product .link .image {
+	WIDTH: auto
+}
+.offersCustom5 .product .link .image {
+	WIDTH: auto
+}
+.offersCustom2 .productVitrine {
+	PADDING-LEFT: 10px
+}
+.offersCustom2 .seeMoreProduct {
+	FONT-SIZE: 1.2em
+}
+.offersCustom3 .seeMoreProduct {
+	FONT-SIZE: 1.2em
+}
+.offersCustom4 .seeMoreProduct {
+	FONT-SIZE: 1.2em
+}
+.offersCustom5 .seeMoreProduct {
+	FONT-SIZE: 1.2em
+}
+.offersCustom2 .seeMoreProduct A {
+	COLOR: #666
+}
+.offersCustom3 .seeMoreProduct A {
+	COLOR: #666
+}
+.offersCustom4 .seeMoreProduct A {
+	COLOR: #666
+}
+.offersCustom5 .seeMoreProduct A {
+	COLOR: #666
+}
+.offersCustom2 H3 {
+	PADDING-LEFT: 10px; FONT-SIZE: 1.7em
+}
+.offersCustom2 .productVitrine {
+	PADDING-BOTTOM: 0px
+}
+.offersCustom5 .productVitrine {
+	PADDING-BOTTOM: 0px
+}
+.offersCustom3 .specialOffers {
+	MARGIN: 15px 0px; ZOOM: 1; OVERFLOW: hidden
+}
+.offersCustom4 .specialOffers {
+	MARGIN: 15px 0px; ZOOM: 1; OVERFLOW: hidden
+}
+.offersCustom3 .specialOffers .first {
+	FLOAT: left; MARGIN-LEFT: 0px
+}
+.offersCustom4 .specialOffers .first {
+	FLOAT: left; MARGIN-LEFT: 0px
+}
+.offersCustom3 .specialOffers LI {
+	PADDING-LEFT: 15px; ZOOM: 1; OVERFLOW: hidden
+}
+.offersCustom4 .specialOffers LI {
+	PADDING-LEFT: 15px; ZOOM: 1; OVERFLOW: hidden
+}
+.offersCustom3 .specialOffers LI STRONG {
+	DISPLAY: block; FONT-SIZE: 1.3em
+}
+.offersCustom3 .seeMoreProduct {
+	PADDING-LEFT: 10px
+}
+.offersCustom4 .seeMoreProduct {
+	PADDING-LEFT: 10px
+}
+#area131 .offersCustom3 .specialOffers LI P {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 10px
+}
+#area131 .offersCustom4 .specialOffers LI P {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 10px
+}
+.offersCustom3 .specialOffers .first UL LI {
+	FLOAT: left
+}
+.offersCustom4 .specialOffers .first UL LI {
+	FLOAT: left
+}
+.offersCustom4 .specialOffers LI STRONG {
+	FONT-SIZE: 1.6em
+}
+.offersCustom5 .mainImage {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; FLOAT: left; PADDING-TOP: 10px
+}
+.offersCustom5 .productVitrine {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; ZOOM: 1; CLEAR: none; PADDING-TOP: 0px
+}
+.offersCustom5 .productVitrine .grid LI {
+	WIDTH: 33%
+}
+.offersCustom5 .productList LI {
+	PADDING-BOTTOM: 1em; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 1em
+}
+#area131 .offersCustom5 P {
+	LINE-HEIGHT: 1.25; MARGIN: 0px; PADDING-LEFT: 0px; DISPLAY: block; OVERFLOW: hidden; PADDING-TOP: 10px
+}
+.yourView {
+	MARGIN-TOP: 20px; ZOOM: 1; OVERFLOW: hidden
+}
+.yourView LI .type4 {
+	WIDTH: 330px
+}
+.yourView LI .rankingListBox {
+	PADDING-LEFT: 30px; FLOAT: left
+}
+.yourView LI {
+	PADDING-BOTTOM: 1px; MARGIN-TOP: 5px; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; ZOOM: 1; OVERFLOW: hidden; PADDING-TOP: 1px
+}
+.yourView LI LABEL {
+	TEXT-ALIGN: right; WIDTH: 6em; FLOAT: left; CLEAR: left; FONT-SIZE: 1.1em; MARGIN-RIGHT: 5px
+}
+.yourView LI .type1 {
+	FLOAT: none; MARGIN-RIGHT: 0px
+}
+.yourView LI .type3 {
+	FLOAT: none; MARGIN-RIGHT: 0px
+}
+.yourView LI .type1 {
+	ZOOM: 1; MARGIN-LEFT: 20px
+}
+.yourView TEXTAREA {
+	WIDTH: 327px; FLOAT: left
+}
+.yourView LI .type2 {
+	MARGIN: 5px 0px 20px; DISPLAY: block; FONT-SIZE: 1.1em
+}
+.yourView LI .type2 A {
+	COLOR: #666; TEXT-DECORATION: underline
+}
+.yourView .tips SPAN A {
+	COLOR: #666; TEXT-DECORATION: underline
+}
+.yourView LI .location {
+	OVERFLOW: hidden
+}
+.yourView LI .location LI {
+	DISPLAY: inline; FONT-SIZE: 1em
+}
+.yourView .last {
+	MARGIN-TOP: 5px; MARGIN-LEFT: 7.5em
+}
+.yourView .last INPUT {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; BORDER-TOP: 0px; MARGIN-RIGHT: 5px; BORDER-RIGHT: 0px
+}
+.yourView .tips {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 0px; ZOOM: 1; FONT-SIZE: 0.9em; OVERFLOW: hidden; PADDING-TOP: 20px
+}
+.yourView .tips LI {
+	LIST-STYLE-POSITION: inside; LIST-STYLE-TYPE: square
+}
+.yourView .tips .first {
+	LIST-STYLE-POSITION: outside; LIST-STYLE-TYPE: none
+}
+.yourView UL LI UL LI {
+	MARGIN-TOP: 0px; FONT-SIZE: 1.1em
+}
+.yourView UL LI UL LI STRONG {
+	FONT-SIZE: 1.1em
+}
+.yourView SELECT {
+	FONT-SIZE: 1em
+}
+.yourView .rankingList * {
+	VERTICAL-ALIGN: middle
+}
+.yourView .rankingList LI {
+	DISPLAY: inline
+}
+.yourView .rankingList LI SPAN {
+	FONT-SIZE: 1em; FONT-WEIGHT: normal
+}
+.yourView .avail SPAN {
+	FONT-WEIGHT: bold
+}
+.yourView .sendBox {
+	MARGIN: 0px 10px; BACKGROUND: url(../img/bgDotted.gif) repeat-x left top; PADDING-TOP: 15px
+}
+.yourView .sendBox IMG {
+	FLOAT: right
+}
+.box11 {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 15px; PADDING-RIGHT: 0px; ZOOM: 1; BACKGROUND: url(../img/bgBoxCustom.png) no-repeat left top; PADDING-TOP: 0px
+}
+.box11A {
+	POSITION: relative; ZOOM: 1; BACKGROUND: url(../img/bgBoxCustom.png) no-repeat -10px bottom; TOP: 35px; LEFT: -5px
+}
+.box11B {
+	POSITION: relative; ZOOM: 1; BACKGROUND: url(../img/bgBoxCustom.png) no-repeat right bottom; LEFT: 10px
+}
+.box11C {
+	POSITION: relative; PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; BOTTOM: 35px; PADDING-RIGHT: 10px; ZOOM: 1; BACKGROUND: url(../img/bgBoxCustom.png) no-repeat right top; PADDING-TOP: 5px
+}
+.box111 {
+	ZOOM: 1
+}
+.box111 {
+	Z-INDEX: 10; POSITION: absolute; TOP: -35px; RIGHT: -53em; LEFT: 100%
+}
+.box111 .close {
+	MARGIN-TOP: 3px; FLOAT: right
+}
+.box111 H2 {
+	PADDING-BOTTOM: 20px; FLOAT: left; COLOR: #fff; FONT-SIZE: 1.6em
+}
+.box111 H3 {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 32px; PADDING-RIGHT: 0px; ZOOM: 1; BACKGROUND: url(../img/allBgHome.png) no-repeat -345px -39px; CLEAR: both; FONT-SIZE: 1.2em; PADDING-TOP: 5px
+}
+.box111 INPUT {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; VERTICAL-ALIGN: middle; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+}
+.box111 .wide {
+	POSITION: relative; PADDING-RIGHT: 23px; ZOOM: 1
+}
+.box111 .type1 {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; WIDTH: 100%; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid
+}
+.box111 .type2 {
+	POSITION: absolute; TOP: 0px; RIGHT: -10px
+}
+.box111 STRONG {
+	DISPLAY: block; FONT-SIZE: 1.2em
+}
+.box111 UL LI {
+	MARGIN-TOP: 5px
+}
+.box111 UL LI INPUT {
+	VERTICAL-ALIGN: bottom
+}
+.box111 UL LI LABEL {
+	FONT-SIZE: 1.2em
+}
+.box111 UL LI SPAN {
+	COLOR: #666; MARGIN-LEFT: 2px
+}
+.box111 .addArtists {
+	MARGIN-TOP: 5px; HEIGHT: 85px; OVERFLOW: auto
+}
+.box111 .col1 {
+	WIDTH: 50%; PADDING-RIGHT: 30px; BACKGROUND: url(../img/bgVertLine2.gif) no-repeat right center; FLOAT: left; PADDING-TOP: 10px
+}
+.box111 .col2 {
+	WIDTH: 40%; FLOAT: right; PADDING-TOP: 10px
+}
+.box111 .col3 {
+	WIDTH: 100%; CLEAR: both
+}
+.box111 .save {
+	MARGIN: 30px 0px -20px; BACKGROUND: url(../img/bgDotted.gif) repeat-x left top; CLEAR: both; OVERFLOW: hidden
+}
+.box111 .save INPUT {
+	MARGIN: 10px 0px 0px; WIDTH: 113px; BACKGROUND: url(../img/allBgHome.png) no-repeat -203px -41px; FLOAT: right; HEIGHT: 20px; OVERFLOW: hidden; CURSOR: pointer; PADDING-TOP: 20px
+}
+.editMyTagsBox {
+	
+}
+.editMyTagsBox .box6 {
+	POSITION: absolute; WIDTH: 22.5em; LEFT: 2.2em
+}
+.editMyTagsBox .box6A {
+	POSITION: relative; PADDING-BOTTOM: 0pt; PADDING-LEFT: 1em; PADDING-RIGHT: 1em; BACKGROUND: url(../img/arowBox6.gif) no-repeat 10em top; TOP: -1.1em; PADDING-TOP: 1.7em
+}
+.myTagsBox .myTagsMain .editMyTags {
+	ZOOM: 1; OVERFLOW: hidden
+}
+.myTagsBox .myTagsMain .editMyTags H2 {
+	FONT-SIZE: 1.2em
+}
+.myTagsBox .myTagsMain .editMyTags UL {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; MARGIN: 10px 0px; HEIGHT: 12em; OVERFLOW: auto; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid
+}
+.myTagsBox .myTagsMain .editMyTags UL LI {
+	PADDING-BOTTOM: 0px; MARGIN-TOP: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; ZOOM: 1; DISPLAY: block; CLEAR: right; FONT-SIZE: 1.1em; OVERFLOW: hidden; PADDING-TOP: 0px
+}
+.myTagsBox .myTagsMain .editMyTags UL LI .delete {
+	PADDING-BOTTOM: 0px; MARGIN-TOP: 2px; PADDING-LEFT: 0px; PADDING-RIGHT: 5px; BACKGROUND: url(../img/imgX.gif) no-repeat; FLOAT: right; HEIGHT: 0px; OVERFLOW: hidden; MARGIN-RIGHT: 2px; PADDING-TOP: 9px
+}
+.myTagsBox .myTagsMain .editMyTags UL LI .delete:hover {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 5px; BACKGROUND: url(../img/imgX.gif) no-repeat 0px -9px; HEIGHT: 0px; OVERFLOW: hidden; PADDING-TOP: 9px
+}
+.myTagsBox .myTagsMain .editMyTags UL LI:hover {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid
+}
+.myTagsBox .myTagsMain .editMyTags UL LI A:hover {
+	COLOR: #0082d6
+}
+.myTagsBox .myTagsMain .editMyTags UL LI A {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; COLOR: #666; TEXT-DECORATION: none; PADDING-TOP: 0px
+}
+.myTagsBox .myTagsMain .editMyTags INPUT {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; FLOAT: right; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+}
+.myTagsBox .myTagsMain .editMyTags .edit {
+	DISPLAY: none
+}
+.myTagsBox .myTagsMain .editMyTags .selected .edit {
+	DISPLAY: block
+}
+.myTagsBox .myTagsMain .editMyTags .edit {
+	FLOAT: none; FONT-SIZE: 1em
+}
+.myTagsBox .myTagsMain .editMyTags .selected .name {
+	DISPLAY: none
+}
+.myTagsBox .myTagsMain .editMyTags .selected .delete {
+	DISPLAY: none
+}
+.myTagsBox {
+	Z-INDEX: 2000; POSITION: relative
+}
+#divBoxTags {
+	POSITION: static
+}
+.productLightBox {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 30px; ZOOM: 1; OVERFLOW: hidden
+}
+.productLightBox H2 {
+	TEXT-ALIGN: left; MARGIN-BOTTOM: 20px; FONT-SIZE: 1.4em
+}
+.productLightBox UL {
+	OVERFLOW: hidden
+}
+.productLightBox UL LI {
+	PADDING-LEFT: 10px; FLOAT: left
+}
+.productLightBox UL LI UL {
+	MARGIN-TOP: 0px
+}
+.productLightBox UL LI IMG {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; PADDING-BOTTOM: 1px; PADDING-LEFT: 1px; WIDTH: 3.8em; PADDING-RIGHT: 1px; HEIGHT: 3.8em; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid; PADDING-TOP: 1px
+}
+.productLightBox UL .selected IMG {
+	BORDER-BOTTOM: #0082d6 1px solid; BORDER-LEFT: #0082d6 1px solid; ZOOM: 1; OVERFLOW: hidden; BORDER-TOP: #0082d6 1px solid; BORDER-RIGHT: #0082d6 1px solid
+}
+.productLightBox .productLight {
+	POSITION: absolute; PADDING-BOTTOM: 5px; PADDING-LEFT: 0px; WIDTH: 98%; BOTTOM: -1px; PADDING-RIGHT: 0px; BACKGROUND: #fff; PADDING-TOP: 5px; LEFT: 5px
+}
+.productLightBox .productZoom {
+	PADDING-RIGHT: 5px; ZOOM: 1; OVERFLOW: hidden
+}
+.productLightBox .productOptions {
+	PADDING-LEFT: 5px; BACKGROUND: url(../img/bgDotted2.gif) repeat-y left center; MARGIN-LEFT: 10px
+}
+.productLightBox .boxSzoom {
+	POSITION: absolute; PADDING-BOTTOM: 20px; WIDTH: 97.7%; BOTTOM: 52px; BACKGROUND: url(../img/breadCrumbsBg.gif) repeat-x left bottom; LEFT: 0px
+}
+.productLightBox .sZoom {
+	DISPLAY: none; BACKGROUND: url(../img/bgSuperZoom.png) no-repeat left bottom; HEIGHT: 52px; OVERFLOW: hidden; TOP: 232px
+}
+.productLightBox .both {
+	BACKGROUND-POSITION: left -1px
+}
+.productLightBox .sZoom .moreZoom {
+	MARGIN-TOP: 10px; PADDING-LEFT: 0px; WIDTH: 40px; HEIGHT: 43px
+}
+.productLightBox .sZoom .lessZoom {
+	MARGIN-TOP: 25px; PADDING-LEFT: 0px; WIDTH: 31px; HEIGHT: 26px
+}
+.productLightBox .sZoom .moreZoom A {
+	DISPLAY: block; HEIGHT: 0px; OVERFLOW: hidden; PADDING-TOP: 43px
+}
+.productLightBox .sZoom .lessZoom A {
+	DISPLAY: block; HEIGHT: 0px; OVERFLOW: hidden; PADDING-TOP: 26px
+}
+.productLightBox .topBoxLine {
+	BACKGROUND: url(../img/bgTopBoxLineLeft.gif) no-repeat left top
+}
+.productLightBox .topBoxLine2 {
+	BACKGROUND: url(../img/bgTopBoxLineRight.gif) no-repeat right top
+}
+#mediaPlayer {
+	MARGIN: 0px auto; WIDTH: 300px
+}
+.rankingListBox {
+	CLEAR: both; OVERFLOW: hidden
+}
+.rankingListBox SPAN {
+	FLOAT: left; FONT-SIZE: 1.1em; MARGIN-RIGHT: 5px; TEXT-DECORATION: none
+}
+#page .rankingListBox .rankingList {
+	POSITION: relative; WIDTH: 175px; DISPLAY: block; BACKGROUND: url(../img/bgRating.gif) no-repeat; FLOAT: left; HEIGHT: 13px
+}
+#lightwindow_contents .rankingListBox .rankingList {
+	POSITION: relative; WIDTH: 175px; DISPLAY: block; BACKGROUND: url(../img/bgRating.gif) no-repeat; FLOAT: left; HEIGHT: 13px
+}
+#page .rankingListBox .rankingList LI {
+	POSITION: absolute; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; HEIGHT: 100%; OVERFLOW: visible; TOP: 0px; PADDING-TOP: 0px; LEFT: 0px
+}
+#lightwindow_contents .rankingListBox .rankingList LI {
+	POSITION: absolute; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; HEIGHT: 100%; OVERFLOW: visible; TOP: 0px; PADDING-TOP: 0px; LEFT: 0px
+}
+.rankingListBox .rankingList .level1 {
+	Z-INDEX: 6; WIDTH: 17px
+}
+.rankingListBox .rankingList .level2 {
+	Z-INDEX: 5; WIDTH: 38px
+}
+.rankingListBox .rankingList .level3 {
+	Z-INDEX: 4; WIDTH: 58px
+}
+.rankingListBox .rankingList .level4 {
+	Z-INDEX: 3; WIDTH: 78px
+}
+.rankingListBox .rankingList .level5 {
+	Z-INDEX: 2; WIDTH: 98px
+}
+.rankingListBox .rankingList .level6 {
+	Z-INDEX: 1; WIDTH: 112px
+}
+.rankingListBox .rankingList LI SPAN {
+	POSITION: absolute; TEXT-ALIGN: left; WIDTH: auto; DISPLAY: none; FLOAT: none; COLOR: #666; RIGHT: -130px
+}
+.rankingListBox .rankingList .level1 SPAN {
+	RIGHT: -128px
+}
+.rankingListBox .rankingList .level2 SPAN {
+	RIGHT: -121px
+}
+.rankingListBox .rankingList .level3 SPAN {
+	RIGHT: -83px
+}
+.rankingListBox .rankingList .level4 SPAN {
+	RIGHT: -70px
+}
+.rankingListBox .rankingList .level5 SPAN {
+	RIGHT: -70px
+}
+.rankingListBox .rankingList .level6 SPAN {
+	RIGHT: -56px
+}
+.rankingListBox .rankingList LI A {
+	POSITION: relative; WIDTH: 100%; DISPLAY: block; HEIGHT: 100%
+}
+.rankingListBox .rankingList LI A:hover {
+	BACKGROUND: url(../img/bgRating.gif) no-repeat 0px -13px
+}
+.rankingListBox .rankingList LI A:hover SPAN {
+	DISPLAY: block; TEXT-DECORATION: none
+}
+.rankingListBox .rankingList .level6 A:hover {
+	BACKGROUND: url(../img/bgRating.gif) no-repeat 0px -26px
+}
+.rankingListBox .rankingList .selected {
+	BACKGROUND: url(../img/bgRating.gif) no-repeat 0px -26px
+}
+.rankingListBox .rankingList .selected {
+	BACKGROUND: url(../img/bgRating.gif) no-repeat 0px -13px
+}
+.themesDescription {
+	MARGIN: 10px 0px 35px; ZOOM: 1; BACKGROUND: #fff; OVERFLOW: hidden
+}
+.themesDescription IMG {
+	PADDING-RIGHT: 20px; FLOAT: left
+}
+.themesDescription H1 {
+	COLOR: #0082d6; FONT-SIZE: 1.6em; OVERFLOW: hidden
+}
+.themesDescription P {
+	PADDING-RIGHT: 20px; FONT-SIZE: 1.1em; OVERFLOW: hidden
+}
+.howTo DL {
+	PADDING-BOTTOM: 20px; PADDING-LEFT: 20px; PADDING-RIGHT: 20px; FONT-SIZE: 1.1em; PADDING-TOP: 20px
+}
+.howTo DT {
+	FONT-WEIGHT: bold
+}
+.howTo DD {
+	MARGIN-BOTTOM: 10px
+}
+.themesListBox {
+	OVERFLOW: hidden
+}
+.themesListBox .themesList {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 20px; PADDING-RIGHT: 20px; OVERFLOW: hidden; PADDING-TOP: 0px
+}
+.themesListBox .themesList LI {
+	PADDING-BOTTOM: 0px; MARGIN: -1px 0px 20px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: url(../img/bgDotted.gif) repeat-x left top; CLEAR: left; OVERFLOW: hidden; PADDING-TOP: 30px
+}
+.themesListBox .themesList LI .imageTheme {
+	WIDTH: 100%; DISPLAY: inline; FLOAT: left; MARGIN-LEFT: 0px; OVERFLOW: hidden
+}
+.themesListBox .themesList LI .themesInfo {
+	WIDTH: 100%; FLOAT: right
+}
+.themesListBox .themesList LI .themesInfo .name {
+	DISPLAY: block; FONT-SIZE: 1.1em
+}
+.themesListBox .themesList LI .themesInfo .name STRONG {
+	FONT-SIZE: 1.5em; MARGIN-RIGHT: 3px
+}
+.themesListBox .themesList LI .themesInfo .name IMG {
+	VERTICAL-ALIGN: middle
+}
+.themesListBox .themesList LI .themesInfo .added {
+	DISPLAY: block; FONT-SIZE: 1.1em
+}
+.themesListBox .themesList LI .themesInfo .evaluation {
+	FLOAT: left; FONT-SIZE: 1.1em; OVERFLOW: hidden
+}
+.themesListBox .themesList LI .themesInfo .evaluation IMG {
+	MARGIN: 0px 5px; VERTICAL-ALIGN: middle
+}
+.themesListBox .themesList LI .themesInfo .evaluation SPAN {
+	PADDING-RIGHT: 5px
+}
+.themesListBox .themesList LI .rankingListBox {
+	FLOAT: left; CLEAR: none
+}
+.themesListBox .themesList LI .rankingListBox .rankingList LI {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: none transparent scroll repeat 0% 0%; CLEAR: none; OVERFLOW: visible; PADDING-TOP: 0px
+}
+.themesListBox .themesList LI .rankingListBox .rankingList LI A {
+	COLOR: #666
+}
+.themesListBox .themesList LI .buttons {
+	ZOOM: 1; CLEAR: left; OVERFLOW: hidden; PADDING-TOP: 5px
+}
+.themesListBox .results {
+	PADDING-LEFT: 10px
+}
+.themesListBox .pageList {
+	PADDING-LEFT: 10px
+}
+.albumList {
+	LIST-STYLE-POSITION: outside; LIST-STYLE-TYPE: none; ZOOM: 1; OVERFLOW: hidden
+}
+.albumList LI {
+	WIDTH: 49.9%; FLOAT: left
+}
+.albumList LI H3 {
+	MARGIN-BOTTOM: 20px; FONT-SIZE: 1.1em
+}
+.albumList LI STRONG {
+	FONT-SIZE: 1.1em; FONT-WEIGHT: normal; MARGIN-RIGHT: 5px
+}
+.albumList LI OL {
+	LIST-STYLE-POSITION: inside; LIST-STYLE-TYPE: decimal
+}
+.albumList LI OL LI {
+	WIDTH: auto; FLOAT: none
+}
+.albumList LI OL LI IMG {
+	VERTICAL-ALIGN: middle
+}
+.albumList LI OL LI SPAN {
+	MARGIN: 0px 5px
+}
+.searchTopBox {
+	ZOOM: 1; BACKGROUND: url(../img/bgRightSup.gif) #f6f6f6 no-repeat right top; OVERFLOW: hidden
+}
+.searchTopBox1 {
+	ZOOM: 1; BACKGROUND: url(../img/bgLeftSup.gif) no-repeat left top; OVERFLOW: hidden
+}
+.searchTopBox2 {
+	BACKGROUND: url(../img/bgLeftInf.gif) no-repeat left bottom; OVERFLOW: hidden
+}
+.searchTopBox3 {
+	PADDING-BOTTOM: 4px; MARGIN-TOP: 5px; BACKGROUND: url(../img/bgRightInf.gif) no-repeat right bottom; OVERFLOW: hidden
+}
+.titleResult {
+	PADDING-BOTTOM: 20px; MARGIN: 0px 0px 0px 15px; PADDING-LEFT: 45px; PADDING-RIGHT: 0px; BACKGROUND: url(../img/bgSearchResult.gif) #fff no-repeat left top; COLOR: #0082d6; FONT-SIZE: 1.6em; PADDING-TOP: 10px
+}
+.searchResult {
+	WIDTH: 100%; BACKGROUND: url(../img/bgTopLineBox3Right.gif) no-repeat right top; OVERFLOW: hidden
+}
+.searchResultBox {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 30px; PADDING-RIGHT: 0px; OVERFLOW: hidden; PADDING-TOP: 30px
+}
+.searchResultBox .searchResultInfo {
+	COLOR: #f50500; FONT-SIZE: 1.1em
+}
+.searchResultBox .searchAgain .searchTopBox {
+	MARGIN: 10px 0px
+}
+.searchResultBox .mainSearch {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 0px; PADDING-TOP: 5px
+}
+.searchResultBox .mainSearch INPUT {
+	VERTICAL-ALIGN: middle
+}
+.searchResultBox .mainSearch .title23 {
+	MARGIN-RIGHT: 5px
+}
+.searchResultBox .searchString {
+	WIDTH: 50%
+}
+.searchResultBox .searchAgain {
+	PADDING-BOTTOM: 0pt; PADDING-LEFT: 15px; WIDTH: 50%; PADDING-RIGHT: 10px; DISPLAY: inline; BACKGROUND: url(../img/bgDotted2.gif) repeat-y right top; FLOAT: left; MARGIN-LEFT: -30px; PADDING-TOP: 0pt
+}
+.searchResultBox .searchDoubts {
+	WIDTH: 50%; FLOAT: right
+}
+.searchResultBox .searchTips {
+	FONT-SIZE: 1.1em
+}
+.searchResultBox .searchTips UL LI {
+	LIST-STYLE-POSITION: inside; LIST-STYLE-TYPE: square
+}
+.searchResultBox .searchDoubts {
+	TEXT-ALIGN: center
+}
+.searchResultBox .searchDoubts IMG {
+	MARGIN-BOTTOM: 20px
+}
+.searchResultBox .searchDoubts .searchDoubtsInfo {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 0px; PADDING-LEFT: 15px; PADDING-RIGHT: 15px; PADDING-TOP: 0px
+}
+.searchResultBox .searchDoubts .searchDoubtsInfo STRONG {
+	DISPLAY: block; COLOR: #0082d6; FONT-SIZE: 1.6em
+}
+.searchResultBox .searchDoubts .searchDoubtsInfo SPAN {
+	DISPLAY: block; COLOR: #0082d6; FONT-SIZE: 1.1em
+}
+.searchResultBox .searchDoubts .searchDoubtsInfo .contact {
+	COLOR: #666; FONT-WEIGHT: bold
+}
+.searchResultBox .searchDoubts .searchDoubtsInfo P {
+	COLOR: #ccc
+}
+.searchResultBox {
+	MARGIN-BOTTOM: 30px
+}
+.ourStores {
+	MARGIN-LEFT: 15px
+}
+.ourStores LI {
+	FONT-SIZE: 1.1em
+}
+.ourStores LI STRONG {
+	MARGIN-RIGHT: 2px
+}
+.ourStores LI A {
+	COLOR: #666
+}
+.topBoxLine {
+	MARGIN: 20px -9px 0px -5px; BACKGROUND: url(../img/bgTopLineBox3Left.gif) no-repeat left top
+}
+.topBoxLine2 {
+	ZOOM: 1; BACKGROUND: url(../img/bgTopLineBox3Right.gif) no-repeat right top; MARGIN-LEFT: 5px
+}
+.productVitrineHighlight .productGenericList .productList {
+	MARGIN-LEFT: 16px
+}
+.productVitrineHighlight .productGenericList .productList LI {
+	MARGIN: 0px
+}
+.productVitrineHighlight .productGenericList .grid LI {
+	WIDTH: 24.9%
+}
+.productVitrineHighlight .productGenericList .grid {
+	TEXT-ALIGN: center; PADDING-LEFT: 0px; MAX-WIDTH: 100%
+}
+.productVitrineHighlight .productGenericList .grid .image {
+	FLOAT: none
+}
+.productVitrineHighlight .productGenericList .grid .info .name {
+	MARGIN: 0px auto; DISPLAY: block; FONT-SIZE: 1.1em
+}
+.productVitrineHighlight .productGenericList .grid .related LI {
+	WIDTH: 100%; FLOAT: none
+}
+.productVitrineHighlight .productGenericList .grid .price .for {
+	MARGIN: 0px; FONT-SIZE: 1.1em
+}
+.productVitrineHighlight .productGenericList .grid .price {
+	MARGIN-TOP: 0px
+}
+.productVitrineHighlight .productEspecial2 {
+	PADDING-TOP: 20px
+}
+.boxMoreInfo .box6 {
+	WIDTH: 28em; DISPLAY: none; TOP: 2.5em; LEFT: 0.5em
+}
+#boxMoreInfoTags .box6 {
+	Z-INDEX: 3000; TOP: 21px; LEFT: -14px
+}
+#boxMoreInfoTags .box6 P {
+	PADDING-BOTTOM: 0px; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-SIZE: 10px
+}
+#boxMoreInfoTags .box6 P STRONG {
+	FONT-SIZE: 11px
+}
+.selected .box6 {
+	DISPLAY: block
+}
+.boxMoreInfo .box6A {
+	POSITION: relative; PADDING-BOTTOM: 0px; PADDING-LEFT: 1em; PADDING-RIGHT: 1em; DISPLAY: block; BACKGROUND: url(../img/arowBox6.gif) no-repeat center top; TOP: -11px; PADDING-TOP: 1.7em
+}
+.boxMoreInfo .moreInfo {
+	PADDING-RIGHT: 15px; ZOOM: 1; OVERFLOW: hidden
+}
+.sharePage .boxMoreInfo .box6 {
+	WIDTH: 35em; MARGIN-LEFT: -17.5em; TOP: 2em; LEFT: 50%
+}
+.selected .box6 {
+	DISPLAY: block
+}
+.selected .box6 {
+	DISPLAY: block
+}
+.tabs UL LI .box6 {
+	DISPLAY: none
+}
+.tabs UL LI.selected2 .box6 {
+	DISPLAY: block
+}
+.tabs UL LI.selected2 .box6 {
+	FONT-SIZE: 11px; TOP: 3.2em; FONT-WEIGHT: normal; LEFT: 5em
+}
+.boxMoreInfo .moreInfo .mainDescription {
+	MARGIN-BOTTOM: 5px
+}
+.boxMoreInfo .moreInfo UL LI {
+	FLOAT: left; PADDING-TOP: 5px
+}
+.boxMoreInfo .moreInfo UL LI STRONG {
+	MARGIN: 0px 5px 0px 0px; FLOAT: left; FONT-SIZE: 1em
+}
+.boxMoreInfo .moreInfo UL LI SPAN {
+	MARGIN-LEFT: 5px
+}
+.boxMoreInfo .moreInfo UL LI IMG {
+	DISPLAY: inline; FLOAT: left; VERTICAL-ALIGN: middle; MARGIN-RIGHT: 5px
+}
+#lightwindow_contents .topBoxLine2 {
+	BACKGROUND: none transparent scroll repeat 0% 0%; OVERFLOW: hidden
+}
+#lightwindow_contents .topBoxLine {
+	BACKGROUND: none transparent scroll repeat 0% 0%; OVERFLOW: hidden
+}
+.screenshotBox {
+	PADDING-LEFT: 10px; MARGIN-BOTTOM: 15px
+}
+.screenshotBox UL {
+	PADDING-BOTTOM: 5px
+}
+.screenshotBox UL LI {
+	Z-INDEX: 999; POSITION: relative; FLOAT: left; MARGIN-RIGHT: 15px
+}
+.screenshotBox SPAN {
+	DISPLAY: block; CLEAR: left
+}
+.screenshotBox .box6 {
+	WIDTH: 42em; BOTTOM: 8.5em; DISPLAY: none; LEFT: 0.5em
+}
+.screenshotBox .box6A {
+	POSITION: relative; PADDING-BOTTOM: 1.5em; PADDING-LEFT: 1em; WIDTH: 42em; PADDING-RIGHT: 1em; BACKGROUND: url(../img/arowBox6b.gif) no-repeat 4em bottom; TOP: 12px; PADDING-TOP: 0em
+}
+.screenshotBox UL .selected .box6 {
+	DISPLAY: block
+}
+.deliveryPeriodBox {
+	MARGIN: 0px auto; WIDTH: 54.5em; OVERFLOW: hidden
+}
+.deliveryPeriodBox H1 {
+	PADDING-LEFT: 20px; MARGIN-BOTTOM: 25px; COLOR: #0082d6; FONT-SIZE: 1.6em
+}
+.deliveryPeriodBox H2 {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 20px; PADDING-RIGHT: 20px; FONT-SIZE: 1.5em; PADDING-TOP: 20px
+}
+.deliveryPeriodBox H3 {
+	FONT-SIZE: 1.3em
+}
+.deliveryPeriodBox UL {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 20px; PADDING-RIGHT: 20px; PADDING-TOP: 15px
+}
+.deliveryPeriodBox UL LI {
+	MARGIN: 10px 0px
+}
+.deliveryPeriodBox UL LI P {
+	FONT-SIZE: 1.1em
+}
+.auto_complete {
+	BORDER-BOTTOM: #ccc 0px solid; POSITION: absolute; BORDER-LEFT: #ccc 0px solid; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: white; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 250px; PADDING-RIGHT: 0px; BORDER-TOP: #ccc 0px solid; BORDER-RIGHT: #ccc 0px solid; PADDING-TOP: 0px
+}
+.auto_complete {
+	WIDTH: 350px; BACKGROUND: #fff
+}
+.auto_complete UL {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 100%; PADDING-RIGHT: 0px; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid; PADDING-TOP: 0px
+}
+.myTagsBox .myTagsMain .auto_complete UL LI {
+	PADDING-BOTTOM: 3px; MARGIN: 0px; PADDING-LEFT: 3px; PADDING-RIGHT: 3px; DISPLAY: block; PADDING-TOP: 3px
+}
+.auto_complete UL LI.selected {
+	BACKGROUND-COLOR: #fff
+}
+.auto_complete UL STRONG.highlight {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; COLOR: #666; PADDING-TOP: 0px
+}
+.homeCollection H1 {
+	PADDING-LEFT: 10px; DISPLAY: block; BACKGROUND: #fff; COLOR: #0082d6; FONT-SIZE: 1.8em
+}
+.homeCollection P {
+	MARGIN: 0px 0px 25px; PADDING-LEFT: 10px; FONT-SIZE: 1.2em
+}
+.collectionHighlights {
+	TEXT-ALIGN: center; ZOOM: 1; BACKGROUND: url(../img/breadCrumbsBg.gif) repeat-x left top; OVERFLOW: hidden
+}
+.collectionHighlights UL {
+	MARGIN: 30px 10px 0px 15px; ZOOM: 1; BACKGROUND: url(../img/bgDotted.gif) repeat-x left bottom; OVERFLOW: hidden
+}
+.collectionHighlights UL LI {
+	PADDING-BOTTOM: 25px; WIDTH: 49.9%; FLOAT: left
+}
+.collectionHighlights UL LI .name {
+	DISPLAY: block; COLOR: #0082d6; FONT-SIZE: 1.6em
+}
+.collectionHighlights UL LI .description {
+	DISPLAY: block; COLOR: #666; FONT-SIZE: 1.3em
+}
+.collectionHighlights UL LI SPAN {
+	COLOR: #666; FONT-SIZE: 1em
+}
+.collectionHighlights A:hover STRONG {
+	TEXT-DECORATION: underline
+}
+.collectionHighlights A:hover SPAN {
+	TEXT-DECORATION: underline
+}
+.homeCollection .highLightBrands {
+	MARGIN-TOP: 25px; OVERFLOW: hidden
+}
+.highLightBrands LI {
+	WIDTH: 24.9%
+}
+.homeCollection .listArtist {
+	PADDING-LEFT: 30px; MARGIN-LEFT: 0px
+}
+.homeCollection .listArtist LI {
+	LIST-STYLE-TYPE: none; PADDING-LEFT: 10px; BACKGROUND: url(../img/bullet.gif) no-repeat left center; MARGIN-LEFT: -10px
+}
+#ucHeader_SearchHome__ctl0_hgcTopSearch {
+	DISPLAY: none
+}
+#ucHeader_SearchHome__ctl0_hgcWave {
+	DISPLAY: none
+}
+#page .offers {
+	DISPLAY: none
+}
+#footer .prideSupport {
+	DISPLAY: none
+}
+.mostDesired LI OL .last {
+	DISPLAY: none
+}
+.mostDesired LI OL {
+	OVERFLOW: hidden
+}
+.mostDesired LI OL LI {
+	MARGIN-TOP: 3px; MARGIN-BOTTOM: -3px
+}
+.productGenericList {
+	ZOOM: 1; OVERFLOW: hidden
+}
+#area131 .listSearchOptions P {
+	PADDING-LEFT: 0px
+}
+.listSearchOptions .breadcrumbBox {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 9.5em; MARGIN-BOTTOM: 5px; PADDING-TOP: 0px
+}
+#area12 #listMostDesired #li3 {
+	DISPLAY: none
+}
+.buttons {
+	DISPLAY: block; OVERFLOW: hidden; PADDING-TOP: 10px
+}
+.buttons .type2 {
+	FLOAT: right; MARGIN-RIGHT: 5px
+}
+.buttons .type1 {
+	FLOAT: left; MARGIN-LEFT: 5px
+}
+.optout H2 {
+	MARGIN: 0px 0px 10px 20px
+}
+.optout .chooseBox {
+	BACKGROUND: url(../img/bgTopBoxLineRight.gif) no-repeat right top
+}
+.optout P {
+	TEXT-ALIGN: center; BACKGROUND: url(../img/bgTopBox.gif) repeat-x left top; FONT-SIZE: 1.2em; PADDING-TOP: 50px
+}
+.optout .buttons {
+	MARGIN: 0px auto; WIDTH: 440px; BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.optout .buttons .box2 {
+	BACKGROUND: url(../img/bgBox2Left2.gif) no-repeat left top
+}
+.optout .buttons .box2A {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 100px; PADDING-RIGHT: 100px; BACKGROUND: url(../img/bgBox2Right2.gif) no-repeat right top; PADDING-TOP: 20px
+}
+.signatureRss H2 {
+	PADDING-BOTTOM: 2px; PADDING-LEFT: 25px; PADDING-RIGHT: 0px; BACKGROUND: url(../img/iconRSS2.png) no-repeat left center; FONT-WEIGHT: bold; PADDING-TOP: 2px
+}
+.signatureRss P {
+	FONT-SIZE: 1.1em
+}
+.signatureRss .agregRss FIELDSET {
+	MIN-HEIGHT: 20px
+}
+.signatureRss .agregRss {
+	TEXT-ALIGN: center
+}
+.signatureRss .agregRss TEXTAREA {
+	BORDER-BOTTOM: #ccc solid; TEXT-ALIGN: center; BORDER-LEFT: #ccc solid; MIN-HEIGHT: 20px; WIDTH: 100%; BACKGROUND: #dfedf7; COLOR: #0082d6; BORDER-TOP: #ccc solid; BORDER-RIGHT: #ccc solid
+}
+.signatureRss .agregRss IMG {
+	MARGIN-TOP: 20px
+}
+.mapSite .title24 {
+	MARGIN: 0px 0px 35px 10px
+}
+.mapSite .sotres {
+	PADDING-BOTTOM: 60px; PADDING-LEFT: 20px; PADDING-RIGHT: 0px; ZOOM: 1; OVERFLOW: hidden; PADDING-TOP: 0px
+}
+.mapSite .sotres LI {
+	WIDTH: 19.9%; FLOAT: left
+}
+.mapSite .sotres LI UL LI {
+	WIDTH: auto; FLOAT: none; PADDING-TOP: 10px
+}
+.mapSite .tabs {
+	CLEAR: both
+}
+.servBox {
+	MARGIN: 0px 20px 20px; ZOOM: 1; OVERFLOW: hidden
+}
+.servBox LI {
+	MARGIN-BOTTOM: 15px
+}
+.mapSite .servLinks {
+	DISPLAY: inline; MARGIN-LEFT: 3px
+}
+.mapSite .servLinks LI {
+	DISPLAY: inline; FONT-SIZE: 1.1em
+}
+.mapSite .servLinks LI A {
+	COLOR: #666
+}
+.mapSite .title9 {
+	DISPLAY: inline
+}
+.mapSite .partnersList {
+	ZOOM: 1; OVERFLOW: hidden
+}
+.mapSite .partnersList LI {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 25px; WIDTH: 33%; FLOAT: left
+}
+.preferredRss {
+	MARGIN: 0px 10px 0px -5px
+}
+.preferredRss .title20 {
+	PADDING-LEFT: 25px; BACKGROUND: url(../img/imgRssIcon.png) no-repeat left center
+}
+.preferredRss P {
+	MARGIN-TOP: 15px; FONT-SIZE: 1.1em
+}
+.preferredRss .linkAdressPreferred {
+	BORDER-BOTTOM: #ccc 1px solid; TEXT-ALIGN: center; BORDER-LEFT: #ccc 1px solid; PADDING-BOTTOM: 2px; MIN-HEIGHT: 40px; PADDING-LEFT: 0px; WIDTH: 99%; PADDING-RIGHT: 0px; BACKGROUND: #dfedf7; HEIGHT: 40px; COLOR: #0082d6; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid; PADDING-TOP: 2px
+}
+.preferredRss .allAgreg {
+	MARGIN-TOP: 20px; WIDTH: 100%
+}
+.preferredRss .allAgreg LI {
+	TEXT-ALIGN: center; WIDTH: 33%; FLOAT: left
+}
+.searchArtists {
+	MARGIN: 0px 10px; ZOOM: 1; BACKGROUND: url(../img/bgDotted.gif) repeat-x center top
+}
+.searchArtists FORM {
+	Z-INDEX: 10; POSITION: relative; TEXT-ALIGN: center; PADDING-BOTTOM: 30px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 20px
+}
+.searchArtists LABEL {
+	FONT-SIZE: 1.4em; FONT-WEIGHT: bold
+}
+.searchArtists INPUT {
+	WIDTH: 240px
+}
+.searchArtists .resultAutoComplete {
+	Z-INDEX: 3000; BORDER-BOTTOM: #ccc 1px solid; POSITION: absolute; BORDER-LEFT: #ccc 1px solid; WIDTH: 240px !important; BACKGROUND: #fff; BORDER-TOP: #ccc 1px solid; TOP: 40px !important; RIGHT: 317px !important; BORDER-RIGHT: #ccc 1px solid
+}
+.searchArtists .resultAutoComplete UL {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; FONT-SIZE: 1.1em; PADDING-TOP: 5px
+}
+.searchArtists .resultAutoComplete UL LI {
+	CURSOR: pointer
+}
+.searchArtists .resultAutoComplete UL LI.selected {
+	BACKGROUND: #e5f4e9
+}
+.skuColor {
+	MARGIN: 10px 0px; OVERFLOW: hidden
+}
+.skuColor .allColorBatom LI {
+	PADDING-BOTTOM: 2px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; FLOAT: left; PADDING-TOP: 2px
+}
+.skuColor .type {
+	FLOAT: left; COLOR: #666; FONT-SIZE: 1.2em; VERTICAL-ALIGN: middle; FONT-WEIGHT: bold
+}
+.skuColor .allColorType {
+	ZOOM: 1; OVERFLOW: hidden
+}
+.skuColor .allColorType LI {
+	BORDER-BOTTOM: #ccc 2px solid; BORDER-LEFT: #ccc 2px solid; MARGIN: 3px; WIDTH: 16px; FLOAT: left; HEIGHT: 16px; BORDER-TOP: #ccc 2px solid; BORDER-RIGHT: #ccc 2px solid
+}
+.skuColor .allColorType LI.over {
+	BORDER-BOTTOM: #666 2px solid; POSITION: relative; BORDER-LEFT: #666 2px solid; BORDER-TOP: #666 2px solid; BORDER-RIGHT: #666 2px solid
+}
+.skuColor .allColorBatom LI.over {
+	BORDER-BOTTOM: #666 2px solid; POSITION: relative; BORDER-LEFT: #666 2px solid; BORDER-TOP: #666 2px solid; BORDER-RIGHT: #666 2px solid
+}
+.skuColor .allColorType LI.selected {
+	BORDER-BOTTOM: #0082d6 2px solid; BORDER-LEFT: #0082d6 2px solid; BORDER-TOP: #0082d6 2px solid; BORDER-RIGHT: #0082d6 2px solid
+}
+.skuColor .allColorBatom LI.selected {
+	BORDER-BOTTOM: #0082d6 2px solid; BORDER-LEFT: #0082d6 2px solid; BORDER-TOP: #0082d6 2px solid; BORDER-RIGHT: #0082d6 2px solid
+}
+.skuColor .allColorType LI A {
+	WIDTH: 16px; DISPLAY: block; HEIGHT: 0px; OVERFLOW: hidden; PADDING-TOP: 16px
+}
+.fruitlessSearch {
+	PADDING-BOTTOM: 50px; PADDING-LEFT: 90px; PADDING-RIGHT: 90px; BACKGROUND: url(../img/area1RoundBoxTR.gif) repeat-x left top; COLOR: #666; FONT-SIZE: 1.3em; PADDING-TOP: 50px
+}
+.searchItem {
+	COLOR: #666; FONT-SIZE: 1.3em
+}
+.tabs .allDescriptionNaveg {
+	DISPLAY: none
+}
+.breadCrumbSupplier {
+	FONT-SIZE: 1em
+}
+.yourView .yourViewAttention {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 5px; MARGIN: 0px 10px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; BACKGROUND: #fffee8; COLOR: #000; FONT-SIZE: 1.2em; PADDING-TOP: 5px
+}
+.yourView .yourViewAttention P {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 5px; MARGIN: 0px; PADDING-LEFT: 45px; PADDING-RIGHT: 0px; DISPLAY: inline-block; BACKGROUND: url(../img/reviewAttentionBig.gif) no-repeat left center; PADDING-TOP: 10px
+}
+.yourView .yourViewAttention P SPAN {
+	DISPLAY: block
+}
+.yourView .formAttention {
+	BACKGROUND: #fffee8
+}
+.yourView .reviewAlert {
+	PADDING-BOTTOM: 12px; PADDING-LEFT: 25px; PADDING-RIGHT: 0px; BACKGROUND: url(../img/reviewAttention.gif) no-repeat left center; COLOR: #000; MARGIN-LEFT: 5px; FONT-SIZE: 1.2em; PADDING-TOP: 12px
+}
+.yourView LI #alertReviewDescription {
+	MARGIN-LEFT: 8px
+}
+.yourView LI #alertRatingProduct {
+	MARGIN-LEFT: 13.7em
+}
+.yourView .avail .reviewAlert {
+	MARGIN-LEFT: 13.7em; FONT-WEIGHT: normal
+}
+.yourViewSuccess {
+	PADDING-LEFT: 10em
+}
+.yourViewSuccess P {
+	PADDING-LEFT: 45px; FONT-SIZE: 1.2em
+}
+.yourViewSuccess .textSuccess {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 5px; MARGIN: 0px; PADDING-LEFT: 45px; PADDING-RIGHT: 0px; DISPLAY: inline-block; BACKGROUND: url(../img/reviewOK.png) no-repeat left center; COLOR: #178e07; PADDING-TOP: 5px
+}
+.yourViewSuccess .textSuccess STRONG {
+	DISPLAY: block; FONT-SIZE: 1.3em
+}
+.yourViewSuccess P SPAN A {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: block; FONT-SIZE: 0.83em; PADDING-TOP: 0px
+}
+.yourViewSuccess A {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 45px; PADDING-RIGHT: 0px; DISPLAY: block; PADDING-TOP: 20px
+}
+.receiveOffer .titleTwitter {
+	PADDING-BOTTOM: 0px; MIN-HEIGHT: 39px; PADDING-LEFT: 120px; PADDING-RIGHT: 0px; BACKGROUND: url(../img/imgTwitter.gif) no-repeat left top; FONT-SIZE: 1.5em; OVERFLOW: hidden; PADDING-TOP: 10px
+}
+#vejamais {
+	PADDING-BOTTOM: 25px; PADDING-LEFT: 15px; WIDTH: 67%; PADDING-RIGHT: 0px; DISPLAY: block; FONT: 1.2em arial; BACKGROUND: #fff; PADDING-TOP: 0px
+}
+#vejamais A {
+	COLOR: #666
+}
+.advancedSearchBox .form2 {
+	BACKGROUND: url(../img/bgTopBox.gif) repeat-x center top; VERTICAL-ALIGN: middle
+}
+.advancedSearchBox .form2 FIELDSET UL LI {
+	MARGIN: 5px 0px; CLEAR: left; OVERFLOW: hidden
+}
+.advancedSearchBox .form2 FIELDSET UL LI INPUT {
+	PADDING-BOTTOM: 1px; PADDING-LEFT: 0px; WIDTH: 20em; PADDING-RIGHT: 0px; PADDING-TOP: 1px
+}
+.advancedSearchBox .form2 FIELDSET UL LI STRONG {
+	MARGIN: 15px 0px 10px 70px; FLOAT: left; CLEAR: both; FONT-SIZE: 1.2em
+}
+.advancedSearchBox .form2 FIELDSET LABEL {
+	TEXT-ALIGN: right; WIDTH: 5.5em; DISPLAY: block; FLOAT: left; CLEAR: left; FONT-SIZE: 1.1em; MARGIN-RIGHT: 5px; PADDING-TOP: 5px
+}
+.advancedSearchBox .form2 TEXTAREA {
+	WIDTH: 25em; FLOAT: left; HEIGHT: 6em; MARGIN-RIGHT: 15px
+}
+.advancedSearchBox .advancedSearch {
+	MARGIN: 0px 5px; FONT-SIZE: 1.1em; TEXT-DECORATION: underline
+}
+.form2 {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.advancedSearchBox .form2 FIELDSET H3 {
+	MARGIN: 5px 0px; PADDING-LEFT: 5px; COLOR: #666; FONT-SIZE: 1.4em; FONT-WEIGHT: bold
+}
+.advancedSearchBox .title5 {
+	PADDING-LEFT: 10px
+}
+.advancedSearchBox SELECT {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; PADDING-BOTTOM: 1px; PADDING-LEFT: 0px; WIDTH: 11.8em; PADDING-RIGHT: 0px; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid; PADDING-TOP: 1px
+}
+.buscarMarcas INPUT {
+	MARGIN-TOP: -5px; MARGIN-BOTTOM: 5px; MARGIN-LEFT: 95px
+}
+SELECT.searchMarcas {
+	WIDTH: 155px; HEIGHT: 19px; MARGIN-LEFT: 5px
+}
+.searchBox1 .form2 FIELDSET UL LI LABEL {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; WIDTH: 3.5em; PADDING-RIGHT: 3px; MARGIN-RIGHT: 0px; PADDING-TOP: 3px
+}
+.searchBox1 .form2 FIELDSET UL LI INPUT {
+	WIDTH: 8.7em
+}
+.productSimilar {
+	PADDING-LEFT: 0px; MARGIN-LEFT: 10px
+}
+.productSimilar UL LI .link {
+	MARGIN-LEFT: 0px
+}
+.productSimilar UL LI .link .image {
+	MARGIN: 10px 30px 10px 0px
+}
+.productSimilar .price {
+	MARGIN: 0px; WIDTH: 100%; FLOAT: none
+}
+.productSimilar .moreSimilar {
+	MARGIN: 15px 10px 20px 0px; DISPLAY: block; BACKGROUND: url(../img/bgDotted.gif) repeat-x center top; COLOR: #666666; FONT-SIZE: 1.4em; FONT-WEIGHT: bold; PADDING-TOP: 10px
+}
+.productSimilar .parcel {
+	FONT-WEIGHT: bold
+}
+.productSimilar LI {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; OVERFLOW: hidden; PADDING-TOP: 5px
+}
+.productSimilar .info {
+	MARGIN-TOP: 20px
+}
+.productSimilar UL LI .product {
+	PADDING-LEFT: 0px
+}
+#boxRecommendations .offersCustom1 .productList .product .parcel {
+	DISPLAY: none
+}
+#boxRecommendations .offersCustom1 .productList .product .condition {
+	DISPLAY: none
+}
+.subtitle11 {
+	FONT-WEIGHT: normal
+}
+.mapSite .sotres LI {
+	WIDTH: 24.5%; FLOAT: left
+}
+.mapSite .tabs UL LI.selected H1 {
+	PADDING-BOTTOM: 20px; PADDING-LEFT: 20px; PADDING-RIGHT: 10px; BACKGROUND: url(http://img.submarino.com.br/img/tabLeftSelected.gif) no-repeat left top; FONT-SIZE: 1.3em; PADDING-TOP: 10px
+}
+.title11 A {
+	COLOR: #0082d6
+}
+#HS_LAT8 {
+	PADDING-TOP: 10px
+}
+#HS_LAT5 {
+	PADDING-TOP: 10px
+}

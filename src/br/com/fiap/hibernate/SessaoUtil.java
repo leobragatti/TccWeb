@@ -23,6 +23,8 @@ public class SessaoUtil {
 	}
 
 	public static void beginTransaction() {
+		if(!sessao.isOpen())
+			sessao = HibernateUtil.getSessionFactory().openSession();
 		sessao.clear();
 		sessao.beginTransaction();
 		transacaoAberta = true;
